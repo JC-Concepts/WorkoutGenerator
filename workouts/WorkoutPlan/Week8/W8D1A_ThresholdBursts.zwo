@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<workout_file>
+  <author>AdaptivePlan GPT</author>
+  <name>W8D1A_ThresholdBursts</name>
+  <description>2x10min @95% FTP with 10s @125% FTP every 2min (explicit bursts). 5min recovery between intervals.</description>
+  <sportType>bike</sportType>
+  <workout>
+    <Warmup Duration="480" PowerLow="0.50" PowerHigh="0.75"/>
+    <SteadyState Duration="110" Power="0.95"/>
+    <SteadyState Duration="10" Power="1.25"/>
+    <SteadyState Duration="110" Power="0.95"/>
+    <SteadyState Duration="10" Power="1.25"/>
+    <SteadyState Duration="110" Power="0.95"/>
+    <SteadyState Duration="10" Power="1.25"/>
+    <SteadyState Duration="110" Power="0.95"/>
+    <SteadyState Duration="10" Power="1.25"/>
+    <SteadyState Duration="110" Power="0.95"/>
+    <SteadyState Duration="10" Power="1.25"/>
+    <SteadyState Duration="300" Power="0.55"/>
+    <SteadyState Duration="110" Power="0.95"/>
+    <SteadyState Duration="10" Power="1.25"/>
+    <SteadyState Duration="110" Power="0.95"/>
+    <SteadyState Duration="10" Power="1.25"/>
+    <SteadyState Duration="110" Power="0.95"/>
+    <SteadyState Duration="10" Power="1.25"/>
+    <SteadyState Duration="110" Power="0.95"/>
+    <SteadyState Duration="10" Power="1.25"/>
+    <SteadyState Duration="110" Power="0.95"/>
+    <SteadyState Duration="10" Power="1.25"/>
+    <SteadyState Duration="600" Power="0.70"/>
+    <Cooldown Duration="420" PowerLow="0.50" PowerHigh="0.60"/>
+  </workout>
+</workout_file>

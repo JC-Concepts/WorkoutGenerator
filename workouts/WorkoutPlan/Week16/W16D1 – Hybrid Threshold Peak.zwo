@@ -1,0 +1,12 @@
+<workout_file>
+  <name>W16D1 Hybrid Threshold Peak</name>
+  <description>High-density bursts for racing strength</description>
+  <workout>
+    <SteadyState Duration="240" Power="0.65"/>
+    <IntervalsT Repeat="4" OnDuration="10" OffDuration="20" OnPower="1.22" OffPower="0.65"/>
+    
+    <IntervalsT Repeat="2" OnDuration="720" OffDuration="20" OnPower="0.95" OffPower="1.20"/>
+    
+    <SteadyState Duration="360" Power="0.55"/>
+  </workout>
+</workout_file>

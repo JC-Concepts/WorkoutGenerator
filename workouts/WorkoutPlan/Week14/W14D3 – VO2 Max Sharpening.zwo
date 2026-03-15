@@ -1,0 +1,17 @@
+<workout_file>
+  <name>W14D3 VO2 Sharpen</name>
+  <description>4×3min at 115% FTP with opener warmup</description>
+  <workout>
+    <!-- Warmup -->
+    <SteadyState Duration="180" Power="0.60"/>
+    <SteadyState Duration="180" Power="0.75"/>
+    <IntervalsT Repeat="3" OnDuration="12" OffDuration="20" OnPower="1.20" OffPower="0.60"/>
+    <SteadyState Duration="180" Power="0.70"/>
+    
+    <!-- Work -->
+    <IntervalsT Repeat="4" OnDuration="180" OffDuration="180" OnPower="1.15" OffPower="0.60"/>
+    
+    <!-- Cooldown -->
+    <SteadyState Duration="300" Power="0.55"/>
+  </workout>
+</workout_file>

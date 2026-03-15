@@ -1,0 +1,16 @@
+<workout_file>
+  <name>W16D3 VO2 Max Peak</name>
+  <description>5×3.5min @116% → Overload</description>
+  <workout>
+    <!-- Warm up -->
+    <SteadyState Duration="180" Power="0.60"/>
+    <IntervalsT Repeat="3" OnDuration="10" OffDuration="20" OnPower="1.22" OffPower="0.65"/>
+    <SteadyState Duration="180" Power="0.70"/>
+    
+    <!-- Work -->
+    <IntervalsT Repeat="5" OnDuration="210" OffDuration="180" OnPower="1.16" OffPower="0.60"/>
+    
+    <!-- Cooldown -->
+    <SteadyState Duration="420" Power="0.55"/>
+  </workout>
+</workout_file>

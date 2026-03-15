@@ -44,7 +44,18 @@ class UIManager {
         
         container.innerHTML = '';
         if (emptyState) {
-            emptyState.innerHTML = '<p>Use the filters above or click "Surprise Me" to find a workout!</p>';
+            const storage = new StorageManager();
+            const hasApiKey = storage.getApiKey() && storage.getAthleteId();
+            
+            let intervalsNote = hasApiKey 
+                ? 'With Intervals.icu configured, you can upload workouts directly and they\'ll sync to Zwift, MyWhoosh, TrainingPeaks Virtual, and more!'
+                : 'Configure Intervals.icu in Settings to upload workouts directly - they\'ll sync to Zwift, MyWhoosh, TrainingPeaks Virtual, and other platforms!';
+            
+            emptyState.innerHTML = `
+                <p>Use the filters above to search for specific workouts, or click "Surprise Me" to get a random workout based on your selected duration and type.</p>
+                <p class="intervals-note">${intervalsNote}</p>
+                <p class="support-note">Like this app? <a href="#" onclick="document.getElementById('donateModal').style.display='flex'; return false;">Support the project</a> with a donation!</p>
+            `;
             emptyState.style.display = 'block';
         }
         
@@ -114,7 +125,22 @@ class UIManager {
 
         if (workouts.length === 0) {
             container.innerHTML = '';
-            if (emptyState) emptyState.style.display = 'block';
+            if (emptyState) {
+                const storage = new StorageManager();
+                const hasApiKey = storage.getApiKey() && storage.getAthleteId();
+                
+                let intervalsNote = hasApiKey 
+                    ? 'With Intervals.icu configured, you can upload workouts directly and they\'ll sync to Zwift, MyWhoosh, TrainingPeaks Virtual, and more!'
+                    : 'Configure Intervals.icu in Settings to upload workouts directly - they\'ll sync to Zwift, MyWhoosh, TrainingPeaks Virtual, and other platforms!';
+                
+                emptyState.innerHTML = `
+                    <h3>No Workouts Found</h3>
+                    <p>Try adjusting your search criteria.</p>
+                    <p class="intervals-note">${intervalsNote}</p>
+                    <p class="support-note">Like this app? <a href="#" onclick="document.getElementById('donateModal').style.display='flex'; return false;">Support the project</a> with a donation!</p>
+                `;
+                emptyState.style.display = 'block';
+            }
             this.updateResultCount(0);
             return;
         }
@@ -125,7 +151,6 @@ class UIManager {
             <div class="workout-card" onclick="app.showWorkoutDetail('${workout.id}')">
                 <div class="card-header">
                     <h3>${this.escapeHtml(workout.name)}</h3>
-                    <span class="category-badge">${this.escapeHtml(workout.category || 'Unknown')}</span>
                 </div>
                 <div class="card-stats">
                     <div class="stat">

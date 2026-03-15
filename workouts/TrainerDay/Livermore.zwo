@@ -1,0 +1,54 @@
+<workout_file>
+	<author>jchau</author>
+	<name>Livermore</name>
+	<description>#KateCrazyWorkout
+
+Trainer Road - Livermore workout</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="Trainer Road"/>
+		<tag name="TR"/>
+		<tag name="Livermore"/>
+	</tags>
+	<workout>
+		<Warmup Duration="180" PowerLow="0.3" PowerHigh="0.3"/>
+		<SteadyState Duration="180" Power="0.45"/>
+		<SteadyState Duration="180" Power="0.7"/>
+		<SteadyState Duration="240" Power="0.3"/>
+		<SteadyState Duration="60" Power="0.75"/>
+		<Ramp Duration="60" PowerLow="0.75" PowerHigh="1.06"/>
+		<Ramp Duration="60" PowerLow="1.06" PowerHigh="0.75"/>
+		<SteadyState Duration="60" Power="0.75"/>
+		<Ramp Duration="60" PowerLow="0.75" PowerHigh="1.06"/>
+		<Ramp Duration="60" PowerLow="1.06" PowerHigh="0.75"/>
+		<SteadyState Duration="210" Power="0.3"/>
+		<SteadyState Duration="60" Power="0.75"/>
+		<Ramp Duration="60" PowerLow="0.75" PowerHigh="1.06"/>
+		<Ramp Duration="60" PowerLow="1.06" PowerHigh="0.75"/>
+		<SteadyState Duration="60" Power="0.75"/>
+		<Ramp Duration="60" PowerLow="0.75" PowerHigh="1.06"/>
+		<Ramp Duration="60" PowerLow="1.06" PowerHigh="0.75"/>
+		<SteadyState Duration="210" Power="0.3"/>
+		<SteadyState Duration="60" Power="0.75"/>
+		<Ramp Duration="60" PowerLow="0.75" PowerHigh="1.06"/>
+		<Ramp Duration="60" PowerLow="1.06" PowerHigh="0.75"/>
+		<SteadyState Duration="60" Power="0.75"/>
+		<Ramp Duration="60" PowerLow="0.75" PowerHigh="1.06"/>
+		<Ramp Duration="60" PowerLow="1.06" PowerHigh="0.75"/>
+		<SteadyState Duration="210" Power="0.3"/>
+		<SteadyState Duration="60" Power="0.75"/>
+		<Ramp Duration="60" PowerLow="0.75" PowerHigh="1.06"/>
+		<Ramp Duration="60" PowerLow="1.06" PowerHigh="0.75"/>
+		<SteadyState Duration="60" Power="0.75"/>
+		<Ramp Duration="60" PowerLow="0.75" PowerHigh="1.06"/>
+		<Ramp Duration="60" PowerLow="1.06" PowerHigh="0.75"/>
+		<SteadyState Duration="210" Power="0.3"/>
+		<SteadyState Duration="60" Power="0.75"/>
+		<Ramp Duration="60" PowerLow="0.75" PowerHigh="1.06"/>
+		<Ramp Duration="60" PowerLow="1.06" PowerHigh="0.75"/>
+		<SteadyState Duration="60" Power="0.75"/>
+		<Ramp Duration="60" PowerLow="0.75" PowerHigh="1.06"/>
+		<Ramp Duration="60" PowerLow="1.06" PowerHigh="0.75"/>
+		<Ramp Duration="180" PowerLow="0.3" PowerHigh="0.2"/>
+	</workout>
+</workout_file>

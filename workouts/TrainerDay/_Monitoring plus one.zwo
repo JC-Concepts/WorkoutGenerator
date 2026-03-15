@@ -1,0 +1,40 @@
+<workout_file>
+	<author>TrainerDay - Juan</author>
+	<name> Monitoring plus one</name>
+	<description>This is 7x6-minute intervals of rolling Sweet Spot (88-94% FTP) work to address aerobic fitness and muscular endurance via more than 40 minute&apos;s worth of time at intensity.
+
+1-minute recoveries separate the intervals. </description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<Warmup Duration="120" PowerLow="0.5" PowerHigh="0.5"/>
+		<SteadyState Duration="120" Power="0.6"/>
+		<SteadyState Duration="120" Power="0.9"/>
+		<SteadyState Duration="180" Power="0.4"/>
+		<IntervalsT Repeat="3" OnDuration="60" OnPower="0.88" OffDuration="60" OffPower="0.9"/>
+		<SteadyState Duration="60" Power="0.4"/>
+		<Ramp Duration="120" PowerLow="0.92" PowerHigh="0.94"/>
+		<Ramp Duration="240" PowerLow="0.94" PowerHigh="0.9"/>
+		<SteadyState Duration="60" Power="0.4"/>
+		<Ramp Duration="120" PowerLow="0.94" PowerHigh="0.92"/>
+		<Ramp Duration="240" PowerLow="0.92" PowerHigh="0.94"/>
+		<SteadyState Duration="60" Power="0.4"/>
+		<Ramp Duration="60" PowerLow="0.88" PowerHigh="0.9"/>
+		<Ramp Duration="60" PowerLow="0.9" PowerHigh="0.88"/>
+		<Ramp Duration="60" PowerLow="0.88" PowerHigh="0.9"/>
+		<SteadyState Duration="60" Power="0.9"/>
+		<Ramp Duration="60" PowerLow="0.9" PowerHigh="0.88"/>
+		<Ramp Duration="60" PowerLow="0.88" PowerHigh="0.9"/>
+		<SteadyState Duration="60" Power="0.4"/>
+		<Ramp Duration="180" PowerLow="0.9" PowerHigh="0.92"/>
+		<Ramp Duration="180" PowerLow="0.92" PowerHigh="0.9"/>
+		<SteadyState Duration="60" Power="0.4"/>
+		<IntervalsT Repeat="3" OnDuration="60" OnPower="0.9" OffDuration="60" OffPower="0.92"/>
+		<SteadyState Duration="60" Power="0.4"/>
+		<Ramp Duration="240" PowerLow="0.9" PowerHigh="0.92"/>
+		<Ramp Duration="120" PowerLow="0.92" PowerHigh="0.9"/>
+		<Ramp Duration="180" PowerLow="0.4" PowerHigh="0.3"/>
+	</workout>
+</workout_file>

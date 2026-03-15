@@ -1,0 +1,21 @@
+<workout_file>
+  <author>AdaptivePlan GPT</author>
+  <name>W8D2A_VO2Sharpener</name>
+  <description>5x(2min @120% FTP / 2min @60% FTP) explicit repeats. Warmup and cooldown included.</description>
+  <sportType>bike</sportType>
+  <workout>
+    <Warmup Duration="480" PowerLow="0.50" PowerHigh="0.75"/>
+    <SteadyState Duration="120" Power="1.20"/>
+    <SteadyState Duration="120" Power="0.60"/>
+    <SteadyState Duration="120" Power="1.20"/>
+    <SteadyState Duration="120" Power="0.60"/>
+    <SteadyState Duration="120" Power="1.20"/>
+    <SteadyState Duration="120" Power="0.60"/>
+    <SteadyState Duration="120" Power="1.20"/>
+    <SteadyState Duration="120" Power="0.60"/>
+    <SteadyState Duration="120" Power="1.20"/>
+    <SteadyState Duration="120" Power="0.60"/>
+    <SteadyState Duration="900" Power="0.75"/>
+    <Cooldown Duration="420" PowerLow="0.50" PowerHigh="0.60"/>
+  </workout>
+</workout_file>

@@ -1,0 +1,22 @@
+<workout_file>
+  <name>W14D1 Hybrid Threshold</name>
+  <description>Hybrid Threshold: durability + control bursts</description>
+  <workout>
+    <!-- Warmup: 12min progressive with openers -->
+    <SteadyState Duration="180" Power="0.60"/>
+    <SteadyState Duration="180" Power="0.70"/>
+    <SteadyState Duration="180" Power="0.80"/>
+    <IntervalsT Repeat="3" OnDuration="10" OffDuration="20" OnPower="1.15" OffPower="0.60"/>
+    <SteadyState Duration="300" Power="0.60"/>
+    
+    <!-- Work Block -->
+    <!-- 1: Threshold steady -->
+    <SteadyState Duration="600" Power="0.95"/>
+    
+    <!-- 2: Under with bursts -->
+    <IntervalsT Repeat="3" OnDuration="180" OffDuration="10" OnPower="0.92" OffPower="1.20"/>
+    
+    <!-- Cooldown -->
+    <SteadyState Duration="600" Power="0.55"/>
+  </workout>
+</workout_file>

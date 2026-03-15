@@ -186,7 +186,7 @@ class WorkoutApp {
     }
 
     /**
-     * Surprise me - random workout
+     * Surprise me - random workout based on selected filters
      */
     surpriseMe() {
         console.log('surpriseMe called, workouts count:', this.workouts.length);
@@ -196,11 +196,35 @@ class WorkoutApp {
             return;
         }
         
-        // Use all workouts for surprise me
-        this.filteredWorkouts = [...this.workouts];
+        const duration = document.getElementById('duration')?.value || '';
+        const zone = document.getElementById('zone')?.value || '';
         
-        const randomIndex = Math.floor(Math.random() * this.filteredWorkouts.length);
-        const randomWorkout = this.filteredWorkouts[randomIndex];
+        let availableWorkouts = this.workouts.filter(workout => {
+            if (duration) {
+                const dur = workout.duration_seconds / 60;
+                switch(duration) {
+                    case 'less_30': if (dur >= 30) return false; break;
+                    case '30_45': if (dur < 30 || dur > 45) return false; break;
+                    case '45_60': if (dur < 45 || dur > 60) return false; break;
+                    case '60_90': if (dur < 60 || dur > 90) return false; break;
+                    case 'greater_90': if (dur <= 90) return false; break;
+                }
+            }
+
+            if (zone && workout.primary_zone !== parseInt(zone)) {
+                return false;
+            }
+
+            return true;
+        });
+        
+        if (availableWorkouts.length === 0) {
+            this.ui.showToast('No workouts match your filters. Try adjusting them!', 'info');
+            return;
+        }
+        
+        const randomIndex = Math.floor(Math.random() * availableWorkouts.length);
+        const randomWorkout = availableWorkouts[randomIndex];
         
         console.log('Random workout:', randomWorkout.name);
         this.ui.showWorkoutDetail(randomWorkout.id);

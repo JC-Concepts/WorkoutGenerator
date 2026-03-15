@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workout_file>
+    <author>jchau</author>
+    <name>W4D1_Threshold</name>
+    <description>3x10min @95-100% FTP, 5min recovery</description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup PowerHigh="0.6" PowerLow="0.5" Duration="600"/>
+        <IntervalsT OnPower="0.98" OffPower="0.5" show_avg="1" Repeat="2" OffDuration="300" OnDuration="600">
+            <textevent message="2x"/>
+        </IntervalsT>
+        <SteadyState show_avg="1" Power="0.98" Duration="600"/>
+        <Cooldown PowerHigh="0.5" PowerLow="0.4" Duration="300"/>
+    </workout>
+</workout_file>

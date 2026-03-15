@@ -1,0 +1,53 @@
+<workout_file>
+	<author>TrainerDay - CoachHuw</author>
+	<name>Turbo Rolling sweetspotV02</name>
+	<description>Warm up with 8 minutes progressive build in power to @170w
+
+2 mins easy spin
+Then do 3 x sets like this...
+5 mins @165w
+1 min @180w
+1 min @195w
+1 min @210w
+1 min @195w
+1 min @180w
+5 mins @165w
+
+*No recovery between sets - one should roll into the next</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="120" Power="0.6"/>
+		<SteadyState Duration="120" Power="0.7"/>
+		<SteadyState Duration="120" Power="0.8"/>
+		<SteadyState Duration="120" Power="0.9"/>
+		<SteadyState Duration="120" Power="0.4"/>
+		<SteadyState Duration="300" Power="0.87"/>
+		<SteadyState Duration="60" Power="1.05"/>
+		<SteadyState Duration="60" Power="1.12"/>
+		<SteadyState Duration="60" Power="1.2"/>
+		<SteadyState Duration="60" Power="1.12"/>
+		<SteadyState Duration="60" Power="1.05"/>
+		<SteadyState Duration="300" Power="0.87"/>
+		<SteadyState Duration="60" Power="1.05"/>
+		<SteadyState Duration="60" Power="1.12"/>
+		<SteadyState Duration="60" Power="1.2"/>
+		<SteadyState Duration="60" Power="1.12"/>
+		<SteadyState Duration="60" Power="1.05"/>
+		<SteadyState Duration="300" Power="0.87"/>
+		<SteadyState Duration="60" Power="1.05"/>
+		<SteadyState Duration="60" Power="1.12"/>
+		<SteadyState Duration="60" Power="1.2"/>
+		<SteadyState Duration="60" Power="1.12"/>
+		<SteadyState Duration="60" Power="1.05"/>
+		<SteadyState Duration="300" Power="0.87"/>
+		<SteadyState Duration="60" Power="1.05"/>
+		<SteadyState Duration="60" Power="1.12"/>
+		<SteadyState Duration="60" Power="1.2"/>
+		<SteadyState Duration="60" Power="1.12"/>
+		<SteadyState Duration="60" Power="1.05"/>
+		<SteadyState Duration="300" Power="0.87"/>
+	</workout>
+</workout_file>

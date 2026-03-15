@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workout_file>
+    <author>jchau</author>
+    <name>W3D2A - 4x3min VO2max</name>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <SteadyState show_avg="1" Power="0.6" Duration="900">
+            <textevent message="Warm-up" duration="10"/>
+        </SteadyState>
+        <IntervalsT OnPower="1.18" OffPower="0.5" show_avg="1" Repeat="4" OffDuration="180" OnDuration="180">
+            <textevent message="4x3min VO2max&lt;!&gt; 4x"/>
+        </IntervalsT>
+        <SteadyState show_avg="1" Power="0.5" Duration="600">
+            <textevent message="Cool-down" duration="10"/>
+        </SteadyState>
+    </workout>
+</workout_file>

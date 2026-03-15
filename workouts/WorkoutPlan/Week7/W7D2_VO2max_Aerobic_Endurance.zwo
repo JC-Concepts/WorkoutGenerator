@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<workout_file>
+  <author>AdaptivePlan GPT</author>
+  <name>W7D4 VO2max &amp; Aerobic Endurance Combo</name>
+  <description>VO2max &amp; aerobic capacity development with tempo bridge. 60min total.</description>
+  <workout>
+    <Warmup Duration="600" PowerLow="0.6" PowerHigh="0.75"/>
+    <IntervalsT Repeat="3" OnDuration="30" OnPower="1.0" OffDuration="30" OffPower="0.6"/>
+    <IntervalsT Repeat="3" OnDuration="180" OnPower="1.2" OffDuration="180" OffPower="0.6"/>
+    <SteadyState Duration="480" Power="0.8"/>
+    <IntervalsT Repeat="2" OnDuration="180" OnPower="1.18" OffDuration="180" OffPower="0.55"/>
+    <Cooldown Duration="480" PowerLow="0.55" PowerHigh="0.6"/>
+  </workout>
+</workout_file>

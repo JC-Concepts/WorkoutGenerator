@@ -1,0 +1,20 @@
+<workout_file>
+  <author>Jarvis Plan</author>
+  <name>W5D2_VO2.zwo</name>
+  <description>Warmup, 5x3min VO2 intervals, cooldown</description>
+  <sportType>bike</sportType>
+  <tags>
+    <tag name="VO2max"/>
+    <tag name="intervals"/>
+  </tags>
+  <workout>
+    <!-- Warmup -->
+    <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.6" pace="0"/>
+    
+    <!-- 5x3min @115% FTP with 3min recovery -->
+    <IntervalsT Repeat="5" OnDuration="180" OffDuration="180" OnPower="1.15" OffPower="0.55"/>
+    
+    <!-- Cooldown -->
+    <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.45" pace="0"/>
+  </workout>
+</workout_file>

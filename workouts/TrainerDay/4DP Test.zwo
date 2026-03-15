@@ -1,0 +1,37 @@
+<workout_file>
+	<author>TrainerDay - testetstsetsets</author>
+	<name>4DP Test</name>
+	<description>Workout created by TrainerDay</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="240" Power="0.5"/>
+		<SteadyState Duration="120" Power="0.55"/>
+		<SteadyState Duration="60" Power="0.6"/>
+		<SteadyState Duration="60" Power="0.8"/>
+		<SteadyState Duration="60" Power="0.5"/>
+		<SteadyState Duration="30" Power="0.95"/>
+		<SteadyState Duration="30" Power="0.5"/>
+		<SteadyState Duration="30" Power="1.1"/>
+		<SteadyState Duration="45" Power="0.5"/>
+		<SteadyState Duration="30" Power="1"/>
+		<SteadyState Duration="120" Power="0.5"/>
+		<SteadyState Duration="30" Power="0.55"/>
+		<SteadyState Duration="30" Power="0.6"/>
+		<SteadyState Duration="8" Power="2.77"/>
+		<SteadyState Duration="120" Power="0.5"/>
+		<SteadyState Duration="30" Power="0.55"/>
+		<SteadyState Duration="30" Power="0.6"/>
+		<SteadyState Duration="8" Power="2.77"/>
+		<SteadyState Duration="180" Power="0.5"/>
+		<SteadyState Duration="300" Power="1.2"/>
+		<SteadyState Duration="300" Power="0.5"/>
+		<SteadyState Duration="1200" Power="1"/>
+		<SteadyState Duration="330" Power="0.5"/>
+		<SteadyState Duration="30" Power="1.85"/>
+		<SteadyState Duration="30" Power="1.22"/>
+		<SteadyState Duration="120" Power="0.5"/>
+	</workout>
+</workout_file>

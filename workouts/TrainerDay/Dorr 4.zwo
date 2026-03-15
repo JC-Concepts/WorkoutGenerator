@@ -1,0 +1,37 @@
+<workout_file>
+	<author>TrainerDay - usolar</author>
+	<name>Dorr 4</name>
+	<description>Description
+Dorr +4 is 4x30-second hard starts way up at 200% FTP followed by 2 minutes of suprathreshold work at 110% FTP.
+
+9 minutes of recovery falls between each effort.
+
+
+Goals
+As Dorr grows its demands, these efforts become more akin to short race efforts suitable for STXC, BMX and Gravity riders.
+
+The initial effort is all about enormous muscle-strength and power while the final minute is about holding onto as much anaerobic power as possible for the duration of a short, highly intense event.</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<Warmup Duration="240" PowerLow="0.4" PowerHigh="0.5"/>
+		<SteadyState Duration="240" Power="0.72"/>
+		<SteadyState Duration="105" Power="0.96"/>
+		<SteadyState Duration="15" Power="2"/>
+		<SteadyState Duration="300" Power="0.4"/>
+		<SteadyState Duration="30" Power="2"/>
+		<SteadyState Duration="120" Power="1.1"/>
+		<SteadyState Duration="540" Power="0.4"/>
+		<SteadyState Duration="30" Power="2"/>
+		<SteadyState Duration="120" Power="1.1"/>
+		<SteadyState Duration="540" Power="0.4"/>
+		<SteadyState Duration="30" Power="2"/>
+		<SteadyState Duration="120" Power="1.1"/>
+		<SteadyState Duration="540" Power="0.4"/>
+		<SteadyState Duration="30" Power="2"/>
+		<SteadyState Duration="120" Power="1.1"/>
+		<SteadyState Duration="480" Power="0.4"/>
+	</workout>
+</workout_file>

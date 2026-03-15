@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workout_file>
+    <author>jchau</author>
+    <name>W3D1_SweetSpot</name>
+    <description>3x8min @90% FTP, 4min recovery</description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup PowerHigh="0.6" PowerLow="0.5" Duration="600"/>
+        <IntervalsT OnPower="0.9" OffPower="0.5" show_avg="1" Repeat="2" OffDuration="240" OnDuration="480">
+            <textevent message="2x"/>
+        </IntervalsT>
+        <SteadyState show_avg="1" Power="0.9" Duration="480"/>
+        <Cooldown PowerHigh="0.5" PowerLow="0.4" Duration="300"/>
+    </workout>
+</workout_file>

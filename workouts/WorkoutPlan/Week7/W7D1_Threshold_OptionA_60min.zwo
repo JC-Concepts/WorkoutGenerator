@@ -1,0 +1,25 @@
+<workout_file>
+  <author>Adaptive Plan Generator</author>
+  <name>W7D2 - Threshold Option A (60min)</name>
+  <description>2x10min @95% FTP + aerobic endurance filler. Maintain smooth cadence and control breathing. Total duration ~60min.</description>
+  <sportType>bike</sportType>
+  <tags>
+    <tag name="Threshold"/>
+    <tag name="Aerobic Endurance"/>
+  </tags>
+  <workout>
+    <!-- Warm-up -->
+    <SteadyState Duration="480" PowerLow="0.60" PowerHigh="0.75"/>
+    <IntervalsT Repeat="2" OnDuration="30" OffDuration="30" OnPower="0.90" OffPower="0.60"/>
+    <SteadyState Duration="60" Power="0.70"/>
+
+    <!-- Main set: 2x10min @95% FTP -->
+    <IntervalsT Repeat="2" OnDuration="600" OffDuration="300" OnPower="0.95" OffPower="0.55"/>
+
+    <!-- Aerobic tempo filler -->
+    <SteadyState Duration="600" Power="0.75"/>
+
+    <!-- Cool-down -->
+    <SteadyState Duration="420" PowerLow="0.50" PowerHigh="0.60"/>
+  </workout>
+</workout_file>

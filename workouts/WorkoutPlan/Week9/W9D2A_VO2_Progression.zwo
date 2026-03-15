@@ -1,0 +1,11 @@
+<workout_file>
+  <author>AdaptivePlan GPT</author>
+  <name>W9D2A_VO2_Progression</name>
+  <description>Warmup -> 5 x (3min @115% + 3min @55%) -> cooldown</description>
+  <sportType>bike</sportType>
+  <workout>
+    <Warmup Duration="600" PowerLow="0.55" PowerHigh="0.80"/>
+    <IntervalsT Repeat="5" OnDuration="180" OffDuration="180" OnPower="1.15" OffPower="0.55"/>
+    <Cooldown Duration="300" PowerLow="0.50" PowerHigh="0.60"/>
+  </workout>
+</workout_file>

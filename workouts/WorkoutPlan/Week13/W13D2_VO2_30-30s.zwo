@@ -1,0 +1,28 @@
+<workout_file>
+  <author>AdaptivePlan</author>
+  <name>W13D2 - VO2 30/30s</name>
+  <description>Combo warmup openers → 3 sets of 10x(30s @115% / 30s @55%) with 3min rest between sets</description>
+  <sportType>bike</sportType>
+
+  <workout>
+    <!-- Warmup openers -->
+    <Warmup Duration="300" PowerLow="0.55" PowerHigh="0.75"/>
+    <SteadyState Duration="15" Power="1.10"/>
+    <SteadyState Duration="45" Power="0.60"/>
+    <SteadyState Duration="12" Power="1.30"/>
+    <SteadyState Duration="48" Power="0.60"/>
+
+    <Text>Set 1 — 10 x (30s on / 30s off)</Text>
+    <IntervalsT Repeat="10" OnDuration="30" OffDuration="30" OnPower="1.15" OffPower="0.55"/>
+
+    <SteadyState Duration="180" Power="0.55"/>
+    <Text>Set 2 — Repeat</Text>
+    <IntervalsT Repeat="10" OnDuration="30" OffDuration="30" OnPower="1.15" OffPower="0.55"/>
+
+    <SteadyState Duration="180" Power="0.55"/>
+    <Text>Set 3 — Final set</Text>
+    <IntervalsT Repeat="10" OnDuration="30" OffDuration="30" OnPower="1.15" OffPower="0.55"/>
+
+    <Cooldown Duration="300" PowerLow="0.60" PowerHigh="0.45"/>
+  </workout>
+</workout_file>

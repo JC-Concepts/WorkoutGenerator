@@ -81,23 +81,26 @@ class ApiManager {
             }
 
             const content = await this.fetchWorkoutFile(filePath);
-            const base64 = btoa(unescape(encodeURIComponent(content)));
             
             const fileName = filePath.split('/').pop();
             
             const date = startDate || this.getNextAvailableDate();
             
-            const eventData = [{
-                category: 'WORKOUT',
+            const eventData = {
                 start_date_local: date,
+                category: 'WORKOUT',
+                type: 'Ride',
+                name: fileName.replace('.zwo', ''),
+                description: `Uploaded from ${fileName}`,
+                indoor: true,
                 filename: fileName,
-                file_contents_base64: base64
-            }];
+                file_contents_base64: btoa(unescape(encodeURIComponent(content)))
+            };
 
             const response = await fetch(`${this.INTERVALS_BASE}/athlete/${athleteId}/events`, {
                 method: 'POST',
                 headers: {
-                    'Authorization': `ApiKey ${apiKey}:`,
+                    'Authorization': 'Basic ' + btoa('API_KEY:' + apiKey),
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify(eventData)
@@ -108,7 +111,8 @@ class ApiManager {
                 throw new Error(`Upload failed: ${response.status} - ${errorText}`);
             }
 
-            return await response.json();
+            const text = await response.text();
+            return text ? JSON.parse(text) : { success: true };
         } catch (error) {
             console.error('Error uploading to Intervals.icu:', error);
             throw error;
@@ -116,13 +120,14 @@ class ApiManager {
     }
 
     /**
-     * Get next available date for workout (tomorrow at 9am)
+     * Get today's date for workout
      */
     getNextAvailableDate() {
-        const tomorrow = new Date();
-        tomorrow.setDate(tomorrow.getDate() + 1);
-        tomorrow.setHours(9, 0, 0, 0);
-        return tomorrow.toISOString().slice(0, 16).replace('T', ' ');
+        const today = new Date();
+        const year = today.getFullYear();
+        const month = String(today.getMonth() + 1).padStart(2, '0');
+        const day = String(today.getDate()).padStart(2, '0');
+        return `${year}-${month}-${day}T00:00:00`;
     }
 
     /**

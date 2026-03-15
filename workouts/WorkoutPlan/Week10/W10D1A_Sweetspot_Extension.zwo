@@ -1,0 +1,11 @@
+<workout_file>
+  <author>AdaptivePlan GPT</author>
+  <name>W10D1A_Sweetspot_Extension</name>
+  <description>Warmup -> 3 x (8min @92% + 3min @60%) -> cooldown</description>
+  <sportType>bike</sportType>
+  <workout>
+    <Warmup Duration="600" PowerLow="0.60" PowerHigh="0.80"/>
+    <IntervalsT Repeat="3" OnDuration="480" OffDuration="180" OnPower="0.92" OffPower="0.60"/>
+    <Cooldown Duration="300" PowerLow="0.50" PowerHigh="0.60"/>
+  </workout>
+</workout_file>

@@ -1,0 +1,29 @@
+<workout_file>
+	<author>TrainerDay - porcrom</author>
+	<name>Lazy Mountain 1</name>
+	<description>Descripción
+
+Lazy Mountain is 1 hour of easy, steady effort between 55-60% FTP.
+
+
+Objetivos
+
+The primary aim here is to allow riders to accumulate a little extra workout stress without hampering recovery.
+
+Additionally, optional form drills target improvements in pedaling mechanics and sustainable leg speed.</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="300" Power="0.4"/>
+		<Ramp Duration="60" PowerLow="0.4" PowerHigh="0.5"/>
+		<SteadyState Duration="900" Power="0.5"/>
+		<Ramp Duration="60" PowerLow="0.5" PowerHigh="0.6"/>
+		<SteadyState Duration="900" Power="0.6"/>
+		<Ramp Duration="60" PowerLow="0.6" PowerHigh="0.55"/>
+		<SteadyState Duration="1080" Power="0.55"/>
+		<Ramp Duration="60" PowerLow="0.55" PowerHigh="0.4"/>
+		<SteadyState Duration="180" Power="0.4"/>
+	</workout>
+</workout_file>

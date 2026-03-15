@@ -1,0 +1,32 @@
+<workout_file>
+	<author>jchau</author>
+	<name>Fox</name>
+	<description>KateCrazyWorkout</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="Fox"/>
+		<tag name="trainerroad"/>
+		<tag name="TR"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="240" Power="0.5"/>
+		<SteadyState Duration="180" Power="0.9"/>
+		<SteadyState Duration="300" Power="0.4"/>
+		<SteadyState Duration="210" Power="0.9"/>
+		<SteadyState Duration="150" Power="0.4"/>
+		<SteadyState Duration="210" Power="0.85"/>
+		<SteadyState Duration="150" Power="0.4"/>
+		<SteadyState Duration="210" Power="0.9"/>
+		<SteadyState Duration="150" Power="0.4"/>
+		<SteadyState Duration="210" Power="0.85"/>
+		<SteadyState Duration="150" Power="0.4"/>
+		<SteadyState Duration="210" Power="0.9"/>
+		<SteadyState Duration="150" Power="0.4"/>
+		<SteadyState Duration="210" Power="0.85"/>
+		<SteadyState Duration="150" Power="0.4"/>
+		<SteadyState Duration="210" Power="0.9"/>
+		<SteadyState Duration="150" Power="0.4"/>
+		<SteadyState Duration="210" Power="0.85"/>
+		<SteadyState Duration="150" Power="0.4"/>
+	</workout>
+</workout_file>

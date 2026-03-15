@@ -1,0 +1,18 @@
+<workout_file>
+	<author>jchau</author>
+	<name>1W FTP Increase in 40min</name>
+	<description>This workout will increase your FTP by exactly 1W. If you want to a bigger increase, turn off ERG mode in the FTP Active Segment or increase the FTP%</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<Warmup Duration="120" PowerLow="0.65" PowerHigh="0.65"/>
+		<SteadyState Duration="180" Power="0.7"/>
+		<SteadyState Duration="180" Power="0.75"/>
+		<SteadyState Duration="120" Power="0.8"/>
+		<SteadyState Duration="1260" Power="1.06"/>
+		<SteadyState Duration="300" Power="0.75"/>
+		<Cooldown Duration="240" PowerLow="0.65" PowerHigh="0.65"/>
+	</workout>
+</workout_file>

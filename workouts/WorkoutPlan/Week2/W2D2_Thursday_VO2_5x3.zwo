@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workout_file>
+    <author>jchau</author>
+    <name>W2D2_Thursday_VO2_5x3</name>
+    <description>5x3min @ 115–120% FTP, 3min recovery</description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup PowerHigh="0.75" PowerLow="0.5" Duration="600"/>
+        <SteadyState show_avg="1" Power="1.149" Duration="180"/>
+        <SteadyState show_avg="1" Power="0.5" Duration="180"/>
+        <SteadyState show_avg="1" Power="1.18" Duration="180"/>
+        <SteadyState show_avg="1" Power="0.5" Duration="180"/>
+        <SteadyState show_avg="1" Power="1.2" Duration="180"/>
+        <SteadyState show_avg="1" Power="0.5" Duration="180"/>
+        <SteadyState show_avg="1" Power="1.18" Duration="180"/>
+        <SteadyState show_avg="1" Power="0.5" Duration="180"/>
+        <SteadyState show_avg="1" Power="1.149" Duration="180"/>
+        <Cooldown PowerHigh="0.6" PowerLow="0.5" Duration="600"/>
+    </workout>
+</workout_file>

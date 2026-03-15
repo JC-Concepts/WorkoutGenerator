@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workout_file>
+    <author>jchau</author>
+    <name>W5D1_Tue_Threshold</name>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup PowerHigh="0.7" PowerLow="0.5" Duration="600"/>
+        <IntervalsT OnPower="0.98" OffPower="0.6" show_avg="1" Repeat="3" OffDuration="180" OnDuration="720">
+            <textevent message="3x"/>
+        </IntervalsT>
+        <Cooldown PowerHigh="0.5" PowerLow="0.7" Duration="300"/>
+    </workout>
+</workout_file>

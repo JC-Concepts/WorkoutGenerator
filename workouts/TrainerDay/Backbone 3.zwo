@@ -1,0 +1,50 @@
+<workout_file>
+	<author>TrainerDay - usolar</author>
+	<name>Backbone 3</name>
+	<description>Description
+Backbone +3 consists of 8x90-second race-start intervals that begin with 30 seconds at 180% FTP followed by 1 minute at 115% FTP.
+
+3 minutes of recovery fall between each effort.
+
+Goals
+This workout offers numerous chances to test and fine-tune your initial acceleration capabilities.
+
+Go out too hard and risk blowing up, go out too softly and risk losing position, but if you use these repetitions to learn the sort of efforts you can perform at the start of a race, and perhaps more importantly, repeat during later stages of a race, you&apos;ll stand a far greater chance of not only surviving these hard kicks but making them work for you.
+
+Strive for a cadence above 100rpm, especially during each initial surge.</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<Warmup Duration="360" PowerLow="0.4" PowerHigh="0.5"/>
+		<SteadyState Duration="360" Power="0.72"/>
+		<SteadyState Duration="165" Power="0.96"/>
+		<SteadyState Duration="15" Power="1.8"/>
+		<SteadyState Duration="240" Power="0.4"/>
+		<SteadyState Duration="30" Power="1.8"/>
+		<SteadyState Duration="60" Power="1.15"/>
+		<SteadyState Duration="180" Power="0.41"/>
+		<SteadyState Duration="30" Power="1.8"/>
+		<SteadyState Duration="60" Power="1.15"/>
+		<SteadyState Duration="180" Power="0.4"/>
+		<SteadyState Duration="30" Power="1.8"/>
+		<SteadyState Duration="60" Power="1.15"/>
+		<SteadyState Duration="180" Power="0.4"/>
+		<SteadyState Duration="30" Power="1.8"/>
+		<SteadyState Duration="60" Power="1.15"/>
+		<SteadyState Duration="180" Power="0.4"/>
+		<SteadyState Duration="30" Power="1.8"/>
+		<SteadyState Duration="60" Power="1.15"/>
+		<SteadyState Duration="180" Power="0.4"/>
+		<SteadyState Duration="30" Power="1.8"/>
+		<SteadyState Duration="60" Power="1.15"/>
+		<SteadyState Duration="180" Power="0.4"/>
+		<SteadyState Duration="30" Power="1.8"/>
+		<SteadyState Duration="60" Power="1.15"/>
+		<SteadyState Duration="180" Power="0.4"/>
+		<SteadyState Duration="30" Power="1.8"/>
+		<SteadyState Duration="60" Power="1.15"/>
+		<SteadyState Duration="480" Power="0.5"/>
+	</workout>
+</workout_file>

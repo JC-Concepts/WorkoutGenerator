@@ -1,0 +1,11 @@
+<workout_file>
+  <author>AdaptivePlan GPT</author>
+  <name>W10D2A_VO2_Sharpener</name>
+  <description>Warmup -> 4 x (3.5min @120% + 3.5min @55%) -> cooldown</description>
+  <sportType>bike</sportType>
+  <workout>
+    <Warmup Duration="600" PowerLow="0.55" PowerHigh="0.80"/>
+    <IntervalsT Repeat="4" OnDuration="210" OffDuration="210" OnPower="1.20" OffPower="0.55"/>
+    <Cooldown Duration="300" PowerLow="0.50" PowerHigh="0.60"/>
+  </workout>
+</workout_file>

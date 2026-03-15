@@ -1,0 +1,48 @@
+<workout_file>
+	<author>jchau</author>
+	<name>Power TTT Intervals</name>
+	<description>This workout will focus on your Team Time Trial efforts. Work on your punchiness power to simulate a Team Time Trial effort. Putting in an effort to pull at the front, then fall back in line to recover and do it all over again. 
+
+See how well your body copes and recover. </description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="Time Trial"/>
+		<tag name="TTT"/>
+		<tag name="ANAEROBIC"/>
+	</tags>
+	<workout>
+		<Warmup Duration="180" PowerLow="0.4" PowerHigh="0.4">
+			<textevent timeoffset="1" message="Time to work on some Team Trial Efforts"/>
+		</Warmup>
+		<SteadyState Duration="30" Power="0.8">
+			<textevent timeoffset="1" message="Let&apos;s start to activate and wake up those legs before the actual intervals start"/>
+		</SteadyState>
+		<SteadyState Duration="30" Power="0.5"/>
+		<SteadyState Duration="30" Power="0.9"/>
+		<SteadyState Duration="30" Power="0.6"/>
+		<SteadyState Duration="30" Power="1.1"/>
+		<SteadyState Duration="30" Power="0.7"/>
+		<SteadyState Duration="10" Power="1.2"/>
+		<SteadyState Duration="50" Power="0.7"/>
+		<SteadyState Duration="195" Power="0.6"/>
+		<IntervalsT Repeat="4" OnDuration="45" OnPower="1.25" OffDuration="90" OffPower="0.8">
+			<textevent timeoffset="1" message="Time for the first set of intervals, 5 reps @ 120%. Remember to stay seated on all these efforts"/>
+		</IntervalsT>
+		<SteadyState Duration="45" Power="1.25">
+			<textevent timeoffset="1" message="Last set @ 125%, fatigue is kicking in but keep pushing!"/>
+		</SteadyState>
+		<SteadyState Duration="180" Power="0.75">
+			<textevent timeoffset="60" message="The next set will be a little lower power but the recovery has also been decreased"/>
+		</SteadyState>
+		<IntervalsT Repeat="4" OnDuration="30" OnPower="1.2" OffDuration="60" OffPower="0.85"/>
+		<SteadyState Duration="30" Power="1.2"/>
+		<SteadyState Duration="120" Power="0.75">
+			<textevent timeoffset="60" message="Last set of intervals is about to start, this time 110% burst but only 30s recovery"/>
+		</SteadyState>
+		<IntervalsT Repeat="4" OnDuration="30" OnPower="1.1" OffDuration="30" OffPower="0.88"/>
+		<SteadyState Duration="30" Power="1.1"/>
+		<Ramp Duration="300" PowerLow="0.65" PowerHigh="0.5">
+			<textevent timeoffset="1" message="Great work, now let&apos;s ease up and cool down and don&apos;t forget to hydrate and refuel"/>
+		</Ramp>
+	</workout>
+</workout_file>

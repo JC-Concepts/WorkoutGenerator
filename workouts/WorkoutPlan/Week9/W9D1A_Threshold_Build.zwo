@@ -1,0 +1,11 @@
+<workout_file>
+  <author>AdaptivePlan GPT</author>
+  <name>W9D1A_Threshold_Build</name>
+  <description>Warmup -> 4 x (8min @90% + 2min @60%) -> cooldown</description>
+  <sportType>bike</sportType>
+  <workout>
+    <Warmup Duration="600" PowerLow="0.60" PowerHigh="0.80"/>
+    <IntervalsT Repeat="4" OnDuration="480" OffDuration="120" OnPower="0.90" OffPower="0.60"/>
+    <Cooldown Duration="300" PowerLow="0.50" PowerHigh="0.60"/>
+  </workout>
+</workout_file>

@@ -1,0 +1,13 @@
+<workout_file>
+  <name>W15D3 VO2 Punch Builder</name>
+  <description>5×3min @115% FTP</description>
+  <workout>
+    <SteadyState Duration="180" Power="0.60"/>
+    <IntervalsT Repeat="3" OnDuration="10" OffDuration="25" OnPower="1.20" OffPower="0.60"/>
+    <SteadyState Duration="120" Power="0.70"/>
+    
+    <IntervalsT Repeat="5" OnDuration="180" OffDuration="150" OnPower="1.15" OffPower="0.60"/>
+    
+    <SteadyState Duration="420" Power="0.55"/>
+  </workout>
+</workout_file>

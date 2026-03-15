@@ -1,0 +1,31 @@
+<workout_file>
+  <author>AdaptivePlan</author>
+  <name>W13D1 - Threshold Bursts</name>
+  <description>Combo warmup openers → 2x10min @95% with 6s bursts every 2min (B2 IntervalsT)</description>
+  <sportType>bike</sportType>
+
+  <workout>
+    <!-- Combo warmup (build + cadence + power openers) -->
+    <Warmup Duration="300" PowerLow="0.55" PowerHigh="0.75"/>
+    <SteadyState Duration="15" Power="1.10"/>
+    <SteadyState Duration="45" Power="0.60"/>
+    <SteadyState Duration="15" Power="1.10"/>
+    <SteadyState Duration="45" Power="0.60"/>
+    <SteadyState Duration="12" Power="1.30"/>
+    <SteadyState Duration="48" Power="0.60"/>
+
+    <!-- Main set: First 10min block built from 5 x (114s @95% + 6s @130%) -->
+    <Text>Start 10min threshold block — maintain cadence</Text>
+    <IntervalsT Repeat="5" OnDuration="114" OffDuration="6" OnPower="0.95" OffPower="1.30"/>
+
+    <!-- Recovery between main blocks -->
+    <SteadyState Duration="240" Power="0.55"/>
+
+    <!-- Second 10min block -->
+    <Text>Second 10min block — hold steady</Text>
+    <IntervalsT Repeat="5" OnDuration="114" OffDuration="6" OnPower="0.95" OffPower="1.30"/>
+
+    <!-- Cooldown -->
+    <Cooldown Duration="420" PowerLow="0.55" PowerHigh="0.45"/>
+  </workout>
+</workout_file>

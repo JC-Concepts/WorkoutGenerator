@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workout_file>
+    <author>jchau</author>
+    <name>W1D2 Thu 4x2 VO2</name>
+    <description>W1D2_Thu_Adapted_VO2</description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup PowerHigh="0.75" PowerLow="0.5" Duration="600"/>
+        <IntervalsT OnPower="1.18" OffPower="0.65" show_avg="1" Repeat="4" OffDuration="180" OnDuration="150">
+            <textevent message="4x"/>
+        </IntervalsT>
+        <Cooldown PowerHigh="0.5" PowerLow="0.65" Duration="300"/>
+    </workout>
+</workout_file>

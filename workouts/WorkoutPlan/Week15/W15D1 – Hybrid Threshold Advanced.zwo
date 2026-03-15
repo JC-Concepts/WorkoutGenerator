@@ -1,0 +1,18 @@
+<workout_file>
+  <name>W15D1 Hybrid Threshold Advanced</name>
+  <description>Longer threshold + more burst density</description>
+  <workout>
+    <!-- Warmup -->
+    <SteadyState Duration="180" Power="0.60"/>
+    <SteadyState Duration="240" Power="0.75"/>
+    <IntervalsT Repeat="3" OnDuration="12" OffDuration="20" OnPower="1.20" OffPower="0.65"/>
+    <SteadyState Duration="180" Power="0.70"/>
+    
+    <!-- Work -->
+    <SteadyState Duration="720" Power="0.95"/>
+    <IntervalsT Repeat="4" OnDuration="180" OffDuration="10" OnPower="0.92" OffPower="1.20"/>
+    
+    <!-- Cooldown -->
+    <SteadyState Duration="480" Power="0.55"/>
+  </workout>
+</workout_file>

@@ -1,0 +1,17 @@
+<workout_file>
+	<author>jchau</author>
+	<name>Jefferson</name>
+	<description>#KateCrazyWorkout</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="Trainerroad"/>
+		<tag name="Jefferson"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="360" Power="0.5"/>
+		<SteadyState Duration="360" Power="0.72"/>
+		<SteadyState Duration="180" Power="0.96"/>
+		<IntervalsT Repeat="4" OnDuration="300" OnPower="0.5" OffDuration="300" OffPower="0.95"/>
+		<SteadyState Duration="300" Power="0.4"/>
+	</workout>
+</workout_file>

@@ -1,0 +1,16 @@
+<workout_file>
+  <author>AdaptivePlan GPT</author>
+  <name>W11D1A_Threshold_OverUnder</name>
+  <description>Warmup -> block A: 3 x (90s @95% + 60s @105%) -> 3min recovery -> block B same -> cooldown</description>
+  <sportType>bike</sportType>
+  <workout>
+    <Warmup Duration="600" PowerLow="0.60" PowerHigh="0.80"/>
+    <!-- first mini-block -->
+    <IntervalsT Repeat="3" OnDuration="90" OffDuration="60" OnPower="0.95" OffPower="1.05"/>
+    <!-- inter-block recovery -->
+    <SteadyState Duration="180" Power="0.60"/>
+    <!-- second mini-block -->
+    <IntervalsT Repeat="3" OnDuration="90" OffDuration="60" OnPower="0.95" OffPower="1.05"/>
+    <Cooldown Duration="300" PowerLow="0.50" PowerHigh="0.60"/>
+  </workout>
+</workout_file>

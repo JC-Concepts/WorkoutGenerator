@@ -1,0 +1,13 @@
+<workout_file>
+  <author>AdaptivePlan GPT</author>
+  <name>W12D1A_Tempo_Sustain</name>
+  <description>Warmup -> 15min @80% + 3min recovery + 15min @82% -> cooldown</description>
+  <sportType>bike</sportType>
+  <workout>
+    <Warmup Duration="600" PowerLow="0.60" PowerHigh="0.75"/>
+    <SteadyState Duration="900" Power="0.80"/>
+    <SteadyState Duration="180" Power="0.55"/>
+    <SteadyState Duration="900" Power="0.82"/>
+    <Cooldown Duration="300" PowerLow="0.50" PowerHigh="0.60"/>
+  </workout>
+</workout_file>

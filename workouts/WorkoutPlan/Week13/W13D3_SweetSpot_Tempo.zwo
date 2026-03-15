@@ -1,0 +1,25 @@
+<workout_file>
+  <author>AdaptivePlan</author>
+  <name>W13D3 - Sweet Spot Tempo</name>
+  <description>Combo warmup openers → 2x12min @90% with 4min recovery. Endurance tempo focus.</description>
+  <sportType>bike</sportType>
+
+  <workout>
+    <!-- Warmup openers -->
+    <Warmup Duration="300" PowerLow="0.55" PowerHigh="0.75"/>
+    <SteadyState Duration="15" Power="1.10"/>
+    <SteadyState Duration="45" Power="0.60"/>
+    <SteadyState Duration="12" Power="1.30"/>
+    <SteadyState Duration="48" Power="0.60"/>
+
+    <Text>Sweet spot block 1 — steady tempo</Text>
+    <SteadyState Duration="720" Power="0.90"/>
+
+    <SteadyState Duration="240" Power="0.55"/>
+
+    <Text>Sweet spot block 2 — maintain rhythm</Text>
+    <SteadyState Duration="720" Power="0.90"/>
+
+    <Cooldown Duration="300" PowerLow="0.60" PowerHigh="0.45"/>
+  </workout>
+</workout_file>

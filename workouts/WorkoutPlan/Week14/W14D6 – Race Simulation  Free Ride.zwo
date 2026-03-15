@@ -1,0 +1,15 @@
+<workout_file>
+  <name>W14D6 Race Simulation</name>
+  <description>Race-like surges around FTP</description>
+  <workout>
+    <!-- Warmup -->
+    <SteadyState Duration="300" Power="0.65"/>
+    <IntervalsT Repeat="4" OnDuration="8" OffDuration="22" OnPower="1.25" OffPower="0.75"/>
+    
+    <!-- Randomized surges -->
+    <IntervalsT Repeat="6" OnDuration="240" OffDuration="20" OnPower="0.95" OffPower="1.20"/>
+    
+    <!-- Cooldown -->
+    <SteadyState Duration="420" Power="0.55"/>
+  </workout>
+</workout_file>

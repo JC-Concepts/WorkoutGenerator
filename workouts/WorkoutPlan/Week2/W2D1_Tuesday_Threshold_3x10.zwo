@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workout_file>
+    <author>jchau</author>
+    <name>W2D1_Tuesday_Threshold_3x10</name>
+    <description>3x10min @ 95–100% FTP, 5min recovery</description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup PowerHigh="0.75" PowerLow="0.5" Duration="600"/>
+        <SteadyState show_avg="1" Power="0.95" Duration="600"/>
+        <SteadyState show_avg="1" Power="0.5" Duration="300"/>
+        <SteadyState show_avg="1" Power="0.97" Duration="600"/>
+        <SteadyState show_avg="1" Power="0.5" Duration="300"/>
+        <SteadyState show_avg="1" Power="1.0" Duration="600"/>
+        <Cooldown PowerHigh="0.5" PowerLow="0.6" Duration="600"/>
+    </workout>
+</workout_file>
