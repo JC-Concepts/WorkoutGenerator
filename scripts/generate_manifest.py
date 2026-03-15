@@ -89,29 +89,34 @@ def parse_zwo_file(file_path):
             
             # Get power from various attribute formats
             power = elem.get('Power') or elem.get('power')
-            power_low = elem.get('PowerLow') or elem.get('powerLow', '0')
-            power_high = elem.get('PowerHigh') or elem.get('powerHigh', '0')
+            power_low_raw = elem.get('PowerLow')
+            power_high_raw = elem.get('PowerHigh')
             
             try:
-                power = float(power) * 100 if power else None
-                if power_low and power_high:
-                    power_low = float(power_low) * 100
-                    power_high = float(power_high) * 100
+                if power:
+                    # Single power value
+                    power = float(power) * 100
+                elif power_low_raw and power_high_raw:
+                    # Range power (low and high)
+                    power_low = float(power_low_raw) * 100
+                    power_high = float(power_high_raw) * 100
                     power = (power_low + power_high) / 2
+                else:
+                    power = None
             except (ValueError, TypeError):
                 power = None
             
             if duration > 0:
                 total_duration += duration
                 
-                if power:
+                if power is not None:
                     power_values.append(power)
                     # Add segment
                     segments.append({
                         'duration': duration,
                         'power': round(power),
-                        'powerLow': round(power_low) if power_low else None,
-                        'powerHigh': round(power_high) if power_high else None,
+                        'powerLow': round(float(power_low_raw) * 100) if power_low_raw else None,
+                        'powerHigh': round(float(power_high_raw) * 100) if power_high_raw else None,
                         'type': elem.tag
                     })
         
