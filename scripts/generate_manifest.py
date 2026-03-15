@@ -61,11 +61,18 @@ def parse_zwo_file(file_path):
         tree = ET.parse(file_path)
         root = tree.getroot()
         
-        name = root.get('name', 'Unknown')
-        description = root.findtext('description', '')
-        author = root.findtext('author', 'Unknown')
+        # Handle both workout_file and workout root elements
+        if root.tag == 'workout_file':
+            name = root.findtext('name', 'Unknown')
+            description = root.findtext('description', '')
+            author = root.findtext('author', 'Unknown')
+            workout = root.find('workout')
+        else:
+            name = root.get('name', 'Unknown')
+            description = root.findtext('description', '')
+            author = root.findtext('author', 'Unknown')
+            workout = root
         
-        workout = root.find('workout')
         if workout is None:
             return None
         
@@ -73,27 +80,42 @@ def parse_zwo_file(file_path):
         power_values = []
         
         for elem in workout:
-            duration = int(elem.get('duration', 0))
-            total_duration += duration
+            # Get duration from various attribute names (handle floats)
+            duration = elem.get('Duration') or elem.get('duration') or '0'
+            if duration:
+                try:
+                    total_duration += int(float(duration))
+                except (ValueError, TypeError):
+                    pass
             
-            power_low = elem.get('powerLow', 0)
-            power_high = elem.get('powerHigh', 0)
+            # Get power from various attribute formats
+            power = elem.get('Power') or elem.get('power')
+            power_low = elem.get('PowerLow') or elem.get('powerLow', '0')
+            power_high = elem.get('PowerHigh') or elem.get('powerHigh', '0')
             
-            if power_low and power_high:
-                power_values.append((int(power_low) + int(power_high)) / 200)
+            try:
+                if power:
+                    power_values.append(float(power) * 100)
+                elif power_low and power_high:
+                    power_values.append((float(power_low) + float(power_high)) / 2 * 100)
+            except (ValueError, TypeError):
+                pass
         
-        primary_zone = get_primary_zone(power_values)
+        if not power_values:
+            power_values = [0]
         
-        avg_power = sum(power_values) / len(power_values) * 100 if power_values else 0
-        tss = int(total_duration / 36 * avg_power / 100)
+        primary_zone = get_primary_zone([p/100 for p in power_values if p > 0])
+        
+        avg_power = sum(power_values) / len(power_values) if power_values else 0
+        tss = int(total_duration / 36 * avg_power / 100) if avg_power > 0 else 0
         
         return {
-            'name': name,
-            'description': description,
-            'author': author,
+            'name': name.strip() if name else 'Unknown',
+            'description': description.strip() if description else '',
+            'author': author.strip() if author else 'Unknown',
             'duration_seconds': total_duration,
             'duration_category': categorize_duration(total_duration),
-            'tss': tss,
+            'tss': max(0, tss),
             'primary_zone': primary_zone,
             'avg_power': round(avg_power)
         }
