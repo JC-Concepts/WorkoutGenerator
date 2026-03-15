@@ -1,14 +1,22 @@
-const CACHE_NAME = 'workout-generator-v1';
+const CACHE_NAME = 'workout-generator-v2';
 const ASSETS_TO_CACHE = [
-    '/',
-    '/index.html',
-    '/pwa-manifest.json',
-    '/workouts.json',
-    '/css/style.css',
-    '/js/app.js',
-    '/js/api.js',
-    '/js/storage.js',
-    '/js/ui.js'
+    '/WorkoutGenerator/',
+    '/WorkoutGenerator/index.html',
+    '/WorkoutGenerator/pwa-manifest.json',
+    '/WorkoutGenerator/workouts.json',
+    '/WorkoutGenerator/css/style.css',
+    '/WorkoutGenerator/js/app.js',
+    '/WorkoutGenerator/js/api.js',
+    '/WorkoutGenerator/js/storage.js',
+    '/WorkoutGenerator/js/ui.js',
+    '/WorkoutGenerator/assets/icons/icon-72.png',
+    '/WorkoutGenerator/assets/icons/icon-96.png',
+    '/WorkoutGenerator/assets/icons/icon-128.png',
+    '/WorkoutGenerator/assets/icons/icon-144.png',
+    '/WorkoutGenerator/assets/icons/icon-152.png',
+    '/WorkoutGenerator/assets/icons/icon-192.png',
+    '/WorkoutGenerator/assets/icons/icon-384.png',
+    '/WorkoutGenerator/assets/icons/icon-512.png'
 ];
 
 // Install event - cache assets
@@ -70,7 +78,7 @@ self.addEventListener('fetch', (event) => {
             })
             .catch(() => {
                 // Return offline fallback if needed
-                return caches.match('/index.html');
+                return caches.match('/WorkoutGenerator/index.html');
             })
     );
 });
