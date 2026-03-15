@@ -8,8 +8,8 @@ class WorkoutApp {
         this.ui = new UIManager();
         this.workouts = [];
         this.filteredWorkouts = [];
-        this.GITHUB_USERNAME = 'YOUR_USERNAME';
-        this.GITHUB_REPO = 'YOUR_REPO';
+        this.GITHUB_USERNAME = 'JC-Concepts';
+        this.GITHUB_REPO = 'WorkoutGenerator';
         
         this.api.setGitHubRepo(this.GITHUB_USERNAME, this.GITHUB_REPO);
     }
