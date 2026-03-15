@@ -254,13 +254,6 @@ class UIManager {
             gridLines += `<line x1="${padding.left}" y1="${y}" x2="${width - padding.right}" y2="${y}" stroke="#334155" stroke-width="1" />`;
         }
         
-        // Y-axis labels
-        let yLabels = '';
-        for (let p = 0; p <= maxPower; p += 25) {
-            const y = padding.top + (chartHeight - (p / maxPower) * chartHeight);
-            yLabels += `<text x="${padding.left - 8}" y="${y + 3}" text-anchor="end" fill="#94a3b8" font-size="10">${p}%</text>`;
-        }
-        
         container.innerHTML = `
             <div class="chart-container">
                 <svg viewBox="0 0 ${width} ${height}" class="workout-chart">

@@ -58,11 +58,34 @@ class WorkoutApp {
         const cachedVersion = this.storage.getManifestVersion();
         
         try {
-            this.ui.showLoading('Checking for updates...');
-            console.log('Fetching manifest from:', this.api.GITHUB_BASE + '/workouts.json');
-            const remoteManifest = await this.api.fetchManifest();
+            this.ui.showLoading('Loading workouts...');
+            
+            // Add cache busting
+            const cacheBust = Date.now();
+            const url = `${this.api.GITHUB_BASE}/workouts.json?t=${cacheBust}`;
+            console.log('Fetching manifest from:', url);
+            
+            // Add timeout
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 30000);
+            
+            const response = await fetch(url, {
+                signal: controller.signal
+            });
+            clearTimeout(timeoutId);
+            
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            const remoteManifest = await response.json();
             console.log('Manifest received, workouts count:', remoteManifest.workouts?.length || 0);
-            console.log('First workout segments:', remoteManifest.workouts?.[0]?.segments?.length || 0);
+            
+            if (!remoteManifest.workouts || remoteManifest.workouts.length === 0) {
+                throw new Error('No workouts found in manifest');
+            }
+            
+            console.log('First workout segments:', remoteManifest.workouts[0].segments?.length || 0);
             
             if (remoteManifest.version !== cachedVersion) {
                 console.log(`New version available: ${remoteManifest.version} (cached: ${cachedVersion})`);
@@ -84,7 +107,7 @@ class WorkoutApp {
         } catch (error) {
             console.error('Error loading workouts:', error);
             
-            if (cachedManifest) {
+            if (cachedManifest && cachedManifest.workouts) {
                 console.log('Falling back to cached data');
                 this.workouts = cachedManifest.workouts || [];
                 this.filteredWorkouts = [];
@@ -92,7 +115,7 @@ class WorkoutApp {
                 this.ui.showInitialState();
                 this.ui.showToast('Using cached data. Could not check for updates.', 'info');
             } else {
-                this.ui.showToast('No workout data available. Please check your connection.', 'error');
+                this.ui.showToast('Could not load workouts: ' + error.message, 'error');
             }
         } finally {
             this.ui.hideLoading();
