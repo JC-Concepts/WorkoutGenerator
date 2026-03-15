@@ -18,12 +18,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: |
-          pip install xml.etree.ElementTree
-
       - name: Generate manifest
-        run: python scripts/generate_manifest.py
+        run: python pwa/scripts/generate_manifest.py
 
       - name: Commit manifest
         uses: stefanzweifel/git-auto-commit-action@v5
