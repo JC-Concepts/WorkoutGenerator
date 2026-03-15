@@ -2,7 +2,8 @@ const CACHE_NAME = 'workout-generator-v1';
 const ASSETS_TO_CACHE = [
     '/',
     '/index.html',
-    '/manifest.json',
+    '/pwa-manifest.json',
+    '/workouts.json',
     '/css/style.css',
     '/js/app.js',
     '/js/api.js',

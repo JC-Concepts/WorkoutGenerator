@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate manifest.json from workout files
+Generate workouts.json from workout files
 Parses .zwo and .xml files to extract workout metadata
 """
 import os
@@ -9,7 +9,17 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 
 WORKOUTS_DIR = 'workouts'
-OUTPUT_FILE = 'manifest.json'
+OUTPUT_FILE = 'workouts.json'
+
+# Alternative paths to check if workouts folder doesn't exist
+ALTERNATIVE_PATHS = [
+    'WOdb/zwift_workouts_all_collections_ordered_Nov20',
+    '../WOdb/zwift_workouts_all_collections_ordered_Nov20',
+    'WOdb',
+]
+
+# Also check parent directory for WOdb
+PARENT_WOdb_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'WOdb', 'zwift_workouts_all_collections_ordered_Nov20')
 
 ZONES = {
     1: (0, 0.55),
@@ -102,8 +112,12 @@ def get_category_from_path(file_path):
         return parts[0]
     return 'Unknown'
 
-def generate_manifest():
-    """Generate manifest.json from workout files"""
+def generate_manifest(workouts_dir=None):
+    """Generate workouts.json from workout files"""
+    global WORKOUTS_DIR
+    if workouts_dir:
+        WORKOUTS_DIR = workouts_dir
+    
     workouts = []
     workout_id = 1
     
@@ -158,9 +172,22 @@ def generate_manifest():
     print(f"Output file: {OUTPUT_FILE}")
 
 if __name__ == '__main__':
-    if not os.path.exists(WORKOUTS_DIR):
-        print(f"Error: {WORKOUTS_DIR} directory not found!")
-        print("Please create a 'workouts' directory with your .zwo files.")
+    # Check if workouts directory exists, try alternatives
+    workouts_path = WORKOUTS_DIR
+    
+    if not os.path.exists(workouts_path):
+        print(f"Warning: '{workouts_path}' not found. Checking alternative locations...")
+        for alt_path in ALTERNATIVE_PATHS:
+            if os.path.exists(alt_path):
+                workouts_path = alt_path
+                print(f"Found workouts at: {workouts_path}")
+                break
+    
+    if not os.path.exists(workouts_path):
+        print(f"Error: No workouts directory found!")
+        print(f"Tried: {WORKOUTS_DIR}")
+        for alt_path in ALTERNATIVE_PATHS:
+            print(f"  - {alt_path}")
         exit(1)
     
-    generate_manifest()
+    generate_manifest(workouts_path)
