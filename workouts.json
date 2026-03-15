@@ -1,6 +1,6 @@
 {
   "version": "2026.03.15",
-  "lastUpdated": "2026-03-15T03:40:54.372655",
+  "lastUpdated": "2026-03-15T03:41:36.236068",
   "workouts": [
     {
       "id": "workout_0001",
@@ -4288,6 +4288,520 @@
     },
     {
       "id": "workout_0134",
+      "name": "Week 3.3 -  40/20",
+      "description": "More memories of Week 2 but with the effort and recovery durations flipped around. With a slightly lower power target for the efforts, the first couple of each set will feel fairly comfortable but, with woefully short recoveries, this workout is all about building your tolerance to lactate build up.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_3/4020.zwo",
+      "duration_seconds": 2000,
+      "duration_category": "30_45",
+      "tss": 25,
+      "primary_zone": 1,
+      "avg_power": 45,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 35,
+          "powerHigh": 55,
+          "type": "Warmup"
+        },
+        {
+          "duration": 280,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
+    },
+    {
+      "id": "workout_0135",
+      "name": "Week 3.1 -  Under Over",
+      "description": "Another classic FTP builder that alternates a minute just under threshold with a minute above it. Excellent race preparation as it works on your ability to \"recover\" while sitting just below threshold and to be able repetitively but subtly change your intensity; great for working in a break.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_3/Under_Over.zwo",
+      "duration_seconds": 2100,
+      "duration_category": "30_45",
+      "tss": 26,
+      "primary_zone": 1,
+      "avg_power": 45,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 35,
+          "powerHigh": 55,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
+    },
+    {
+      "id": "workout_0136",
+      "name": "Week 3.4 - Free Ride",
+      "description": "This is a chance to get out for your local Club Run, hit the trails or to join a group ride on Zwift. The focus should be on steady paced endurance. Take care not to overdo this session though as you don't want it to impact on the quality of your other workouts.\n\nAim to ride predominately in Zone 2 (55% - 75% FTP) but try to include 2-3 10 min \"Sweet-Spot\" (85%-95% FTP) efforts during the ride.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_3/Free_Ride_Week_4.zwo",
+      "duration_seconds": 7200,
+      "duration_category": "greater_90",
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 7200,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
+    },
+    {
+      "id": "workout_0137",
+      "name": "Week 3.2 -  VO2 Surge, Recover and Hold",
+      "description": "Remember the 5 min VO2 Intervals from Week 2? This is a similar session but with a race specific twist and shorter recoveries. Climbs in a race are rarely ridden at a steady pace and this workout mimics the surge, recover and hold rhythm that pure climbers like to inflict on a bunch.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_3/VO2_Surge_Recover_and_Hold.zwo",
+      "duration_seconds": 3600,
+      "duration_category": "45_60",
+      "tss": 45,
+      "primary_zone": 1,
+      "avg_power": 45,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 35,
+          "powerHigh": 55,
+          "type": "Warmup"
+        },
+        {
+          "duration": 180,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
+    },
+    {
+      "id": "workout_0138",
+      "name": "Week 5.3 -  Double Warm-up",
+      "description": "Schedule this session for the day before the race. By working through the meat of the warm-up twice, it'll deliver just enough intensity to prime your legs for the next day's race but won't result in fatigue.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_5/Double_Warm_Up.zwo",
+      "duration_seconds": 2100,
+      "duration_category": "30_45",
+      "tss": 26,
+      "primary_zone": 1,
+      "avg_power": 45,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 35,
+          "powerHigh": 55,
+          "type": "Warmup"
+        }
+      ]
+    },
+    {
+      "id": "workout_0139",
+      "name": "Week 5.1 -  Under/Over with Surges",
+      "description": "Try to schedule this as early in the week as possible to maximise recovery. It's your final tough workout of the plan and another race specific session. Float just below threshold, push above it and then deliver a group shattering surge. Recovering from the surge at near threshold intensity takes real mental and physical toughness but it'll prepare you for whatever race day throws at you.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_5/UnderOver_with_Surges.zwo",
+      "duration_seconds": 3900,
+      "duration_category": "60_90",
+      "tss": 48,
+      "primary_zone": 1,
+      "avg_power": 45,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 35,
+          "powerHigh": 55,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
+    },
+    {
+      "id": "workout_0140",
+      "name": "Week 5.2 -  Leg Speed",
+      "description": "Now the focus is on recovery, keeping your legs fresh but minimising any unnecessary accumulation of fatigue. Trust the training you\u2019ve done and don\u2019t be tempted to try and squeeze in another hard session.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_5/Leg_Speed.zwo",
+      "duration_seconds": 3180,
+      "duration_category": "45_60",
+      "tss": 39,
+      "primary_zone": 1,
+      "avg_power": 45,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 35,
+          "powerHigh": 55,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
+    },
+    {
+      "id": "workout_0141",
+      "name": "Week 1.2 -  VO2 Ramp",
+      "description": "Punching well into Zone 5, this session prepares you for harder VO2 workouts later in the plan. The one and two minute efforts will probably feel fairly comfortable but you'll need to grit your teeth for the longer ones.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_1/VO2_Ramp.zwo",
+      "duration_seconds": 1200,
+      "duration_category": "less_30",
+      "tss": 15,
+      "primary_zone": 1,
+      "avg_power": 45,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 35,
+          "powerHigh": 55,
+          "type": "Warmup"
+        }
+      ]
+    },
+    {
+      "id": "workout_0142",
+      "name": "Week 1.1 -  3x10 Min Threshold",
+      "description": "A great session to ease you in \"gently\" to longer threshold intensity efforts and a good check that your FTP is correct. The 10 min efforts should feel hard and will require concentration but they should be manageable. Too easy and you might need to bump up your FTP. If you can't make it through them or you're right on your limit, you might need to dial it down. If it does feel significantly off the mark, replace Session 2 with a Threshold Test.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_1/3X10_mins.zwo",
+      "duration_seconds": 1200,
+      "duration_category": "less_30",
+      "tss": 15,
+      "primary_zone": 1,
+      "avg_power": 45,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 35,
+          "powerHigh": 55,
+          "type": "Warmup"
+        }
+      ]
+    },
+    {
+      "id": "workout_0143",
+      "name": "Week 1.3 -  1 Min Intervals",
+      "description": "This workout is all about the quality of the 1 min efforts and, if you know you're a strong sprinter, you might want to up your FTP setting for it. The relatively long recoveries mean that you can really empty the tank on every one and reap big speed endurance gains.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_1/1_min_Intervals.zwo",
+      "duration_seconds": 1680,
+      "duration_category": "less_30",
+      "tss": 21,
+      "primary_zone": 1,
+      "avg_power": 45,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 35,
+          "powerHigh": 55,
+          "type": "Warmup"
+        },
+        {
+          "duration": 480,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
+    },
+    {
+      "id": "workout_0144",
+      "name": "Week 1.4 - Free Ride",
+      "description": "This is a chance to get out for your local Club Run, hit the trails or to join a group ride on Zwift. The focus should be on steady paced endurance. Take care not to overdo this session though as you don't want it to impact on the quality of your other workouts.\n\nAim to ride predominately in Zone 2 (55% - 75% FTP) but try to include 2-3 10 min \"Sweet-Spot\" (85%-95% FTP) efforts during the ride.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_1/Free_Ride_Week_1.zwo",
+      "duration_seconds": 5400,
+      "duration_category": "60_90",
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 5400,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
+    },
+    {
+      "id": "workout_0145",
+      "name": "Week 4.4 - Free Ride",
+      "description": "This is a chance to get out for your local Club Run, hit the trails or to join a group ride on Zwift. The focus should be on steady paced endurance. Take care not to overdo this session though as you don't want it to impact on the quality of your other workouts.\n\nAim to ride predominately in Zone 2 (55% - 75% FTP) and, after you feel warmed up, try to include 3-5 1 min Zone 6 (120%+ FTP) efforts during the first hour. In the final hour put in a 20 sec maximal sprint every 10 min.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_4/Free_Ride_Week_5.zwo",
+      "duration_seconds": 7200,
+      "duration_category": "greater_90",
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 7200,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
+    },
+    {
+      "id": "workout_0146",
+      "name": "Week 4.1 -  2x20 Min with Surges",
+      "description": "Adding some race realism to this classic workout, it'll challenge your ability to maintain a sustained near threshold effort interspersed with some gap closing surges. If you can get through this, you're in great shape for race day.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_4/2X20_with_Surges.zwo",
+      "duration_seconds": 2100,
+      "duration_category": "30_45",
+      "tss": 26,
+      "primary_zone": 1,
+      "avg_power": 45,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 35,
+          "powerHigh": 55,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
+    },
+    {
+      "id": "workout_0147",
+      "name": "Week 4.3 -  Tabata",
+      "description": "The original High Intensity Interval Training (HIIT) protocol and a perfect test of your ability to go hard, recover briefly (very briefly) and go again. Nail this workout and you can be confident that you'll be able to cope with any flurry of attacks that will undoubtedly be launched early on during the race.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_4/Tabata.zwo",
+      "duration_seconds": 2070,
+      "duration_category": "30_45",
+      "tss": 25,
+      "primary_zone": 1,
+      "avg_power": 45,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 35,
+          "powerHigh": 55,
+          "type": "Warmup"
+        },
+        {
+          "duration": 290,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
+    },
+    {
+      "id": "workout_0148",
+      "name": "Week 4.2 -  Intensity Slide",
+      "description": "Just like a race, this \"kitchen sink\" of a session has a bit of everything. From break closing down sprints early on, minute punches trying to escape the bunch yourself, 5 min efforts holding your place on climbs and a heroic final solo push to the line.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_4/Intensity_Slide.zwo",
+      "duration_seconds": 2595,
+      "duration_category": "30_45",
+      "tss": 32,
+      "primary_zone": 1,
+      "avg_power": 45,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 35,
+          "powerHigh": 55,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
+    },
+    {
+      "id": "workout_0149",
+      "name": "Week 2.2 -  5 min VO2 Intervals",
+      "description": "A brutally hard session that'll toughen you both physically and mentally. Being able to punch a hard VO2 effort can be an asset in anyone's armoury.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_2/5_min_VO2.zwo",
+      "duration_seconds": 1200,
+      "duration_category": "less_30",
+      "tss": 15,
+      "primary_zone": 1,
+      "avg_power": 45,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 35,
+          "powerHigh": 55,
+          "type": "Warmup"
+        }
+      ]
+    },
+    {
+      "id": "workout_0150",
+      "name": "Week 2.4 - Free Ride",
+      "description": "This is a chance to get out for your local Club Run, hit the trails or to join a group ride on Zwift. The focus should be on steady paced endurance. Take care not to overdo this session though as you don't want it to impact on the quality of your other workouts.\n\nAim to ride predominately in Zone 2 (55% - 75% FTP) and try to include 3-4 5 min Zone 4 (90%-105% FTP) efforts during the ride.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_2/Free_Ride_Week_2.zwo",
+      "duration_seconds": 5400,
+      "duration_category": "60_90",
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 5400,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
+    },
+    {
+      "id": "workout_0151",
+      "name": "Week 2.1 -  2x20 Min",
+      "description": "An all-time classic session and, bang for your buck, one of the best FTP boosters you can do. It's not going to win you the race but it'll help to ensure you're there at the end and in with a shout. Time trialists will love it, sprinters will loathe it.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_2/2X20.zwo",
+      "duration_seconds": 4500,
+      "duration_category": "60_90",
+      "tss": 56,
+      "primary_zone": 1,
+      "avg_power": 45,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 35,
+          "powerHigh": 55,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
+    },
+    {
+      "id": "workout_0152",
+      "name": "Week 2.3 -  20/40",
+      "description": "Hard efforts, short recoveries and plenty of them; perfect race preparation. Compared to the two previous workouts this week, this session might appear a little \"light\" but, with them in your legs and by the final set, you'll definitely feel it.",
+      "author": "British Cycling",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/British_Cycling_eRacing_Championship/Week_2/2040.zwo",
+      "duration_seconds": 1980,
+      "duration_category": "30_45",
+      "tss": 24,
+      "primary_zone": 1,
+      "avg_power": 45,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 35,
+          "powerHigh": 55,
+          "type": "Warmup"
+        },
+        {
+          "duration": 260,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
+    },
+    {
+      "id": "workout_0153",
       "name": "Week 12.1 - Rest",
       "description": "Relax and recover! You get stronger when resting!",
       "author": "Unknown",
@@ -4310,7 +4824,7 @@
       ]
     },
     {
-      "id": "workout_0135",
+      "id": "workout_0154",
       "name": "Week 7.6 - Endurance",
       "description": "15 minute warm up working from Active recovery to Endurance with 2 x 1 minute fast pedals to wake up legs. Set a pace at Endurance and hold pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence. Finish with 10 minutes of cool down to Active Recovery.",
       "author": "Unknown",
@@ -4347,7 +4861,7 @@
       ]
     },
     {
-      "id": "workout_0136",
+      "id": "workout_0155",
       "name": "Week 2.5 - Endurance",
       "description": "After a 15 minute high cadence warmup effort, set a pace at Endurance and hold this pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence.",
       "author": "Unknown",
@@ -4370,7 +4884,7 @@
       ]
     },
     {
-      "id": "workout_0137",
+      "id": "workout_0156",
       "name": "Week 8.7 - Explosive Power",
       "description": "Explosive Power Development!",
       "author": "Unknown",
@@ -4428,7 +4942,7 @@
       ]
     },
     {
-      "id": "workout_0138",
+      "id": "workout_0157",
       "name": "Week 7.4 - Active Recovery",
       "description": "Today is an Active Recovery day targeting ONLY Acitve Recovery. Focus on relaxing on the bike and enjoying the ride. Today is about recovery, so go for an easy spin!",
       "author": "Unknown",
@@ -4451,7 +4965,7 @@
       ]
     },
     {
-      "id": "workout_0139",
+      "id": "workout_0158",
       "name": "Week 6.5 - Endurance & FTP",
       "description": "We're building endurance today! Warmup followed by 3 sets of fast pedals (as fast as you can pedal without bouncing in the saddle) to open up the legs, followed by a long endurance ride. Focus on staying relaxed on the bike while keeping your cadence between 85 - 105 rpm. During the ride, you will complete 2 x 20 minute intervals at FTP. The last half hour of the ride keeps it at Tempo pace. This will help boost your stamina and late race performance!",
       "author": "Unknown",
@@ -4537,7 +5051,7 @@
       ]
     },
     {
-      "id": "workout_0140",
+      "id": "workout_0159",
       "name": "Week 4.3 - Rest",
       "description": "Rest already?! Get used to it. It's going to be an easy week.",
       "author": "Unknown",
@@ -4560,7 +5074,7 @@
       ]
     },
     {
-      "id": "workout_0141",
+      "id": "workout_0160",
       "name": "Week 11.6 - Endurance With Max Sprints",
       "description": "Endurance ride. Set a pace at Endurance and hold this pace for the next 2.5 hours. Throughout the ride, do a 10x 10 second out-of-the-saddle bursts into your Neuromusclar Power Zone (MAX). Make sure cadence stays high",
       "author": "Unknown",
@@ -4590,7 +5104,7 @@
       ]
     },
     {
-      "id": "workout_0142",
+      "id": "workout_0161",
       "name": "Week 5.6 - Endurance",
       "description": "After a 15 minute high cadence warmup effort, set a pace at Endurance and hold this pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence.",
       "author": "Unknown",
@@ -4613,7 +5127,7 @@
       ]
     },
     {
-      "id": "workout_0143",
+      "id": "workout_0162",
       "name": "Week 1.3 - Cadence & Tempo",
       "description": "Begin with 20 one-leg pedaling efforts. Switch immediately from one leg to the other until you have completed all 20 efforts. Then ride at Endurance for the next 15 minutes. Complete 10 x 1-minute HIGH CADENCE FAST PEDALS targeting 135+ RPM, with 2-minute rests between intervals. Finish with 10 minutes at TEMPO. Focus on keeping your cadence between 85 and 95 RPM.",
       "author": "Unknown",
@@ -4699,7 +5213,7 @@
       ]
     },
     {
-      "id": "workout_0144",
+      "id": "workout_0163",
       "name": "Week 1.1 - Endurance",
       "description": "Today is simple, ride the prescribed time in your Endurance Zone. Vary your cadence throughout the ride and work on your pedaling form. Practice \"coming over the top\" and \"pulling through the bottom\" of the pedal (try pretending there is glass in your shoes). Try to aim for a cadence between 85 and 105.",
       "author": "Unknown",
@@ -4722,7 +5236,7 @@
       ]
     },
     {
-      "id": "workout_0145",
+      "id": "workout_0164",
       "name": "Week 10.3 - 3x20min SST Low",
       "description": "SST Intervals. On trainer, out on road or in a group, SST intervals are part of our continued effort to build and maintain base.",
       "author": "Unknown",
@@ -4752,7 +5266,7 @@
       ]
     },
     {
-      "id": "workout_0146",
+      "id": "workout_0165",
       "name": "Week 2.3 - Over-Gear",
       "description": "The goal today is to get in low rpm, high strength work. If you can't use the gearing suggested, that's OK! Go by the cadence and follow the spirit of the workout.",
       "author": "Unknown",
@@ -4775,7 +5289,7 @@
       ]
     },
     {
-      "id": "workout_0147",
+      "id": "workout_0166",
       "name": "Week 9.3 - Endurance",
       "description": "Build some time on the bike today with an endurance ride!",
       "author": "Unknown",
@@ -4812,7 +5326,7 @@
       ]
     },
     {
-      "id": "workout_0148",
+      "id": "workout_0167",
       "name": "Week 9.2 - 3x10min FTP",
       "description": "Classic FTP Intervals, 3 x 10 minutes",
       "author": "Unknown",
@@ -4842,7 +5356,7 @@
       ]
     },
     {
-      "id": "workout_0149",
+      "id": "workout_0168",
       "name": "Week 11.1 - Rest",
       "description": "",
       "author": "Unknown",
@@ -4865,7 +5379,7 @@
       ]
     },
     {
-      "id": "workout_0150",
+      "id": "workout_0169",
       "name": "Week 1.4 - Rest",
       "description": "Take a break and think about the hard work you've already completed. Recovery is just as important.",
       "author": "Unknown",
@@ -4888,7 +5402,7 @@
       ]
     },
     {
-      "id": "workout_0151",
+      "id": "workout_0170",
       "name": "Week 3.5 - Endurance",
       "description": "Endurance ride. Ride for 2.5 hours at an endurance pace. Vary cadence while focusing on riding smoothly and staying relaxed.",
       "author": "Unknown",
@@ -4911,7 +5425,7 @@
       ]
     },
     {
-      "id": "workout_0152",
+      "id": "workout_0171",
       "name": "Week 6.3 - HIIT VO2",
       "description": "A slow burn warmup followed by 4 sets of intervals of increasing intesity. Remember to push it hard!!",
       "author": "Unknown",
@@ -4948,7 +5462,7 @@
       ]
     },
     {
-      "id": "workout_0153",
+      "id": "workout_0172",
       "name": "Week 4.4 - Rest",
       "description": "Now would be a good day to do some weight training if you want.",
       "author": "Unknown",
@@ -4971,7 +5485,7 @@
       ]
     },
     {
-      "id": "workout_0154",
+      "id": "workout_0173",
       "name": "Week 8.3 - Rest",
       "description": "Relax and recover! You get stronger when resting!",
       "author": "Unknown",
@@ -4994,7 +5508,7 @@
       ]
     },
     {
-      "id": "workout_0155",
+      "id": "workout_0174",
       "name": "Week 4.7 - Rest",
       "description": "Give your friends a call. They miss you.",
       "author": "Unknown",
@@ -5017,7 +5531,7 @@
       ]
     },
     {
-      "id": "workout_0156",
+      "id": "workout_0175",
       "name": "Week 6.6 - Endurance",
       "description": "We're building endurance today! Warmup followed by 3 sets of fast pedals (as fast as you can pedal without bouncing in the saddle) to open up the legs, followed by a long endurance ride. Focus on staying relaxed on the bike and vary your cadence.",
       "author": "Unknown",
@@ -5054,7 +5568,7 @@
       ]
     },
     {
-      "id": "workout_0157",
+      "id": "workout_0176",
       "name": "Week 1.7 - Rest",
       "description": "Great week! Sit back, relax, and let your body catch up to all of the hard work you put it through.",
       "author": "Unknown",
@@ -5077,7 +5591,7 @@
       ]
     },
     {
-      "id": "workout_0158",
+      "id": "workout_0177",
       "name": "Week 11.2 - 3x20min SST High",
       "description": "SST Intervals. On trainer, out on road or in a group, SST intervals are part of our continued effort to build and maintain base.",
       "author": "Unknown",
@@ -5107,7 +5621,7 @@
       ]
     },
     {
-      "id": "workout_0159",
+      "id": "workout_0178",
       "name": "Week 10.1 - Endurance",
       "description": "Build some time on the bike today with a nice endurance ride!",
       "author": "Unknown",
@@ -5144,7 +5658,7 @@
       ]
     },
     {
-      "id": "workout_0160",
+      "id": "workout_0179",
       "name": "Week 4.2 - Active Recovery",
       "description": "Today is an Active Recovery day. Focus on relaxing on the bike and enjoying the ride.",
       "author": "Unknown",
@@ -5167,7 +5681,7 @@
       ]
     },
     {
-      "id": "workout_0161",
+      "id": "workout_0180",
       "name": "Week 6.7 - Rest",
       "description": "Halfway there! How will you celebrate?",
       "author": "Unknown",
@@ -5190,7 +5704,7 @@
       ]
     },
     {
-      "id": "workout_0162",
+      "id": "workout_0181",
       "name": "Week 11.4 - 3x15min Crisscross",
       "description": "3 x 15 minute Crisscross intervals. A \"crisscross\" interval is an interval where you vary your efforts to really teach your body to clear lactate.",
       "author": "Unknown",
@@ -5241,7 +5755,7 @@
       ]
     },
     {
-      "id": "workout_0163",
+      "id": "workout_0182",
       "name": "Week 1.6 - Endurance With Max Sprints",
       "description": "Endurance ride. Set a pace at Endurance and hold this pace for the next 2.5 hours. Throughout the ride, do 10 x 8 second out-of-the-saddle bursts into your Neuromusclar Power Zone (MAX). Make sure your cadence stays high.",
       "author": "Unknown",
@@ -5264,7 +5778,7 @@
       ]
     },
     {
-      "id": "workout_0164",
+      "id": "workout_0183",
       "name": "Week 2.7 - Rest",
       "description": "Ahhhhhh! Two weeks down. Ten to go!",
       "author": "Unknown",
@@ -5287,7 +5801,7 @@
       ]
     },
     {
-      "id": "workout_0165",
+      "id": "workout_0184",
       "name": "Week 4.5 - Endurance",
       "description": "Ride for 2.5 hours at an endurance pace. Vary your cadence while focusing on riding smoothly and staying relaxed.",
       "author": "Unknown",
@@ -5310,7 +5824,7 @@
       ]
     },
     {
-      "id": "workout_0166",
+      "id": "workout_0185",
       "name": "Week 10.4 - Rest",
       "description": "Relax and recover! You get stronger when resting!",
       "author": "Unknown",
@@ -5333,7 +5847,7 @@
       ]
     },
     {
-      "id": "workout_0167",
+      "id": "workout_0186",
       "name": "Week 11.3 - Z2-Z4 Step Ups",
       "description": "Power Step Ups! Steadily ramp up your power from Zone 2 up to Zone 4. Repeat for 1:30:00.",
       "author": "Unknown",
@@ -5391,7 +5905,7 @@
       ]
     },
     {
-      "id": "workout_0168",
+      "id": "workout_0187",
       "name": "Week 12.7 - Explosive Power",
       "description": "Explosive Power Development! Crush it!",
       "author": "Unknown",
@@ -5449,7 +5963,7 @@
       ]
     },
     {
-      "id": "workout_0169",
+      "id": "workout_0188",
       "name": "Week 2.6 - Endurance With Max Sprints",
       "description": "After a 15 minute high cadence warmup effort, set a pace at Endurance and hold this pace for the next 2.5 hours. Throughout the ride, do 10 x 8 second out-of-the-saddle bursts into your Neuromusclar Power Zone (MAX). Make sure cadence stays high.",
       "author": "Unknown",
@@ -5472,7 +5986,7 @@
       ]
     },
     {
-      "id": "workout_0170",
+      "id": "workout_0189",
       "name": "Week 3.3 - High-Cadence Into Standing",
       "description": "Spin for 1 minute with rpm > 100 and then keep that pace while standing out of the saddle. Repeat this 5x for 10 minutes total. Then, spin at a moderate pace while listening to your body for 10 minutes. Follow this with 10 minutes of alternate one-legged pedaling.",
       "author": "Unknown",
@@ -5530,7 +6044,7 @@
       ]
     },
     {
-      "id": "workout_0171",
+      "id": "workout_0190",
       "name": "Week 8.5 - Endurance",
       "description": "Build some time on the bike today with an ENDURANCE Ride!",
       "author": "Unknown",
@@ -5567,7 +6081,7 @@
       ]
     },
     {
-      "id": "workout_0172",
+      "id": "workout_0191",
       "name": "Week 9.5 - Active Recovery",
       "description": "Active Recovery - you get faster when you are resting and recovering, not when you are working hard!! Rest days are about going easy enough to really allow your legs to recover, so no efforts over Zone 1 today. Take it easy and lookat the scenery.",
       "author": "Unknown",
@@ -5590,7 +6104,7 @@
       ]
     },
     {
-      "id": "workout_0173",
+      "id": "workout_0192",
       "name": "Week 8.6 - FTP Test",
       "description": "This is your 8 week test. Warm up well and really CRUSH IT!",
       "author": "Unknown",
@@ -5641,7 +6155,7 @@
       ]
     },
     {
-      "id": "workout_0174",
+      "id": "workout_0193",
       "name": "Week 9.1 - Rest",
       "description": "Relax and recover! You get stronger when resting!",
       "author": "Unknown",
@@ -5664,7 +6178,7 @@
       ]
     },
     {
-      "id": "workout_0175",
+      "id": "workout_0194",
       "name": "Week 9.7 - Endurance",
       "description": "Endurance ride. Set a pace at Endurance Power and hold this pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence.",
       "author": "Unknown",
@@ -5701,7 +6215,7 @@
       ]
     },
     {
-      "id": "workout_0176",
+      "id": "workout_0195",
       "name": "Week 11.7 - Endurance",
       "description": "Endurance ride. Set a pace at Endurance power and hold this pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence.",
       "author": "Unknown",
@@ -5738,7 +6252,7 @@
       ]
     },
     {
-      "id": "workout_0177",
+      "id": "workout_0196",
       "name": "Week 3.4 - Rest",
       "description": "Now would be a good time to watch the classic cycling movie \"Breaking Away\".",
       "author": "Unknown",
@@ -5761,7 +6275,7 @@
       ]
     },
     {
-      "id": "workout_0178",
+      "id": "workout_0197",
       "name": "Week 10.5 - Active Recovery",
       "description": "You get faster when you are resting and recovering, not when you are working hard!! Rest days are about going easy enough to really allow your legs to recover so no efforts over Zone 1 today, take it easy and look at the scenery.",
       "author": "Unknown",
@@ -5784,7 +6298,7 @@
       ]
     },
     {
-      "id": "workout_0179",
+      "id": "workout_0198",
       "name": "Week 10.7 - Explosive Power",
       "description": "Explosive Power Development!",
       "author": "Unknown",
@@ -5849,7 +6363,7 @@
       ]
     },
     {
-      "id": "workout_0180",
+      "id": "workout_0199",
       "name": "Week 2.1 - Cadence Into Over-Unders",
       "description": "Spend 10 minutes warming up in Zone 2. Follow with 15 minutes of cadence drills, ending with some hard intervals and a 10 minute cool down.",
       "author": "Unknown",
@@ -5872,7 +6386,7 @@
       ]
     },
     {
-      "id": "workout_0181",
+      "id": "workout_0200",
       "name": "Week 1.5 - Endurance",
       "description": "Endurance ride. Set a pace at Endurance and hold this pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence.",
       "author": "Unknown",
@@ -5895,7 +6409,7 @@
       ]
     },
     {
-      "id": "workout_0182",
+      "id": "workout_0201",
       "name": "Week 7.3 - 3x15min FTP",
       "description": "15 minute warmup working into Endurance with 3 x 1 minute fast pedals to wake up legs followed by FTP builder intervals. Complete 3 x 15 minutes at FTP with 5 minute recovery between each effort at Endurance. Keep your cadence at 85 - 105 rpm. Once complete ride easy for 10 minutes. Complete 2 x 3 minutes in your VO2Max with 3 minutes of rest between intervals. Finish with 10 minute cool down.",
       "author": "Unknown",
@@ -5925,7 +6439,7 @@
       ]
     },
     {
-      "id": "workout_0183",
+      "id": "workout_0202",
       "name": "Week 5.5 - Endurance",
       "description": "After a 15 minute high cadence warmup effort, set a pace at Endurance and hold this pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence.",
       "author": "Unknown",
@@ -5948,7 +6462,7 @@
       ]
     },
     {
-      "id": "workout_0184",
+      "id": "workout_0203",
       "name": "Week 5.4 - Rest",
       "description": "You've really earned this day off, enjoy it! When's the last time you took a shower?",
       "author": "Unknown",
@@ -5971,7 +6485,7 @@
       ]
     },
     {
-      "id": "workout_0185",
+      "id": "workout_0204",
       "name": "Week 3.6 - Endurance With Max Sprints",
       "description": "Endurance ride. Ride at an endruance pace for 2.5 hours. Throughout the ride, do 10 8-second max power bursts. Be sure your cadence remains high.",
       "author": "Unknown",
@@ -5994,7 +6508,7 @@
       ]
     },
     {
-      "id": "workout_0186",
+      "id": "workout_0205",
       "name": "Week 2.4 - Rest",
       "description": "You can never get enough rest. Trust us.",
       "author": "Unknown",
@@ -6017,7 +6531,7 @@
       ]
     },
     {
-      "id": "workout_0187",
+      "id": "workout_0206",
       "name": "Week 4.1 - Active Recovery",
       "description": "Today is an Active Recovery day targeting ONLY Active Recovery. Focus on relaxing on the bike and enjoying the ride.",
       "author": "Unknown",
@@ -6040,7 +6554,7 @@
       ]
     },
     {
-      "id": "workout_0188",
+      "id": "workout_0207",
       "name": "Week 5.2 - Sub-Threshold Over-Gear",
       "description": "8 x 3 minutes at 50 rpm, pushing a big gear at 90% of FTP. The goal is to create more torque than watts. Stay seated for the entire effort and pull on handlebars to be able to push harder. If you need more resistance, increase the wattage.",
       "author": "Unknown",
@@ -6063,7 +6577,7 @@
       ]
     },
     {
-      "id": "workout_0189",
+      "id": "workout_0208",
       "name": "Week 12.4 - Active Recovery",
       "description": "Active Recovery! You get faster when you are resting and recovering, not when you are working hard!! Rest days are about going easy enough to really allow your legs to recover so no efforts over Zone 1 today, take it easy and look at the scenery.",
       "author": "Unknown",
@@ -6086,7 +6600,7 @@
       ]
     },
     {
-      "id": "workout_0190",
+      "id": "workout_0209",
       "name": "Week 9.4 - 3x20min SST High",
       "description": "SST Intervals. On the trainer, out on the road, or in a group, SST intervals are part of our continued effort to build and maintain base. Complete 3 x 20 Minute Intervals in the \"Sweet Spot\" zone with 5 minutes recovery in-between, Ride all other time in Endurance zone",
       "author": "Unknown",
@@ -6116,7 +6630,7 @@
       ]
     },
     {
-      "id": "workout_0191",
+      "id": "workout_0210",
       "name": "Week 3.2 - Active Recovery",
       "description": "Today is an Active Recovery day targeting ONLY Active Recovery. Focus on relaxing on the bike and enjoying the ride.",
       "author": "Unknown",
@@ -6139,7 +6653,7 @@
       ]
     },
     {
-      "id": "workout_0192",
+      "id": "workout_0211",
       "name": "Week 10.6 - 3x20min SST High",
       "description": "SST Intervals. On the trainer, out on the road, or in a group, SST intervals are part of our continued effort to build and maintain base.",
       "author": "Unknown",
@@ -6169,7 +6683,7 @@
       ]
     },
     {
-      "id": "workout_0193",
+      "id": "workout_0212",
       "name": "Week 4.6 - Rest",
       "description": "Now would be a good time to buy those new socks you've been thinking about.",
       "author": "Unknown",
@@ -6192,7 +6706,7 @@
       ]
     },
     {
-      "id": "workout_0194",
+      "id": "workout_0213",
       "name": "Week 5.7 - Rest",
       "description": "Another week down! Good for you!",
       "author": "Unknown",
@@ -6215,7 +6729,7 @@
       ]
     },
     {
-      "id": "workout_0195",
+      "id": "workout_0214",
       "name": "Week 6.2 - Progressive Over-Gear",
       "description": "Complete today's workout at 80 rpm. Complete warm up and cool down in 39x15. The main set of the ride will be completed in 53x15. If that is not possible then use different gears. Get in work in a single gear that simulates you riding outside over varying terrain.",
       "author": "Unknown",
@@ -6399,7 +6913,7 @@
       ]
     },
     {
-      "id": "workout_0196",
+      "id": "workout_0215",
       "name": "Week 7.5 - Endurance & FTP",
       "description": "We're building endurance today! 10 minutes working into Endurance with 3 sets of 1 minute fast pedals to open up legs. Then ride in Endurance. Focus on staying relaxed on the bike and spinning circles while keeping your cadence between 90 and 100. During the ride, complete 2 x 20 minute FTP intervals, with 10 minutes of rest between each interval. Finish with 15 minutes of cooldown in Active Recovery.",
       "author": "Unknown",
@@ -6443,7 +6957,7 @@
       ]
     },
     {
-      "id": "workout_0197",
+      "id": "workout_0216",
       "name": "Week 12.3 - Rest",
       "description": "Relax and recover! You get stronger when resting!",
       "author": "Unknown",
@@ -6466,7 +6980,7 @@
       ]
     },
     {
-      "id": "workout_0198",
+      "id": "workout_0217",
       "name": "Week 7.1 - Threshold",
       "description": "Today is a day to push yourself! During the workout try to keep your cadence above 100 rpm for the hard efforts, dropping to an easy spin during the rests.Warm up to Tempo, followed up by 5 minutes at FTP. Next up, 5 x 1 intervals at V02 Max for a one minute out of the saddle effort with 1 minute rest. Follow up with 10 minutes at Tempo,and some one legged efforts. Which leg is stronger? Which leg is smoother? Finish up with an easy cooldown in the 39x17 gear at Active Recovery.",
       "author": "Unknown",
@@ -6524,7 +7038,7 @@
       ]
     },
     {
-      "id": "workout_0199",
+      "id": "workout_0218",
       "name": "Week 5.3 - Active Recovery",
       "description": "Today is an Active Recovery day targeting ONLY Active Recovery. Focus on relaxing on the bike and enjoying the ride.",
       "author": "Unknown",
@@ -6547,7 +7061,7 @@
       ]
     },
     {
-      "id": "workout_0200",
+      "id": "workout_0219",
       "name": "Week 8.2 - Rest",
       "description": "Relax and recover! You get stronger when resting!",
       "author": "Unknown",
@@ -6570,7 +7084,7 @@
       ]
     },
     {
-      "id": "workout_0201",
+      "id": "workout_0220",
       "name": "Week 10.2 - 2x20min Crisscross",
       "description": "2x20 Crisscross intervals. a \"crisscross\" interval is an interval where you vary your efforts to really teach your body to clear lactate.",
       "author": "Unknown",
@@ -6614,7 +7128,7 @@
       ]
     },
     {
-      "id": "workout_0202",
+      "id": "workout_0221",
       "name": "Week 2.2 - Rest",
       "description": "Now would be a good day to do some weight training, if you want.",
       "author": "Unknown",
@@ -6637,7 +7151,7 @@
       ]
     },
     {
-      "id": "workout_0203",
+      "id": "workout_0222",
       "name": "Week 12.6 - FTP Test",
       "description": "This is your 12 week test. Warm up well and really CRUSH IT!!",
       "author": "Unknown",
@@ -6688,7 +7202,7 @@
       ]
     },
     {
-      "id": "workout_0204",
+      "id": "workout_0223",
       "name": "Week 9.6 - Endurance & FTP",
       "description": "Building Endurance today! Once warmed up, ride in your ENDURANCE zone. Focus on staying relaxed on the bike and spinning circles while keeping cadence between 90-100. During the last hour of the ride complete 5 FORCE reps of 3-5 minutes each (5 minutes rest in-between) at Threshold Power. Force Reps are a big gear, low cadence effort targeting a cadence of 55-65 RPM.",
       "author": "Unknown",
@@ -6725,7 +7239,7 @@
       ]
     },
     {
-      "id": "workout_0205",
+      "id": "workout_0224",
       "name": "Week 8.4 - Active Recovery",
       "description": "You get faster when you are resting and recovering, not when you are working hard!! Rest days are about going easy enough to really allow your legs to recover.",
       "author": "Unknown",
@@ -6790,7 +7304,7 @@
       ]
     },
     {
-      "id": "workout_0206",
+      "id": "workout_0225",
       "name": "Week 6.1 - Active Recovery",
       "description": "Today is an Active Recovery day targeting ONLY Active Recovery. Focus on relaxing on the bike and enjoying the ride.",
       "author": "Unknown",
@@ -6813,7 +7327,7 @@
       ]
     },
     {
-      "id": "workout_0207",
+      "id": "workout_0226",
       "name": "Week 12.5 - Endurance",
       "description": "Build some time on the bike today with a nice Endurance ride!",
       "author": "Unknown",
@@ -6850,7 +7364,7 @@
       ]
     },
     {
-      "id": "workout_0208",
+      "id": "workout_0227",
       "name": "Week 1.2 - Rest",
       "description": "Now would be a good day to kick back and relax.",
       "author": "Unknown",
@@ -6873,7 +7387,7 @@
       ]
     },
     {
-      "id": "workout_0209",
+      "id": "workout_0228",
       "name": "Week 5.1 - High-Cadence Into FTP",
       "description": "Begin with 20 one-leg pedaling efforts. Switch immediately from one leg to the other until you have completed all 20 efforts. Then ride at Endurance for the next 15 minutes. Complete 10 x 1-minute HIGH CADENCE FAST PEDALS targeting 135+ RPM, with 2-minute rests between intervals. Finish with 15 minutes at FTP. Focus on keeping your cadence between 85 and 95 RPM.",
       "author": "Unknown",
@@ -6959,7 +7473,7 @@
       ]
     },
     {
-      "id": "workout_0210",
+      "id": "workout_0229",
       "name": "Week 11.5 - Active Recovery",
       "description": "You get faster when you are resting and recovering, not when you are working hard!! Rest days are about going easy enough to really allow your legs to recover so no efforts over Zone 1 today, take it easy and look at the scenery.",
       "author": "Unknown",
@@ -6982,7 +7496,7 @@
       ]
     },
     {
-      "id": "workout_0211",
+      "id": "workout_0230",
       "name": "Week 7.7 - Rest",
       "description": "Today you chill out.",
       "author": "Unknown",
@@ -7005,7 +7519,7 @@
       ]
     },
     {
-      "id": "workout_0212",
+      "id": "workout_0231",
       "name": "Week 3.7 - Rest",
       "description": "How are you feeling? I know, that's why you need to rest.",
       "author": "Unknown",
@@ -7028,7 +7542,7 @@
       ]
     },
     {
-      "id": "workout_0213",
+      "id": "workout_0232",
       "name": "Week 6.4 - Rest",
       "description": "Rest Day rhymes with Best Day!",
       "author": "Unknown",
@@ -7051,7 +7565,7 @@
       ]
     },
     {
-      "id": "workout_0214",
+      "id": "workout_0233",
       "name": "Week 7.2 - Cadence Into Over-Unders",
       "description": "Spend 10 minutes warming up in Zone 2. Follow with 15 minutes of cadence drills, ending with some hard intervals and a 10 minute cool down.",
       "author": "Unknown",
@@ -7074,7 +7588,7 @@
       ]
     },
     {
-      "id": "workout_0215",
+      "id": "workout_0234",
       "name": "Week 3.1 - Cadence Into Over-Unders",
       "description": "Warmup for 15 minutes in Zone followed by 15 minutes of cadence drills. End with some hard intervals and a 15 minute cool down.",
       "author": "Unknown",
@@ -7097,7 +7611,7 @@
       ]
     },
     {
-      "id": "workout_0216",
+      "id": "workout_0235",
       "name": "Week 8.1 - Rest",
       "description": "Relax and recover! You get stronger when resting!",
       "author": "Unknown",
@@ -7120,7 +7634,7 @@
       ]
     },
     {
-      "id": "workout_0217",
+      "id": "workout_0236",
       "name": "Week 12.2 - Rest",
       "description": "Relax and recover! You get stronger when resting!",
       "author": "Unknown",
@@ -7143,7 +7657,7 @@
       ]
     },
     {
-      "id": "workout_0218",
+      "id": "workout_0237",
       "name": "Week 5.1 - Rainbow",
       "description": "This workout is made up of 5 efforts - one in each power zone from 2 to 6. Perhaps unsurprisingly, as the power increases, the length of each effort decreases. The focus of this workout is the continuation of the high cadence work, where we complete the first 4 efforts at 105rpm. Remember - if you can train yourself to produce high power at a high cadence, you pedaling efficiency will improve at your \u2018go-to' cadence, which may even nudge up a little!",
       "author": "D.Rowe (Rowe&King)",
@@ -7173,7 +7687,7 @@
       ]
     },
     {
-      "id": "workout_0219",
+      "id": "workout_0238",
       "name": "Week 9.2 - Minute On Minute Off",
       "description": "Todays ride consists of 10x 1 minute, aka minute on's minute off's. This is somewhat of a a HIIT style workout. For 20 minutes (including recovery) you will be asked to put in their best efforts on each of the one minutes. This session an incredible way to get quality in during a short amount of time. Again, mix it up if you would like with seated and standing keeping efforts in the correct zone. Change is seen quickly if you incorporate this type of workout once a week or once every two weeks.",
       "author": "Kristin Armstrong",
@@ -7196,7 +7710,7 @@
       ]
     },
     {
-      "id": "workout_0220",
+      "id": "workout_0239",
       "name": "Week 12.2 - Microbursts 10-20-30",
       "description": "It's a Microburst kind of day! Today's ride consist of 3 sets of 8 efforts building from 10 second to 20 second to 30 second intervals, each separated by 2:30 minutes recovery. The number of repetitions will be 8 for all three sets, expect fatigue to accumulated over each set. The effects made in this workout are tremendous, although time spent in upper zones are short you are allowing more capacity in your anaerobic box meaning over time you will be able to spend more and more time in the higher intensity prior to fatiguing.",
       "author": "Kristin Armstrong",
@@ -7219,7 +7733,7 @@
       ]
     },
     {
-      "id": "workout_0221",
+      "id": "workout_0240",
       "name": "Week 10.2 - Strength Endurance + Sweet Spot",
       "description": "Todays session is all about Strength, cycling specific strength while done on the bike. A solid 30-minute work session is planned for you including 15 alternating minutes in the Sweet Spot (90% of your FTP) at your cadence of choice followed by Strength Endurance targeting 60-65 rpms at 75% of your FTP.",
       "author": "Kristin Armstrong",
@@ -7242,7 +7756,7 @@
       ]
     },
     {
-      "id": "workout_0222",
+      "id": "workout_0241",
       "name": "Week 2.1 - Slow Motion",
       "description": "This workout offers an introduction to strength endurance training, which will likely be a new type of effort for you. Riding at a low cadence really draws upon your strength, which is critical for cycling. As the blocks get shorter, the intensity increases - all at 55rpm! A challenging session - enjoy!",
       "author": "D.Rowe (Rowe&King)",
@@ -7272,7 +7786,7 @@
       ]
     },
     {
-      "id": "workout_0223",
+      "id": "workout_0242",
       "name": "Week 11.1 - Strength + Power",
       "description": "Todays ride is 2-blocks of Strength Endurance (SE) with a few surprise attacks throughout which will \"divide\" the longer two sets; however, make it more difficult to settle in and \"conquer\". You have to focus and keep on your toes, stay relaxed. The transition will be 3-minutes at a time with :15 - :30 second anaerobic capacity efforts in between. The key in this set is to gain Strength as well as see how much torque you can pedal through to REV up on each of these bursts.",
       "author": "Kristin Armstrong",
@@ -7295,7 +7809,7 @@
       ]
     },
     {
-      "id": "workout_0224",
+      "id": "workout_0243",
       "name": "Week 5.2 - Touch of Egypt",
       "description": "This workout contains 4 x pyramids - ramping up and down in each effort so, maxing out at 100% of your FTP. Whilst the power isn't excessively high - the challenge comes from having to produce varying power at a high cadence of 110rpm. Being able to maintain a high cadence whilst your power is constantly changing is a skill, and will help support a more efficient pedaling style when you revert back to your normal, lower cadence.",
       "author": "D.Rowe (Rowe&King)",
@@ -7381,7 +7895,7 @@
       ]
     },
     {
-      "id": "workout_0225",
+      "id": "workout_0244",
       "name": "Week 11.2 - Microbursts 30's",
       "description": "Microbursts are great to do on a regular basis to make sure that you can change speeds anytime no matter the activity you are doing as well as handle power fluctuations on the bike. Each set consists of 10x 30 seconds on (120-130% of FTP) and :15 seconds off (40-50% of FTP). These will definitely be entertaining for the mind yet very challenging for everyone. The great thing about this workout is you will see improvement from the first time doing this to the 2nd and beyond.",
       "author": "Kristin Armstrong",
@@ -7404,7 +7918,7 @@
       ]
     },
     {
-      "id": "workout_0226",
+      "id": "workout_0245",
       "name": "Week 6.1 - Spice of Life",
       "description": "This workout is fairly varied! As your power constantly ramps up and down, and your cadence changes frequently - this is a workout to keep you engaged and working towards improving your fitness. The max power you produce during the ramps is only 95% of your threshold, so you should be able to manage this workout on tired legs.",
       "author": "D.Rowe (Rowe&King)",
@@ -7518,7 +8032,7 @@
       ]
     },
     {
-      "id": "workout_0227",
+      "id": "workout_0246",
       "name": "Week 1.2 - Basics",
       "description": "This workout contains a block of Zone 3 just like the first workout, to give you that familiarity and confidence ahead of some more intense efforts. Today, you will complete 6 x 20 second sprints - something that may be alien to you, however the rewards are great!",
       "author": "D.Rowe (Rowe&King)",
@@ -7548,7 +8062,7 @@
       ]
     },
     {
-      "id": "workout_0228",
+      "id": "workout_0247",
       "name": "Week 4.2 - 20-40's",
       "description": "This workout really gets your Type II (Fast Twitch) muscle fibers firing, by completing 20 x 20-second sprint efforts. There are huge gains to be made through sprint training, even if your target event doesn't involve sprinting - you will love being more powerful and explosive on the bike.",
       "author": "D.Rowe (Rowe&King)",
@@ -7578,7 +8092,7 @@
       ]
     },
     {
-      "id": "workout_0229",
+      "id": "workout_0248",
       "name": "Week 7.1 - Fitness Builder",
       "description": "This session is a fitness builder. We will experience time in three different training zones - Threshold, Vo2 and our Anaerobic zone. Today's session consists of 3x 2 minutes at 100% of FTP (Threshold), 3x 1 minute at 110% of FTP (VO2), and 6x :30 seconds at 120% of FTP (Anaerobic). As we increase power, we will decrease time in each effort.",
       "author": "Kristin Armstrong",
@@ -7601,7 +8115,7 @@
       ]
     },
     {
-      "id": "workout_0230",
+      "id": "workout_0249",
       "name": "Week 8.2 - Over Under's 4x 4min",
       "description": "This ride is what we refer to as \"Over Under's\". Over Under is when you go above FTP (100%) to below FTP (<100%). During this ride you will perform 4 sets of 30 seconds over your threshold at 105% of your FTP followed by 30 seconds under your threshold at 85% of your FTP for 4-minutes. Imagine going back and forth from Vo2 to Sweet Spot. Between each set you will have 2 minutes of recovery.",
       "author": "Kristin Armstrong",
@@ -7624,7 +8138,7 @@
       ]
     },
     {
-      "id": "workout_0231",
+      "id": "workout_0250",
       "name": "Week 4.1 - Strength Builder",
       "description": "This workout contains 4 x very mild ramps from Zone 2 to Zone 3, however each ramp is to be ridden at a low cadence of 60rpm, adding a strength element to the workout. Rather than being a strenuous strength endurance workout in its own right, todays efforts further your strength training experience.",
       "author": "D.Rowe (Rowe&King)",
@@ -7682,7 +8196,7 @@
       ]
     },
     {
-      "id": "workout_0232",
+      "id": "workout_0251",
       "name": "Week 6.2 - To The Max",
       "description": "This workout takes you to the max, by completing 3 x Capacity Efforts; 5, 3 and 1 minute! Being able to produce more power for these relatively short durations translates to a much more enjoyable cycling experience - just think of those short hills that you could smash up! The key to these efforts is to be well rested and psychologically up for it - it's time to go deep!",
       "author": "D.Rowe (Rowe&King)",
@@ -7712,7 +8226,7 @@
       ]
     },
     {
-      "id": "workout_0233",
+      "id": "workout_0252",
       "name": "Week 2.2 - Over - Unders",
       "description": "This workout is based on the well documented 'over - under' style workout, where you repeatedly tip yourself above and dip below your threshold power. You should get plenty of rest during the 1 minute at 90% of FTP to enable you to manage the 2 minutes spent slightly above your threshold.",
       "author": "D.Rowe (Rowe&King)",
@@ -7742,7 +8256,7 @@
       ]
     },
     {
-      "id": "workout_0234",
+      "id": "workout_0253",
       "name": "Week 12.1 - Power + Endurance",
       "description": "This ride consists of an integration of POWER + Endurance. The power efforts will be shorter efforts 30 seconds or less in duration followed by a ramp-down style of climbing and endurance decreasing in intensity throughout 5 minutes. We will tap in to all of our energy systems today which keep sessions fun while at the same time challenging for all!",
       "author": "Kristin Armstrong",
@@ -7765,7 +8279,7 @@
       ]
     },
     {
-      "id": "workout_0235",
+      "id": "workout_0254",
       "name": "Week 3.1 - No Nonsense",
       "description": "This workout is straight forward - you will spend plenty of time with your chain tight. 3 x 6 minute blocks of Zone 3, will ensure you get a good training stress, without leaving your legs heavy for tomorrow.",
       "author": "D.Rowe (Rowe&King)",
@@ -7795,7 +8309,7 @@
       ]
     },
     {
-      "id": "workout_0236",
+      "id": "workout_0255",
       "name": "Week 3.2 - Up and Down",
       "description": "This workout makes use of arguably Zwift's coolest workout feature - ramps! Two ramp ups and one ramp down, all between Endurance (Zone 2) and Vo2 Max (Zone 5) will help elevate your heart rate, without being too damaging to your leg muscles. A nice contribution to your training consistency, as you should be able to train again tomorrow.",
       "author": "D.Rowe (Rowe&King)",
@@ -7846,7 +8360,7 @@
       ]
     },
     {
-      "id": "workout_0237",
+      "id": "workout_0256",
       "name": "Week 7.2 - Power + Climbing",
       "description": "This ride consists of an integration of POWER + CLIMBING. The power efforts will be shorter efforts 30 seconds or less in duration followed by a ramp-up style of climbing and endurance in creasing in intensity throughout 5 minutes. We will tap in to all of our energy systems today which keep sessions fun while at the same time challenging for all!",
       "author": "Kristin Armstrong",
@@ -7869,7 +8383,7 @@
       ]
     },
     {
-      "id": "workout_0238",
+      "id": "workout_0257",
       "name": "Week 10.1 - Over Under's 12 + 10",
       "description": "This session includes Under Overs. This is the same as what we call Over Under other than you begin with an effort under your FTP (100%). There are two blocks. The first block includes 1 minute efforts at 75% of your FTP alternating with efforts at 115% of your FTP. Enjoy the 4 minute recovery before hitting the last set of Under Overs which include 2 minutes at 75% of your FTP followed by :30 seconds at 115%. The total duration of the first set is 12-mintues and second set is 10-minutes. This session is a great fitness builder while keeping your mind from losing focus!",
       "author": "Kristin Armstrong",
@@ -7892,7 +8406,7 @@
       ]
     },
     {
-      "id": "workout_0239",
+      "id": "workout_0258",
       "name": "Week 1.1 - The Beginning",
       "description": "This workout contains a block of Zone 3 to gradually help ease you in to the workout, before completing 3 x 2 min Z5 (110% of FTP) efforts. This workout should feel like a challenge yet definitely be achievable so an ideal session for the start of a workout series.",
       "author": "D.Rowe (Rowe&King)",
@@ -7922,7 +8436,7 @@
       ]
     },
     {
-      "id": "workout_0240",
+      "id": "workout_0259",
       "name": "Week 8.1 - It's all about the Foundation",
       "description": "Its foundation time! This ride is continuous without many \"rest periods\". Kicking off with a :15 sec push followed by 2 minutes in our Sweet Spot zone repeated 9 times. 9x :15 seconds at 120% (Anaerobic), 2 minutes 88% (SweetSpot). Be mindful not to be overzealous; going out too hard will catch up later in the ride!",
       "author": "Kristin Armstrong",
@@ -7945,7 +8459,7 @@
       ]
     },
     {
-      "id": "workout_0241",
+      "id": "workout_0260",
       "name": "Week 9.1 - Strength Endurance + REV for :15 seconds",
       "description": "Today's workout is about gaining strength, you will spend much of your time in Zone 3, TEMPO, 85% of your FTP - however you want to look at it. During today's workout it is important to be aware of your RPM's - focus on being between 60-65.  If you have knee or back issues increase this to 60-70 RPM's. Keep smooth pedal strokes, no rocking of the hips or mashing from left to right pedal :) At the end of the 5 minutes we will be increasing our cadence and power as much as we can for :15 seconds.  You will want to shift up one or two cogs - feeling the torque but able to ramp it up within the :30 seconds.",
       "author": "Kristin Armstrong",
@@ -7968,7 +8482,7 @@
       ]
     },
     {
-      "id": "workout_0242",
+      "id": "workout_0261",
       "name": "ABC Easy as 1-2-3",
       "description": "This workout consists of 5 sets of 3x 1-minute steps building from 80-100% of your FTP (Tempo to Threshold) with a :30 second relief after each and a 1:30 minute recovery segment following each set.",
       "author": "Kristin Armstrong",
@@ -7991,7 +8505,7 @@
       ]
     },
     {
-      "id": "workout_0243",
+      "id": "workout_0262",
       "name": "Mom Fever",
       "description": "This ride has efficiency written all over it. Throughout this short 30-minute session you will spend time working between 70-90% of your FTP which is Basic Endurance to a Tempo zone. The time spent in each zone will vary, the ride is broken in to 3 sets of 5:30 minutes with a nice 2-minute recovery in between each.",
       "author": "Kristin Armstrong",
@@ -8014,7 +8528,7 @@
       ]
     },
     {
-      "id": "workout_0244",
+      "id": "workout_0263",
       "name": "Organized Chaos",
       "description": "This workout is filled with a number of inconsistent segments ranging from :10 seconds to 2 minutes in duration. This is a great way to train \"tackling the unknown\". Being nimble whether it is on the bike or off is important. Sometimes we just need to go with what's put in front of us! Enjoy, it's a fun one and will fly by before you know it.",
       "author": "Kristin Armstrong",
@@ -8037,7 +8551,7 @@
       ]
     },
     {
-      "id": "workout_0245",
+      "id": "workout_0264",
       "name": "Big Bear",
       "description": "This workout will see you complete 21 efforts in total. 7 of which are 45 seconds at zone 3, sandwiched by 14 shorter (30 second) zone 6 efforts. \n\nThe zone 6 efforts are short enough to ensure your heart rate never gets close to max.",
       "author": "D.Rowe (Rowe&King)",
@@ -8067,7 +8581,7 @@
       ]
     },
     {
-      "id": "workout_0246",
+      "id": "workout_0265",
       "name": "Mom-ology",
       "description": "This ride consists of three sets of four 2-minute, 1-minute and :30 second efforts. As the efforts get shorter in duration, the intensity increases. Throughout this session you will work from 70-100% of your FTP which ranges from a Basic Endurance to Threshold zone. There is plenty of rest prescribed throughout this 40-minute workout.",
       "author": "Kristin Armstrong",
@@ -8090,7 +8604,7 @@
       ]
     },
     {
-      "id": "workout_0247",
+      "id": "workout_0266",
       "name": "Double Trouble",
       "description": "This workout is an introduction to strength training, yet suitable as a prenatal workout as the intervals are short, of a moderate intensity and critically at 60rpm (so not requiring you to generate too much crank torque). \n\nWhile this is not a Strength Endurance workout, we still stress your Type II (fast twitch) muscle fibers - but not too much!\n\nFocus on keeping your upper body still and allowing your legs to generate all the power - good form is key.",
       "author": "D.Rowe (Rowe&King)",
@@ -8120,7 +8634,7 @@
       ]
     },
     {
-      "id": "workout_0248",
+      "id": "workout_0267",
       "name": "Sleepless",
       "description": "This workout takes on a pyramid style structure, where the efforts progress from 10 seconds up to 1 minute then after a recovery period reduce back down from 1 minute to 10 seconds. The rest mirrors the effort throughout.",
       "author": "D.Rowe (Rowe&King)",
@@ -8150,7 +8664,7 @@
       ]
     },
     {
-      "id": "workout_0249",
+      "id": "workout_0268",
       "name": "Five Bumps",
       "description": "This session includes 5 x 2 minute progressive intervals, with 2 minutes recovery between each effort. \n\nYou should always be able to talk throughout and remember to listen to your body.",
       "author": "D.Rowe (Rowe&King)",
@@ -8215,7 +8729,7 @@
       ]
     },
     {
-      "id": "workout_0250",
+      "id": "workout_0269",
       "name": "Manic Moments",
       "description": "This workout includes segments beginning with 3-minutes in duration decreasing to :20 seconds in duration. The challenge is while the duration decreases the intensity will increase throughout working between 70-120% of your FTP. Once you hit the peak intensity, it's time to come back down in intensity and build back the duration. There will be plenty of pit stops along the way allowing for recovery as well as an opportunity to continue hydrating.",
       "author": "Kristin Armstrong",
@@ -8238,7 +8752,7 @@
       ]
     },
     {
-      "id": "workout_0251",
+      "id": "workout_0270",
       "name": "Tantrum",
       "description": "This workout contains 4 x 3 minute ramps with a 15 second surge on the end to sting the legs a little.  \nThe ramped part of the efforts should feel controlled and with a 2 minute rest after each surge, your heart rate should not get too high.",
       "author": "D.Rowe (Rowe&King)",
@@ -8296,7 +8810,7 @@
       ]
     },
     {
-      "id": "workout_0252",
+      "id": "workout_0271",
       "name": "Peek-a-Boo",
       "description": "This workout consists of 3 sets of 30-20-10 second build ups for a total duration of 5 minutes each set. The simplest way to approach this ride is :30 seconds at a basic endurance level, followed by :20 seconds taking it up a notch to a tempo level, and straight in to a :10 second mini-burst. Think of this as a \"Peek-a-Boo\". A short reminder of \"Mom, I'm here do you see me\".",
       "author": "Kristin Armstrong",
@@ -8319,7 +8833,7 @@
       ]
     },
     {
-      "id": "workout_0253",
+      "id": "workout_0272",
       "name": "Strength Baby",
       "description": "This workout offers an introduction to developing your strength by completing 3 blocks of 4 minute at zone 3 but critically at a low cadence of 60rpm.\n\nFocus on keeping your upper body still and allowing your legs to generate all the power.",
       "author": "D.Rowe (Rowe&King)",
@@ -8349,7 +8863,7 @@
       ]
     },
     {
-      "id": "workout_0254",
+      "id": "workout_0273",
       "name": "Five Bumps Down",
       "description": "This session includes 5 x 3 minute regressive intervals, with 3 minutes recovery between each effort. Each effort will get easier as you progress, so brace yourself for a tough opening 30 seconds. \n\nYou should always be able to talk throughout and remember to listen to your body.",
       "author": "D.Rowe (Rowe&King)",
@@ -8414,7 +8928,7 @@
       ]
     },
     {
-      "id": "workout_0255",
+      "id": "workout_0274",
       "name": "Earning Your Mom Stripes",
       "description": "This ride includes three sets of a gradual build taking the intensity from 70%-90% of your FTP which is an Endurance pace up to an upper Tempo zone. After each there will be a short :30 second recovery followed by a :30 second effort, \"earning your stripe\", reaching in to the anaerobic zone. After each build, you will earn an additional stripe for a total of 6 in todays 40-minute session.",
       "author": "Kristin Armstrong",
@@ -8437,7 +8951,7 @@
       ]
     },
     {
-      "id": "workout_0256",
+      "id": "workout_0275",
       "name": "Baby Bear",
       "description": "This workout will see you complete 14 efforts in total. Half of which are short (30 seconds) and other half a little longer (45 seconds).\n\nThere is a 4 minute recovery period between each block providing you with a chance to sit up, hydrate and let your heart rate drop.",
       "author": "D.Rowe (Rowe&King)",
@@ -8467,7 +8981,7 @@
       ]
     },
     {
-      "id": "workout_0257",
+      "id": "workout_0276",
       "name": "Mothership",
       "description": "This ride follows a routine, a pattern, a plan! Sometimes, it's just what we need. The session includes 4 sets of a ramp style build consisting of a stair step of 2mins, 1 min and :30 seconds ranging from 75-100% of a riders FTP (Tempo to Threshold).",
       "author": "Kristin Armstrong",
@@ -8490,7 +9004,7 @@
       ]
     },
     {
-      "id": "workout_0258",
+      "id": "workout_0277",
       "name": "Stop-Start",
       "description": "This session is like walking with a 2 year old - constantly stopping and starting. You will complete 2 blocks of 5 x 45 second efforts with a good rest of 60 seconds between each effort. \n\nWhile your heart rate and perceived effort will surge during the 45 seconds of effort, there is ample opportunity to recover well between each effort so a suitable workout for during pregnancy or starting slowly to gain fitness.",
       "author": "D.Rowe (Rowe&King)",
@@ -8520,7 +9034,7 @@
       ]
     },
     {
-      "id": "workout_0259",
+      "id": "workout_0278",
       "name": "Beep! Beep! Beep!",
       "description": "This workout is focused on gaining strength through pedaling at a lower RPM's 60-70 (cadence) for 3-minutes at a time. At the end of each set there will be a :30 second rev up where you will try and increase power by increasing your RPM's.\n\nLet's think of each set as \"stuck in the mud\" and rev'ing up your cadence to get out each time.\n\nWe will go through each set 4 times.",
       "author": "Kristin Armstrong",
@@ -8543,7 +9057,7 @@
       ]
     },
     {
-      "id": "workout_0260",
+      "id": "workout_0279",
       "name": "A Gentle Reminder",
       "description": "This workout will ebb + flow from Endurance to Tempo 1-minute at a time working from 75-90% of your FTP. You will repeat this 6-minute set 4 times throughout the 40-minute ride. This is a great way to keep your aerobic system going while maintaining a moderate heart rate.",
       "author": "Kristin Armstrong",
@@ -8566,7 +9080,7 @@
       ]
     },
     {
-      "id": "workout_0261",
+      "id": "workout_0280",
       "name": "Start-Stop",
       "description": "This session is a progression from the 30 minute Start-Stop workout where you will tackle 3 blocks of 4 efforts, with each block's effort increasing in intensity but decreasing in duration.\n\nEach block roughly equates to the same training stress, but just varying type of stress and effort.",
       "author": "D.Rowe (Rowe&King)",
@@ -8596,7 +9110,7 @@
       ]
     },
     {
-      "id": "workout_0262",
+      "id": "workout_0281",
       "name": "Pushing ALL the Buttons",
       "description": "This workout consists of 27 microbursts with plenty of breaks in between each. There are 5 sets in total beginning with :40 seconds in duration and decreasing to :15 seconds as we enter in to the last set. Each set will decease in duration; however, increase in power. This is a great workout and easy on the mind. There are a number of different ways to keep a baseline fitness level.\n\nThis is the session that just keeps on giving!",
       "author": "Kristin Armstrong",
@@ -8619,7 +9133,7 @@
       ]
     },
     {
-      "id": "workout_0263",
+      "id": "workout_0282",
       "name": "Wide Awake",
       "description": "This workout starts and finishes with a pyramid style structure however this time completing 2 x 4 minute blocks of zone 3 in between to give a nice mix of aerobic and anaerobic effort.",
       "author": "D.Rowe (Rowe&King)",
@@ -8649,7 +9163,7 @@
       ]
     },
     {
-      "id": "workout_0264",
+      "id": "workout_0283",
       "name": "Roller Coaster",
       "description": "This ride is a hybrid style combining Strength Endurance (lower cadence) with Tempo. Todays session consists of 3 sets of 8 minutes. Each of the 8-minute sets will be broken in to 8 1-minute increments. The even minutes will be strength endurance efforts keeping RPM's between 60-70 and the odd minutes will be tempo efforts back to a cadence of 80-90RPM. After each set there will be 2:30 minutes of recovery.\n\nIt will feel like a roller coaster of a ride!",
       "author": "Kristin Armstrong",
@@ -8672,7 +9186,7 @@
       ]
     },
     {
-      "id": "workout_0265",
+      "id": "workout_0284",
       "name": "The Wriggler",
       "description": "The Wriggler is a little bit random - think of it as a Fartlek style workout, where you make efforts at a range of intensities and lengths.\n\nNo specific cadence to target today, and similarly feel free to ride out of the saddle. Go with the flow and get stuck into this rollercoaster of a session - it's one to keep you occupied, just like a wriggling toddler!",
       "author": "D.Rowe (Rowe&King)",
@@ -8723,7 +9237,7 @@
       ]
     },
     {
-      "id": "workout_0266",
+      "id": "workout_0285",
       "name": "Georgia Simmerling - Team Pursuit",
       "description": "Georgia Simmerling won the bronze medal in the team pursuit in 2016 and is the first Canadian to compete in 3 different sports in 3 Olympic games (cycling, alpine skiing, and skicross). The team pursuit is a short and VERY intense event on the track which requires enormous wattage to be successful. This workout will take you through what it feels like to push yourself during a team pursuit event.",
       "author": "Shayne Gaffney",
@@ -8753,7 +9267,7 @@
       ]
     },
     {
-      "id": "workout_0267",
+      "id": "workout_0286",
       "name": "Sarah Storey - Individual Pursuit",
       "description": "Dame Sarah Storey, DBE, with a total of fourteen Paralympic gold medals, makes her the most successful female British Paralympian of all time! This workout will take you through what it feels like to tackle the individual pursuit on the track, which Dame Storey is known for. Be ready for a hard start and an even harder finish!",
       "author": "Shayne Gaffney",
@@ -8804,7 +9318,7 @@
       ]
     },
     {
-      "id": "workout_0268",
+      "id": "workout_0287",
       "name": "Nino Schurter - Punchy Climbs",
       "description": "Nino Schurter is arguably the greatest male cross-country mountain bike rider of all time. He completed the 2017 World Cup season with 6 consecutive wins, something no one else has ever achieved before, won the gold medal in mountain biking at the 2016 Olympics, the silver medal at the 2012 Olympics, and the bronze medal at the 2008 Olympics. Surging over threshold and returning to it repeatedly is a crucial skill for any great mountain biker. This workout will help develop that ability.",
       "author": "Shayne Gaffney",
@@ -8834,7 +9348,7 @@
       ]
     },
     {
-      "id": "workout_0269",
+      "id": "workout_0288",
       "name": "Sir Chris Hoy - Keirin",
       "description": "Sir Chris Hoy, MBE, with 7 Olympic medals, 6 gold 1 silver, multiple world championships, and national championships, is a force to be reckoned with on the track! This workout will take you through a Keirin race, one of the more exciting events to watch on the track, and which Sir Hoy won in 2012 and 2008.",
       "author": "Shayne Gaffney",
@@ -8864,7 +9378,7 @@
       ]
     },
     {
-      "id": "workout_0270",
+      "id": "workout_0289",
       "name": "Mariana Pajon - Force Development",
       "description": "With the nickname 'Queen of BMX', you know Mariana Paj\u00f3n, ODB, is the real deal, and her 2 Olympic gold medals in BMX, multiple World Championships, and Pan American Games victories just back it up! An essential skill for BMX athletes is to generate massive force and torque to the pedals, especially when the gate drops. This workout features low cadence intervals, and pedal stroke work, which help develop pedaling force.",
       "author": "Shayne Gaffney",
@@ -8894,7 +9408,7 @@
       ]
     },
     {
-      "id": "workout_0271",
+      "id": "workout_0290",
       "name": "Anna van der Breggen - Road Race",
       "description": "Anna van der Breggen, who took home the gold medal at the 2016 Summer Olympics in the women\u2019s road race, can put in a massive attack to create a break, but somehow still have plenty left in the tank to sprint ahead for the win. Similar to how she won the Gold in 2016. This workout will challenge your ability to recover after putting in a couple of hard efforts, and test your mettle as you sprint for the line on tired legs.",
       "author": "Shayne Gaffney",
@@ -8924,7 +9438,7 @@
       ]
     },
     {
-      "id": "workout_0272",
+      "id": "workout_0291",
       "name": "Nelson Vails - Sprint",
       "description": "Nelson Vails is the first, and only, African American Cyclist to win an Olympic medal. He took home the Silver medal in the sprint in the 1984 Olympics. Nicknamed \u201cThe Cheetah\u201d, he is known for going from zero to 40+ MPH in the blink of an eye. The track sprint is an equal mental and physical challenge with competitors playing tricks and mind-games on one another before uncorking their sprint\u2026 Be prepared to launch yours when the time is right!",
       "author": "Shayne Gaffney",
@@ -8954,7 +9468,7 @@
       ]
     },
     {
-      "id": "workout_0273",
+      "id": "workout_0292",
       "name": "Anna Meares - Team Sprint",
       "description": "Anna Meares, OAM, is the most decorated female track cyclist of all time, including 6 Olympic medals. The team sprint is one of the most intense things you can do on a bicycle, and this workout will take you through what it feels like to participate in one!",
       "author": "Shayne Gaffney",
