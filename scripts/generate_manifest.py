@@ -78,15 +78,12 @@ def parse_zwo_file(file_path):
         
         total_duration = 0
         power_values = []
+        segments = []
         
         for elem in workout:
             # Get duration from various attribute names (handle floats)
             duration = elem.get('Duration') or elem.get('duration') or '0'
-            if duration:
-                try:
-                    total_duration += int(float(duration))
-                except (ValueError, TypeError):
-                    pass
+            duration = int(float(duration)) if duration else 0
             
             # Get power from various attribute formats
             power = elem.get('Power') or elem.get('power')
@@ -94,15 +91,37 @@ def parse_zwo_file(file_path):
             power_high = elem.get('PowerHigh') or elem.get('powerHigh', '0')
             
             try:
-                if power:
-                    power_values.append(float(power) * 100)
-                elif power_low and power_high:
-                    power_values.append((float(power_low) + float(power_high)) / 2 * 100)
+                power = float(power) * 100 if power else None
+                if power_low and power_high:
+                    power_low = float(power_low) * 100
+                    power_high = float(power_high) * 100
+                    power = (power_low + power_high) / 2
             except (ValueError, TypeError):
-                pass
+                power = None
+            
+            if duration > 0:
+                total_duration += duration
+                
+                if power:
+                    power_values.append(power)
+                    # Add segment
+                    segments.append({
+                        'duration': duration,
+                        'power': round(power),
+                        'powerLow': round(power_low) if power_low else None,
+                        'powerHigh': round(power_high) if power_high else None,
+                        'type': elem.tag
+                    })
         
         if not power_values:
             power_values = [0]
+            segments.append({
+                'duration': total_duration,
+                'power': 0,
+                'powerLow': 0,
+                'powerHigh': 0,
+                'type': 'Unknown'
+            })
         
         primary_zone = get_primary_zone([p/100 for p in power_values if p > 0])
         
@@ -117,7 +136,8 @@ def parse_zwo_file(file_path):
             'duration_category': categorize_duration(total_duration),
             'tss': max(0, tss) if tss else 0,
             'primary_zone': primary_zone if primary_zone else 3,
-            'avg_power': round(avg_power) if avg_power else 0
+            'avg_power': round(avg_power) if avg_power else 0,
+            'segments': segments
         }
     except Exception as e:
         print(f"Error parsing {file_path}: {e}")
@@ -171,7 +191,8 @@ def generate_manifest(workouts_dir=None):
                         'duration_category': workout_data['duration_category'],
                         'tss': workout_data['tss'],
                         'primary_zone': workout_data['primary_zone'],
-                        'avg_power': workout_data['avg_power']
+                        'avg_power': workout_data['avg_power'],
+                        'segments': workout_data.get('segments', [])
                     }
                     
                     workouts.append(workout)

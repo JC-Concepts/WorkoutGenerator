@@ -157,42 +157,125 @@ class UIManager {
     }
 
     /**
-     * Render workout intensity visualization
+     * Render workout intensity visualization - Power vs Time chart
      */
     renderWorkoutIntensity(workoutData) {
         const container = document.getElementById('intensityContainer');
         if (!container) return;
         
-        const zone = workoutData.primary_zone || 3;
-        const tss = workoutData.tss || 0;
-        const duration = workoutData.duration_seconds || 0;
+        const segments = workoutData.segments || [];
         
-        // Zone colors
-        const zoneColors = {
-            1: '#22c55e', // Green - Recovery
-            2: '#3b82f6', // Blue - Endurance
-            3: '#eab308', // Yellow - Tempo
-            4: '#f97316', // Orange - Threshold
-            5: '#ef4444'  // Red - VO2 Max
-        };
+        if (segments.length === 0) {
+            container.innerHTML = '<p class="intensity-note">No segment data available. Download the file to view workout details.</p>';
+            return;
+        }
         
-        const color = zoneColors[zone] || zoneColors[3];
+        // Build chart data
+        const labels = [];
+        const data = [];
+        let cumulativeTime = 0;
         
-        // Create intensity bar
-        const intensityPercent = Math.min(100, Math.max(10, (tss / 100) * 100));
+        segments.forEach(seg => {
+            cumulativeTime += seg.duration;
+            labels.push(this.formatTime(cumulativeTime));
+            data.push(seg.power || 0);
+        });
         
+        // Create canvas for chart
         container.innerHTML = `
-            <div class="intensity-visual">
-                <div class="intensity-label">Intensity</div>
-                <div class="intensity-bar">
-                    <div class="intensity-fill" style="width: ${intensityPercent}%; background: ${color};"></div>
-                </div>
-                <div class="intensity-zones">
-                    ${[1,2,3,4,5].map(z => `<span class="zone-dot ${z === zone ? 'active' : ''}" style="background: ${z === zone ? color : '#333'}">Z${z}</span>`).join('')}
-                </div>
+            <div class="chart-container">
+                <canvas id="workoutChart"></canvas>
             </div>
-            <p class="intensity-note">To view detailed workout intervals, download the file and import to Zwift or Intervals.icu</p>
         `;
+        
+        // Render chart after DOM update
+        setTimeout(() => {
+            const ctx = document.getElementById('workoutChart');
+            if (!ctx) return;
+            
+            // Destroy existing chart if any
+            if (window.workoutChartInstance) {
+                window.workoutChartInstance.destroy();
+            }
+            
+            // Zone colors
+            const getZoneColor = (power) => {
+                if (power < 55) return '#22c55e'; // Zone 1 - Green
+                if (power < 75) return '#3b82f6'; // Zone 2 - Blue
+                if (power < 90) return '#eab308'; // Zone 3 - Yellow
+                if (power < 105) return '#f97316'; // Zone 4 - Orange
+                return '#ef4444'; // Zone 5+ - Red
+            };
+            
+            const backgroundColors = data.map(power => getZoneColor(power));
+            
+            window.workoutChartInstance = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Power (% FTP)',
+                        data: data,
+                        backgroundColor: backgroundColors,
+                        borderColor: backgroundColors,
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                title: (items) => items[0].label,
+                                label: (item) => `${item.raw}% FTP`
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            display: true,
+                            ticks: {
+                                maxTicksLimit: 10,
+                                color: '#94a3b8'
+                            },
+                            grid: {
+                                color: '#334155'
+                            }
+                        },
+                        y: {
+                            display: true,
+                            min: 0,
+                            suggestedMax: 150,
+                            ticks: {
+                                callback: (value) => value + '%',
+                                color: '#94a3b8'
+                            },
+                            grid: {
+                                color: '#334155'
+                            },
+                            title: {
+                                display: true,
+                                text: 'Power (% FTP)',
+                                color: '#94a3b8'
+                            }
+                        }
+                    }
+                }
+            });
+        }, 100);
+    }
+    
+    /**
+     * Format seconds to MM:SS
+     */
+    formatTime(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        return `${mins}:${secs.toString().padStart(2, '0')}`;
     }
 
     /**
