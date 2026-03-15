@@ -160,8 +160,14 @@ class UIManager {
      * Render workout intensity visualization - Power vs Time chart
      */
     renderWorkoutIntensity(workoutData) {
+        console.log('Rendering workout intensity for:', workoutData.name);
+        console.log('Segments:', workoutData.segments?.length || 0);
+        
         const container = document.getElementById('intensityContainer');
-        if (!container) return;
+        if (!container) {
+            console.error('intensityContainer not found!');
+            return;
+        }
         
         const segments = workoutData.segments || [];
         
@@ -181,6 +187,8 @@ class UIManager {
             data.push(seg.power || 0);
         });
         
+        console.log('Chart data:', { labels, data });
+        
         // Create canvas for chart
         container.innerHTML = `
             <div class="chart-container">
@@ -191,7 +199,16 @@ class UIManager {
         // Render chart after DOM update
         setTimeout(() => {
             const ctx = document.getElementById('workoutChart');
-            if (!ctx) return;
+            if (!ctx) {
+                console.error('Canvas element not found');
+                return;
+            }
+            
+            if (typeof Chart === 'undefined') {
+                console.error('Chart.js not loaded!');
+                container.innerHTML = '<p class="intensity-note">Chart library not loaded. Please refresh the page.</p>';
+                return;
+            }
             
             // Destroy existing chart if any
             if (window.workoutChartInstance) {

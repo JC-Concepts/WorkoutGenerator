@@ -59,9 +59,10 @@ class WorkoutApp {
         
         try {
             this.ui.showLoading('Checking for updates...');
-            console.log('Fetching manifest from:', this.api.GITHUB_BASE + '/manifest.json');
+            console.log('Fetching manifest from:', this.api.GITHUB_BASE + '/workouts.json');
             const remoteManifest = await this.api.fetchManifest();
-            console.log('Manifest received:', remoteManifest);
+            console.log('Manifest received, workouts count:', remoteManifest.workouts?.length || 0);
+            console.log('First workout segments:', remoteManifest.workouts?.[0]?.segments?.length || 0);
             
             if (remoteManifest.version !== cachedVersion) {
                 console.log(`New version available: ${remoteManifest.version} (cached: ${cachedVersion})`);

@@ -66,11 +66,13 @@ def parse_zwo_file(file_path):
             name = root.findtext('name', 'Unknown')
             description = root.findtext('description', '')
             author = root.findtext('author', 'Unknown')
+            category = root.findtext('category', '')  # Use category from XML if available
             workout = root.find('workout')
         else:
             name = root.get('name', 'Unknown')
             description = root.findtext('description', '')
             author = root.findtext('author', 'Unknown')
+            category = root.findtext('category', '') or root.get('category', '')
             workout = root
         
         if workout is None:
@@ -132,6 +134,7 @@ def parse_zwo_file(file_path):
             'name': name.strip() if name else 'Unknown',
             'description': description.strip() if description else '',
             'author': author.strip() if author else 'Unknown',
+            'category_xml': category.strip() if category else '',
             'duration_seconds': total_duration,
             'duration_category': categorize_duration(total_duration),
             'tss': max(0, tss) if tss else 0,
@@ -179,12 +182,22 @@ def generate_manifest(workouts_dir=None):
                 if workout_data:
                     category = get_category_from_path(rel_path)
                     
+                    # Use XML category if available, otherwise clean up folder name
+                    xml_category = workout_data.get('category_xml', '')
+                    if xml_category:
+                        final_category = xml_category
+                    else:
+                        # Clean up folder name - remove underscores, limit length
+                        final_category = category.replace('_', ' ').title()
+                        if len(final_category) > 30:
+                            final_category = final_category[:30]
+                    
                     workout = {
                         'id': f'workout_{workout_id:04d}',
                         'name': workout_data['name'],
                         'description': workout_data.get('description', ''),
                         'author': workout_data.get('author', 'Unknown'),
-                        'category': category,
+                        'category': final_category,
                         'subcategory': '',
                         'file': rel_path.replace(os.sep, '/'),
                         'duration_seconds': workout_data['duration_seconds'],
