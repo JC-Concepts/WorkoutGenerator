@@ -667,6 +667,64 @@ body {
     }
     
     .action-btn {
-        min-width: 100%;
+        width: 100%;
     }
+}
+
+/* Workout Intensity Visualization */
+.intensity-visual {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: var(--bg-tertiary);
+    border-radius: 8px;
+}
+
+.intensity-label {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.intensity-bar {
+    height: 8px;
+    background: var(--bg-secondary);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 0.75rem;
+}
+
+.intensity-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+.intensity-zones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.zone-dot {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.625rem;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.zone-dot.active {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.intensity-note {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    text-align: center;
+}
 }

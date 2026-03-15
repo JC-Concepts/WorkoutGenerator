@@ -115,9 +115,9 @@ def parse_zwo_file(file_path):
             'author': author.strip() if author else 'Unknown',
             'duration_seconds': total_duration,
             'duration_category': categorize_duration(total_duration),
-            'tss': max(0, tss),
-            'primary_zone': primary_zone,
-            'avg_power': round(avg_power)
+            'tss': max(0, tss) if tss else 0,
+            'primary_zone': primary_zone if primary_zone else 3,
+            'avg_power': round(avg_power) if avg_power else 0
         }
     except Exception as e:
         print(f"Error parsing {file_path}: {e}")

@@ -108,15 +108,15 @@ class UIManager {
                 </div>
                 <div class="card-stats">
                     <div class="stat">
-                        <span class="stat-value">${workout.duration_seconds ? Math.round(workout.duration_seconds / 60) : '?'}</span>
+                        <span class="stat-value">${workout.duration_seconds ? Math.round(workout.duration_seconds / 60) : 0}</span>
                         <span class="stat-label">min</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-value">${workout.primary_zone || '?'}</span>
+                        <span class="stat-value">${workout.primary_zone || '-'}</span>
                         <span class="stat-label">Zone</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-value">${workout.tss || '?'}</span>
+                        <span class="stat-value">${workout.tss !== undefined && workout.tss !== null ? workout.tss : 0}</span>
                         <span class="stat-label">TSS</span>
                     </div>
                 </div>
@@ -140,14 +140,59 @@ class UIManager {
         document.getElementById('detailDescription').textContent = workoutData.description || 'No description available';
         document.getElementById('detailAuthor').textContent = workoutData.author || 'Unknown';
         document.getElementById('detailCategory').textContent = workoutData.category || 'Unknown';
-        document.getElementById('detailDuration').textContent = workoutData.duration_seconds ? Math.round(workoutData.duration_seconds / 60) : '?';
-        document.getElementById('detailZone').textContent = workoutData.primary_zone ? `Zone ${workoutData.primary_zone}` : '?';
-        document.getElementById('detailTSS').textContent = workoutData.tss || '?';
-        document.getElementById('detailAvgPower').textContent = workoutData.avg_power || '?';
+        
+        // Handle 0 values properly - show 0 instead of ?
+        const duration = workoutData.duration_seconds ? Math.round(workoutData.duration_seconds / 60) : 0;
+        document.getElementById('detailDuration').textContent = duration;
+        document.getElementById('detailZone').textContent = workoutData.primary_zone ? `Zone ${workoutData.primary_zone}` : 'N/A';
+        document.getElementById('detailTSS').textContent = workoutData.tss !== undefined && workoutData.tss !== null ? workoutData.tss : 0;
+        document.getElementById('detailAvgPower').textContent = workoutData.avg_power || 0;
+
+        // Render intensity visualization
+        this.renderWorkoutIntensity(workoutData);
 
         window.selectedWorkout = workoutData;
 
         modal.style.display = 'flex';
+    }
+
+    /**
+     * Render workout intensity visualization
+     */
+    renderWorkoutIntensity(workoutData) {
+        const container = document.getElementById('intensityContainer');
+        if (!container) return;
+        
+        const zone = workoutData.primary_zone || 3;
+        const tss = workoutData.tss || 0;
+        const duration = workoutData.duration_seconds || 0;
+        
+        // Zone colors
+        const zoneColors = {
+            1: '#22c55e', // Green - Recovery
+            2: '#3b82f6', // Blue - Endurance
+            3: '#eab308', // Yellow - Tempo
+            4: '#f97316', // Orange - Threshold
+            5: '#ef4444'  // Red - VO2 Max
+        };
+        
+        const color = zoneColors[zone] || zoneColors[3];
+        
+        // Create intensity bar
+        const intensityPercent = Math.min(100, Math.max(10, (tss / 100) * 100));
+        
+        container.innerHTML = `
+            <div class="intensity-visual">
+                <div class="intensity-label">Intensity</div>
+                <div class="intensity-bar">
+                    <div class="intensity-fill" style="width: ${intensityPercent}%; background: ${color};"></div>
+                </div>
+                <div class="intensity-zones">
+                    ${[1,2,3,4,5].map(z => `<span class="zone-dot ${z === zone ? 'active' : ''}" style="background: ${z === zone ? color : '#333'}">Z${z}</span>`).join('')}
+                </div>
+            </div>
+            <p class="intensity-note">To view detailed workout intervals, download the file and import to Zwift or Intervals.icu</p>
+        `;
     }
 
     /**
