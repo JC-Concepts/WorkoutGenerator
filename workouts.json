@@ -1,6 +1,6 @@
 {
   "version": "2026.03.15",
-  "lastUpdated": "2026-03-15T03:35:51.657918",
+  "lastUpdated": "2026-03-15T03:40:54.372655",
   "workouts": [
     {
       "id": "workout_0001",
@@ -14,7 +14,16 @@
       "duration_category": "45_60",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 3600,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0002",
@@ -26,9 +35,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week1/Tempo_into_Sprints.zwo",
       "duration_seconds": 3380,
       "duration_category": "45_60",
-      "tss": 94,
-      "primary_zone": 5,
-      "avg_power": 101
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 3380,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0003",
@@ -40,9 +58,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week1/40_20_s_1.zwo",
       "duration_seconds": 1860,
       "duration_category": "30_45",
-      "tss": 19,
-      "primary_zone": 2,
-      "avg_power": 39
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1860,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0004",
@@ -54,9 +81,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week1/HIT_80_FTP.zwo",
       "duration_seconds": 1440,
       "duration_category": "less_30",
-      "tss": 18,
+      "tss": 22,
       "primary_zone": 2,
-      "avg_power": 47
+      "avg_power": 56,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 56,
+          "powerLow": 42,
+          "powerHigh": 70,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0005",
@@ -68,9 +104,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week1/Tempo_with_accelerations_1.zwo",
       "duration_seconds": 3130,
       "duration_category": "45_60",
-      "tss": 85,
-      "primary_zone": 4,
-      "avg_power": 98
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 3130,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0006",
@@ -82,9 +127,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week1/Sweet_Spot_12.zwo",
       "duration_seconds": 1140,
       "duration_category": "less_30",
-      "tss": 14,
-      "primary_zone": 2,
-      "avg_power": 46
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1140,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0007",
@@ -96,9 +150,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week1/HIT_45sec.zwo",
       "duration_seconds": 1140,
       "duration_category": "less_30",
-      "tss": 11,
-      "primary_zone": 2,
-      "avg_power": 37
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1140,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0008",
@@ -110,9 +173,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week2/HIT_45sec_2.zwo",
       "duration_seconds": 1320,
       "duration_category": "less_30",
-      "tss": 13,
-      "primary_zone": 2,
-      "avg_power": 37
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1320,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0009",
@@ -124,9 +196,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week2/Tempo_with_Finale.zwo",
       "duration_seconds": 2280,
       "duration_category": "30_45",
-      "tss": 33,
-      "primary_zone": 2,
-      "avg_power": 53
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2280,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0010",
@@ -140,7 +221,16 @@
       "duration_category": "45_60",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 3600,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0011",
@@ -152,9 +242,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week2/Max_Aerobic_declining.zwo",
       "duration_seconds": 3600,
       "duration_category": "45_60",
-      "tss": 73,
+      "tss": 56,
       "primary_zone": 2,
-      "avg_power": 73
+      "avg_power": 56,
+      "segments": [
+        {
+          "duration": 360,
+          "power": 56,
+          "powerLow": 42,
+          "powerHigh": 70,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0012",
@@ -166,9 +265,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week2/HIT_80_FTP_2.zwo",
       "duration_seconds": 1200,
       "duration_category": "less_30",
-      "tss": 15,
-      "primary_zone": 2,
-      "avg_power": 45
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1200,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0013",
@@ -180,9 +288,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week2/Tempo_with_accelerations_2.zwo",
       "duration_seconds": 3550,
       "duration_category": "45_60",
-      "tss": 98,
-      "primary_zone": 4,
-      "avg_power": 100
+      "tss": 54,
+      "primary_zone": 2,
+      "avg_power": 56,
+      "segments": [
+        {
+          "duration": 360,
+          "power": 56,
+          "powerLow": 41,
+          "powerHigh": 70,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0014",
@@ -194,9 +311,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week2/40_20_s_2.zwo",
       "duration_seconds": 2040,
       "duration_category": "30_45",
-      "tss": 27,
-      "primary_zone": 2,
-      "avg_power": 49
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2040,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0015",
@@ -208,9 +334,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week3/Progressive_11_s.zwo",
       "duration_seconds": 3180,
       "duration_category": "45_60",
-      "tss": 58,
+      "tss": 0,
       "primary_zone": 3,
-      "avg_power": 66
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 3180,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0016",
@@ -222,9 +357,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week3/Sub-threshold_XX_1.zwo",
       "duration_seconds": 780,
       "duration_category": "less_30",
-      "tss": 6,
-      "primary_zone": 1,
-      "avg_power": 30
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 780,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0017",
@@ -238,7 +382,16 @@
       "duration_category": "45_60",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 3600,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0018",
@@ -250,9 +403,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week3/40_20_s_into_Threshold.zwo",
       "duration_seconds": 2580,
       "duration_category": "30_45",
-      "tss": 31,
-      "primary_zone": 2,
-      "avg_power": 44
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2580,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0019",
@@ -264,9 +426,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week3/Threshold_block_1_.zwo",
       "duration_seconds": 1320,
       "duration_category": "less_30",
-      "tss": 18,
-      "primary_zone": 2,
-      "avg_power": 50
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1320,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0020",
@@ -278,9 +449,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week3/Spiked_Tempo.zwo",
       "duration_seconds": 1620,
       "duration_category": "less_30",
-      "tss": 22,
+      "tss": 25,
       "primary_zone": 2,
-      "avg_power": 51
+      "avg_power": 56,
+      "segments": [
+        {
+          "duration": 360,
+          "power": 56,
+          "powerLow": 42,
+          "powerHigh": 70,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0021",
@@ -292,9 +472,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week3/Max_Aerobic_Finale.zwo",
       "duration_seconds": 2280,
       "duration_category": "30_45",
-      "tss": 32,
+      "tss": 35,
       "primary_zone": 2,
-      "avg_power": 51
+      "avg_power": 56,
+      "segments": [
+        {
+          "duration": 360,
+          "power": 56,
+          "powerLow": 42,
+          "powerHigh": 70,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0022",
@@ -306,9 +495,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week4/Sub_threshold_XX.zwo",
       "duration_seconds": 780,
       "duration_category": "less_30",
-      "tss": 6,
-      "primary_zone": 1,
-      "avg_power": 30
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 780,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0023",
@@ -322,7 +520,16 @@
       "duration_category": "45_60",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 3600,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0024",
@@ -336,7 +543,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0025",
@@ -348,9 +564,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week4/Threshold_block_1_.zwo",
       "duration_seconds": 2460,
       "duration_category": "30_45",
-      "tss": 30,
-      "primary_zone": 2,
-      "avg_power": 45
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2460,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0026",
@@ -362,9 +587,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week4/Progressive_11_s_2.zwo",
       "duration_seconds": 3180,
       "duration_category": "45_60",
-      "tss": 58,
+      "tss": 0,
       "primary_zone": 3,
-      "avg_power": 66
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 3180,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0027",
@@ -376,9 +610,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/4Wk_FTP_Booster/Week4/FTP_Test.zwo",
       "duration_seconds": 4380,
       "duration_category": "60_90",
-      "tss": 107,
-      "primary_zone": 4,
-      "avg_power": 88
+      "tss": 61,
+      "primary_zone": 1,
+      "avg_power": 50,
+      "segments": [
+        {
+          "duration": 1200,
+          "power": 50,
+          "powerLow": 30,
+          "powerHigh": 70,
+          "type": "Warmup"
+        },
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 70,
+          "powerHigh": 30,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0028",
@@ -392,7 +642,16 @@
       "duration_category": "45_60",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 3600,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0029",
@@ -404,9 +663,172 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Bike_Exchange/Teniel_Campbell_Workout.zwo",
       "duration_seconds": 2520,
       "duration_category": "30_45",
-      "tss": 75,
-      "primary_zone": 5,
-      "avg_power": 108
+      "tss": 66,
+      "primary_zone": 4,
+      "avg_power": 95,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 50,
+          "powerHigh": 60,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 75,
+          "powerLow": 60,
+          "powerHigh": 90,
+          "type": "Ramp"
+        },
+        {
+          "duration": 90,
+          "power": 88,
+          "powerLow": 83,
+          "powerHigh": 93,
+          "type": "Ramp"
+        },
+        {
+          "duration": 20,
+          "power": 112,
+          "powerLow": 105,
+          "powerHigh": 120,
+          "type": "Ramp"
+        },
+        {
+          "duration": 90,
+          "power": 88,
+          "powerLow": 83,
+          "powerHigh": 93,
+          "type": "Ramp"
+        },
+        {
+          "duration": 20,
+          "power": 112,
+          "powerLow": 105,
+          "powerHigh": 120,
+          "type": "Ramp"
+        },
+        {
+          "duration": 90,
+          "power": 88,
+          "powerLow": 83,
+          "powerHigh": 93,
+          "type": "Ramp"
+        },
+        {
+          "duration": 20,
+          "power": 112,
+          "powerLow": 105,
+          "powerHigh": 120,
+          "type": "Ramp"
+        },
+        {
+          "duration": 90,
+          "power": 88,
+          "powerLow": 83,
+          "powerHigh": 93,
+          "type": "Ramp"
+        },
+        {
+          "duration": 20,
+          "power": 112,
+          "powerLow": 105,
+          "powerHigh": 120,
+          "type": "Ramp"
+        },
+        {
+          "duration": 90,
+          "power": 88,
+          "powerLow": 83,
+          "powerHigh": 93,
+          "type": "Ramp"
+        },
+        {
+          "duration": 20,
+          "power": 112,
+          "powerLow": 105,
+          "powerHigh": 120,
+          "type": "Ramp"
+        },
+        {
+          "duration": 90,
+          "power": 88,
+          "powerLow": 83,
+          "powerHigh": 93,
+          "type": "Ramp"
+        },
+        {
+          "duration": 20,
+          "power": 112,
+          "powerLow": 105,
+          "powerHigh": 120,
+          "type": "Ramp"
+        },
+        {
+          "duration": 90,
+          "power": 88,
+          "powerLow": 83,
+          "powerHigh": 93,
+          "type": "Ramp"
+        },
+        {
+          "duration": 20,
+          "power": 112,
+          "powerLow": 105,
+          "powerHigh": 120,
+          "type": "Ramp"
+        },
+        {
+          "duration": 90,
+          "power": 88,
+          "powerLow": 83,
+          "powerHigh": 93,
+          "type": "Ramp"
+        },
+        {
+          "duration": 20,
+          "power": 112,
+          "powerLow": 105,
+          "powerHigh": 120,
+          "type": "Ramp"
+        },
+        {
+          "duration": 90,
+          "power": 88,
+          "powerLow": 83,
+          "powerHigh": 93,
+          "type": "Ramp"
+        },
+        {
+          "duration": 20,
+          "power": 112,
+          "powerLow": 105,
+          "powerHigh": 120,
+          "type": "Ramp"
+        },
+        {
+          "duration": 90,
+          "power": 88,
+          "powerLow": 83,
+          "powerHigh": 93,
+          "type": "Ramp"
+        },
+        {
+          "duration": 20,
+          "power": 112,
+          "powerLow": 105,
+          "powerHigh": 120,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0030",
@@ -418,9 +840,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Bike_Exchange/Lawson_Craddock_Workout.zwo",
       "duration_seconds": 1560,
       "duration_category": "less_30",
-      "tss": 17,
+      "tss": 27,
       "primary_zone": 2,
-      "avg_power": 40
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 50,
+          "powerHigh": 60,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 78,
+          "powerLow": 65,
+          "powerHigh": 90,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0031",
@@ -432,9 +877,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Bike_Exchange/Michael_Mathews_Workout.zwo",
       "duration_seconds": 1440,
       "duration_category": "less_30",
-      "tss": 15,
+      "tss": 26,
       "primary_zone": 2,
-      "avg_power": 39
+      "avg_power": 65,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 50,
+          "powerHigh": 60,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 82,
+          "powerLow": 75,
+          "powerHigh": 90,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0032",
@@ -446,9 +914,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Bike_Exchange/BikeExchange_WWorkout_1.zwo",
       "duration_seconds": 1020,
       "duration_category": "less_30",
-      "tss": 11,
+      "tss": 17,
       "primary_zone": 2,
-      "avg_power": 41
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 50,
+          "powerHigh": 60,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 78,
+          "powerLow": 65,
+          "powerHigh": 90,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0033",
@@ -460,9 +951,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Bike_Exchange/Jesse_Allen_Workout.zwo",
       "duration_seconds": 1440,
       "duration_category": "less_30",
-      "tss": 15,
+      "tss": 25,
       "primary_zone": 2,
-      "avg_power": 39
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 50,
+          "powerHigh": 60,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 78,
+          "powerLow": 65,
+          "powerHigh": 90,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0034",
@@ -474,9 +988,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Bike_Exchange/BikeExchange_MWorkout.zwo",
       "duration_seconds": 1080,
       "duration_category": "less_30",
-      "tss": 10,
+      "tss": 18,
       "primary_zone": 2,
-      "avg_power": 34
+      "avg_power": 62,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 50,
+          "powerHigh": 60,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 75,
+          "powerLow": 60,
+          "powerHigh": 90,
+          "type": "Ramp"
+        },
+        {
+          "duration": 180,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0035",
@@ -490,7 +1027,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0036",
@@ -504,7 +1050,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0037",
@@ -516,9 +1071,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_4_4.zwo",
       "duration_seconds": 6000,
       "duration_category": "greater_90",
-      "tss": 106,
+      "tss": 94,
       "primary_zone": 2,
-      "avg_power": 64
+      "avg_power": 57,
+      "segments": [
+        {
+          "duration": 1800,
+          "power": 63,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 2400,
+          "power": 50,
+          "powerLow": 60,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0038",
@@ -530,9 +1101,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_5_2.zwo",
       "duration_seconds": 3960,
       "duration_category": "60_90",
-      "tss": 33,
+      "tss": 69,
       "primary_zone": 2,
-      "avg_power": 31
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 1800,
+          "power": 63,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0039",
@@ -546,7 +1126,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0040",
@@ -558,9 +1147,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_3_6.zwo",
       "duration_seconds": 6600,
       "duration_category": "greater_90",
-      "tss": 137,
+      "tss": 0,
       "primary_zone": 3,
-      "avg_power": 75
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 6600,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0041",
@@ -572,9 +1170,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_6_4a.zwo",
       "duration_seconds": 2700,
       "duration_category": "30_45",
-      "tss": 54,
-      "primary_zone": 2,
-      "avg_power": 73
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2700,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0042",
@@ -586,9 +1193,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_6_6a.zwo",
       "duration_seconds": 2490,
       "duration_category": "30_45",
-      "tss": 52,
+      "tss": 0,
       "primary_zone": 3,
-      "avg_power": 75
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2490,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0043",
@@ -600,9 +1216,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_5_6a.zwo",
       "duration_seconds": 2400,
       "duration_category": "30_45",
-      "tss": 26,
+      "tss": 40,
       "primary_zone": 2,
-      "avg_power": 40
+      "avg_power": 60,
+      "segments": [
+        {
+          "duration": 1800,
+          "power": 63,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 65,
+          "powerHigh": 50,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0044",
@@ -616,7 +1248,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0045",
@@ -630,7 +1271,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0046",
@@ -642,9 +1292,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_6_3a.zwo",
       "duration_seconds": 3600,
       "duration_category": "45_60",
-      "tss": 55,
-      "primary_zone": 1,
-      "avg_power": 55
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 3600,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0047",
@@ -658,7 +1317,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0048",
@@ -670,9 +1338,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_6_1b.zwo",
       "duration_seconds": 3600,
       "duration_category": "45_60",
-      "tss": 52,
-      "primary_zone": 1,
-      "avg_power": 52
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 3600,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0049",
@@ -684,9 +1361,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_5_7a.zwo",
       "duration_seconds": 3000,
       "duration_category": "45_60",
-      "tss": 34,
+      "tss": 52,
       "primary_zone": 2,
-      "avg_power": 42
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 1200,
+          "power": 63,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 1800,
+          "power": 63,
+          "powerLow": 75,
+          "powerHigh": 50,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0050",
@@ -700,7 +1393,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0051",
@@ -714,7 +1416,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0052",
@@ -726,9 +1437,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_1_4.zwo",
       "duration_seconds": 5400,
       "duration_category": "60_90",
-      "tss": 96,
+      "tss": 85,
       "primary_zone": 2,
-      "avg_power": 64
+      "avg_power": 57,
+      "segments": [
+        {
+          "duration": 1800,
+          "power": 63,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 1560,
+          "power": 50,
+          "powerLow": 60,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0053",
@@ -740,9 +1467,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_5_4.zwo",
       "duration_seconds": 6300,
       "duration_category": "greater_90",
-      "tss": 112,
+      "tss": 99,
       "primary_zone": 2,
-      "avg_power": 64
+      "avg_power": 57,
+      "segments": [
+        {
+          "duration": 1800,
+          "power": 63,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 2700,
+          "power": 50,
+          "powerLow": 60,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0054",
@@ -756,7 +1499,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0055",
@@ -770,7 +1522,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0056",
@@ -782,9 +1543,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_4_2.zwo",
       "duration_seconds": 2400,
       "duration_category": "30_45",
-      "tss": 20,
+      "tss": 41,
       "primary_zone": 2,
-      "avg_power": 31
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 63,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0057",
@@ -796,9 +1566,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_1_6a.zwo",
       "duration_seconds": 5400,
       "duration_category": "60_90",
-      "tss": 112,
+      "tss": 0,
       "primary_zone": 3,
-      "avg_power": 75
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 5400,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0058",
@@ -812,7 +1591,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0059",
@@ -824,9 +1612,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_1_2.zwo",
       "duration_seconds": 3600,
       "duration_category": "45_60",
-      "tss": 70,
+      "tss": 62,
       "primary_zone": 2,
-      "avg_power": 71
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 63,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0060",
@@ -840,7 +1637,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0061",
@@ -854,7 +1660,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0062",
@@ -866,9 +1681,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_3_2.zwo",
       "duration_seconds": 2220,
       "duration_category": "30_45",
-      "tss": 19,
+      "tss": 38,
       "primary_zone": 2,
-      "avg_power": 31
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 63,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0063",
@@ -880,9 +1704,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_4_7.zwo",
       "duration_seconds": 2400,
       "duration_category": "30_45",
-      "tss": 27,
+      "tss": 41,
       "primary_zone": 2,
-      "avg_power": 42
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 1200,
+          "power": 63,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 1200,
+          "power": 63,
+          "powerLow": 75,
+          "powerHigh": 50,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0064",
@@ -894,9 +1734,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_3_4.zwo",
       "duration_seconds": 6000,
       "duration_category": "greater_90",
-      "tss": 106,
+      "tss": 94,
       "primary_zone": 2,
-      "avg_power": 64
+      "avg_power": 57,
+      "segments": [
+        {
+          "duration": 1800,
+          "power": 63,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 2160,
+          "power": 50,
+          "powerLow": 60,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0065",
@@ -910,7 +1766,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0066",
@@ -924,7 +1789,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0067",
@@ -936,9 +1810,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_4_6.zwo",
       "duration_seconds": 6900,
       "duration_category": "greater_90",
-      "tss": 135,
-      "primary_zone": 2,
-      "avg_power": 71
+      "tss": 101,
+      "primary_zone": 1,
+      "avg_power": 53,
+      "segments": [
+        {
+          "duration": 1800,
+          "power": 63,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 600,
+          "power": 43,
+          "powerLow": 60,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0068",
@@ -950,9 +1840,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_3_7.zwo",
       "duration_seconds": 3000,
       "duration_category": "45_60",
-      "tss": 34,
+      "tss": 52,
       "primary_zone": 2,
-      "avg_power": 42
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 1200,
+          "power": 63,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 1800,
+          "power": 63,
+          "powerLow": 75,
+          "powerHigh": 50,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0069",
@@ -964,9 +1870,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_1_7a.zwo",
       "duration_seconds": 3000,
       "duration_category": "45_60",
-      "tss": 34,
+      "tss": 51,
       "primary_zone": 2,
-      "avg_power": 41
+      "avg_power": 62,
+      "segments": [
+        {
+          "duration": 1200,
+          "power": 68,
+          "powerLow": 60,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 1800,
+          "power": 55,
+          "powerLow": 65,
+          "powerHigh": 45,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0070",
@@ -978,9 +1900,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_2_2.zwo",
       "duration_seconds": 3600,
       "duration_category": "45_60",
-      "tss": 70,
+      "tss": 62,
       "primary_zone": 2,
-      "avg_power": 71
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 63,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0071",
@@ -992,9 +1923,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_2_7a.zwo",
       "duration_seconds": 3300,
       "duration_category": "45_60",
-      "tss": 38,
+      "tss": 57,
       "primary_zone": 2,
-      "avg_power": 42
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 1200,
+          "power": 63,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 2100,
+          "power": 63,
+          "powerLow": 75,
+          "powerHigh": 50,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0072",
@@ -1008,7 +1955,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0073",
@@ -1022,7 +1978,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0074",
@@ -1036,7 +2001,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0075",
@@ -1048,9 +2022,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_2_4.zwo",
       "duration_seconds": 5700,
       "duration_category": "greater_90",
-      "tss": 101,
+      "tss": 89,
       "primary_zone": 2,
-      "avg_power": 64
+      "avg_power": 57,
+      "segments": [
+        {
+          "duration": 1800,
+          "power": 63,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 1860,
+          "power": 50,
+          "powerLow": 60,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0076",
@@ -1062,9 +2052,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/6wk_Olympic_Tri_Prep_Program/tri_2_6a.zwo",
       "duration_seconds": 6000,
       "duration_category": "greater_90",
-      "tss": 125,
+      "tss": 0,
       "primary_zone": 3,
-      "avg_power": 75
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 6000,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0077",
@@ -1076,9 +2075,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_10_1.xml",
       "duration_seconds": 900,
       "duration_category": "less_30",
-      "tss": 9,
+      "tss": 14,
       "primary_zone": 2,
-      "avg_power": 38
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0078",
@@ -1090,9 +2105,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_6_1.xml",
       "duration_seconds": 1020,
       "duration_category": "less_30",
-      "tss": 10,
+      "tss": 15,
       "primary_zone": 1,
-      "avg_power": 36
+      "avg_power": 54,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 420,
+          "power": 50,
+          "powerLow": 55,
+          "powerHigh": 45,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0079",
@@ -1104,9 +2135,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_5_3.xml",
       "duration_seconds": 600,
       "duration_category": "less_30",
-      "tss": 6,
+      "tss": 9,
       "primary_zone": 2,
-      "avg_power": 38
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0080",
@@ -1120,7 +2167,16 @@
       "duration_category": "30_45",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2700,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0081",
@@ -1132,9 +2188,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_7_4.xml",
       "duration_seconds": 1500,
       "duration_category": "less_30",
-      "tss": 22,
+      "tss": 27,
       "primary_zone": 2,
-      "avg_power": 53
+      "avg_power": 66,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 75,
+          "powerLow": 50,
+          "powerHigh": 100,
+          "type": "Ramp"
+        }
+      ]
     },
     {
       "id": "workout_0082",
@@ -1146,9 +2218,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_7_1.xml",
       "duration_seconds": 600,
       "duration_category": "less_30",
-      "tss": 4,
+      "tss": 9,
       "primary_zone": 2,
-      "avg_power": 29
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0083",
@@ -1160,9 +2241,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_11_2.xml",
       "duration_seconds": 2880,
       "duration_category": "45_60",
-      "tss": 38,
+      "tss": 50,
       "primary_zone": 2,
-      "avg_power": 49
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 75,
+          "powerLow": 50,
+          "powerHigh": 100,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0084",
@@ -1174,9 +2278,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_6_4.xml",
       "duration_seconds": 4200,
       "duration_category": "60_90",
-      "tss": 72,
+      "tss": 73,
       "primary_zone": 2,
-      "avg_power": 62
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 75,
+          "powerLow": 50,
+          "powerHigh": 100,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0085",
@@ -1190,7 +2317,23 @@
       "duration_category": "45_60",
       "tss": 57,
       "primary_zone": 2,
-      "avg_power": 58
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0086",
@@ -1202,9 +2345,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_9_3.xml",
       "duration_seconds": 900,
       "duration_category": "less_30",
-      "tss": 9,
+      "tss": 14,
       "primary_zone": 2,
-      "avg_power": 38
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0087",
@@ -1216,9 +2375,67 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_1_4.xml",
       "duration_seconds": 2400,
       "duration_category": "30_45",
-      "tss": 40,
+      "tss": 45,
       "primary_zone": 2,
-      "avg_power": 61
+      "avg_power": 68,
+      "segments": [
+        {
+          "duration": 720,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 180,
+          "power": 78,
+          "powerLow": 75,
+          "powerHigh": 80,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 88,
+          "powerLow": 85,
+          "powerHigh": 90,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 88,
+          "powerLow": 85,
+          "powerHigh": 90,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 78,
+          "powerLow": 75,
+          "powerHigh": 80,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0088",
@@ -1230,9 +2447,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_6_3.xml",
       "duration_seconds": 1320,
       "duration_category": "less_30",
-      "tss": 12,
-      "primary_zone": 1,
-      "avg_power": 33
+      "tss": 21,
+      "primary_zone": 2,
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 360,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 360,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0089",
@@ -1246,7 +2479,23 @@
       "duration_category": "30_45",
       "tss": 43,
       "primary_zone": 2,
-      "avg_power": 58
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0090",
@@ -1258,9 +2507,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_7_3.xml",
       "duration_seconds": 4200,
       "duration_category": "60_90",
-      "tss": 75,
+      "tss": 67,
       "primary_zone": 2,
-      "avg_power": 64
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0091",
@@ -1272,9 +2537,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_4_3.xml",
       "duration_seconds": 960,
       "duration_category": "less_30",
-      "tss": 10,
+      "tss": 15,
       "primary_zone": 2,
-      "avg_power": 38
+      "avg_power": 56,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 360,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0092",
@@ -1286,9 +2567,88 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_2_4.xml",
       "duration_seconds": 2520,
       "duration_category": "30_45",
-      "tss": 44,
+      "tss": 48,
       "primary_zone": 2,
-      "avg_power": 64
+      "avg_power": 70,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 180,
+          "power": 78,
+          "powerLow": 75,
+          "powerHigh": 80,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 88,
+          "powerLow": 85,
+          "powerHigh": 90,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 88,
+          "powerLow": 85,
+          "powerHigh": 90,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 78,
+          "powerLow": 75,
+          "powerHigh": 80,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 78,
+          "powerLow": 75,
+          "powerHigh": 80,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 88,
+          "powerLow": 85,
+          "powerHigh": 90,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0093",
@@ -1302,7 +2662,107 @@
       "duration_category": "30_45",
       "tss": 43,
       "primary_zone": 2,
-      "avg_power": 62
+      "avg_power": 62,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 72,
+          "powerLow": 70,
+          "powerHigh": 75,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 72,
+          "powerLow": 70,
+          "powerHigh": 75,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 72,
+          "powerLow": 70,
+          "powerHigh": 75,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 72,
+          "powerLow": 70,
+          "powerHigh": 75,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 72,
+          "powerLow": 70,
+          "powerHigh": 75,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 72,
+          "powerLow": 70,
+          "powerHigh": 75,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 72,
+          "powerLow": 70,
+          "powerHigh": 75,
+          "type": "SteadyState"
+        }
+      ]
     },
     {
       "id": "workout_0094",
@@ -1314,9 +2774,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_3_1.xml",
       "duration_seconds": 780,
       "duration_category": "less_30",
-      "tss": 7,
+      "tss": 11,
       "primary_zone": 2,
-      "avg_power": 37
+      "avg_power": 55,
+      "segments": [
+        {
+          "duration": 480,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0095",
@@ -1330,7 +2806,16 @@
       "duration_category": "45_60",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 3600,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0096",
@@ -1342,9 +2827,109 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_4_4.xml",
       "duration_seconds": 3240,
       "duration_category": "45_60",
-      "tss": 64,
-      "primary_zone": 2,
-      "avg_power": 71
+      "tss": 68,
+      "primary_zone": 3,
+      "avg_power": 76,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 60,
+          "power": 62,
+          "powerLow": 60,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 68,
+          "powerLow": 65,
+          "powerHigh": 70,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 72,
+          "powerLow": 70,
+          "powerHigh": 75,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 80,
+          "powerLow": 75,
+          "powerHigh": 85,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 90,
+          "powerLow": 85,
+          "powerHigh": 95,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 102,
+          "powerLow": 95,
+          "powerHigh": 110,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 62,
+          "powerLow": 60,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 68,
+          "powerLow": 65,
+          "powerHigh": 70,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 72,
+          "powerLow": 70,
+          "powerHigh": 75,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 80,
+          "powerLow": 75,
+          "powerHigh": 85,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 90,
+          "powerLow": 85,
+          "powerHigh": 95,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 102,
+          "powerLow": 95,
+          "powerHigh": 110,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0097",
@@ -1356,9 +2941,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_11_4.xml",
       "duration_seconds": 2820,
       "duration_category": "45_60",
-      "tss": 44,
-      "primary_zone": 2,
-      "avg_power": 57
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2820,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0098",
@@ -1372,7 +2966,16 @@
       "duration_category": "30_45",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2700,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0099",
@@ -1384,9 +2987,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_11_5.xml",
       "duration_seconds": 2760,
       "duration_category": "45_60",
-      "tss": 37,
+      "tss": 48,
       "primary_zone": 2,
-      "avg_power": 49
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 75,
+          "powerLow": 50,
+          "powerHigh": 100,
+          "type": "Warmup"
+        },
+        {
+          "duration": 180,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0100",
@@ -1398,9 +3024,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_5_2.xml",
       "duration_seconds": 2040,
       "duration_category": "30_45",
-      "tss": 30,
+      "tss": 32,
       "primary_zone": 2,
-      "avg_power": 53
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0101",
@@ -1412,9 +3054,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_1_3.xml",
       "duration_seconds": 1500,
       "duration_category": "less_30",
-      "tss": 15,
+      "tss": 23,
       "primary_zone": 2,
-      "avg_power": 38
+      "avg_power": 56,
+      "segments": [
+        {
+          "duration": 900,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0102",
@@ -1426,9 +3084,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_11_3.xml",
       "duration_seconds": 600,
       "duration_category": "less_30",
-      "tss": 4,
+      "tss": 9,
       "primary_zone": 2,
-      "avg_power": 29
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0103",
@@ -1440,9 +3107,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_12_3.xml",
       "duration_seconds": 720,
       "duration_category": "less_30",
-      "tss": 7,
+      "tss": 11,
       "primary_zone": 2,
-      "avg_power": 38
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 360,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 360,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0104",
@@ -1454,9 +3137,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_7_2.xml",
       "duration_seconds": 2040,
       "duration_category": "30_45",
-      "tss": 31,
+      "tss": 32,
       "primary_zone": 2,
-      "avg_power": 55
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0105",
@@ -1468,9 +3167,67 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_3_2.xml",
       "duration_seconds": 3170,
       "duration_category": "45_60",
-      "tss": 39,
+      "tss": 54,
       "primary_zone": 2,
-      "avg_power": 45
+      "avg_power": 62,
+      "segments": [
+        {
+          "duration": 360,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 240,
+          "power": 72,
+          "powerLow": 70,
+          "powerHigh": 75,
+          "type": "Ramp"
+        },
+        {
+          "duration": 180,
+          "power": 88,
+          "powerLow": 85,
+          "powerHigh": 90,
+          "type": "Ramp"
+        },
+        {
+          "duration": 290,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 70,
+          "powerLow": 65,
+          "powerHigh": 75,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0106",
@@ -1482,9 +3239,116 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_3_4.xml",
       "duration_seconds": 3900,
       "duration_category": "60_90",
-      "tss": 72,
+      "tss": 77,
       "primary_zone": 2,
-      "avg_power": 67
+      "avg_power": 72,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 600,
+          "power": 70,
+          "powerLow": 65,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 120,
+          "power": 88,
+          "powerLow": 87,
+          "powerHigh": 90,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 360,
+          "power": 82,
+          "powerLow": 75,
+          "powerHigh": 90,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 88,
+          "powerLow": 87,
+          "powerHigh": 90,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 360,
+          "power": 82,
+          "powerLow": 75,
+          "powerHigh": 90,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 88,
+          "powerLow": 87,
+          "powerHigh": 90,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 360,
+          "power": 82,
+          "powerLow": 75,
+          "powerHigh": 90,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 88,
+          "powerLow": 87,
+          "powerHigh": 90,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 360,
+          "power": 82,
+          "powerLow": 75,
+          "powerHigh": 90,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0107",
@@ -1496,9 +3360,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_8_1.xml",
       "duration_seconds": 1200,
       "duration_category": "less_30",
-      "tss": 12,
+      "tss": 19,
       "primary_zone": 2,
-      "avg_power": 38
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0108",
@@ -1510,9 +3390,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_9_2.xml",
       "duration_seconds": 2760,
       "duration_category": "45_60",
-      "tss": 45,
+      "tss": 48,
       "primary_zone": 2,
-      "avg_power": 60
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 60,
+          "power": 75,
+          "powerLow": 50,
+          "powerHigh": 100,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0109",
@@ -1524,9 +3427,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_5_4.xml",
       "duration_seconds": 5400,
       "duration_category": "60_90",
-      "tss": 106,
+      "tss": 86,
       "primary_zone": 2,
-      "avg_power": 71
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0110",
@@ -1538,9 +3457,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_4_1.xml",
       "duration_seconds": 1320,
       "duration_category": "less_30",
-      "tss": 13,
+      "tss": 20,
       "primary_zone": 2,
-      "avg_power": 37
+      "avg_power": 55,
+      "segments": [
+        {
+          "duration": 720,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 600,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0111",
@@ -1552,9 +3487,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_12_4.xml",
       "duration_seconds": 2400,
       "duration_category": "30_45",
-      "tss": 35,
+      "tss": 42,
       "primary_zone": 2,
-      "avg_power": 53
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 75,
+          "powerLow": 50,
+          "powerHigh": 100,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0112",
@@ -1566,9 +3524,53 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_4_2.xml",
       "duration_seconds": 2040,
       "duration_category": "30_45",
-      "tss": 32,
+      "tss": 37,
       "primary_zone": 2,
-      "avg_power": 57
+      "avg_power": 67,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 88,
+          "powerLow": 80,
+          "powerHigh": 95,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 88,
+          "powerLow": 80,
+          "powerHigh": 95,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Ramp"
+        },
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0113",
@@ -1580,9 +3582,39 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_1_2.xml",
       "duration_seconds": 2280,
       "duration_category": "30_45",
-      "tss": 25,
+      "tss": 38,
       "primary_zone": 2,
-      "avg_power": 40
+      "avg_power": 61,
+      "segments": [
+        {
+          "duration": 780,
+          "power": 70,
+          "powerLow": 50,
+          "powerHigh": 90,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 62,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0114",
@@ -1594,9 +3626,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_11_1.xml",
       "duration_seconds": 900,
       "duration_category": "less_30",
-      "tss": 9,
+      "tss": 14,
       "primary_zone": 2,
-      "avg_power": 38
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0115",
@@ -1608,9 +3656,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_5_1.xml",
       "duration_seconds": 900,
       "duration_category": "less_30",
-      "tss": 8,
+      "tss": 13,
       "primary_zone": 1,
-      "avg_power": 36
+      "avg_power": 54,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 55,
+          "powerHigh": 45,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0116",
@@ -1624,7 +3688,16 @@
       "duration_category": "60_90",
       "tss": 58,
       "primary_zone": 2,
-      "avg_power": 58
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0117",
@@ -1636,9 +3709,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_8_2.xml",
       "duration_seconds": 2520,
       "duration_category": "30_45",
-      "tss": 29,
+      "tss": 40,
       "primary_zone": 2,
-      "avg_power": 43
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0118",
@@ -1650,9 +3732,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_8_4.xml",
       "duration_seconds": 2100,
       "duration_category": "30_45",
-      "tss": 30,
+      "tss": 38,
       "primary_zone": 2,
-      "avg_power": 53
+      "avg_power": 66,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 75,
+          "powerLow": 50,
+          "powerHigh": 100,
+          "type": "Ramp"
+        }
+      ]
     },
     {
       "id": "workout_0119",
@@ -1664,9 +3762,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_8_3.xml",
       "duration_seconds": 720,
       "duration_category": "less_30",
-      "tss": 7,
+      "tss": 11,
       "primary_zone": 2,
-      "avg_power": 38
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 360,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 360,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0120",
@@ -1678,9 +3792,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_10_4.xml",
       "duration_seconds": 3000,
       "duration_category": "45_60",
-      "tss": 44,
+      "tss": 52,
       "primary_zone": 2,
-      "avg_power": 53
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 75,
+          "powerLow": 50,
+          "powerHigh": 100,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0121",
@@ -1692,9 +3829,53 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_6_2.xml",
       "duration_seconds": 2040,
       "duration_category": "30_45",
-      "tss": 32,
+      "tss": 37,
       "primary_zone": 2,
-      "avg_power": 58
+      "avg_power": 67,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 88,
+          "powerLow": 80,
+          "powerHigh": 95,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 88,
+          "powerLow": 80,
+          "powerHigh": 95,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0122",
@@ -1706,9 +3887,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_2_3.xml",
       "duration_seconds": 1020,
       "duration_category": "less_30",
-      "tss": 10,
+      "tss": 15,
       "primary_zone": 2,
-      "avg_power": 38
+      "avg_power": 56,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 420,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0123",
@@ -1720,9 +3917,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_1_1.xml",
       "duration_seconds": 1200,
       "duration_category": "less_30",
-      "tss": 12,
+      "tss": 18,
       "primary_zone": 2,
-      "avg_power": 37
+      "avg_power": 55,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 600,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0124",
@@ -1734,9 +3947,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_3_3.xml",
       "duration_seconds": 960,
       "duration_category": "less_30",
-      "tss": 10,
+      "tss": 15,
       "primary_zone": 2,
-      "avg_power": 38
+      "avg_power": 56,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 360,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0125",
@@ -1748,9 +3977,67 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_2_2.xml",
       "duration_seconds": 2580,
       "duration_category": "30_45",
-      "tss": 42,
+      "tss": 52,
       "primary_zone": 2,
-      "avg_power": 59
+      "avg_power": 74,
+      "segments": [
+        {
+          "duration": 360,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 240,
+          "power": 72,
+          "powerLow": 70,
+          "powerHigh": 75,
+          "type": "Ramp"
+        },
+        {
+          "duration": 180,
+          "power": 88,
+          "powerLow": 85,
+          "powerHigh": 90,
+          "type": "Ramp"
+        },
+        {
+          "duration": 290,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "Ramp"
+        },
+        {
+          "duration": 10,
+          "power": 135,
+          "powerLow": 130,
+          "powerHigh": 140,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 52,
+          "powerLow": 50,
+          "powerHigh": 55,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 62,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 70,
+          "powerLow": 65,
+          "powerHigh": 75,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0126",
@@ -1762,9 +4049,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_10_3.xml",
       "duration_seconds": 900,
       "duration_category": "less_30",
-      "tss": 9,
+      "tss": 14,
       "primary_zone": 2,
-      "avg_power": 38
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0127",
@@ -1776,9 +4079,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_10_2.xml",
       "duration_seconds": 2760,
       "duration_category": "45_60",
-      "tss": 40,
+      "tss": 48,
       "primary_zone": 2,
-      "avg_power": 53
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 60,
+          "power": 75,
+          "powerLow": 50,
+          "powerHigh": 100,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0128",
@@ -1792,7 +4118,16 @@
       "duration_category": "45_60",
       "tss": 51,
       "primary_zone": 2,
-      "avg_power": 58
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 720,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0129",
@@ -1804,9 +4139,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_2_1.xml",
       "duration_seconds": 900,
       "duration_category": "less_30",
-      "tss": 9,
+      "tss": 13,
       "primary_zone": 2,
-      "avg_power": 37
+      "avg_power": 55,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 45,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0130",
@@ -1818,9 +4169,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_12_2.xml",
       "duration_seconds": 3000,
       "duration_category": "45_60",
-      "tss": 40,
+      "tss": 47,
       "primary_zone": 2,
-      "avg_power": 49
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0131",
@@ -1832,9 +4199,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_12_1.xml",
       "duration_seconds": 1200,
       "duration_category": "less_30",
-      "tss": 12,
+      "tss": 19,
       "primary_zone": 2,
-      "avg_power": 38
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0132",
@@ -1846,9 +4229,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_9_4.xml",
       "duration_seconds": 2400,
       "duration_category": "30_45",
-      "tss": 40,
+      "tss": 42,
       "primary_zone": 2,
-      "avg_power": 61
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 75,
+          "powerLow": 50,
+          "powerHigh": 100,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0133",
@@ -1860,9 +4266,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/10-12Wk_FTP_Builder/pinotti_ftp_builder_9_1.xml",
       "duration_seconds": 900,
       "duration_category": "less_30",
-      "tss": 9,
+      "tss": 14,
       "primary_zone": 2,
-      "avg_power": 38
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 58,
+          "powerLow": 50,
+          "powerHigh": 65,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0134",
@@ -1876,7 +4298,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0135",
@@ -1890,7 +4321,30 @@
       "duration_category": "60_90",
       "tss": 87,
       "primary_zone": 2,
-      "avg_power": 58
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 3900,
+          "power": 75,
+          "powerLow": 75,
+          "powerHigh": 75,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0136",
@@ -1904,7 +4358,16 @@
       "duration_category": "greater_90",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 9600,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0137",
@@ -1916,9 +4379,53 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_8_7.zwo",
       "duration_seconds": 7020,
       "duration_category": "greater_90",
-      "tss": 97,
+      "tss": 130,
       "primary_zone": 2,
-      "avg_power": 50
+      "avg_power": 67,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 900,
+          "power": 84,
+          "powerLow": 84,
+          "powerHigh": 84,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 900,
+          "power": 86,
+          "powerLow": 86,
+          "powerHigh": 86,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 3600,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 720,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0138",
@@ -1932,7 +4439,16 @@
       "duration_category": "60_90",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 5400,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0139",
@@ -1946,7 +4462,79 @@
       "duration_category": "greater_90",
       "tss": 196,
       "primary_zone": 2,
-      "avg_power": 66
+      "avg_power": 66,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 360,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 1800,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 1200,
+          "power": 100,
+          "powerLow": 100,
+          "powerHigh": 100,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 1800,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 1200,
+          "power": 100,
+          "powerLow": 100,
+          "powerHigh": 100,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 1800,
+          "power": 77,
+          "powerLow": 77,
+          "powerHigh": 77,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 840,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0140",
@@ -1960,7 +4548,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0141",
@@ -1972,9 +4569,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_11_6.zwo",
       "duration_seconds": 1200,
       "duration_category": "less_30",
-      "tss": 11,
+      "tss": 16,
       "primary_zone": 1,
-      "avg_power": 34
+      "avg_power": 50,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0142",
@@ -1988,7 +4601,16 @@
       "duration_category": "greater_90",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 6900,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0143",
@@ -2000,9 +4622,81 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_1_3.zwo",
       "duration_seconds": 6000,
       "duration_category": "greater_90",
-      "tss": 19,
+      "tss": 66,
       "primary_zone": 1,
-      "avg_power": 12
+      "avg_power": 40,
+      "segments": [
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        }
+      ]
     },
     {
       "id": "workout_0144",
@@ -2016,7 +4710,16 @@
       "duration_category": "greater_90",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 6600,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0145",
@@ -2028,9 +4731,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_10_3.zwo",
       "duration_seconds": 1800,
       "duration_category": "30_45",
-      "tss": 16,
+      "tss": 25,
       "primary_zone": 1,
-      "avg_power": 34
+      "avg_power": 50,
+      "segments": [
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0146",
@@ -2044,7 +4763,16 @@
       "duration_category": "45_60",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2760,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0147",
@@ -2058,7 +4786,30 @@
       "duration_category": "greater_90",
       "tss": 117,
       "primary_zone": 2,
-      "avg_power": 59
+      "avg_power": 59,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 6000,
+          "power": 75,
+          "powerLow": 75,
+          "powerHigh": 75,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0148",
@@ -2070,9 +4821,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_9_2.zwo",
       "duration_seconds": 1200,
       "duration_category": "less_30",
-      "tss": 10,
+      "tss": 15,
       "primary_zone": 1,
-      "avg_power": 32
+      "avg_power": 48,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 600,
+          "power": 45,
+          "powerLow": 65,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0149",
@@ -2086,7 +4853,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0150",
@@ -2100,7 +4876,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0151",
@@ -2114,7 +4899,16 @@
       "duration_category": "greater_90",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 10800,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0152",
@@ -2126,9 +4920,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_6_3.zwo",
       "duration_seconds": 1560,
       "duration_category": "less_30",
-      "tss": 9,
+      "tss": 21,
       "primary_zone": 1,
-      "avg_power": 21
+      "avg_power": 50,
+      "segments": [
+        {
+          "duration": 900,
+          "power": 62,
+          "powerLow": 25,
+          "powerHigh": 100,
+          "type": "Warmup"
+        },
+        {
+          "duration": 60,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 38,
+          "powerLow": 51,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0153",
@@ -2142,7 +4959,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0154",
@@ -2156,7 +4982,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0155",
@@ -2170,7 +5005,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0156",
@@ -2182,9 +5026,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_6_6.zwo",
       "duration_seconds": 11160,
       "duration_category": "greater_90",
-      "tss": 116,
+      "tss": 155,
       "primary_zone": 1,
-      "avg_power": 38
+      "avg_power": 50,
+      "segments": [
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 360,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0157",
@@ -2198,7 +5065,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0158",
@@ -2210,9 +5086,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_11_2.zwo",
       "duration_seconds": 1200,
       "duration_category": "less_30",
-      "tss": 10,
+      "tss": 15,
       "primary_zone": 1,
-      "avg_power": 32
+      "avg_power": 48,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 600,
+          "power": 45,
+          "powerLow": 65,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0159",
@@ -2226,7 +5118,30 @@
       "duration_category": "greater_90",
       "tss": 93,
       "primary_zone": 2,
-      "avg_power": 59
+      "avg_power": 59,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 4500,
+          "power": 75,
+          "powerLow": 75,
+          "powerHigh": 75,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0160",
@@ -2240,7 +5155,16 @@
       "duration_category": "45_60",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 3600,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0161",
@@ -2254,7 +5178,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0162",
@@ -2266,9 +5199,46 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_11_4.zwo",
       "duration_seconds": 2640,
       "duration_category": "30_45",
-      "tss": 24,
+      "tss": 43,
       "primary_zone": 2,
-      "avg_power": 33
+      "avg_power": 59,
+      "segments": [
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 840,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0163",
@@ -2282,7 +5252,16 @@
       "duration_category": "greater_90",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 10280,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0164",
@@ -2296,7 +5275,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0165",
@@ -2310,7 +5298,16 @@
       "duration_category": "greater_90",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 10800,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0166",
@@ -2324,7 +5321,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0167",
@@ -2338,7 +5344,51 @@
       "duration_category": "60_90",
       "tss": 98,
       "primary_zone": 2,
-      "avg_power": 74
+      "avg_power": 74,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 900,
+          "power": 85,
+          "powerLow": 75,
+          "powerHigh": 95,
+          "type": "Ramp"
+        },
+        {
+          "duration": 900,
+          "power": 85,
+          "powerLow": 75,
+          "powerHigh": 95,
+          "type": "Ramp"
+        },
+        {
+          "duration": 900,
+          "power": 85,
+          "powerLow": 75,
+          "powerHigh": 95,
+          "type": "Ramp"
+        },
+        {
+          "duration": 900,
+          "power": 85,
+          "powerLow": 75,
+          "powerHigh": 95,
+          "type": "Ramp"
+        },
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0168",
@@ -2350,9 +5400,53 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_12_7.zwo",
       "duration_seconds": 6984,
       "duration_category": "greater_90",
-      "tss": 96,
+      "tss": 128,
       "primary_zone": 2,
-      "avg_power": 50
+      "avg_power": 66,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 900,
+          "power": 88,
+          "powerLow": 88,
+          "powerHigh": 88,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 900,
+          "power": 81,
+          "powerLow": 81,
+          "powerHigh": 81,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 3600,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 684,
+          "power": 46,
+          "powerLow": 66,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0169",
@@ -2366,7 +5460,16 @@
       "duration_category": "greater_90",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 10580,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0170",
@@ -2378,9 +5481,53 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_3_3.zwo",
       "duration_seconds": 1920,
       "duration_category": "30_45",
-      "tss": 16,
+      "tss": 24,
       "primary_zone": 1,
-      "avg_power": 31
+      "avg_power": 46,
+      "segments": [
+        {
+          "duration": 420,
+          "power": 75,
+          "powerLow": 50,
+          "powerHigh": 100,
+          "type": "Warmup"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        }
+      ]
     },
     {
       "id": "workout_0171",
@@ -2394,7 +5541,30 @@
       "duration_category": "greater_90",
       "tss": 79,
       "primary_zone": 1,
-      "avg_power": 50
+      "avg_power": 50,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 42,
+          "powerLow": 25,
+          "powerHigh": 59,
+          "type": "Warmup"
+        },
+        {
+          "duration": 4500,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 43,
+          "powerLow": 60,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0172",
@@ -2408,7 +5578,16 @@
       "duration_category": "30_45",
       "tss": 37,
       "primary_zone": 1,
-      "avg_power": 50
+      "avg_power": 50,
+      "segments": [
+        {
+          "duration": 2700,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        }
+      ]
     },
     {
       "id": "workout_0173",
@@ -2420,9 +5599,46 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_8_6.zwo",
       "duration_seconds": 4200,
       "duration_category": "60_90",
-      "tss": 65,
+      "tss": 78,
       "primary_zone": 2,
-      "avg_power": 56
+      "avg_power": 67,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 53,
+          "powerLow": 25,
+          "powerHigh": 80,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 105,
+          "powerLow": 105,
+          "powerHigh": 105,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 900,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 45,
+          "powerLow": 65,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0174",
@@ -2436,7 +5652,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0175",
@@ -2450,7 +5675,30 @@
       "duration_category": "greater_90",
       "tss": 109,
       "primary_zone": 1,
-      "avg_power": 55
+      "avg_power": 55,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 48,
+          "powerLow": 25,
+          "powerHigh": 70,
+          "type": "Warmup"
+        },
+        {
+          "duration": 6000,
+          "power": 70,
+          "powerLow": 70,
+          "powerHigh": 70,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 46,
+          "powerLow": 67,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0176",
@@ -2464,7 +5712,30 @@
       "duration_category": "greater_90",
       "tss": 144,
       "primary_zone": 2,
-      "avg_power": 58
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 7200,
+          "power": 72,
+          "powerLow": 72,
+          "powerHigh": 72,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0177",
@@ -2478,7 +5749,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0178",
@@ -2492,7 +5772,16 @@
       "duration_category": "30_45",
       "tss": 37,
       "primary_zone": 1,
-      "avg_power": 50
+      "avg_power": 50,
+      "segments": [
+        {
+          "duration": 2700,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        }
+      ]
     },
     {
       "id": "workout_0179",
@@ -2504,9 +5793,60 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_10_7.zwo",
       "duration_seconds": 6984,
       "duration_category": "greater_90",
-      "tss": 107,
+      "tss": 138,
       "primary_zone": 2,
-      "avg_power": 55
+      "avg_power": 71,
+      "segments": [
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 900,
+          "power": 92,
+          "powerLow": 92,
+          "powerHigh": 92,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 900,
+          "power": 92,
+          "powerLow": 92,
+          "powerHigh": 92,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 2784,
+          "power": 81,
+          "powerLow": 81,
+          "powerHigh": 81,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0180",
@@ -2520,7 +5860,16 @@
       "duration_category": "30_45",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2100,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0181",
@@ -2532,9 +5881,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_1_5.zwo",
       "duration_seconds": 8400,
       "duration_category": "greater_90",
-      "tss": 48,
+      "tss": 145,
       "primary_zone": 2,
-      "avg_power": 21
+      "avg_power": 62,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 62,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0182",
@@ -2546,9 +5904,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_7_3.zwo",
       "duration_seconds": 2100,
       "duration_category": "30_45",
-      "tss": 10,
+      "tss": 27,
       "primary_zone": 1,
-      "avg_power": 19
+      "avg_power": 47,
+      "segments": [
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 600,
+          "power": 43,
+          "powerLow": 61,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0183",
@@ -2562,7 +5936,16 @@
       "duration_category": "greater_90",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 10500,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0184",
@@ -2576,7 +5959,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0185",
@@ -2590,7 +5982,16 @@
       "duration_category": "greater_90",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 10880,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0186",
@@ -2604,7 +6005,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0187",
@@ -2618,7 +6028,16 @@
       "duration_category": "45_60",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 3600,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0188",
@@ -2632,7 +6051,16 @@
       "duration_category": "30_45",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1800,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0189",
@@ -2646,7 +6074,16 @@
       "duration_category": "30_45",
       "tss": 37,
       "primary_zone": 1,
-      "avg_power": 50
+      "avg_power": 50,
+      "segments": [
+        {
+          "duration": 2700,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        }
+      ]
     },
     {
       "id": "workout_0190",
@@ -2658,9 +6095,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_9_4.zwo",
       "duration_seconds": 1500,
       "duration_category": "less_30",
-      "tss": 13,
+      "tss": 19,
       "primary_zone": 1,
-      "avg_power": 32
+      "avg_power": 48,
+      "segments": [
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 600,
+          "power": 45,
+          "powerLow": 65,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0191",
@@ -2674,7 +6127,16 @@
       "duration_category": "60_90",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 5400,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0192",
@@ -2686,9 +6148,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_10_6.zwo",
       "duration_seconds": 1800,
       "duration_category": "30_45",
-      "tss": 16,
+      "tss": 25,
       "primary_zone": 1,
-      "avg_power": 33
+      "avg_power": 50,
+      "segments": [
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0193",
@@ -2702,7 +6180,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0194",
@@ -2716,7 +6203,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0195",
@@ -2730,7 +6226,177 @@
       "duration_category": "45_60",
       "tss": 66,
       "primary_zone": 3,
-      "avg_power": 78
+      "avg_power": 78,
+      "segments": [
+        {
+          "duration": 420,
+          "power": 63,
+          "powerLow": 25,
+          "powerHigh": 100,
+          "type": "Warmup"
+        },
+        {
+          "duration": 60,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 90,
+          "power": 95,
+          "powerLow": 95,
+          "powerHigh": 95,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 90,
+          "power": 95,
+          "powerLow": 95,
+          "powerHigh": 95,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 90,
+          "power": 95,
+          "powerLow": 95,
+          "powerHigh": 95,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 109,
+          "powerLow": 109,
+          "powerHigh": 109,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 109,
+          "powerLow": 109,
+          "powerHigh": 109,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 109,
+          "powerLow": 109,
+          "powerHigh": 109,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 109,
+          "powerLow": 109,
+          "powerHigh": 109,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 180,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 30,
+          "power": 125,
+          "powerLow": 125,
+          "powerHigh": 125,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 30,
+          "power": 125,
+          "powerLow": 125,
+          "powerHigh": 125,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 30,
+          "power": 125,
+          "powerLow": 125,
+          "powerHigh": 125,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 30,
+          "power": 125,
+          "powerLow": 125,
+          "powerHigh": 125,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0196",
@@ -2742,9 +6408,39 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_7_5.zwo",
       "duration_seconds": 6900,
       "duration_category": "greater_90",
-      "tss": 95,
+      "tss": 119,
       "primary_zone": 2,
-      "avg_power": 50
+      "avg_power": 62,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 2700,
+          "power": 75,
+          "powerLow": 75,
+          "powerHigh": 75,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 2700,
+          "power": 75,
+          "powerLow": 75,
+          "powerHigh": 75,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0197",
@@ -2758,7 +6454,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0198",
@@ -2770,9 +6475,53 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_7_1.zwo",
       "duration_seconds": 2280,
       "duration_category": "30_45",
-      "tss": 35,
+      "tss": 41,
       "primary_zone": 2,
-      "avg_power": 56
+      "avg_power": 65,
+      "segments": [
+        {
+          "duration": 420,
+          "power": 57,
+          "powerLow": 25,
+          "powerHigh": 90,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 100,
+          "powerLow": 100,
+          "powerHigh": 100,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 60,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 95,
+          "powerLow": 95,
+          "powerHigh": 95,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 38,
+          "powerLow": 50,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0199",
@@ -2786,7 +6535,16 @@
       "duration_category": "60_90",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 5400,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0200",
@@ -2800,7 +6558,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0201",
@@ -2812,9 +6579,39 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_10_2.zwo",
       "duration_seconds": 2400,
       "duration_category": "30_45",
-      "tss": 19,
+      "tss": 38,
       "primary_zone": 2,
-      "avg_power": 29
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0202",
@@ -2828,7 +6625,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0203",
@@ -2840,9 +6646,46 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_12_6.zwo",
       "duration_seconds": 5400,
       "duration_category": "60_90",
-      "tss": 87,
+      "tss": 105,
       "primary_zone": 2,
-      "avg_power": 58
+      "avg_power": 70,
+      "segments": [
+        {
+          "duration": 1200,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 125,
+          "powerLow": 125,
+          "powerHigh": 125,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 900,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 1200,
+          "power": 65,
+          "powerLow": 65,
+          "powerHigh": 65,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 46,
+          "powerLow": 66,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0204",
@@ -2854,9 +6697,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_9_6.zwo",
       "duration_seconds": 5400,
       "duration_category": "60_90",
-      "tss": 63,
+      "tss": 85,
       "primary_zone": 2,
-      "avg_power": 43
+      "avg_power": 57,
+      "segments": [
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 3900,
+          "power": 70,
+          "powerLow": 70,
+          "powerHigh": 70,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0205",
@@ -2868,9 +6734,60 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_8_4.zwo",
       "duration_seconds": 2700,
       "duration_category": "30_45",
-      "tss": 21,
+      "tss": 36,
       "primary_zone": 1,
-      "avg_power": 28
+      "avg_power": 48,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 42,
+          "powerLow": 24,
+          "powerHigh": 60,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 600,
+          "power": 43,
+          "powerLow": 60,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0206",
@@ -2884,7 +6801,16 @@
       "duration_category": "45_60",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 3600,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0207",
@@ -2898,7 +6824,30 @@
       "duration_category": "60_90",
       "tss": 72,
       "primary_zone": 2,
-      "avg_power": 58
+      "avg_power": 58,
+      "segments": [
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 25,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 2700,
+          "power": 74,
+          "powerLow": 74,
+          "powerHigh": 74,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 900,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0208",
@@ -2912,7 +6861,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0209",
@@ -2924,9 +6882,81 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Active Offseason/TP_adv_Winter_5_1.zwo",
       "duration_seconds": 6300,
       "duration_category": "greater_90",
-      "tss": 20,
+      "tss": 70,
       "primary_zone": 1,
-      "avg_power": 12
+      "avg_power": 40,
+      "segments": [
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        },
+        {
+          "duration": 120,
+          "power": 40,
+          "powerLow": 40,
+          "powerHigh": 40,
+          "type": "SteadyState"
+        }
+      ]
     },
     {
       "id": "workout_0210",
@@ -2940,7 +6970,16 @@
       "duration_category": "30_45",
       "tss": 37,
       "primary_zone": 1,
-      "avg_power": 50
+      "avg_power": 50,
+      "segments": [
+        {
+          "duration": 2700,
+          "power": 50,
+          "powerLow": 50,
+          "powerHigh": 50,
+          "type": "SteadyState"
+        }
+      ]
     },
     {
       "id": "workout_0211",
@@ -2954,7 +6993,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0212",
@@ -2968,7 +7016,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0213",
@@ -2982,7 +7039,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0214",
@@ -2996,7 +7062,16 @@
       "duration_category": "30_45",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2100,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0215",
@@ -3010,7 +7085,16 @@
       "duration_category": "30_45",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2700,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0216",
@@ -3024,7 +7108,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0217",
@@ -3038,7 +7131,16 @@
       "duration_category": "less_30",
       "tss": 0,
       "primary_zone": 3,
-      "avg_power": 0
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 0,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0218",
@@ -3050,9 +7152,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Rainbow.zwo",
       "duration_seconds": 2400,
       "duration_category": "30_45",
-      "tss": 45,
+      "tss": 42,
       "primary_zone": 2,
-      "avg_power": 69
+      "avg_power": 64,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 72,
+          "powerLow": 40,
+          "powerHigh": 105,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 70,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0219",
@@ -3064,9 +7182,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Minute_On_Minute_Off.zwo",
       "duration_seconds": 960,
       "duration_category": "less_30",
-      "tss": 3,
+      "tss": 18,
       "primary_zone": 2,
-      "avg_power": 14
+      "avg_power": 70,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 70,
+          "powerLow": 50,
+          "powerHigh": 90,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0220",
@@ -3078,9 +7205,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Microbursts_102030.zwo",
       "duration_seconds": 1200,
       "duration_category": "less_30",
-      "tss": 16,
-      "primary_zone": 2,
-      "avg_power": 50
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1200,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0221",
@@ -3092,9 +7228,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Strength_Endurance_Sweet_Spot.zwo",
       "duration_seconds": 900,
       "duration_category": "less_30",
-      "tss": 4,
-      "primary_zone": 2,
-      "avg_power": 19
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 900,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0222",
@@ -3106,9 +7251,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Slow_Motion.zwo",
       "duration_seconds": 1980,
       "duration_category": "30_45",
-      "tss": 36,
+      "tss": 35,
       "primary_zone": 2,
-      "avg_power": 67
+      "avg_power": 64,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 72,
+          "powerLow": 40,
+          "powerHigh": 105,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 70,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0223",
@@ -3120,9 +7281,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Strength_Power.zwo",
       "duration_seconds": 2520,
       "duration_category": "30_45",
-      "tss": 61,
-      "primary_zone": 4,
-      "avg_power": 88
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2520,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0224",
@@ -3134,9 +7304,81 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Touch_of_Egypt.zwo",
       "duration_seconds": 2460,
       "duration_category": "30_45",
-      "tss": 47,
-      "primary_zone": 2,
-      "avg_power": 69
+      "tss": 52,
+      "primary_zone": 3,
+      "avg_power": 77,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 72,
+          "powerLow": 40,
+          "powerHigh": 105,
+          "type": "Warmup"
+        },
+        {
+          "duration": 150,
+          "power": 80,
+          "powerLow": 60,
+          "powerHigh": 100,
+          "type": "Ramp"
+        },
+        {
+          "duration": 150,
+          "power": 80,
+          "powerLow": 100,
+          "powerHigh": 60,
+          "type": "Ramp"
+        },
+        {
+          "duration": 150,
+          "power": 80,
+          "powerLow": 60,
+          "powerHigh": 100,
+          "type": "Ramp"
+        },
+        {
+          "duration": 150,
+          "power": 80,
+          "powerLow": 100,
+          "powerHigh": 60,
+          "type": "Ramp"
+        },
+        {
+          "duration": 150,
+          "power": 80,
+          "powerLow": 60,
+          "powerHigh": 100,
+          "type": "Ramp"
+        },
+        {
+          "duration": 150,
+          "power": 80,
+          "powerLow": 100,
+          "powerHigh": 60,
+          "type": "Ramp"
+        },
+        {
+          "duration": 150,
+          "power": 80,
+          "powerLow": 60,
+          "powerHigh": 100,
+          "type": "Ramp"
+        },
+        {
+          "duration": 150,
+          "power": 80,
+          "powerLow": 100,
+          "powerHigh": 60,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 70,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0225",
@@ -3148,9 +7390,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Microbursts_30s.zwo",
       "duration_seconds": 1200,
       "duration_category": "less_30",
-      "tss": 12,
+      "tss": 18,
       "primary_zone": 2,
-      "avg_power": 38
+      "avg_power": 55,
+      "segments": [
+        {
+          "duration": 600,
+          "power": 55,
+          "powerLow": 40,
+          "powerHigh": 70,
+          "type": "Warmup"
+        }
+      ]
     },
     {
       "id": "workout_0226",
@@ -3162,9 +7413,109 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Spice_of_Life.zwo",
       "duration_seconds": 2460,
       "duration_category": "30_45",
-      "tss": 51,
-      "primary_zone": 2,
-      "avg_power": 75
+      "tss": 54,
+      "primary_zone": 3,
+      "avg_power": 79,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 72,
+          "powerLow": 40,
+          "powerHigh": 105,
+          "type": "Warmup"
+        },
+        {
+          "duration": 120,
+          "power": 70,
+          "powerLow": 65,
+          "powerHigh": 75,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 80,
+          "powerLow": 75,
+          "powerHigh": 85,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 80,
+          "powerLow": 85,
+          "powerHigh": 75,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 80,
+          "powerLow": 75,
+          "powerHigh": 85,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 90,
+          "powerLow": 85,
+          "powerHigh": 95,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 90,
+          "powerLow": 95,
+          "powerHigh": 85,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 70,
+          "powerLow": 65,
+          "powerHigh": 75,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 80,
+          "powerLow": 75,
+          "powerHigh": 85,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 80,
+          "powerLow": 85,
+          "powerHigh": 75,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 80,
+          "powerLow": 75,
+          "powerHigh": 85,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 90,
+          "powerLow": 85,
+          "powerHigh": 95,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 90,
+          "powerLow": 95,
+          "powerHigh": 85,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 70,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0227",
@@ -3176,9 +7527,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Basics.zwo",
       "duration_seconds": 1860,
       "duration_category": "30_45",
-      "tss": 50,
-      "primary_zone": 4,
-      "avg_power": 99
+      "tss": 32,
+      "primary_zone": 2,
+      "avg_power": 64,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 72,
+          "powerLow": 40,
+          "powerHigh": 105,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 70,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0228",
@@ -3190,9 +7557,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/2040s.zwo",
       "duration_seconds": 1260,
       "duration_category": "less_30",
-      "tss": 11,
-      "primary_zone": 1,
-      "avg_power": 33
+      "tss": 22,
+      "primary_zone": 2,
+      "avg_power": 64,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 72,
+          "powerLow": 40,
+          "powerHigh": 105,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 70,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0229",
@@ -3204,9 +7587,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Fitness_Builder.zwo",
       "duration_seconds": 2160,
       "duration_category": "30_45",
-      "tss": 36,
-      "primary_zone": 3,
-      "avg_power": 61
+      "tss": 25,
+      "primary_zone": 1,
+      "avg_power": 42,
+      "segments": [
+        {
+          "duration": 270,
+          "power": 42,
+          "powerLow": 30,
+          "powerHigh": 55,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0230",
@@ -3218,9 +7610,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Over_Unders_4x_4min.zwo",
       "duration_seconds": 1230,
       "duration_category": "less_30",
-      "tss": 6,
-      "primary_zone": 2,
-      "avg_power": 20
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1230,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0231",
@@ -3232,9 +7633,53 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Strength_Builder.zwo",
       "duration_seconds": 2460,
       "duration_category": "30_45",
-      "tss": 43,
+      "tss": 49,
       "primary_zone": 2,
-      "avg_power": 64
+      "avg_power": 73,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 72,
+          "powerLow": 40,
+          "powerHigh": 105,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 78,
+          "powerLow": 70,
+          "powerHigh": 86,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 78,
+          "powerLow": 70,
+          "powerHigh": 85,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 78,
+          "powerLow": 70,
+          "powerHigh": 85,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 78,
+          "powerLow": 70,
+          "powerHigh": 85,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 70,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0232",
@@ -3246,9 +7691,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/To_The_Max.zwo",
       "duration_seconds": 1980,
       "duration_category": "30_45",
-      "tss": 20,
-      "primary_zone": 1,
-      "avg_power": 36
+      "tss": 35,
+      "primary_zone": 2,
+      "avg_power": 64,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 72,
+          "powerLow": 40,
+          "powerHigh": 105,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 70,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0233",
@@ -3260,9 +7721,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Over_Unders.zwo",
       "duration_seconds": 900,
       "duration_category": "less_30",
-      "tss": 9,
+      "tss": 15,
       "primary_zone": 2,
-      "avg_power": 38
+      "avg_power": 64,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 72,
+          "powerLow": 40,
+          "powerHigh": 105,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 70,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0234",
@@ -3274,9 +7751,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Power_Endurance.zwo",
       "duration_seconds": 1860,
       "duration_category": "30_45",
-      "tss": 33,
+      "tss": 0,
       "primary_zone": 3,
-      "avg_power": 65
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1860,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0235",
@@ -3288,9 +7774,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/No_Nonsense.zwo",
       "duration_seconds": 720,
       "duration_category": "less_30",
-      "tss": 8,
+      "tss": 12,
       "primary_zone": 2,
-      "avg_power": 44
+      "avg_power": 64,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 72,
+          "powerLow": 40,
+          "powerHigh": 105,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 70,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0236",
@@ -3302,9 +7804,46 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Up_and_Down.zwo",
       "duration_seconds": 2100,
       "duration_category": "30_45",
-      "tss": 39,
-      "primary_zone": 2,
-      "avg_power": 68
+      "tss": 46,
+      "primary_zone": 3,
+      "avg_power": 80,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 72,
+          "powerLow": 40,
+          "powerHigh": 105,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 90,
+          "powerLow": 70,
+          "powerHigh": 110,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 90,
+          "powerLow": 110,
+          "powerHigh": 70,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 90,
+          "powerLow": 70,
+          "powerHigh": 110,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 70,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0237",
@@ -3316,9 +7855,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Power_Climbing.zwo",
       "duration_seconds": 1680,
       "duration_category": "less_30",
-      "tss": 19,
+      "tss": 0,
       "primary_zone": 3,
-      "avg_power": 42
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1680,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0238",
@@ -3330,9 +7878,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Over_Unders_12_10.zwo",
       "duration_seconds": 1080,
       "duration_category": "less_30",
-      "tss": 7,
-      "primary_zone": 2,
-      "avg_power": 26
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1080,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0239",
@@ -3344,9 +7901,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/The_Beginning.zwo",
       "duration_seconds": 1260,
       "duration_category": "less_30",
-      "tss": 18,
+      "tss": 22,
       "primary_zone": 2,
-      "avg_power": 53
+      "avg_power": 64,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 72,
+          "powerLow": 40,
+          "powerHigh": 105,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 55,
+          "powerLow": 70,
+          "powerHigh": 40,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0240",
@@ -3358,9 +7931,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Its_all_about_the_Foundation.zwo",
       "duration_seconds": 945,
       "duration_category": "less_30",
-      "tss": 6,
-      "primary_zone": 2,
-      "avg_power": 26
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 945,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0241",
@@ -3372,9 +7954,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Back_To_Fitness/Strength_Endurance_REV_for_15_seconds.zwo",
       "duration_seconds": 2580,
       "duration_category": "30_45",
-      "tss": 53,
+      "tss": 0,
       "primary_zone": 3,
-      "avg_power": 75
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2580,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0242",
@@ -3386,9 +7977,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/13_ABC_Easy_as_1-2-3.zwo",
       "duration_seconds": 2400,
       "duration_category": "30_45",
-      "tss": 43,
-      "primary_zone": 2,
-      "avg_power": 65
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2400,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0243",
@@ -3400,9 +8000,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/17_Mom_Fever.zwo",
       "duration_seconds": 1830,
       "duration_category": "30_45",
-      "tss": 32,
-      "primary_zone": 2,
-      "avg_power": 64
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1830,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0244",
@@ -3414,9 +8023,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/15_Organized_Chaos.zwo",
       "duration_seconds": 1565,
       "duration_category": "less_30",
-      "tss": 26,
-      "primary_zone": 2,
-      "avg_power": 61
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1565,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0245",
@@ -3428,9 +8046,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/1_Big_Bear.zwo",
       "duration_seconds": 930,
       "duration_category": "less_30",
-      "tss": 6,
+      "tss": 12,
       "primary_zone": 1,
-      "avg_power": 27
+      "avg_power": 49,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 48,
+          "powerLow": 25,
+          "powerHigh": 70,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 65,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0246",
@@ -3442,9 +8076,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/16_Mom-ology.zwo",
       "duration_seconds": 900,
       "duration_category": "less_30",
-      "tss": 7,
-      "primary_zone": 1,
-      "avg_power": 30
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 900,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0247",
@@ -3456,9 +8099,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/2_Double_Trouble.zwo",
       "duration_seconds": 720,
       "duration_category": "less_30",
-      "tss": 5,
+      "tss": 9,
       "primary_zone": 1,
-      "avg_power": 29
+      "avg_power": 49,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 48,
+          "powerLow": 25,
+          "powerHigh": 70,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 65,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0248",
@@ -3470,9 +8129,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/9_Sleepless.zwo",
       "duration_seconds": 1800,
       "duration_category": "30_45",
-      "tss": 35,
-      "primary_zone": 2,
-      "avg_power": 71
+      "tss": 24,
+      "primary_zone": 1,
+      "avg_power": 49,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 48,
+          "powerLow": 25,
+          "powerHigh": 70,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 65,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0249",
@@ -3484,9 +8159,60 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/8_Five_Bumps.zwo",
       "duration_seconds": 1800,
       "duration_category": "30_45",
-      "tss": 32,
+      "tss": 37,
       "primary_zone": 2,
-      "avg_power": 65
+      "avg_power": 75,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 48,
+          "powerLow": 25,
+          "powerHigh": 70,
+          "type": "Warmup"
+        },
+        {
+          "duration": 120,
+          "power": 85,
+          "powerLow": 75,
+          "powerHigh": 95,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 85,
+          "powerLow": 75,
+          "powerHigh": 95,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 85,
+          "powerLow": 75,
+          "powerHigh": 95,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 86,
+          "powerLow": 76,
+          "powerHigh": 96,
+          "type": "Ramp"
+        },
+        {
+          "duration": 120,
+          "power": 85,
+          "powerLow": 75,
+          "powerHigh": 95,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 65,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0250",
@@ -3498,9 +8224,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/22_Manic_Moments.zwo",
       "duration_seconds": 650,
       "duration_category": "less_30",
-      "tss": 5,
-      "primary_zone": 1,
-      "avg_power": 28
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 650,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0251",
@@ -3512,9 +8247,53 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/12_Tantrum.zwo",
       "duration_seconds": 1800,
       "duration_category": "30_45",
-      "tss": 28,
+      "tss": 35,
       "primary_zone": 2,
-      "avg_power": 58
+      "avg_power": 70,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 48,
+          "powerLow": 25,
+          "powerHigh": 70,
+          "type": "Warmup"
+        },
+        {
+          "duration": 180,
+          "power": 80,
+          "powerLow": 70,
+          "powerHigh": 90,
+          "type": "Ramp"
+        },
+        {
+          "duration": 180,
+          "power": 80,
+          "powerLow": 70,
+          "powerHigh": 90,
+          "type": "Ramp"
+        },
+        {
+          "duration": 180,
+          "power": 80,
+          "powerLow": 70,
+          "powerHigh": 90,
+          "type": "Ramp"
+        },
+        {
+          "duration": 180,
+          "power": 80,
+          "powerLow": 70,
+          "powerHigh": 90,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 65,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0252",
@@ -3526,9 +8305,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/18_Peek-a-Boo.zwo",
       "duration_seconds": 1800,
       "duration_category": "30_45",
-      "tss": 40,
+      "tss": 0,
       "primary_zone": 3,
-      "avg_power": 82
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1800,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0253",
@@ -3540,9 +8328,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/11_Strength_Baby_.zwo",
       "duration_seconds": 600,
       "duration_category": "less_30",
-      "tss": 5,
+      "tss": 8,
       "primary_zone": 1,
-      "avg_power": 32
+      "avg_power": 49,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 48,
+          "powerLow": 25,
+          "powerHigh": 70,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 65,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0254",
@@ -3554,9 +8358,60 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/3_Five_Bumps_Down.zwo",
       "duration_seconds": 2400,
       "duration_category": "30_45",
-      "tss": 43,
-      "primary_zone": 2,
-      "avg_power": 65
+      "tss": 50,
+      "primary_zone": 3,
+      "avg_power": 75,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 48,
+          "powerLow": 25,
+          "powerHigh": 70,
+          "type": "Warmup"
+        },
+        {
+          "duration": 180,
+          "power": 85,
+          "powerLow": 95,
+          "powerHigh": 75,
+          "type": "Ramp"
+        },
+        {
+          "duration": 180,
+          "power": 85,
+          "powerLow": 95,
+          "powerHigh": 75,
+          "type": "Ramp"
+        },
+        {
+          "duration": 180,
+          "power": 86,
+          "powerLow": 96,
+          "powerHigh": 76,
+          "type": "Ramp"
+        },
+        {
+          "duration": 180,
+          "power": 85,
+          "powerLow": 95,
+          "powerHigh": 75,
+          "type": "Ramp"
+        },
+        {
+          "duration": 180,
+          "power": 85,
+          "powerLow": 95,
+          "powerHigh": 75,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 65,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0255",
@@ -3568,9 +8423,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/14_Earning_Your_Mom_Stripes.zwo",
       "duration_seconds": 2400,
       "duration_category": "30_45",
-      "tss": 46,
-      "primary_zone": 2,
-      "avg_power": 70
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 2400,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0256",
@@ -3582,9 +8446,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/7_Baby_Bear.zwo",
       "duration_seconds": 855,
       "duration_category": "less_30",
-      "tss": 6,
+      "tss": 11,
       "primary_zone": 1,
-      "avg_power": 29
+      "avg_power": 49,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 48,
+          "powerLow": 25,
+          "powerHigh": 70,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 65,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0257",
@@ -3596,9 +8476,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/23_Mothership.zwo",
       "duration_seconds": 1800,
       "duration_category": "30_45",
-      "tss": 32,
-      "primary_zone": 2,
-      "avg_power": 66
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1800,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0258",
@@ -3610,9 +8499,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/10_Stop_Start.zwo",
       "duration_seconds": 750,
       "duration_category": "less_30",
-      "tss": 5,
+      "tss": 10,
       "primary_zone": 1,
-      "avg_power": 29
+      "avg_power": 49,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 48,
+          "powerLow": 25,
+          "powerHigh": 70,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 65,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0259",
@@ -3624,9 +8529,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/21_Beep!_Beep!_Beep!.zwo",
       "duration_seconds": 1800,
       "duration_category": "30_45",
-      "tss": 32,
-      "primary_zone": 2,
-      "avg_power": 65
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 1800,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0260",
@@ -3638,9 +8552,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/24_A_Gentle_Reminder.zwo",
       "duration_seconds": 960,
       "duration_category": "less_30",
-      "tss": 8,
-      "primary_zone": 1,
-      "avg_power": 31
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 960,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0261",
@@ -3652,9 +8575,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/4_Start_Stop.zwo",
       "duration_seconds": 960,
       "duration_category": "less_30",
-      "tss": 7,
+      "tss": 13,
       "primary_zone": 1,
-      "avg_power": 27
+      "avg_power": 49,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 48,
+          "powerLow": 25,
+          "powerHigh": 70,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 65,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0262",
@@ -3666,9 +8605,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/20_Pushing_ALL_the_Buttons.zwo",
       "duration_seconds": 840,
       "duration_category": "less_30",
-      "tss": 4,
-      "primary_zone": 1,
-      "avg_power": 21
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 840,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0263",
@@ -3680,9 +8628,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/5_Wide_Awake.zwo",
       "duration_seconds": 2400,
       "duration_category": "30_45",
-      "tss": 46,
-      "primary_zone": 2,
-      "avg_power": 69
+      "tss": 32,
+      "primary_zone": 1,
+      "avg_power": 49,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 48,
+          "powerLow": 25,
+          "powerHigh": 70,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 65,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0264",
@@ -3694,9 +8658,18 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/19_Roller_Coaster.zwo",
       "duration_seconds": 960,
       "duration_category": "less_30",
-      "tss": 7,
-      "primary_zone": 1,
-      "avg_power": 30
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0,
+      "segments": [
+        {
+          "duration": 960,
+          "power": 0,
+          "powerLow": 0,
+          "powerHigh": 0,
+          "type": "Unknown"
+        }
+      ]
     },
     {
       "id": "workout_0265",
@@ -3708,9 +8681,46 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Baby_On_Board/6_The_Wriggler.zwo",
       "duration_seconds": 2400,
       "duration_category": "30_45",
-      "tss": 43,
+      "tss": 41,
       "primary_zone": 2,
-      "avg_power": 65
+      "avg_power": 63,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 48,
+          "powerLow": 25,
+          "powerHigh": 70,
+          "type": "Warmup"
+        },
+        {
+          "duration": 420,
+          "power": 70,
+          "powerLow": 80,
+          "powerHigh": 60,
+          "type": "Ramp"
+        },
+        {
+          "duration": 240,
+          "power": 72,
+          "powerLow": 60,
+          "powerHigh": 85,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 72,
+          "powerLow": 60,
+          "powerHigh": 85,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 65,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0266",
@@ -3722,9 +8732,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Athlete_Inspired/Georgia_Simmerling_Team_Pursuit.zwo",
       "duration_seconds": 1260,
       "duration_category": "less_30",
-      "tss": 20,
-      "primary_zone": 4,
-      "avg_power": 58
+      "tss": 19,
+      "primary_zone": 2,
+      "avg_power": 55,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 65,
+          "powerLow": 55,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0267",
@@ -3736,9 +8762,46 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Athlete_Inspired/Sarah_Storey_Individual_Pursuit.zwo",
       "duration_seconds": 2010,
       "duration_category": "30_45",
-      "tss": 29,
-      "primary_zone": 3,
-      "avg_power": 53
+      "tss": 54,
+      "primary_zone": 4,
+      "avg_power": 98,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 65,
+          "powerLow": 55,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 30,
+          "power": 126,
+          "powerLow": 150,
+          "powerHigh": 102,
+          "type": "Ramp"
+        },
+        {
+          "duration": 30,
+          "power": 126,
+          "powerLow": 150,
+          "powerHigh": 102,
+          "type": "Ramp"
+        },
+        {
+          "duration": 30,
+          "power": 126,
+          "powerLow": 150,
+          "powerHigh": 102,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0268",
@@ -3750,9 +8813,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Athlete_Inspired/Nino_Schurter_Punchy_Climbs.zwo",
       "duration_seconds": 1080,
       "duration_category": "less_30",
-      "tss": 10,
+      "tss": 16,
       "primary_zone": 2,
-      "avg_power": 34
+      "avg_power": 55,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 65,
+          "powerLow": 55,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0269",
@@ -3764,9 +8843,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Athlete_Inspired/Chris_Hoy_Keirin.zwo",
       "duration_seconds": 2185,
       "duration_category": "30_45",
-      "tss": 41,
-      "primary_zone": 3,
-      "avg_power": 68
+      "tss": 33,
+      "primary_zone": 2,
+      "avg_power": 55,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 65,
+          "powerLow": 55,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0270",
@@ -3778,9 +8873,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Athlete_Inspired/Mariana_Pajon.zwo",
       "duration_seconds": 1980,
       "duration_category": "30_45",
-      "tss": 37,
-      "primary_zone": 2,
-      "avg_power": 68
+      "tss": 29,
+      "primary_zone": 1,
+      "avg_power": 54,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 62,
+          "powerLow": 50,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0271",
@@ -3792,9 +8903,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Athlete_Inspired/AvdB_Road_Race.zwo",
       "duration_seconds": 2385,
       "duration_category": "30_45",
-      "tss": 64,
-      "primary_zone": 4,
-      "avg_power": 98
+      "tss": 38,
+      "primary_zone": 2,
+      "avg_power": 57,
+      "segments": [
+        {
+          "duration": 480,
+          "power": 65,
+          "powerLow": 50,
+          "powerHigh": 80,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 50,
+          "powerLow": 75,
+          "powerHigh": 25,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0272",
@@ -3806,9 +8933,25 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Athlete_Inspired/Nelson_Vails.zwo",
       "duration_seconds": 1950,
       "duration_category": "30_45",
-      "tss": 22,
+      "tss": 29,
       "primary_zone": 2,
-      "avg_power": 42
+      "avg_power": 55,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 65,
+          "powerLow": 55,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     },
     {
       "id": "workout_0273",
@@ -3820,9 +8963,32 @@
       "file": "zwift_workouts_all_collections_ordered_Nov20/Athlete_Inspired/Anna_Meares_Team_Sprint.zwo",
       "duration_seconds": 1755,
       "duration_category": "less_30",
-      "tss": 29,
-      "primary_zone": 4,
-      "avg_power": 61
+      "tss": 33,
+      "primary_zone": 2,
+      "avg_power": 69,
+      "segments": [
+        {
+          "duration": 300,
+          "power": 65,
+          "powerLow": 55,
+          "powerHigh": 75,
+          "type": "Warmup"
+        },
+        {
+          "duration": 180,
+          "power": 98,
+          "powerLow": 90,
+          "powerHigh": 105,
+          "type": "Ramp"
+        },
+        {
+          "duration": 300,
+          "power": 45,
+          "powerLow": 55,
+          "powerHigh": 35,
+          "type": "Cooldown"
+        }
+      ]
     }
   ]
 }
