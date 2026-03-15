@@ -1,0 +1,181 @@
+<workout_file>
+    <uniqueId>5d800f36-dfb8-47b9-a1e5-64dd672307b5</uniqueId>
+    <legacyIdHash>2250341091</legacyIdHash>
+    <author>Matt Lieto</author>
+    <categoryOverride>Daily Fit</categoryOverride>
+    <name>Marianne Vos: TT workout</name>
+    <activitySaveName>Zwift Pro Training Camp: Jumbo-Visma | Marianne Vos: TT Workout</activitySaveName>
+    <description> Welcome to another workout in the Zwift Pro Training Camp series. This workout is brought to you by Team Jumbo-Visma. This is a TT specific workout, but one that would benefit anyone looking to race, almost any discipline really. 
+    We will be doing a nice little warm up and then getting into 4, 4 minute blocks just into zone 5.
+    </description>
+    <sportType>bike</sportType>
+    <category>Pro Training Camp | Jumbo-Visma</category>
+    <categoryIndex>1</categoryIndex>
+    <visibleAfterTime>1670198460</visibleAfterTime>
+    <overrideHash>159167161</overrideHash>
+    <workout>
+        <Warmup Duration="300" Power=".55">
+            <textevent timeoffset="0" message="Welcome to another workout with Zwift&apos;s Pro Training Camp." locIndex="1" />
+            <textevent timeoffset="10" message="Today&apos;s workout is coming from Team Jumbo-Visma." locIndex="2" />
+            <textevent timeoffset="20" message="This one is a common workout for the rippers on the squad." locIndex="3" />
+            <textevent timeoffset="30" message="Let&apos;s start this off with a nice easy warm up." locIndex="4" />
+            <textevent timeoffset="100" message="Now it&apos;s your turn to see how you stack up against a pro TT workout." locIndex="5" />
+            <textevent timeoffset="180" message="After this warm up, we will do a few building blocks of 3 minutes..." locIndex="6" />
+            <textevent timeoffset="190" message="Then get into one neuromuscular efforts to get those muscle fibers recruited..." locIndex="7" />
+            <textevent timeoffset="200" message="And then we&apos;ll get into the main set of 4, 4 minute efforts." locIndex="8" />
+            <textevent timeoffset="210" message="So, enjoy the rest of this warm-up and then we&apos;ll get into it." locIndex="9" />
+        </Warmup>
+        <SteadyState Duration="180" Power=".75">
+            <textevent timeoffset="0" message="Continuing the warm-up with a jump up to 75% for 3 minutes." locIndex="10" />
+            <textevent timeoffset="10" message="Right in the heart of Zone 2, you should not feel this one too much." locIndex="11" />
+            <textevent timeoffset="20" message="Just getting those pins warmed up here." locIndex="12" />
+            <textevent timeoffset="60" message="Today&apos;s work is just into Zone 5, but just barely." locIndex="13" />
+            <textevent timeoffset="70" message="This is almost an extension of threshold, so all in all, should be pretty achievable for you." locIndex="14" />
+            <textevent timeoffset="80" message="The structure of this workout is a pretty common one when it comes to VO2." locIndex="15" />
+            <textevent timeoffset="90" message="The classic 4x4 workout is very common for VO2 in many different sports actually." locIndex="16" />
+            <textevent timeoffset="100" message="As I said this one is on the light side of V02 but..." locIndex="17" />
+            <textevent timeoffset="110" message="The rest interval is pretty short at 2 minutes, which could make it burn a bit near the end." locIndex="18" />
+            <textevent timeoffset="120" message="So, make sure to be ready for some fatigue to settle in the back end of this set." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="120" Power=".55">
+            <textevent timeoffset="0" message="Dropping down to 55% here for 2 minutes." locIndex="20" />
+            <textevent timeoffset="10" message="Like I said, get used to these 2 minute recovery segments." locIndex="21" />
+            <textevent timeoffset="20" message="This one will be easy to come out of, but get your head around this length over the more challenging blocks." locIndex="22" />
+            <textevent timeoffset="30" message="Learning how to get the most out of rest intervals is crucial to the harder sets." locIndex="23" />
+            <textevent timeoffset="40" message="It&apos;s not just about being strong, learning how to get through workouts is very important." locIndex="24" />
+            <textevent timeoffset="50" message="So, let&apos;s use this set today to work on that skill." locIndex="25" />
+            <textevent timeoffset="60" message="A lot of the reason pros are great at workouts is that they practice them lots!" locIndex="26" />
+            <textevent timeoffset="70" message="Just under a minute left." locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="180" Power=".85">
+            <textevent timeoffset="0" message="Ok, up to 85% for 3 minutes." locIndex="28" />
+            <textevent timeoffset="10" message="Use this short block to find the RPM that is going to get you through this main set." locIndex="29" />
+            <textevent timeoffset="20" message="Finding the gear that works best for you is crucial with these intervals." locIndex="30" />
+            <textevent timeoffset="30" message="I like to lean to the side of more RPM&apos;s as to not get too bogged down." locIndex="31" />
+            <textevent timeoffset="40" message="But, you do you." locIndex="32" />
+            <textevent timeoffset="50" message="Also, hydration is key, so keep it up." locIndex="33" />
+            <textevent timeoffset="60" message="Getting close to more rest." locIndex="34" />
+            <textevent timeoffset="120" message="Keep it rolling in the RPM that works for you." locIndex="35" />
+            <textevent timeoffset="140" message="Probably starting to feel the effort a little bit now." locIndex="36" />
+            <textevent timeoffset="160" message="You will be going a fair bit harder in the main set..." locIndex="37" />
+            <textevent timeoffset="170" message="And for one more minute, so get your head around it!" locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="120" Power=".55">
+            <textevent timeoffset="0" message="Back into the easy." locIndex="39" />
+            <textevent timeoffset="10" message="Just for 2 minutes." locIndex="40" />
+            <textevent timeoffset="30" message="Oooh, did I mention that you have a 10 second real hard effort coming up?" locIndex="41" />
+            <textevent timeoffset="40" message="150% of threshold on tap." locIndex="42" />
+            <textevent timeoffset="50" message="You might ask why we would do that leading into a TT type workout?" locIndex="43" />
+            <textevent timeoffset="60" message="Well, people often don&apos;t realize that Zone 6 or 7 work is often about recruitment." locIndex="44" />
+            <textevent timeoffset="70" message="The effort is so hard that it really activates more of the muscle fibers." locIndex="45" />
+            <textevent timeoffset="80" message="As a result, they will be fired up and ready to contribute to the intervals remaining." locIndex="46" />
+            <textevent timeoffset="90" message="So, get ready." locIndex="47" />
+            <textevent timeoffset="100" message="Find the RPM that works for this harder effort." locIndex="48" />
+            <textevent timeoffset="110" message="Coming up now." locIndex="49" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="10" OffDuration="290" OnPower="1.5" OffPower=".55">
+            <textevent timeoffset="0" duration="5" message="Go, Go, GO!!!" locIndex="50" />
+            <textevent timeoffset="5" duration="5" message="Keep on top of that gear!" locIndex="51" />
+            <textevent timeoffset="10" message="Nice one." locIndex="52" />
+            <textevent timeoffset="20" message="Easy days now." locIndex="53" />
+            <textevent timeoffset="40" message="Only time in this workout where you&apos;ll get more than 2 minutes." locIndex="54" />
+            <textevent timeoffset="50" message="So, enjoy." locIndex="55" />
+            <textevent timeoffset="110" message="Main set coming up at ya here soon." locIndex="56" />
+            <textevent timeoffset="120" message="Get yourself ready." locIndex="57" />
+            <textevent timeoffset="130" message="Make sure that water bottle is full." locIndex="58" />
+            <textevent timeoffset="140" message="And that your head is right." locIndex="59" />
+            <textevent timeoffset="150" message="Maybe pop that fan on one more level too." locIndex="60" />
+            <textevent timeoffset="160" message="To get the most of the set you won&apos;t want to take any extra breaks." locIndex="61" />
+            <textevent timeoffset="280" message="Are you ready to get stuck into it?" locIndex="62" />
+            <textevent timeoffset="290" message="Here it comes." locIndex="63" />
+        </IntervalsT>
+        <IntervalsT Repeat="4" OnDuration="240" OffDuration="120" OnPower="1.07" OffPower=".5">
+            <textevent timeoffset="0" message="Up to 107% here." locIndex="64" />
+            <textevent timeoffset="10" message="Holding this effort for 4 minutes." locIndex="65" />
+            <textevent timeoffset="30" message="Settle in." locIndex="66" />
+            <textevent timeoffset="50" message="Do your best to find that cadence that allows you to be fluid." locIndex="67" />
+            <textevent timeoffset="70" message="At this effort you want to be as efficient as possible." locIndex="68" />
+            <textevent timeoffset="80" message="That will help all of your energy to go straight to the pedals." locIndex="69" />
+            <textevent timeoffset="90" message="As you might think, this is hugely important for a time trial." locIndex="70" />
+            <textevent timeoffset="140" message="You starting to feel this effort?" locIndex="71" />
+            <textevent timeoffset="150" message="Will likely start to settle into the legs now-ish." locIndex="72" />
+            <textevent timeoffset="160" message="Be smooth." locIndex="73" />
+            <textevent timeoffset="180" message="One more minute here." locIndex="74" />
+            <textevent timeoffset="200" message="Hold onto it." locIndex="75" />
+            <textevent timeoffset="240" message="Down into that rest interval." locIndex="76" />
+            <textevent timeoffset="250" message="How did that one feel?" locIndex="77" />
+            <textevent timeoffset="260" message="Need to make any adjustments for the next one?" locIndex="78" />
+            <textevent timeoffset="270" message="Take a minute to think about what you might change into the next one." locIndex="79" />
+            <textevent timeoffset="330" message="30 more seconds of recovery." locIndex="80" />
+            <textevent timeoffset="340" message="I told you it would go quick!" locIndex="81" />
+            <textevent timeoffset="360" message="Into number 2 now." locIndex="82" />
+            <textevent timeoffset="370" message="Did you think of any possible adjustments?" locIndex="83" />
+            <textevent timeoffset="380" message="If so, let&apos;s put them into effect." locIndex="84" />
+            <textevent timeoffset="400" message="Looking to be as efficient as possible with those changes." locIndex="85" />
+            <textevent timeoffset="410" message="Relaxing that upper body is crucial as well." locIndex="86" />
+            <textevent timeoffset="420" message="Most people will get stiff in the arms and shoulders in hard efforts like this." locIndex="87" />
+            <textevent timeoffset="430" message="Find a way to loosen that upper body." locIndex="88" />
+            <textevent timeoffset="440" message="Relax." locIndex="89" />
+            <textevent timeoffset="500" message="You all settled?" locIndex="90" />
+            <textevent timeoffset="510" message="Find a way to keep those shoulders and arms relaxed?" locIndex="91" />
+            <textevent timeoffset="520" message="Good work." locIndex="92" />
+            <textevent timeoffset="540" message="One more minute." locIndex="93" />
+            <textevent timeoffset="560" message="Hold on now." locIndex="94" />
+            <textevent timeoffset="580" message="20 more." locIndex="95" />
+            <textevent timeoffset="600" message="Ahhh." locIndex="96" />
+            <textevent timeoffset="630" message="Be smooth and be light on the pedals in recovery." locIndex="97" />
+            <textevent timeoffset="640" message="That will put you in a good spot for the harder stuff." locIndex="98" />
+            <textevent timeoffset="680" message="You staying hydrated?" locIndex="99" />
+            <textevent timeoffset="690" message="Always important." locIndex="100" />
+            <textevent timeoffset="710" message="I told you that rest would go quickly." locIndex="101" />
+            <textevent timeoffset="720" message="Right back into it." locIndex="102" />
+            <textevent timeoffset="730" message="The quicker you settle in, the more energy you will have left." locIndex="103" />
+            <textevent timeoffset="780" message="One down, 3 minutes to go." locIndex="104" />
+            <textevent timeoffset="800" message="There is something to this 4 minute block, eh?" locIndex="105" />
+            <textevent timeoffset="810" message="Just long enough for it really to start stinging..." locIndex="106" />
+            <textevent timeoffset="820" message="But short enough to be obtainable and repeatable." locIndex="107" />
+            <textevent timeoffset="830" message="By design I would say :-)" locIndex="108" />
+            <textevent timeoffset="840" message="No wonder it is such an often used structure for VO2 work." locIndex="109" />
+            <textevent timeoffset="900" message="One more minute." locIndex="110" />
+            <textevent timeoffset="930" message="Hang on now." locIndex="111" />
+            <textevent timeoffset="940" message="Just one more after this!" locIndex="112" />
+            <textevent timeoffset="960" message="Into that recovery." locIndex="113" />
+            <textevent timeoffset="980" message="Did I mention that this one would hurt by the end?" locIndex="114" />
+            <textevent timeoffset="990" message="Not an easy set, and you are doing great!" locIndex="115" />
+            <textevent timeoffset="1000" message="Keep it up." locIndex="116" />
+            <textevent timeoffset="1010" message="Just one more to go." locIndex="117" />
+            <textevent timeoffset="1020" message="Enjoy this last minute of easy." locIndex="118" />
+            <textevent timeoffset="1080" message="Up, up, up." locIndex="119" />
+            <textevent timeoffset="1090" message="You know what to do now." locIndex="120" />
+            <textevent timeoffset="1100" message="Just settle in and do your best!" locIndex="121" />
+            <textevent timeoffset="1160" message="Here to check in on ya." locIndex="122" />
+            <textevent timeoffset="1170" message="You staying relaxed?" locIndex="123" />
+            <textevent timeoffset="1180" message="Soften those shoulders." locIndex="124" />
+            <textevent timeoffset="1190" message="Relax those elbows." locIndex="125" />
+            <textevent timeoffset="1200" message="Release any tension in your neck." locIndex="126" />
+            <textevent timeoffset="1260" message="One more minute!" locIndex="127" />
+            <textevent timeoffset="1280" message="Hold onto that smoothness." locIndex="128" />
+            <textevent timeoffset="1300" message="Up, up." locIndex="129" />
+            <textevent timeoffset="1320" message="Yes!" locIndex="130" />
+            <textevent timeoffset="1330" message="All done." locIndex="131" />
+            <textevent timeoffset="1340" message="Easy spinning now." locIndex="132" />
+        </IntervalsT>
+        <Cooldown Duration="360" PowerLow=".5" PowerHigh=".4">
+            <textevent timeoffset="0" message="Into a 4 minute ramp down." locIndex="133" />
+            <textevent timeoffset="20" message="Not an easy set, eh?" locIndex="134" />
+            <textevent timeoffset="30" message="Slow burn." locIndex="135" />
+            <textevent timeoffset="40" message="Or maybe not that slow?" locIndex="136" />
+            <textevent timeoffset="80" message="You crushed it though!" locIndex="137" />
+            <textevent timeoffset="100" message="Enjoy this cool down." locIndex="138" />
+            <textevent timeoffset="110" message="Well deserved." locIndex="139" />
+            <textevent timeoffset="180" message="Make sure you keep a workout like this in your routine." locIndex="140" />
+            <textevent timeoffset="190" message="Obviously really great for TT specialists..." locIndex="141" />
+            <textevent timeoffset="200" message="But also really great for rouleurs, or really any racer looking to improve." locIndex="142" />
+            <textevent timeoffset="300" message="Are you loving these workouts provided for the Zwift Pro Training Camp?" locIndex="143" />
+            <textevent timeoffset="310" message="We hope so, and Team Jumbo-Visma does as well." locIndex="144" />
+            <textevent timeoffset="330" message="Check out more great workouts from more Pro Tour Teams." locIndex="145" />
+            <textevent timeoffset="340" message="Well, Zwift and Team Jumbo-Visma thank you for participating." locIndex="146" />
+            <textevent timeoffset="350" message="Until next time, Ride On!" locIndex="147" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,256 @@
+<workout_file>
+    <uniqueId>7c157841-ae0b-4f5c-ad8e-58ad93878a9e</uniqueId>
+    <legacyIdHash>502405291</legacyIdHash>
+    <author>Matt Lieto</author>
+    <categoryOverride>Recovery</categoryOverride>
+    <name>Women&apos;s Team Recovery Ride</name>
+    <activitySaveName>Zwift Pro Training Camp: Jumbo-Visma | Women&apos;s Team</activitySaveName>
+    <description>It&apos;s no secret that Team Jumbo-Visma is a force to be reckoned with in the women&apos;s peloton. With athletes like Marianne Vos, Anna Henderson, and Coryn Labecki highlighting the team, there&apos;s no wonder why! Today we will be doing a crucial workout for the team, and the type of workout that is crucial for all cyclists, a recovery ride! This ride is cadence focused, so don&apos;t forget to bring your RPM&apos;s!</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="zprotraining" />
+    </tags>
+    <category>Pro Training Camp | Jumbo-Visma</category>
+    <categoryIndex>3</categoryIndex>
+    <visibleAfterTime>1670198460</visibleAfterTime>
+    <overrideHash>3087408120</overrideHash>
+    <workout>
+        <Ramp Duration="180" PowerLow=".55" PowerHigh=".65">
+            <textevent timeoffset="0" message="Welcome to Zwift&apos;s Pro Training Camp." locIndex="1" />
+            <textevent timeoffset="10" message="Let&apos;s get the day started with a nice and chill warm up." locIndex="2" />
+            <textevent timeoffset="20" message="This is one of the few times today you&apos;ll get to pick your own cadence, so make it comfortable." locIndex="3" />
+            <textevent timeoffset="30" message="In this training series we feature workouts from the world&apos;s best cyclists and teams." locIndex="4" />
+            <textevent timeoffset="40" message="This will give you a chance to train just like your favorite pros!" locIndex="5" />
+            <textevent timeoffset="50" message="Today we will be doing a workout from Team Jumbo-Visma." locIndex="6" />
+            <textevent timeoffset="60" message="With athletes like Tour de France Femmes green jersey winner Marianne Vos, we can count on it being a quality one." locIndex="7" />
+            <textevent timeoffset="80" message="You will notice while participating in Zwift&apos;s Pro Training Camp that the pros don&apos;t always ride hard..." locIndex="8" />
+            <textevent timeoffset="90" message="In fact, a lot of their workouts are a bit easier than you may expect." locIndex="9" />
+            <textevent timeoffset="100" message="So for today&apos;s workout we will be doing a cadence-focused recovery ride from Team Jumbo-Visma." locIndex="10" />
+            <textevent timeoffset="110" message="Recovery rides are crucial for performance as a top end athlete." locIndex="11" />
+            <textevent timeoffset="120" message="Make your hard hard and your easy easy, is a phrase often used amongst elite athletes but often ignored amongst amateurs." locIndex="12" />
+            <textevent timeoffset="150" message="We will continue warming up with some on/off 30 second pieces with RPM focus." locIndex="13" />
+            <textevent timeoffset="160" message="Your slower RPM&apos;s will be 90 and your faster will be 105 here, so get ready to spin them up!" locIndex="14" />
+        </Ramp>
+        <IntervalsT Repeat="4" OnDuration="30" OffDuration="30" OnPower=".72" OffPower=".65" Cadence="105" CadenceResting="90">
+            <textevent timeoffset="0" message="Ok, here we go into the first one, up to 105 RPM&apos;s!" locIndex="15" />
+            <textevent timeoffset="10" message="Power is up just a little bit, but the focus is on those RPM&apos;s." locIndex="16" />
+            <textevent timeoffset="20" message="Get those leg&apos;s moving!" locIndex="17" />
+            <textevent timeoffset="30" message="And back down to 90." locIndex="18" />
+            <textevent timeoffset="50" message="How&apos;d that feel? Were you able to keep the pedal stroke smooth?" locIndex="19" />
+            <textevent timeoffset="60" message="Back up at 105, focus on staying really smooth this round." locIndex="20" />
+            <textevent timeoffset="75" message="Smooth here." locIndex="21" />
+            <textevent timeoffset="90" message="Nice work." locIndex="22" />
+            <textevent timeoffset="100" message="Way to keep those legs spinning over." locIndex="23" />
+            <textevent timeoffset="120" message="On this one, let&apos;s really focus on where you get your RPM&apos;s from." locIndex="24" />
+            <textevent timeoffset="130" message="When getting into higher cadence some athletes lose their circular pedal stroke." locIndex="25" />
+            <textevent timeoffset="140" message="Let&apos;s not have this be you!" locIndex="26" />
+            <textevent timeoffset="150" message="Good stuff." locIndex="27" />
+            <textevent timeoffset="160" message="One more time through here and then we&apos;ll get into some builds to even higher cadence." locIndex="28" />
+            <textevent timeoffset="180" message="Hup, hup!" locIndex="29" />
+            <textevent timeoffset="190" message="Get them moving!" locIndex="30" />
+            <textevent timeoffset="200" message="Find that circular pedaling motion." locIndex="31" />
+            <textevent timeoffset="210" message="Nice job, now onto the main building blocks for today." locIndex="32" />
+            <textevent timeoffset="220" message="We are doing 2 rounds of 3 builds where we will be starting at 95 RPM..." locIndex="33" />
+            <textevent timeoffset="230" message="and finishing at 120 RPM!" locIndex="34" />
+        </IntervalsT>
+        <SteadyState Duration="40" Power=".72" Cadence="95">
+            <textevent timeoffset="0" message="Ok, starting at 40 seconds at 95." locIndex="35" />
+            <textevent timeoffset="20" message="This is the lightest cadence you&apos;ll be at for a while, so enjoy." locIndex="36" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".74" Cadence="100">
+            <textevent timeoffset="0" message="Up to 100 now." locIndex="37" />
+            <textevent timeoffset="10" message="The goal is to keep it smooth as we get up in RPM&apos;s." locIndex="38" />
+            <textevent timeoffset="20" message="Working on that efficiency." locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".76" Cadence="105">
+            <textevent timeoffset="0" message="Up again!" locIndex="40" />
+            <textevent timeoffset="10" message="Don&apos;t forget to focus on having a relaxed upper body when we up the reps." locIndex="41" />
+            <textevent timeoffset="20" message="Keep them spinning here!" locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".78" Cadence="110">
+            <textevent timeoffset="0" message="Starting to get tougher now." locIndex="43" />
+            <textevent timeoffset="10" message="You can do it though, just have to stay smooth." locIndex="44" />
+            <textevent timeoffset="30" message="Up, up! Keep it going now." locIndex="45" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".80" Cadence="115">
+            <textevent timeoffset="0" message="More RPM&apos;s now!" locIndex="46" />
+            <textevent timeoffset="10" message="Go, go, go!" locIndex="47" />
+            <textevent timeoffset="20" message="Try and keep the upper body calm here." locIndex="48" />
+            <textevent timeoffset="30" message="Only one more after this, then back down." locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".82" Cadence="120">
+            <textevent timeoffset="0" message="Real fast here!" locIndex="50" />
+            <textevent timeoffset="10" message="Do your best." locIndex="51" />
+            <textevent timeoffset="30" message="Up, up, up!" locIndex="52" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".72" Cadence="95">
+            <textevent timeoffset="0" message="Whew." locIndex="53" />
+            <textevent timeoffset="20" message="Nice work. Can you do that a few more times?" locIndex="54" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".74" Cadence="100">
+            <textevent timeoffset="0" message="Up to 100 now." locIndex="55" />
+            <textevent timeoffset="20" message="Tick them over." locIndex="56" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".76" Cadence="105">
+            <textevent timeoffset="0" message="Back up to 105." locIndex="57" />
+            <textevent timeoffset="10" message="This should feel easier after getting up to 120." locIndex="58" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".78" Cadence="110">
+            <textevent timeoffset="0" message="Keep it smooth and efficient." locIndex="59" />
+            <textevent timeoffset="20" message="Don&apos;t forget to stay hydrated too." locIndex="60" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".80" Cadence="115">
+            <textevent timeoffset="0" message="Up into the hard stuff again!" locIndex="61" />
+            <textevent timeoffset="10" message="You can do it!" locIndex="62" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".82" Cadence="120">
+            <textevent timeoffset="0" message="Up to 120 again for 40sec." locIndex="63" />
+            <textevent timeoffset="20" message="Keep it rolling!" locIndex="64" />
+            <textevent timeoffset="30" message="Go, go, go!" locIndex="65" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".72" Cadence="95">
+            <textevent timeoffset="0" message="Oh, I know. This isn&apos;t that easy." locIndex="66" />
+            <textevent timeoffset="10" message="Turns out recovery isn&apos;t always." locIndex="67" />
+            <textevent timeoffset="20" message="This workout is great to flush the legs from the hard days." locIndex="68" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".74" Cadence="100">
+            <textevent timeoffset="0" message="Up to 100 now." locIndex="69" />
+            <textevent timeoffset="20" message="Not so bad here." locIndex="70" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".76" Cadence="105">
+            <textevent timeoffset="0" message="Spin them up." locIndex="71" />
+            <textevent timeoffset="20" message="Relaxed upper body here." locIndex="72" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".78" Cadence="110">
+            <textevent timeoffset="0" message="Into the tougher zone again at 110." locIndex="73" />
+            <textevent timeoffset="20" message="2 more after this and then we rest." locIndex="74" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".80" Cadence="115">
+            <textevent timeoffset="0" message="Get those legs moving!" locIndex="75" />
+            <textevent timeoffset="20" message="Up, up, up!" locIndex="76" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".82" Cadence="120">
+            <textevent timeoffset="0" message="Last 120 for a bit." locIndex="77" />
+            <textevent timeoffset="" message="Go, go, go!" locIndex="78" />
+        </SteadyState>
+        <SteadyState Duration="360" Power=".74" pace="" Cadence="70">
+            <textevent timeoffset="0" message="Nice job there." locIndex="79" />
+            <textevent timeoffset="10" message="Funny the inefficiencies we can find at higher RPM&apos;s." locIndex="80" />
+            <textevent timeoffset="20" message="Now, we go to a lower cadence to recover from the high RPM&apos;s for a bit." locIndex="81" />
+            <textevent timeoffset="20" message="This might be lower than you are used to, but it&apos;s great to juxtapose RPM&apos;s in a workout like this." locIndex="82" />
+            <textevent timeoffset="40" message="You should find this a tad easier after those high reps." locIndex="83" />
+            <textevent timeoffset="60" message="Just settle in here for a bit." locIndex="84" />
+            <textevent timeoffset="100" message="Use this time to hydrate and snack if you need to." locIndex="85" />
+            <textevent timeoffset="110" message="Also a great time to zone out in the effort." locIndex="86" />
+            <textevent timeoffset="120" message="In that case, I&apos;ll leave you to it." locIndex="87" />
+            <textevent timeoffset="340" message="Ok, it&apos;s getting to be that time again." locIndex="88" />
+            <textevent timeoffset="350" message="Get ready to do all of that over again!" locIndex="89" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".72" Cadence="95">
+            <textevent timeoffset="0" message="Moving back up to 95 RPM&apos;s." locIndex="90" />
+            <textevent timeoffset="10" message="More than 70, but should feel pretty easy." locIndex="91" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".74" Cadence="100">
+            <textevent timeoffset="0" message="Up at 100 now." locIndex="92" />
+            <textevent timeoffset="20" message="Not a big deal for you now." locIndex="93" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".76" Cadence="105">
+            <textevent timeoffset="0" message="Up to 105 again." locIndex="94" />
+            <textevent timeoffset="10" message="This is where most start to find it a little harder." locIndex="95" />
+            <textevent timeoffset="20" message="You&apos;ve got this though." locIndex="96" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".78" Cadence="110">
+            <textevent timeoffset="0" message="110 now." locIndex="97" />
+            <textevent timeoffset="20" message="Focus on the smoothness!" locIndex="98" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".80" Cadence="115">
+            <textevent timeoffset="0" message="Up to 115!" locIndex="99" />
+            <textevent timeoffset="20" message="Relaxed upper body." locIndex="100" />
+            <textevent timeoffset="30" message="Focus on that circular pedal stroke." locIndex="101" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".82" Cadence="120">
+            <textevent timeoffset="0" message="Back up to 120!" locIndex="102" />
+            <textevent timeoffset="10" message="Be smooth." locIndex="103" />
+            <textevent timeoffset="20" message="Go, go, go!" locIndex="104" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".72" Cadence="95">
+            <textevent timeoffset="0" message="95 again." locIndex="105" />
+            <textevent timeoffset="10" message="This should feel real easy now!" locIndex="106" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".74" Cadence="100">
+            <textevent timeoffset="0" message="Up again to 100." locIndex="107" />
+            <textevent timeoffset="10" message="Still feeling really manageable." locIndex="108" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".76" Cadence="105">
+            <textevent timeoffset="0" message="Up to 105." locIndex="109" />
+            <textevent timeoffset="10" message="Takes a little more focus." locIndex="110" />
+            <textevent timeoffset="20" message="Focus." locIndex="111" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".78" Cadence="110">
+            <textevent timeoffset="0" message="110 now." locIndex="112" />
+            <textevent timeoffset="20" message="Keep them ticking over." locIndex="113" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".80" Cadence="115">
+            <textevent timeoffset="0" message="Into the hard ones again." locIndex="114" />
+            <textevent timeoffset="10" message="Remember to focus." locIndex="115" />
+            <textevent timeoffset="20" message="Calm and relaxed upper body." locIndex="116" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".82" Cadence="120">
+            <textevent timeoffset="0" message="120 again!" locIndex="117" />
+            <textevent timeoffset="10" message="You&apos;ve got this." locIndex="118" />
+            <textevent timeoffset="20" message="Hup, hup, hup!" locIndex="119" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".72" Cadence="95">
+            <textevent timeoffset="0" message="Back down to 95." locIndex="120" />
+            <textevent timeoffset="" message="Ok, last round here." locIndex="121" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".74" Cadence="100">
+            <textevent timeoffset="0" message="Up to 100." locIndex="122" />
+            <textevent timeoffset="20" message="This is old hat to you now." locIndex="123" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".76" Cadence="105">
+            <textevent timeoffset="0" message="Moving up to 105." locIndex="124" />
+            <textevent timeoffset="20" message="No big deal anymore!" locIndex="125" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".78" Cadence="110">
+            <textevent timeoffset="0" message="Starting to feel it into 110." locIndex="126" />
+            <textevent timeoffset="20" message="Keep it smooth." locIndex="127" />
+            <textevent timeoffset="30" message="Keep it efficient." locIndex="128" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".80" Cadence="115">
+            <textevent timeoffset="0" message="115." locIndex="129" />
+            <textevent timeoffset="10" message="Just one more after this!" locIndex="130" />
+            <textevent timeoffset="20" message="Keep those pins moving!" locIndex="131" />
+        </SteadyState>
+        <SteadyState Duration="40" Power=".82" Cadence="120">
+            <textevent timeoffset="0" message="Up to 120 for the last time!" locIndex="132" />
+            <textevent timeoffset="10" message="Go, go, go!" locIndex="133" />
+            <textevent timeoffset="20" message="Just 20 more seconds, then lower RPM&apos;s" locIndex="134" />
+        </SteadyState>
+        <SteadyState Duration="360" Power=".74" pace="" Cadence="70">
+            <textevent timeoffset="0" message="Back down to 70 cadence now." locIndex="135" />
+            <textevent timeoffset="20" message="You got through those well!" locIndex="136" />
+            <textevent timeoffset="30" message="Hopefully you were able to notice when the RPM&apos;s started to affect your ability to stay smooth." locIndex="137" />
+            <textevent timeoffset="40" message="Once we realize where we lose that efficiency we can then work on that range to gain more!" locIndex="138" />
+            <textevent timeoffset="50" message="Now we are back into the lower range." locIndex="139" />
+            <textevent timeoffset="70" message="This shouldn&apos;t feel hard, but your legs will feel something after today if efficiency isn&apos;t your strength." locIndex="140" />
+            <textevent timeoffset="90" message="Settle into this effort and your last few minutes of forced cadence!" locIndex="141" />
+            <textevent timeoffset="150" message="Be sure to get that hydration in..." locIndex="142" />
+            <textevent timeoffset="160" message="Recovery starts before the workout is over!" locIndex="143" />
+            <textevent timeoffset="280" message="Keep the focus, a little over a minute to go." locIndex="144" />
+            <textevent timeoffset="340" message="Almost through prescribed cadence for the day." locIndex="145" />
+        </SteadyState>
+        <Cooldown Duration="120" PowerLow=".55" PowerHigh=".65">
+            <textevent timeoffset="0" message="Nice job! Into the recovery now." locIndex="146" />
+            <textevent timeoffset="10" message="Guess what? You can ride whatever cadence you&apos;d like!" locIndex="147" />
+            <textevent timeoffset="30" message="This might have felt hard for you if you don&apos;t work those cadence ranges but..." locIndex="148" />
+            <textevent timeoffset="40" message="Once you are used to that kind of effort this kind of workout will be great for recovery." locIndex="149" />
+            <textevent timeoffset="50" message="It also really does help with efficiency that will in turn make you a better cyclist!" locIndex="150" />
+            <textevent timeoffset="60" message="If it works for the women at Team Jumbo-Visma, it will work for you!" locIndex="151" />
+            <textevent timeoffset="70" message="Thanks for joining us today, and make sure to try some of the other Jumbo-Visma workouts." locIndex="152" />
+            <textevent timeoffset="80" message="Lot&apos;s of great workouts during training camp, so get after it." locIndex="153" />
+            <textevent timeoffset="100" message="Zwift and Jumbo-Visma thank you! " locIndex="154" />
+            <textevent timeoffset="110" message="Until next time, Ride On!" locIndex="155" />
+        </Cooldown>
+    </workout>
+</workout_file>
