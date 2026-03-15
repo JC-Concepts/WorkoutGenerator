@@ -160,14 +160,8 @@ class UIManager {
      * Render workout intensity visualization - Power vs Time chart
      */
     renderWorkoutIntensity(workoutData) {
-        console.log('Rendering workout intensity for:', workoutData.name);
-        console.log('Segments:', workoutData.segments?.length || 0, workoutData.segments);
-        
         const container = document.getElementById('intensityContainer');
-        if (!container) {
-            console.error('intensityContainer not found!');
-            return;
-        }
+        if (!container) return;
         
         const segments = workoutData.segments || [];
         
@@ -177,115 +171,78 @@ class UIManager {
         }
         
         // Build chart data
-        const labels = [];
-        const data = [];
-        let cumulativeTime = 0;
+        const data = segments.map(seg => seg.power || 0);
+        const totalDuration = segments.reduce((sum, seg) => sum + seg.duration, 0);
         
-        segments.forEach(seg => {
-            cumulativeTime += seg.duration;
-            labels.push(this.formatTime(cumulativeTime));
-            data.push(seg.power || 0);
+        // Zone colors
+        const getZoneColor = (power) => {
+            if (power < 55) return '#22c55e'; // Zone 1 - Green
+            if (power < 75) return '#3b82f6'; // Zone 2 - Blue
+            if (power < 90) return '#eab308'; // Zone 3 - Yellow
+            if (power < 105) return '#f97316'; // Zone 4 - Orange
+            return '#ef4444'; // Zone 5+ - Red
+        };
+        
+        // Calculate SVG dimensions
+        const width = 600;
+        const height = 200;
+        const padding = { top: 20, right: 20, bottom: 30, left: 40 };
+        const chartWidth = width - padding.left - padding.right;
+        const chartHeight = height - padding.top - padding.bottom;
+        
+        // Scale calculations
+        const maxPower = Math.max(...data, 110);
+        const xScale = (duration) => (duration / totalDuration) * chartWidth;
+        const yScale = (power) => chartHeight - (power / maxPower) * chartHeight;
+        
+        // Build SVG paths
+        let currentX = 0;
+        let bars = '';
+        
+        segments.forEach((seg, i) => {
+            const barWidth = (seg.duration / totalDuration) * chartWidth;
+            const power = seg.power || 0;
+            const barHeight = (power / maxPower) * chartHeight;
+            const y = chartHeight - barHeight;
+            const color = getZoneColor(power);
+            
+            bars += `<rect x="${currentX}" y="${y}" width="${barWidth}" height="${barHeight}" fill="${color}" />`;
+            currentX += barWidth;
         });
         
-        console.log('Chart data - labels:', labels.length, 'data:', data);
+        // Y-axis labels
+        let yLabels = '';
+        for (let p = 0; p <= maxPower; p += 25) {
+            const y = yScale(p) + padding.top;
+            yLabels += `<text x="${padding.left - 5}" y="${y + 3}" text-anchor="end" fill="#94a3b8" font-size="10">${p}%</text>`;
+        }
         
-        // Create canvas for chart
+        // X-axis labels
+        let xLabels = '';
+        const xSteps = 4;
+        for (let i = 0; i <= xSteps; i++) {
+            const time = Math.round((totalDuration / xSteps) * i);
+            const x = padding.left + (chartWidth / xSteps) * i;
+            xLabels += `<text x="${x}" y="${height - 5}" text-anchor="middle" fill="#94a3b8" font-size="10">${this.formatTime(time)}</text>`;
+        }
+        
+        // Grid lines
+        let gridLines = '';
+        for (let p = 25; p < maxPower; p += 25) {
+            const y = yScale(p) + padding.top;
+            gridLines += `<line x1="${padding.left}" y1="${y}" x2="${width - padding.right}" y2="${y}" stroke="#334155" stroke-width="1" />`;
+        }
+        
         container.innerHTML = `
             <div class="chart-container">
-                <canvas id="workoutChart"></canvas>
+                <svg viewBox="0 0 ${width} ${height}" class="workout-chart">
+                    ${gridLines}
+                    ${bars}
+                    ${yLabels}
+                    ${xLabels}
+                </svg>
             </div>
         `;
-        
-        // Render chart after DOM update
-        setTimeout(() => {
-            const ctx = document.getElementById('workoutChart');
-            if (!ctx) {
-                console.error('Canvas element not found');
-                return;
-            }
-            
-            if (typeof Chart === 'undefined') {
-                console.error('Chart.js not loaded!');
-                container.innerHTML = '<p class="intensity-note">Chart library not loaded. Please refresh the page.</p>';
-                return;
-            }
-            
-            // Destroy existing chart if any
-            if (window.workoutChartInstance) {
-                window.workoutChartInstance.destroy();
-            }
-            
-            // Zone colors
-            const getZoneColor = (power) => {
-                if (power < 55) return '#22c55e'; // Zone 1 - Green
-                if (power < 75) return '#3b82f6'; // Zone 2 - Blue
-                if (power < 90) return '#eab308'; // Zone 3 - Yellow
-                if (power < 105) return '#f97316'; // Zone 4 - Orange
-                return '#ef4444'; // Zone 5+ - Red
-            };
-            
-            const backgroundColors = data.map(power => getZoneColor(power));
-            
-            window.workoutChartInstance = new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    labels: labels,
-                    datasets: [{
-                        label: 'Power (% FTP)',
-                        data: data,
-                        backgroundColor: backgroundColors,
-                        borderColor: backgroundColors,
-                        borderWidth: 0,
-                        barPercentage: 1.0,
-                        categoryPercentage: 1.0
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: {
-                            display: false
-                        },
-                        tooltip: {
-                            callbacks: {
-                                title: (items) => items[0].label,
-                                label: (item) => `${item.raw}% FTP`
-                            }
-                        }
-                    },
-                    scales: {
-                        x: {
-                            display: true,
-                            ticks: {
-                                maxTicksLimit: 10,
-                                color: '#94a3b8'
-                            },
-                            grid: {
-                                color: '#334155'
-                            }
-                        },
-                        y: {
-                            display: true,
-                            min: 0,
-                            suggestedMax: 150,
-                            ticks: {
-                                callback: (value) => value + '%',
-                                color: '#94a3b8'
-                            },
-                            grid: {
-                                color: '#334155'
-                            },
-                            title: {
-                                display: true,
-                                text: 'Power (% FTP)',
-                                color: '#94a3b8'
-                            }
-                        }
-                    }
-                }
-            });
-        }, 100);
     }
     
     /**
