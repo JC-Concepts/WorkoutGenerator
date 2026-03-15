@@ -1,6 +1,6 @@
 {
   "version": "2026.03.15",
-  "lastUpdated": "2026-03-15T03:04:22.701882",
+  "lastUpdated": "2026-03-15T03:23:29.043897",
   "workouts": [
     {
       "id": "workout_0001",
@@ -397,6 +397,90 @@
     {
       "id": "workout_0029",
       "name": "Unknown",
+      "description": "Teniel Campbell is a UCI pro cyclist for Team BikeExchange-Jayco and comes from the small island of Trinidad and Tobago. Teniel won four medals at the 2018 Central American and Caribbean Games and she won the U23 individual time trial at the 2019 Pan American Road and Track Championships. She joined Team BikeExchange in 2021 and recently won her national road and TT championship. Today's session is a great one to improve all-around fitness. The main set is 2 x 10 min as 90 second ramp from 83% - 93%, 20 second ramp from 105% - 120% and 10 seconds MAX, 5 times through! Get ready this one is going to be fun!  ",
+      "author": "Marco Pinotti",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/Bike_Exchange/Teniel_Campbell_Workout.zwo",
+      "duration_seconds": 0,
+      "duration_category": "less_30",
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0
+    },
+    {
+      "id": "workout_0030",
+      "name": "Unknown",
+      "description": "Lawson Craddock is an American professional cyclist racing for UCI WorldTeam Team BikeExchange-Jayco. This workout is a great session to build all-around fitness and build cycling specific strength. The main session is 3 min 30 seconds at 88% of FTP and 60 RPM's, right into 30 seconds at 105% of FTP and 100+ RPM's.",
+      "author": "Marco Pinotti",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/Bike_Exchange/Lawson_Craddock_Workout.zwo",
+      "duration_seconds": 0,
+      "duration_category": "less_30",
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0
+    },
+    {
+      "id": "workout_0031",
+      "name": "Unknown",
+      "description": "His friends call him 'Bling', you may know him as Michael Matthews, but which ever name you use, know you're riding with a legend. Matthews is a sprinter for Team BikeExchange - Jayco and targets the Classics and stage race victories. The 2010 U23 road world champion is among the few sprinters to have won stages in all three Grand Tours and also claimed the coveted Green Jersey at the 2017 Tour de France. Matthews racked up 18 victories in addition to a silver medal at the 2015 World Championships during his first spell with the team and has proven to be one of the most versatile sprinters in the peloton.",
+      "author": "Marco Pinotti",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/Bike_Exchange/Michael_Mathews_Workout.zwo",
+      "duration_seconds": 0,
+      "duration_category": "less_30",
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0
+    },
+    {
+      "id": "workout_0032",
+      "name": "Unknown",
+      "description": "Team BikeExchange-Jayco is Australia's first a men and women's UCI WorldTour cycling team, with the 2022 season marking GreenEDGE Cycling's second decade at the highest level of the sport. This workout, designed by Team BikeExchange-Jayco coaches is a blend of tempo and threshold riding. The main set is 2 x 5 min at 85% of FTP with 60 seconds rest, followed by 5 x 3 min at 93% of FTP with 60 seconds rest. Come well hydrated and with fresh legs, this workout will surely raise your fitness to another level.",
+      "author": "Marco Pinotti",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/Bike_Exchange/BikeExchange_WWorkout_1.zwo",
+      "duration_seconds": 0,
+      "duration_category": "less_30",
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0
+    },
+    {
+      "id": "workout_0033",
+      "name": "Unknown",
+      "description": "Jessica Allen is a strong and loyal domestique, Allen is an important teammate for the Team BikeExchange leaders, on-and-off the bike, helping them to multiple major victories in one-day races and stage races. This session is 3 rounds of 5 x 20 seconds 'over' FTP at 110% and 40 seconds 'under' FTP at 90%. If you complete this workout you will be ready to roll in your next event.",
+      "author": "Marco Pinotti",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/Bike_Exchange/Jesse_Allen_Workout.zwo",
+      "duration_seconds": 0,
+      "duration_category": "less_30",
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0
+    },
+    {
+      "id": "workout_0034",
+      "name": "Unknown",
+      "description": "Team BikeExchange-Jayco is Australia's first a men and women's UCI WorldTour cycling team, with the 2022 season marking GreenEDGE Cycling's second decade at the highest level of the sport. This workout, designed by Team BikeExchange-Jayco coaches is a blend of Endurance, Tempo and Threshold intervals. The main set starts with 3 x 4 min at 75% of FTP with 60 seconds rest. Followed by 2 x 5 min blocks broken up as 2min and 3min efforts. The 1st round is 2min at 80% of FTP and 3min at 90% of FTP. The 2nd round is 2min at 90% of FTP and 3min at 80% of FTP. Finally to finish the workout you have 3 x 40 seconds ON at 100% of FTP and 20 seconds OFF at 50% of FTP. Bring a fresh pair of legs, this workout will surely elevate your fitness.",
+      "author": "Marco Pinotti",
+      "category": "zwift_workouts_all_collections_ordered_Nov20",
+      "subcategory": "",
+      "file": "zwift_workouts_all_collections_ordered_Nov20/Bike_Exchange/BikeExchange_MWorkout.zwo",
+      "duration_seconds": 0,
+      "duration_category": "less_30",
+      "tss": 0,
+      "primary_zone": 3,
+      "avg_power": 0
+    },
+    {
+      "id": "workout_0035",
+      "name": "Unknown",
       "description": "Swim - 1800-2200 yds. \n300-400 yds of steady swimming and mixed drills to warm up. 1400-1600 yds swim at an easy pace working on consistent arm turnover and building endurance. Finish with a short 100-200 yd cool down.",
       "author": "QT2",
       "category": "zwift_workouts_all_collections_ordered_Nov20",
@@ -409,7 +493,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0030",
+      "id": "workout_0036",
       "name": "Unknown",
       "description": "Swim - 1600-2000 yds. \n300-400 yds of steady swimming and mixed drills to warm up. 1200-1400 yds swim at an easy pace working on consistent arm turnover and building endurance. Finish with a short 100-200 yd cool down.",
       "author": "QT2",
@@ -423,7 +507,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0031",
+      "id": "workout_0037",
       "name": "Unknown",
       "description": "Bike - 100 min.\n-30 min. warm up\n-1x (10 min. @ 89% FTP, 5 min. @ 55% FTP)\n-1x (10 min. @ 91% FTP, 5 min. @ 55% FTP)\n-40 min. cool @ 60% FTP\n  ",
       "author": "QT2",
@@ -437,7 +521,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0032",
+      "id": "workout_0038",
       "name": "Unknown",
       "description": "Bike - 110 min.\n-30 min. warm up\n-2x (10 min. @ 98%, 4 min. @ 50%)\n-2x (5 min. @ 105% FTP, 3 min. @ 60% FTP)\n-36 min. @ 60% FTP",
       "author": "QT2",
@@ -451,7 +535,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0033",
+      "id": "workout_0039",
       "name": "Unknown",
       "description": "Swim 1000-1300 yds.\n    300-400 yds of steady swimming and mixed drills to warm up. 600-700 yds swim at an easy pace working on consistent arm turnover and building endurance. Finish with a short 100-200 yd cool down.",
       "author": "QT2",
@@ -465,7 +549,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0034",
+      "id": "workout_0040",
       "name": "Unknown",
       "description": "Bike - 110 min.\n-35 min. @ 65% FTP\n-30 min. @ 70% FTP\n-20 min. @ 75% FTP\n-15 min. @ 80% FTP\n-10 min. @ 84% FTP \n  ",
       "author": "QT2",
@@ -479,7 +563,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0035",
+      "id": "workout_0041",
       "name": "Unknown",
       "description": "Bike - 45 min.\n-10 min. @ 65% FTP\n-10 min. @ 70% FTP\n-10 min. @ 75% FTP\n-15 min. @ 80% FTP",
       "author": "QT2",
@@ -493,7 +577,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0036",
+      "id": "workout_0042",
       "name": "Unknown",
       "description": "Bike - 40 min.\n-10 min. @ 45% FTP\n-10 min. @ 55% FTP (insert 30 sec. @ 100% FTP)\n-10 min. @ 60% FTP (insert 30 sec. @ 100% FTP)\n-10 min. @ 65% FTP (insert 30 sec. @ 100% FTP)",
       "author": "QT2",
@@ -507,7 +591,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0037",
+      "id": "workout_0043",
       "name": "Unknown",
       "description": "Bike - 120 min.\n-30 min. warm up\n-6x (5 min. @ 70% FTP, 5 min. @ 85% FTP)\n-30 min. cool @ 65% FTP",
       "author": "QT2",
@@ -521,7 +605,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0038",
+      "id": "workout_0044",
       "name": "Unknown",
       "description": "(AM) Swim - 1300-1500 yds.\nWarm up with 300-400 yds. of steady swimming and mixed drills. Swim intervals of 100 and 200 yds. at a moderate to aggressive pace working on building speed",
       "author": "QT2",
@@ -535,7 +619,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0039",
+      "id": "workout_0045",
       "name": "Unknown",
       "description": "(AM) Swim - 1800-2000 yds.\nWarm up with 300-400 yds. of steady swimming and mixed drills. Swim intervals of 200 & 400 at a moderate to aggressive pace working on building speed",
       "author": "QT2",
@@ -549,7 +633,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0040",
+      "id": "workout_0046",
       "name": "Unknown",
       "description": "Bike - 60 min.\n-20 min. @ 50% FTP\n-20 min. @ 55% FTP\n-20 min. @ 60% FTP",
       "author": "QT2",
@@ -563,7 +647,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0041",
+      "id": "workout_0047",
       "name": "Unknown",
       "description": "Swim - 1200-1600 yds. \n-300-400 yds of steady swimming and mixed drills to warm up. \n-800-1000 yds swim at an easy pace working on consistent arm turnover and building endurance. \nFinish with a short 100-200 yd cool down.",
       "author": "QT2",
@@ -577,7 +661,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0042",
+      "id": "workout_0048",
       "name": "Unknown",
       "description": "Bike - 60 minutes of Zone 1",
       "author": "QT2",
@@ -591,7 +675,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0043",
+      "id": "workout_0049",
       "name": "Unknown",
       "description": "Bike - 80 min.\n-20 min. warm up\n-10x (30 sec. @ 150% FTP @ 105 rpm, 2.5 min. total rest)\n-20 min. cool @ 50% FTP",
       "author": "QT2",
@@ -605,7 +689,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0044",
+      "id": "workout_0050",
       "name": "Unknown",
       "description": "Swim - 1000-1200 yds.\nSwim at an easy pace working on consistent arm turnover and building endurance",
       "author": "QT2",
@@ -619,7 +703,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0045",
+      "id": "workout_0051",
       "name": "Unknown",
       "description": "Swim - 1400-1800 yds. \n300-400 yds of steady swimming and mixed drills to warm up. 1000-1200 yds swim at an easy pace working on consistent arm turnover and building endurance. Finish with a short 100-200 yd cool down.",
       "author": "QT2",
@@ -633,7 +717,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0046",
+      "id": "workout_0052",
       "name": "Unknown",
       "description": "Bike - 90 min.\n-30 min. warm up\n-1x (12 min. @ 79% FTP, 5 min. @ 55% FTP)\n-1x (12 min. @ 81% FTP, 5 min. @ 55% FTP)\n-26 min. cool @ 60% FTP \n  ",
       "author": "QT2",
@@ -647,7 +731,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0047",
+      "id": "workout_0053",
       "name": "Unknown",
       "description": "Bike - 105 min.\n-30 min. warm up\n-1x (10 min. @ 89% FTP, 5 min. @ 55% FTP)\n-1x (10 min. @ 91% FTP, 5 min. @ 55% FTP)\n-45 min. cool @ 60% FTP \n  ",
       "author": "QT2",
@@ -661,7 +745,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0048",
+      "id": "workout_0054",
       "name": "Unknown",
       "description": "Swim - 1200-1600 yds. \n300-400 yds of steady swimming and mixed drills to warm up. 800-1000 yds swim at an easy pace working on consistent arm turnover and building endurance. Finish with a short 100-200 yd cool down",
       "author": "QT2",
@@ -675,7 +759,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0049",
+      "id": "workout_0055",
       "name": "Unknown",
       "description": "Swim - 1800-2000 yds. \n-400-500 yds of steady swimming and mixed drills to warm up. \n-8x 100 freestyle all out (on interval that leaves 1:30 min. rest) \n-20x 25 pull all out (on interval that leaves 1 min. rest) \nFinish with a short 100-200 yd cool down.",
       "author": "QT2",
@@ -689,7 +773,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0050",
+      "id": "workout_0056",
       "name": "Unknown",
       "description": "Bike - 80 min. \n-10 min. warm up\n-4x (5 min. @ 105% FTP, 2.5 min. rest)\n-2x (2.5 min. @ 113% FTP, 2.5 min. rest)\n-30 min. cool @ 60% FTP",
       "author": "QT2",
@@ -703,7 +787,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0051",
+      "id": "workout_0057",
       "name": "Unknown",
       "description": "Bike - 90 min.\n-30 min. @ 65% FTP\n-25 min. @ 70% FTP\n-20 min. @ 75% FTP\n-10 min. @ 80% FTP\n-5 min. @ 84% FTP\n  ",
       "author": "QT2",
@@ -717,7 +801,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0052",
+      "id": "workout_0058",
       "name": "Unknown",
       "description": "(AM) Swim - 1400-1600 yds.\nWarm up with 300-400 yds. of steady swimming and mixed drills. Swim intervals of 100 & 400 yds. at a moderate to aggressive pace working on building speed",
       "author": "QT2",
@@ -731,7 +815,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0053",
+      "id": "workout_0059",
       "name": "Unknown",
       "description": "Bike - 60 min.\n-10 min. warm up\n-30 min. big gear 70 rpm @ 88% FTP\n-20 min. cool @ 60% FTP",
       "author": "QT2",
@@ -745,7 +829,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0054",
+      "id": "workout_0060",
       "name": "Unknown",
       "description": "Swim - 1000-1300 yds. \n-300-400 yds of steady swimming and mixed drills to warm up. \n-600-700 yds swim at an easy pace working on consistent arm turnover and building endurance. \nFinish with a short 100-200 yd cool down.",
       "author": "QT2",
@@ -759,7 +843,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0055",
+      "id": "workout_0061",
       "name": "Unknown",
       "description": "(AM) Swim - 2000-2200 yds.\nWarm up with 300-400 yds. of steady swimming and mixed drills. Swim intervals of 200 & 500 at a moderate to aggressive pace working on building speed",
       "author": "QT2",
@@ -773,7 +857,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0056",
+      "id": "workout_0062",
       "name": "Unknown",
       "description": "Bike - 90 min. \n-30 min. warm up\n-30 min. big gear 70 rpm @ 88% FTP\n-30 min. cool @ 60% FTP",
       "author": "QT2",
@@ -787,7 +871,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0057",
+      "id": "workout_0063",
       "name": "Unknown",
       "description": "Bike - 70 min.\n-20 min. warm up\n-10x (30 sec. @ 150% FTP @ 105 rpm, 2.5 min. total rest)\n-20 min. cool @ 50% FTP",
       "author": "QT2",
@@ -801,7 +885,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0058",
+      "id": "workout_0064",
       "name": "Unknown",
       "description": "Bike - 100 min.\n-30 min. warm up\n-1x (12 min. @ 79% FTP, 5 min. @ 55% FTP)\n-1x (12 min. @ 81% FTP, 5 min. @ 55% FTP)\n-36 min. cool @ 60% FTP \n  ",
       "author": "QT2",
@@ -815,7 +899,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0059",
+      "id": "workout_0065",
       "name": "Unknown",
       "description": "",
       "author": "QT2",
@@ -829,7 +913,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0060",
+      "id": "workout_0066",
       "name": "Unknown",
       "description": "Swim - 1600-1800 yds. \n-400-500 yds of steady swimming and mixed drills to warm up. \n-5x 100 freestyle all out (on interval that leaves 1:30 min. rest) \n-10x 50 pull all out (on interval that leaves 1 min. rest) \nFinish with a short 200-300 yd cool down.",
       "author": "QT2",
@@ -843,7 +927,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0061",
+      "id": "workout_0067",
       "name": "Unknown",
       "description": "Bike - 120 min.\n-30 min. warm up\n-15 min. @ 95% FTP, 5 min. @ 40% FTP\n-15 min. @ 100% FTP, 5 min. @ 40% FTP\n-15 min. @ 105% FTP, 5 min. @ 40% FTP\n-15 min. @ 110% FTP, 5 min. @ 40% FTP\n-10 min. cool @ 60% FTP \n  ",
       "author": "QT2",
@@ -857,7 +941,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0062",
+      "id": "workout_0068",
       "name": "Unknown",
       "description": "Bike - 70 min.\n-20 min. warm up\n-10x (30 sec. @ 145% FTP @ 105 rpm, 2.5 min. total rest)\n-20 min. cooldown",
       "author": "QT2",
@@ -871,7 +955,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0063",
+      "id": "workout_0069",
       "name": "Unknown",
       "description": "Bike - 60 min.\n-20 min. warm up\n-8x (20 sec. @ 135% FTP @ 85-90 rpm, 30 sec. total rest)\n-30 min. cooldown",
       "author": "QT2",
@@ -885,7 +969,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0064",
+      "id": "workout_0070",
       "name": "Unknown",
       "description": "Bike - 90 min. \n-30 min. warm up\n-30 min. big gear 70 rpm @ 88% FTP\n-30 min. cool @ 60% FTP",
       "author": "QT2",
@@ -899,7 +983,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0065",
+      "id": "workout_0071",
       "name": "Unknown",
       "description": "Bike - 65 min.-20 min. warm up\n-8x (20 sec. @ 135% FTP @ 85-90 rpm, 30 sec. total rest)\n-35 min. cooldown",
       "author": "QT2",
@@ -913,7 +997,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0066",
+      "id": "workout_0072",
       "name": "Unknown",
       "description": "",
       "author": "QT2",
@@ -927,7 +1011,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0067",
+      "id": "workout_0073",
       "name": "Unknown",
       "description": "Swim - 1400-1600 yds. \n-300-400 yds of steady swimming and mixed drills to warm up. \n-5x 100 freestyle all out (on interval that leaves 1:30 min. rest) \n-10x 50 pull all out (on interval that leaves 1 min. rest) \nFinish with a short 100-200 yd cool down.",
       "author": "QT2",
@@ -941,7 +1025,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0068",
+      "id": "workout_0074",
       "name": "Unknown",
       "description": "(AM) Swim - 1200-1400 yds.\nWarm up with 300-400 yds. of steady swimming and mixed drills. Swim intervals of 100 and 200 yds. at a moderate to aggressive pace working on building speed",
       "author": "QT2",
@@ -955,7 +1039,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0069",
+      "id": "workout_0075",
       "name": "Unknown",
       "description": "Bike - 95 min.\n-30 min. warm up\n-1x (12 min. @ 79% FTP, 5 min. @ 55% FTP)\n-1x (12 min. @ 81% FTP, 5 min. @ 55% FTP)\n-31 min. cool @ 60% FTP\n  ",
       "author": "QT2",
@@ -969,7 +1053,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0070",
+      "id": "workout_0076",
       "name": "Unknown",
       "description": "Bike - 100 min.\n-30 min. @ 65% FTP\n-25 min. @ 70% FTP\n-20 min. @ 75% FTP\n-15 min. @ 80% FTP\n-10 min. @ 84% FTP\n  ",
       "author": "QT2",
@@ -983,7 +1067,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0071",
+      "id": "workout_0077",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -997,7 +1081,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0072",
+      "id": "workout_0078",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1011,7 +1095,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0073",
+      "id": "workout_0079",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1025,7 +1109,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0074",
+      "id": "workout_0080",
       "name": "Unknown",
       "description": "Optional",
       "author": "Marco Pinotti",
@@ -1039,7 +1123,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0075",
+      "id": "workout_0081",
       "name": "Unknown",
       "description": "Threshold Dev",
       "author": "Marco Pinotti",
@@ -1053,7 +1137,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0076",
+      "id": "workout_0082",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1067,7 +1151,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0077",
+      "id": "workout_0083",
       "name": "Unknown",
       "description": "Threshold Dev",
       "author": "Marco Pinotti",
@@ -1081,7 +1165,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0078",
+      "id": "workout_0084",
       "name": "Unknown",
       "description": "Threshold Dev",
       "author": "Marco Pinotti",
@@ -1095,7 +1179,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0079",
+      "id": "workout_0085",
       "name": "Unknown",
       "description": "Foundation - Do this training in a fasted state (coffee allowed before)",
       "author": "Marco Pinotti",
@@ -1109,7 +1193,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0080",
+      "id": "workout_0086",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1123,7 +1207,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0081",
+      "id": "workout_0087",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1137,7 +1221,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0082",
+      "id": "workout_0088",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1151,7 +1235,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0083",
+      "id": "workout_0089",
       "name": "Unknown",
       "description": "Optional",
       "author": "Marco Pinotti",
@@ -1165,7 +1249,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0084",
+      "id": "workout_0090",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1179,7 +1263,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0085",
+      "id": "workout_0091",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1193,7 +1277,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0086",
+      "id": "workout_0092",
       "name": "Unknown",
       "description": "Tempo",
       "author": "Marco Pinotti",
@@ -1207,7 +1291,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0087",
+      "id": "workout_0093",
       "name": "Unknown",
       "description": "Optional",
       "author": "Marco Pinotti",
@@ -1221,7 +1305,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0088",
+      "id": "workout_0094",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1235,7 +1319,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0089",
+      "id": "workout_0095",
       "name": "Unknown",
       "description": "Foundation - Do this training in a fasted state (coffee allowed before)",
       "author": "Marco Pinotti",
@@ -1249,7 +1333,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0090",
+      "id": "workout_0096",
       "name": "Unknown",
       "description": "Tempo",
       "author": "Marco Pinotti",
@@ -1263,7 +1347,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0091",
+      "id": "workout_0097",
       "name": "Unknown",
       "description": "Foundation - Do this training in a fasted state (coffee allowed before)",
       "author": "Marco Pinotti",
@@ -1277,7 +1361,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0092",
+      "id": "workout_0098",
       "name": "Unknown",
       "description": "Foundation - Do this training in a fasted state (coffee allowed before)",
       "author": "Marco Pinotti",
@@ -1291,7 +1375,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0093",
+      "id": "workout_0099",
       "name": "Unknown",
       "description": "Threshold Dev",
       "author": "Marco Pinotti",
@@ -1305,7 +1389,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0094",
+      "id": "workout_0100",
       "name": "Unknown",
       "description": "SFR/Tempo",
       "author": "Marco Pinotti",
@@ -1319,7 +1403,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0095",
+      "id": "workout_0101",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1333,7 +1417,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0096",
+      "id": "workout_0102",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1347,7 +1431,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0097",
+      "id": "workout_0103",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1361,7 +1445,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0098",
+      "id": "workout_0104",
       "name": "Unknown",
       "description": "SFR",
       "author": "Marco Pinotti",
@@ -1375,7 +1459,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0099",
+      "id": "workout_0105",
       "name": "Unknown",
       "description": "Strength",
       "author": "Marco Pinotti",
@@ -1389,7 +1473,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0100",
+      "id": "workout_0106",
       "name": "Unknown",
       "description": "Tempo",
       "author": "Marco Pinotti",
@@ -1403,7 +1487,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0101",
+      "id": "workout_0107",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1417,7 +1501,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0102",
+      "id": "workout_0108",
       "name": "Unknown",
       "description": "Threshold Dev",
       "author": "Marco Pinotti",
@@ -1431,7 +1515,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0103",
+      "id": "workout_0109",
       "name": "Unknown",
       "description": "Threshold Dev",
       "author": "Marco Pinotti",
@@ -1445,7 +1529,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0104",
+      "id": "workout_0110",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1459,7 +1543,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0105",
+      "id": "workout_0111",
       "name": "Unknown",
       "description": "Threshold Dev",
       "author": "Marco Pinotti",
@@ -1473,7 +1557,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0106",
+      "id": "workout_0112",
       "name": "Unknown",
       "description": "SFR/Tempo",
       "author": "Marco Pinotti",
@@ -1487,7 +1571,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0107",
+      "id": "workout_0113",
       "name": "Unknown",
       "description": "Strength",
       "author": "Marco Pinotti",
@@ -1501,7 +1585,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0108",
+      "id": "workout_0114",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1515,7 +1599,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0109",
+      "id": "workout_0115",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1529,7 +1613,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0110",
+      "id": "workout_0116",
       "name": "Unknown",
       "description": "Foundation - Do this training in a fasted state (coffee allowed before)",
       "author": "Marco Pinotti",
@@ -1543,7 +1627,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0111",
+      "id": "workout_0117",
       "name": "Unknown",
       "description": "SFR",
       "author": "Marco Pinotti",
@@ -1557,7 +1641,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0112",
+      "id": "workout_0118",
       "name": "Unknown",
       "description": "Threshold Dev",
       "author": "Marco Pinotti",
@@ -1571,7 +1655,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0113",
+      "id": "workout_0119",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1585,7 +1669,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0114",
+      "id": "workout_0120",
       "name": "Unknown",
       "description": "Threshold Dev",
       "author": "Marco Pinotti",
@@ -1599,7 +1683,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0115",
+      "id": "workout_0121",
       "name": "Unknown",
       "description": "SFR/Tempo",
       "author": "Marco Pinotti",
@@ -1613,7 +1697,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0116",
+      "id": "workout_0122",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1627,7 +1711,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0117",
+      "id": "workout_0123",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1641,7 +1725,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0118",
+      "id": "workout_0124",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1655,7 +1739,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0119",
+      "id": "workout_0125",
       "name": "Unknown",
       "description": "Strength",
       "author": "Marco Pinotti",
@@ -1669,7 +1753,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0120",
+      "id": "workout_0126",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1683,7 +1767,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0121",
+      "id": "workout_0127",
       "name": "Unknown",
       "description": "Threshold Dev",
       "author": "Marco Pinotti",
@@ -1697,7 +1781,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0122",
+      "id": "workout_0128",
       "name": "Unknown",
       "description": "Foundation - Do this training in a fasted state (coffee allowed before)",
       "author": "Marco Pinotti",
@@ -1711,7 +1795,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0123",
+      "id": "workout_0129",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1725,7 +1809,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0124",
+      "id": "workout_0130",
       "name": "Unknown",
       "description": "Threshold Dev",
       "author": "Marco Pinotti",
@@ -1739,7 +1823,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0125",
+      "id": "workout_0131",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1753,7 +1837,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0126",
+      "id": "workout_0132",
       "name": "Unknown",
       "description": "Threshold Dev",
       "author": "Marco Pinotti",
@@ -1767,7 +1851,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0127",
+      "id": "workout_0133",
       "name": "Unknown",
       "description": "Foundation",
       "author": "Marco Pinotti",
@@ -1781,7 +1865,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0128",
+      "id": "workout_0134",
       "name": "Unknown",
       "description": "Relax and recover! You get stronger when resting!",
       "author": "Unknown",
@@ -1795,7 +1879,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0129",
+      "id": "workout_0135",
       "name": "Unknown",
       "description": "15 minute warm up working from Active recovery to Endurance with 2 x 1 minute fast pedals to wake up legs. Set a pace at Endurance and hold pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence. Finish with 10 minutes of cool down to Active Recovery.",
       "author": "Unknown",
@@ -1809,7 +1893,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0130",
+      "id": "workout_0136",
       "name": "Unknown",
       "description": "After a 15 minute high cadence warmup effort, set a pace at Endurance and hold this pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence.",
       "author": "Unknown",
@@ -1823,7 +1907,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0131",
+      "id": "workout_0137",
       "name": "Unknown",
       "description": "Explosive Power Development! ",
       "author": "Unknown",
@@ -1837,7 +1921,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0132",
+      "id": "workout_0138",
       "name": "Unknown",
       "description": "Today is an Active Recovery day targeting ONLY Acitve Recovery. Focus on relaxing on the bike and enjoying the ride. Today is about recovery, so go for an easy spin!",
       "author": "Unknown",
@@ -1851,7 +1935,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0133",
+      "id": "workout_0139",
       "name": "Unknown",
       "description": "We're building endurance today! Warmup followed by 3 sets of fast pedals (as fast as you can pedal without bouncing in the saddle) to open up the legs, followed by a long endurance ride. Focus on staying relaxed on the bike while keeping your cadence between 85 - 105 rpm. During the ride, you will complete 2 x 20 minute intervals at FTP. The last half hour of the ride keeps it at Tempo pace. This will help boost your stamina and late race performance!",
       "author": "Unknown",
@@ -1865,7 +1949,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0134",
+      "id": "workout_0140",
       "name": "Unknown",
       "description": "Rest already?! Get used to it. It's going to be an easy week.",
       "author": "Unknown",
@@ -1879,7 +1963,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0135",
+      "id": "workout_0141",
       "name": "Unknown",
       "description": "Endurance ride. Set a pace at Endurance and hold this pace for the next 2.5 hours. Throughout the ride, do a 10x 10 second out-of-the-saddle bursts into your Neuromusclar Power Zone (MAX). Make sure cadence stays high",
       "author": "Unknown",
@@ -1893,7 +1977,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0136",
+      "id": "workout_0142",
       "name": "Unknown",
       "description": "After a 15 minute high cadence warmup effort, set a pace at Endurance and hold this pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence.",
       "author": "Unknown",
@@ -1907,7 +1991,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0137",
+      "id": "workout_0143",
       "name": "Unknown",
       "description": "Begin with 20 one-leg pedaling efforts. Switch immediately from one leg to the other until you have completed all 20 efforts. Then ride at Endurance for the next 15 minutes. Complete 10 x 1-minute HIGH CADENCE FAST PEDALS targeting 135+ RPM, with 2-minute rests between intervals. Finish with 10 minutes at TEMPO. Focus on keeping your cadence between 85 and 95 RPM.",
       "author": "Unknown",
@@ -1921,7 +2005,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0138",
+      "id": "workout_0144",
       "name": "Unknown",
       "description": "Today is simple, ride the prescribed time in your Endurance Zone. Vary your cadence throughout the ride and work on your pedaling form. Practice \"coming over the top\" and \"pulling through the bottom\" of the pedal (try pretending there is glass in your shoes). Try to aim for a cadence between 85 and 105.",
       "author": "Unknown",
@@ -1935,7 +2019,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0139",
+      "id": "workout_0145",
       "name": "Unknown",
       "description": "SST Intervals. On trainer, out on road or in a group, SST intervals are part of our continued effort to build and maintain base.",
       "author": "Unknown",
@@ -1949,7 +2033,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0140",
+      "id": "workout_0146",
       "name": "Unknown",
       "description": "The goal today is to get in low rpm, high strength work. If you can't use the gearing suggested, that's OK! Go by the cadence and follow the spirit of the workout.",
       "author": "Unknown",
@@ -1963,7 +2047,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0141",
+      "id": "workout_0147",
       "name": "Unknown",
       "description": "Build some time on the bike today with an endurance ride!",
       "author": "Unknown",
@@ -1977,7 +2061,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0142",
+      "id": "workout_0148",
       "name": "Unknown",
       "description": "Classic FTP Intervals, 3 x 10 minutes",
       "author": "Unknown",
@@ -1991,7 +2075,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0143",
+      "id": "workout_0149",
       "name": "Unknown",
       "description": "",
       "author": "Unknown",
@@ -2005,7 +2089,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0144",
+      "id": "workout_0150",
       "name": "Unknown",
       "description": "Take a break and think about the hard work you've already completed. Recovery is just as important.",
       "author": "Unknown",
@@ -2019,7 +2103,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0145",
+      "id": "workout_0151",
       "name": "Unknown",
       "description": "Endurance ride. Ride for 2.5 hours at an endurance pace. Vary cadence while focusing on riding smoothly and staying relaxed.",
       "author": "Unknown",
@@ -2033,7 +2117,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0146",
+      "id": "workout_0152",
       "name": "Unknown",
       "description": "A slow burn warmup followed by 4 sets of intervals of increasing intesity. Remember to push it hard!!",
       "author": "Unknown",
@@ -2047,7 +2131,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0147",
+      "id": "workout_0153",
       "name": "Unknown",
       "description": "Now would be a good day to do some weight training if you want.",
       "author": "Unknown",
@@ -2061,7 +2145,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0148",
+      "id": "workout_0154",
       "name": "Unknown",
       "description": "Relax and recover! You get stronger when resting!",
       "author": "Unknown",
@@ -2075,7 +2159,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0149",
+      "id": "workout_0155",
       "name": "Unknown",
       "description": "Give your friends a call. They miss you.",
       "author": "Unknown",
@@ -2089,7 +2173,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0150",
+      "id": "workout_0156",
       "name": "Unknown",
       "description": "We're building endurance today! Warmup followed by 3 sets of fast pedals (as fast as you can pedal without bouncing in the saddle) to open up the legs, followed by a long endurance ride. Focus on staying relaxed on the bike and vary your cadence.",
       "author": "Unknown",
@@ -2103,7 +2187,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0151",
+      "id": "workout_0157",
       "name": "Unknown",
       "description": "Great week! Sit back, relax, and let your body catch up to all of the hard work you put it through.",
       "author": "Unknown",
@@ -2117,7 +2201,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0152",
+      "id": "workout_0158",
       "name": "Unknown",
       "description": "SST Intervals. On trainer, out on road or in a group, SST intervals are part of our continued effort to build and maintain base.",
       "author": "Unknown",
@@ -2131,7 +2215,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0153",
+      "id": "workout_0159",
       "name": "Unknown",
       "description": "Build some time on the bike today with a nice endurance ride!",
       "author": "Unknown",
@@ -2145,7 +2229,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0154",
+      "id": "workout_0160",
       "name": "Unknown",
       "description": "Today is an Active Recovery day. Focus on relaxing on the bike and enjoying the ride.",
       "author": "Unknown",
@@ -2159,7 +2243,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0155",
+      "id": "workout_0161",
       "name": "Unknown",
       "description": "Halfway there! How will you celebrate?",
       "author": "Unknown",
@@ -2173,7 +2257,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0156",
+      "id": "workout_0162",
       "name": "Unknown",
       "description": "3 x 15 minute Crisscross intervals. A \"crisscross\" interval is an interval where you vary your efforts to really teach your body to clear lactate. ",
       "author": "Unknown",
@@ -2187,7 +2271,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0157",
+      "id": "workout_0163",
       "name": "Unknown",
       "description": "Endurance ride. Set a pace at Endurance and hold this pace for the next 2.5 hours. Throughout the ride, do 10 x 8 second out-of-the-saddle bursts into your Neuromusclar Power Zone (MAX). Make sure your cadence stays high.",
       "author": "Unknown",
@@ -2201,7 +2285,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0158",
+      "id": "workout_0164",
       "name": "Unknown",
       "description": "Ahhhhhh! Two weeks down. Ten to go!",
       "author": "Unknown",
@@ -2215,7 +2299,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0159",
+      "id": "workout_0165",
       "name": "Unknown",
       "description": "Ride for 2.5 hours at an endurance pace. Vary your cadence while focusing on riding smoothly and staying relaxed.",
       "author": "Unknown",
@@ -2229,7 +2313,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0160",
+      "id": "workout_0166",
       "name": "Unknown",
       "description": "Relax and recover! You get stronger when resting!",
       "author": "Unknown",
@@ -2243,7 +2327,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0161",
+      "id": "workout_0167",
       "name": "Unknown",
       "description": "Power Step Ups! Steadily ramp up your power from Zone 2 up to Zone 4. Repeat for 1:30:00.",
       "author": "Unknown",
@@ -2257,7 +2341,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0162",
+      "id": "workout_0168",
       "name": "Unknown",
       "description": "Explosive Power Development! Crush it!",
       "author": "Unknown",
@@ -2271,7 +2355,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0163",
+      "id": "workout_0169",
       "name": "Unknown",
       "description": "After a 15 minute high cadence warmup effort, set a pace at Endurance and hold this pace for the next 2.5 hours. Throughout the ride, do 10 x 8 second out-of-the-saddle bursts into your Neuromusclar Power Zone (MAX). Make sure cadence stays high.",
       "author": "Unknown",
@@ -2285,7 +2369,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0164",
+      "id": "workout_0170",
       "name": "Unknown",
       "description": "Spin for 1 minute with rpm > 100 and then keep that pace while standing out of the saddle. Repeat this 5x for 10 minutes total. Then, spin at a moderate pace while listening to your body for 10 minutes. Follow this with 10 minutes of alternate one-legged pedaling.",
       "author": "Unknown",
@@ -2299,7 +2383,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0165",
+      "id": "workout_0171",
       "name": "Unknown",
       "description": "Build some time on the bike today with an ENDURANCE Ride!",
       "author": "Unknown",
@@ -2313,7 +2397,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0166",
+      "id": "workout_0172",
       "name": "Unknown",
       "description": "Active Recovery - you get faster when you are resting and recovering, not when you are working hard!! Rest days are about going easy enough to really allow your legs to recover, so no efforts over Zone 1 today. Take it easy and lookat the scenery.",
       "author": "Unknown",
@@ -2327,7 +2411,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0167",
+      "id": "workout_0173",
       "name": "Unknown",
       "description": "This is your 8 week test. Warm up well and really CRUSH IT!",
       "author": "Unknown",
@@ -2341,7 +2425,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0168",
+      "id": "workout_0174",
       "name": "Unknown",
       "description": "Relax and recover! You get stronger when resting!",
       "author": "Unknown",
@@ -2355,7 +2439,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0169",
+      "id": "workout_0175",
       "name": "Unknown",
       "description": "Endurance ride. Set a pace at Endurance Power and hold this pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence.\n\t",
       "author": "Unknown",
@@ -2369,7 +2453,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0170",
+      "id": "workout_0176",
       "name": "Unknown",
       "description": "Endurance ride. Set a pace at Endurance power and hold this pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence.",
       "author": "Unknown",
@@ -2383,7 +2467,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0171",
+      "id": "workout_0177",
       "name": "Unknown",
       "description": "Now would be a good time to watch the classic cycling movie \"Breaking Away\".",
       "author": "Unknown",
@@ -2397,7 +2481,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0172",
+      "id": "workout_0178",
       "name": "Unknown",
       "description": "You get faster when you are resting and recovering, not when you are working hard!! Rest days are about going easy enough to really allow your legs to recover so no efforts over Zone 1 today, take it easy and look at the scenery.",
       "author": "Unknown",
@@ -2411,7 +2495,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0173",
+      "id": "workout_0179",
       "name": "Unknown",
       "description": "Explosive Power Development!",
       "author": "Unknown",
@@ -2425,7 +2509,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0174",
+      "id": "workout_0180",
       "name": "Unknown",
       "description": "Spend 10 minutes warming up in Zone 2. Follow with 15 minutes of cadence drills, ending with some hard intervals and a 10 minute cool down.",
       "author": "Unknown",
@@ -2439,7 +2523,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0175",
+      "id": "workout_0181",
       "name": "Unknown",
       "description": "Endurance ride. Set a pace at Endurance and hold this pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence.",
       "author": "Unknown",
@@ -2453,7 +2537,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0176",
+      "id": "workout_0182",
       "name": "Unknown",
       "description": "15 minute warmup working into Endurance with 3 x 1 minute fast pedals to wake up legs followed by FTP builder intervals. Complete 3 x 15 minutes at FTP with 5 minute recovery between each effort at Endurance. Keep your cadence at 85 - 105 rpm. Once complete ride easy for 10 minutes. Complete 2 x 3 minutes in your VO2Max with 3 minutes of rest between intervals. Finish with 10 minute cool down.",
       "author": "Unknown",
@@ -2467,7 +2551,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0177",
+      "id": "workout_0183",
       "name": "Unknown",
       "description": "After a 15 minute high cadence warmup effort, set a pace at Endurance and hold this pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence.",
       "author": "Unknown",
@@ -2481,7 +2565,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0178",
+      "id": "workout_0184",
       "name": "Unknown",
       "description": "You've really earned this day off, enjoy it! When's the last time you took a shower?",
       "author": "Unknown",
@@ -2495,7 +2579,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0179",
+      "id": "workout_0185",
       "name": "Unknown",
       "description": "Endurance ride. Ride at an endruance pace for 2.5 hours. Throughout the ride, do 10 8-second max power bursts. Be sure your cadence remains high.",
       "author": "Unknown",
@@ -2509,7 +2593,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0180",
+      "id": "workout_0186",
       "name": "Unknown",
       "description": "You can never get enough rest. Trust us.",
       "author": "Unknown",
@@ -2523,7 +2607,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0181",
+      "id": "workout_0187",
       "name": "Unknown",
       "description": "Today is an Active Recovery day targeting ONLY Active Recovery. Focus on relaxing on the bike and enjoying the ride.",
       "author": "Unknown",
@@ -2537,7 +2621,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0182",
+      "id": "workout_0188",
       "name": "Unknown",
       "description": "8 x 3 minutes at 50 rpm, pushing a big gear at 90% of FTP. The goal is to create more torque than watts. Stay seated for the entire effort and pull on handlebars to be able to push harder. If you need more resistance, increase the wattage.",
       "author": "Unknown",
@@ -2551,7 +2635,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0183",
+      "id": "workout_0189",
       "name": "Unknown",
       "description": "Active Recovery! You get faster when you are resting and recovering, not when you are working hard!! Rest days are about going easy enough to really allow your legs to recover so no efforts over Zone 1 today, take it easy and look at the scenery.",
       "author": "Unknown",
@@ -2565,7 +2649,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0184",
+      "id": "workout_0190",
       "name": "Unknown",
       "description": "SST Intervals. On the trainer, out on the road, or in a group, SST intervals are part of our continued effort to build and maintain base. Complete 3 x 20 Minute Intervals in the \"Sweet Spot\" zone with 5 minutes recovery in-between, Ride all other time in Endurance zone",
       "author": "Unknown",
@@ -2579,7 +2663,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0185",
+      "id": "workout_0191",
       "name": "Unknown",
       "description": "Today is an Active Recovery day targeting ONLY Active Recovery. Focus on relaxing on the bike and enjoying the ride.",
       "author": "Unknown",
@@ -2593,7 +2677,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0186",
+      "id": "workout_0192",
       "name": "Unknown",
       "description": "SST Intervals. On the trainer, out on the road, or in a group, SST intervals are part of our continued effort to build and maintain base. ",
       "author": "Unknown",
@@ -2607,7 +2691,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0187",
+      "id": "workout_0193",
       "name": "Unknown",
       "description": "Now would be a good time to buy those new socks you've been thinking about.",
       "author": "Unknown",
@@ -2621,7 +2705,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0188",
+      "id": "workout_0194",
       "name": "Unknown",
       "description": "Another week down! Good for you!",
       "author": "Unknown",
@@ -2635,7 +2719,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0189",
+      "id": "workout_0195",
       "name": "Unknown",
       "description": "Complete today's workout at 80 rpm. Complete warm up and cool down in 39x15. The main set of the ride will be completed in 53x15. If that is not possible then use different gears. Get in work in a single gear that simulates you riding outside over varying terrain.",
       "author": "Unknown",
@@ -2649,7 +2733,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0190",
+      "id": "workout_0196",
       "name": "Unknown",
       "description": "We're building endurance today! 10 minutes working into Endurance with 3 sets of 1 minute fast pedals to open up legs. Then ride in Endurance. Focus on staying relaxed on the bike and spinning circles while keeping your cadence between 90 and 100. During the ride, complete 2 x 20 minute FTP intervals, with 10 minutes of rest between each interval. Finish with 15 minutes of cooldown in Active Recovery.",
       "author": "Unknown",
@@ -2663,7 +2747,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0191",
+      "id": "workout_0197",
       "name": "Unknown",
       "description": "Relax and recover! You get stronger when resting!",
       "author": "Unknown",
@@ -2677,7 +2761,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0192",
+      "id": "workout_0198",
       "name": "Unknown",
       "description": "Today is a day to push yourself! During the workout try to keep your cadence above 100 rpm for the hard efforts, dropping to an easy spin during the rests.Warm up to Tempo, followed up by 5 minutes at FTP. Next up, 5 x 1 intervals at V02 Max for a one minute out of the saddle effort with 1 minute rest. Follow up with 10 minutes at Tempo,and some one legged efforts. Which leg is stronger? Which leg is smoother? Finish up with an easy cooldown in the 39x17 gear at Active Recovery.",
       "author": "Unknown",
@@ -2691,7 +2775,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0193",
+      "id": "workout_0199",
       "name": "Unknown",
       "description": "Today is an Active Recovery day targeting ONLY Active Recovery. Focus on relaxing on the bike and enjoying the ride.",
       "author": "Unknown",
@@ -2705,7 +2789,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0194",
+      "id": "workout_0200",
       "name": "Unknown",
       "description": "Relax and recover! You get stronger when resting!",
       "author": "Unknown",
@@ -2719,7 +2803,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0195",
+      "id": "workout_0201",
       "name": "Unknown",
       "description": "2x20 Crisscross intervals. a \"crisscross\" interval is an interval where you vary your efforts to really teach your body to clear lactate.",
       "author": "Unknown",
@@ -2733,7 +2817,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0196",
+      "id": "workout_0202",
       "name": "Unknown",
       "description": "Now would be a good day to do some weight training, if you want.",
       "author": "Unknown",
@@ -2747,7 +2831,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0197",
+      "id": "workout_0203",
       "name": "Unknown",
       "description": "This is your 12 week test. Warm up well and really CRUSH IT!!",
       "author": "Unknown",
@@ -2761,7 +2845,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0198",
+      "id": "workout_0204",
       "name": "Unknown",
       "description": "Building Endurance today! Once warmed up, ride in your ENDURANCE zone. Focus on staying relaxed on the bike and spinning circles while keeping cadence between 90-100. During the last hour of the ride complete 5 FORCE reps of 3-5 minutes each (5 minutes rest in-between) at Threshold Power. Force Reps are a big gear, low cadence effort targeting a cadence of 55-65 RPM.",
       "author": "Unknown",
@@ -2775,7 +2859,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0199",
+      "id": "workout_0205",
       "name": "Unknown",
       "description": "You get faster when you are resting and recovering, not when you are working hard!! Rest days are about going easy enough to really allow your legs to recover.",
       "author": "Unknown",
@@ -2789,7 +2873,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0200",
+      "id": "workout_0206",
       "name": "Unknown",
       "description": "Today is an Active Recovery day targeting ONLY Active Recovery. Focus on relaxing on the bike and enjoying the ride.",
       "author": "Unknown",
@@ -2803,7 +2887,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0201",
+      "id": "workout_0207",
       "name": "Unknown",
       "description": "Build some time on the bike today with a nice Endurance ride!",
       "author": "Unknown",
@@ -2817,7 +2901,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0202",
+      "id": "workout_0208",
       "name": "Unknown",
       "description": "Now would be a good day to kick back and relax.",
       "author": "Unknown",
@@ -2831,7 +2915,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0203",
+      "id": "workout_0209",
       "name": "Unknown",
       "description": "Begin with 20 one-leg pedaling efforts. Switch immediately from one leg to the other until you have completed all 20 efforts. Then ride at Endurance for the next 15 minutes. Complete 10 x 1-minute HIGH CADENCE FAST PEDALS targeting 135+ RPM, with 2-minute rests between intervals. Finish with 15 minutes at FTP. Focus on keeping your cadence between 85 and 95 RPM.",
       "author": "Unknown",
@@ -2845,7 +2929,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0204",
+      "id": "workout_0210",
       "name": "Unknown",
       "description": "You get faster when you are resting and recovering, not when you are working hard!! Rest days are about going easy enough to really allow your legs to recover so no efforts over Zone 1 today, take it easy and look at the scenery.",
       "author": "Unknown",
@@ -2859,7 +2943,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0205",
+      "id": "workout_0211",
       "name": "Unknown",
       "description": "Today you chill out.",
       "author": "Unknown",
@@ -2873,7 +2957,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0206",
+      "id": "workout_0212",
       "name": "Unknown",
       "description": "How are you feeling? I know, that's why you need to rest.",
       "author": "Unknown",
@@ -2887,7 +2971,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0207",
+      "id": "workout_0213",
       "name": "Unknown",
       "description": "Rest Day rhymes with Best Day!",
       "author": "Unknown",
@@ -2901,7 +2985,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0208",
+      "id": "workout_0214",
       "name": "Unknown",
       "description": "Spend 10 minutes warming up in Zone 2. Follow with 15 minutes of cadence drills, ending with some hard intervals and a 10 minute cool down.",
       "author": "Unknown",
@@ -2915,7 +2999,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0209",
+      "id": "workout_0215",
       "name": "Unknown",
       "description": "Warmup for 15 minutes in Zone followed by 15 minutes of cadence drills. End with some hard intervals and a 15 minute cool down.",
       "author": "Unknown",
@@ -2929,7 +3013,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0210",
+      "id": "workout_0216",
       "name": "Unknown",
       "description": "Relax and recover! You get stronger when resting!",
       "author": "Unknown",
@@ -2943,7 +3027,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0211",
+      "id": "workout_0217",
       "name": "Unknown",
       "description": "Relax and recover! You get stronger when resting!",
       "author": "Unknown",
@@ -2957,7 +3041,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0212",
+      "id": "workout_0218",
       "name": "Unknown",
       "description": "This workout is made up of 5 efforts - one in each power zone from 2 to 6. Perhaps unsurprisingly, as the power increases, the length of each effort decreases. The focus of this workout is the continuation of the high cadence work, where we complete the first 4 efforts at 105rpm. Remember - if you can train yourself to produce high power at a high cadence, you pedaling efficiency will improve at your \u2018go-to' cadence, which may even nudge up a little!",
       "author": "D.Rowe (Rowe&King)",
@@ -2971,7 +3055,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0213",
+      "id": "workout_0219",
       "name": "Unknown",
       "description": "Todays ride consists of 10x 1 minute, aka minute on's minute off's. This is somewhat of a a HIIT style workout. For 20 minutes (including recovery) you will be asked to put in their best efforts on each of the one minutes. This session an incredible way to get quality in during a short amount of time. Again, mix it up if you would like with seated and standing keeping efforts in the correct zone. Change is seen quickly if you incorporate this type of workout once a week or once every two weeks.",
       "author": "Kristin Armstrong",
@@ -2985,7 +3069,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0214",
+      "id": "workout_0220",
       "name": "Unknown",
       "description": "It's a Microburst kind of day! Today's ride consist of 3 sets of 8 efforts building from 10 second to 20 second to 30 second intervals, each separated by 2:30 minutes recovery. The number of repetitions will be 8 for all three sets, expect fatigue to accumulated over each set. The effects made in this workout are tremendous, although time spent in upper zones are short you are allowing more capacity in your anaerobic box meaning over time you will be able to spend more and more time in the higher intensity prior to fatiguing.",
       "author": "Kristin Armstrong",
@@ -2999,7 +3083,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0215",
+      "id": "workout_0221",
       "name": "Unknown",
       "description": "Todays session is all about Strength, cycling specific strength while done on the bike. A solid 30-minute work session is planned for you including 15 alternating minutes in the Sweet Spot (90% of your FTP) at your cadence of choice followed by Strength Endurance targeting 60-65 rpms at 75% of your FTP.",
       "author": "Kristin Armstrong",
@@ -3013,7 +3097,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0216",
+      "id": "workout_0222",
       "name": "Unknown",
       "description": "This workout offers an introduction to strength endurance training, which will likely be a new type of effort for you. Riding at a low cadence really draws upon your strength, which is critical for cycling. As the blocks get shorter, the intensity increases - all at 55rpm! A challenging session - enjoy!",
       "author": "D.Rowe (Rowe&King)",
@@ -3027,7 +3111,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0217",
+      "id": "workout_0223",
       "name": "Unknown",
       "description": "Todays ride is 2-blocks of Strength Endurance (SE) with a few surprise attacks throughout which will \"divide\" the longer two sets; however, make it more difficult to settle in and \"conquer\". You have to focus and keep on your toes, stay relaxed. The transition will be 3-minutes at a time with :15 - :30 second anaerobic capacity efforts in between. The key in this set is to gain Strength as well as see how much torque you can pedal through to REV up on each of these bursts.",
       "author": "Kristin Armstrong",
@@ -3041,7 +3125,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0218",
+      "id": "workout_0224",
       "name": "Unknown",
       "description": "This workout contains 4 x pyramids - ramping up and down in each effort so, maxing out at 100% of your FTP. Whilst the power isn't excessively high - the challenge comes from having to produce varying power at a high cadence of 110rpm. Being able to maintain a high cadence whilst your power is constantly changing is a skill, and will help support a more efficient pedaling style when you revert back to your normal, lower cadence.",
       "author": "D.Rowe (Rowe&King)",
@@ -3055,7 +3139,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0219",
+      "id": "workout_0225",
       "name": "Unknown",
       "description": "Microbursts are great to do on a regular basis to make sure that you can change speeds anytime no matter the activity you are doing as well as handle power fluctuations on the bike. Each set consists of 10x 30 seconds on (120-130% of FTP) and :15 seconds off (40-50% of FTP). These will definitely be entertaining for the mind yet very challenging for everyone. The great thing about this workout is you will see improvement from the first time doing this to the 2nd and beyond.",
       "author": "Kristin Armstrong",
@@ -3069,7 +3153,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0220",
+      "id": "workout_0226",
       "name": "Unknown",
       "description": "This workout is fairly varied! As your power constantly ramps up and down, and your cadence changes frequently - this is a workout to keep you engaged and working towards improving your fitness. The max power you produce during the ramps is only 95% of your threshold, so you should be able to manage this workout on tired legs.",
       "author": "D.Rowe (Rowe&King)",
@@ -3083,7 +3167,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0221",
+      "id": "workout_0227",
       "name": "Unknown",
       "description": "This workout contains a block of Zone 3 just like the first workout, to give you that familiarity and confidence ahead of some more intense efforts. Today, you will complete 6 x 20 second sprints - something that may be alien to you, however the rewards are great!",
       "author": "D.Rowe (Rowe&King)",
@@ -3097,7 +3181,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0222",
+      "id": "workout_0228",
       "name": "Unknown",
       "description": "This workout really gets your Type II (Fast Twitch) muscle fibers firing, by completing 20 x 20-second sprint efforts. There are huge gains to be made through sprint training, even if your target event doesn't involve sprinting - you will love being more powerful and explosive on the bike.",
       "author": "D.Rowe (Rowe&King)",
@@ -3111,7 +3195,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0223",
+      "id": "workout_0229",
       "name": "Unknown",
       "description": "This session is a fitness builder. We will experience time in three different training zones - Threshold, Vo2 and our Anaerobic zone. Today's session consists of 3x 2 minutes at 100% of FTP (Threshold), 3x 1 minute at 110% of FTP (VO2), and 6x :30 seconds at 120% of FTP (Anaerobic). As we increase power, we will decrease time in each effort.",
       "author": "Kristin Armstrong",
@@ -3125,7 +3209,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0224",
+      "id": "workout_0230",
       "name": "Unknown",
       "description": "This ride is what we refer to as \"Over Under's\". Over Under is when you go above FTP (100%) to below FTP (<100%). During this ride you will perform 4 sets of 30 seconds over your threshold at 105% of your FTP followed by 30 seconds under your threshold at 85% of your FTP for 4-minutes. Imagine going back and forth from Vo2 to Sweet Spot. Between each set you will have 2 minutes of recovery.",
       "author": "Kristin Armstrong",
@@ -3139,7 +3223,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0225",
+      "id": "workout_0231",
       "name": "Unknown",
       "description": "This workout contains 4 x very mild ramps from Zone 2 to Zone 3, however each ramp is to be ridden at a low cadence of 60rpm, adding a strength element to the workout. Rather than being a strenuous strength endurance workout in its own right, todays efforts further your strength training experience.",
       "author": "D.Rowe (Rowe&King)",
@@ -3153,7 +3237,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0226",
+      "id": "workout_0232",
       "name": "Unknown",
       "description": "This workout takes you to the max, by completing 3 x Capacity Efforts; 5, 3 and 1 minute! Being able to produce more power for these relatively short durations translates to a much more enjoyable cycling experience - just think of those short hills that you could smash up! The key to these efforts is to be well rested and psychologically up for it - it's time to go deep!",
       "author": "D.Rowe (Rowe&King)",
@@ -3167,7 +3251,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0227",
+      "id": "workout_0233",
       "name": "Unknown",
       "description": "This workout is based on the well documented 'over - under' style workout, where you repeatedly tip yourself above and dip below your threshold power. You should get plenty of rest during the 1 minute at 90% of FTP to enable you to manage the 2 minutes spent slightly above your threshold.",
       "author": "D.Rowe (Rowe&King)",
@@ -3181,7 +3265,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0228",
+      "id": "workout_0234",
       "name": "Unknown",
       "description": "This ride consists of an integration of POWER + Endurance. The power efforts will be shorter efforts 30 seconds or less in duration followed by a ramp-down style of climbing and endurance decreasing in intensity throughout 5 minutes. We will tap in to all of our energy systems today which keep sessions fun while at the same time challenging for all!",
       "author": "Kristin Armstrong",
@@ -3195,7 +3279,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0229",
+      "id": "workout_0235",
       "name": "Unknown",
       "description": "This workout is straight forward - you will spend plenty of time with your chain tight. 3 x 6 minute blocks of Zone 3, will ensure you get a good training stress, without leaving your legs heavy for tomorrow.",
       "author": "D.Rowe (Rowe&King)",
@@ -3209,7 +3293,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0230",
+      "id": "workout_0236",
       "name": "Unknown",
       "description": "This workout makes use of arguably Zwift's coolest workout feature - ramps! Two ramp ups and one ramp down, all between Endurance (Zone 2) and Vo2 Max (Zone 5) will help elevate your heart rate, without being too damaging to your leg muscles. A nice contribution to your training consistency, as you should be able to train again tomorrow.",
       "author": "D.Rowe (Rowe&King)",
@@ -3223,7 +3307,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0231",
+      "id": "workout_0237",
       "name": "Unknown",
       "description": "This ride consists of an integration of POWER + CLIMBING. The power efforts will be shorter efforts 30 seconds or less in duration followed by a ramp-up style of climbing and endurance in creasing in intensity throughout 5 minutes. We will tap in to all of our energy systems today which keep sessions fun while at the same time challenging for all!",
       "author": "Kristin Armstrong",
@@ -3237,7 +3321,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0232",
+      "id": "workout_0238",
       "name": "Unknown",
       "description": "This session includes Under Overs. This is the same as what we call Over Under other than you begin with an effort under your FTP (100%). There are two blocks. The first block includes 1 minute efforts at 75% of your FTP alternating with efforts at 115% of your FTP. Enjoy the 4 minute recovery before hitting the last set of Under Overs which include 2 minutes at 75% of your FTP followed by :30 seconds at 115%. The total duration of the first set is 12-mintues and second set is 10-minutes. This session is a great fitness builder while keeping your mind from losing focus!",
       "author": "Kristin Armstrong",
@@ -3251,7 +3335,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0233",
+      "id": "workout_0239",
       "name": "Unknown",
       "description": "This workout contains a block of Zone 3 to gradually help ease you in to the workout, before completing 3 x 2 min Z5 (110% of FTP) efforts. This workout should feel like a challenge yet definitely be achievable so an ideal session for the start of a workout series.",
       "author": "D.Rowe (Rowe&King)",
@@ -3265,7 +3349,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0234",
+      "id": "workout_0240",
       "name": "Unknown",
       "description": "Its foundation time! This ride is continuous without many \"rest periods\". Kicking off with a :15 sec push followed by 2 minutes in our Sweet Spot zone repeated 9 times. 9x :15 seconds at 120% (Anaerobic), 2 minutes 88% (SweetSpot). Be mindful not to be overzealous; going out too hard will catch up later in the ride!",
       "author": "Kristin Armstrong",
@@ -3279,7 +3363,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0235",
+      "id": "workout_0241",
       "name": "Unknown",
       "description": "Today's workout is about gaining strength, you will spend much of your time in Zone 3, TEMPO, 85% of your FTP - however you want to look at it. During today's workout it is important to be aware of your RPM's - focus on being between 60-65.  If you have knee or back issues increase this to 60-70 RPM's. Keep smooth pedal strokes, no rocking of the hips or mashing from left to right pedal :) At the end of the 5 minutes we will be increasing our cadence and power as much as we can for :15 seconds.  You will want to shift up one or two cogs - feeling the torque but able to ramp it up within the :30 seconds.\n\n",
       "author": "Kristin Armstrong",
@@ -3293,7 +3377,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0236",
+      "id": "workout_0242",
       "name": "Unknown",
       "description": "This workout consists of 5 sets of 3x 1-minute steps building from 80-100% of your FTP (Tempo to Threshold) with a :30 second relief after each and a 1:30 minute recovery segment following each set.",
       "author": "Kristin Armstrong",
@@ -3307,7 +3391,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0237",
+      "id": "workout_0243",
       "name": "Unknown",
       "description": "This ride has efficiency written all over it. Throughout this short 30-minute session you will spend time working between 70-90% of your FTP which is Basic Endurance to a Tempo zone. The time spent in each zone will vary, the ride is broken in to 3 sets of 5:30 minutes with a nice 2-minute recovery in between each.",
       "author": "Kristin Armstrong",
@@ -3321,7 +3405,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0238",
+      "id": "workout_0244",
       "name": "Unknown",
       "description": "This workout is filled with a number of inconsistent segments ranging from :10 seconds to 2 minutes in duration. This is a great way to train \"tackling the unknown\". Being nimble whether it is on the bike or off is important. Sometimes we just need to go with what's put in front of us! Enjoy, it's a fun one and will fly by before you know it.",
       "author": "Kristin Armstrong",
@@ -3335,7 +3419,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0239",
+      "id": "workout_0245",
       "name": "Unknown",
       "description": "This workout will see you complete 21 efforts in total. 7 of which are 45 seconds at zone 3, sandwiched by 14 shorter (30 second) zone 6 efforts. \n\nThe zone 6 efforts are short enough to ensure your heart rate never gets close to max.",
       "author": "D.Rowe (Rowe&King)",
@@ -3349,7 +3433,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0240",
+      "id": "workout_0246",
       "name": "Unknown",
       "description": "This ride consists of three sets of four 2-minute, 1-minute and :30 second efforts. As the efforts get shorter in duration, the intensity increases. Throughout this session you will work from 70-100% of your FTP which ranges from a Basic Endurance to Threshold zone. There is plenty of rest prescribed throughout this 40-minute workout.",
       "author": "Kristin Armstrong",
@@ -3363,7 +3447,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0241",
+      "id": "workout_0247",
       "name": "Unknown",
       "description": "This workout is an introduction to strength training, yet suitable as a prenatal workout as the intervals are short, of a moderate intensity and critically at 60rpm (so not requiring you to generate too much crank torque). \n\nWhile this is not a Strength Endurance workout, we still stress your Type II (fast twitch) muscle fibers - but not too much!\n\nFocus on keeping your upper body still and allowing your legs to generate all the power - good form is key.",
       "author": "D.Rowe (Rowe&King)",
@@ -3377,7 +3461,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0242",
+      "id": "workout_0248",
       "name": "Unknown",
       "description": "This workout takes on a pyramid style structure, where the efforts progress from 10 seconds up to 1 minute then after a recovery period reduce back down from 1 minute to 10 seconds. The rest mirrors the effort throughout.",
       "author": "D.Rowe (Rowe&King)",
@@ -3391,7 +3475,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0243",
+      "id": "workout_0249",
       "name": "Unknown",
       "description": "This session includes 5 x 2 minute progressive intervals, with 2 minutes recovery between each effort. \n\nYou should always be able to talk throughout and remember to listen to your body.",
       "author": "D.Rowe (Rowe&King)",
@@ -3405,7 +3489,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0244",
+      "id": "workout_0250",
       "name": "Unknown",
       "description": "This workout includes segments beginning with 3-minutes in duration decreasing to :20 seconds in duration. The challenge is while the duration decreases the intensity will increase throughout working between 70-120% of your FTP. Once you hit the peak intensity, it's time to come back down in intensity and build back the duration. There will be plenty of pit stops along the way allowing for recovery as well as an opportunity to continue hydrating.",
       "author": "Kristin Armstrong",
@@ -3419,7 +3503,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0245",
+      "id": "workout_0251",
       "name": "Unknown",
       "description": "This workout contains 4 x 3 minute ramps with a 15 second surge on the end to sting the legs a little.  \nThe ramped part of the efforts should feel controlled and with a 2 minute rest after each surge, your heart rate should not get too high.",
       "author": "D.Rowe (Rowe&King)",
@@ -3433,7 +3517,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0246",
+      "id": "workout_0252",
       "name": "Unknown",
       "description": "This workout consists of 3 sets of 30-20-10 second build ups for a total duration of 5 minutes each set. The simplest way to approach this ride is :30 seconds at a basic endurance level, followed by :20 seconds taking it up a notch to a tempo level, and straight in to a :10 second mini-burst. Think of this as a \"Peek-a-Boo\". A short reminder of \"Mom, I'm here do you see me\".",
       "author": "Kristin Armstrong",
@@ -3447,7 +3531,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0247",
+      "id": "workout_0253",
       "name": "Unknown",
       "description": "This workout offers an introduction to developing your strength by completing 3 blocks of 4 minute at zone 3 but critically at a low cadence of 60rpm.\n\nFocus on keeping your upper body still and allowing your legs to generate all the power.",
       "author": "D.Rowe (Rowe&King)",
@@ -3461,7 +3545,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0248",
+      "id": "workout_0254",
       "name": "Unknown",
       "description": "This session includes 5 x 3 minute regressive intervals, with 3 minutes recovery between each effort. Each effort will get easier as you progress, so brace yourself for a tough opening 30 seconds. \n\nYou should always be able to talk throughout and remember to listen to your body.",
       "author": "D.Rowe (Rowe&King)",
@@ -3475,7 +3559,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0249",
+      "id": "workout_0255",
       "name": "Unknown",
       "description": "This ride includes three sets of a gradual build taking the intensity from 70%-90% of your FTP which is an Endurance pace up to an upper Tempo zone. After each there will be a short :30 second recovery followed by a :30 second effort, \"earning your stripe\", reaching in to the anaerobic zone. After each build, you will earn an additional stripe for a total of 6 in todays 40-minute session.",
       "author": "Kristin Armstrong",
@@ -3489,7 +3573,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0250",
+      "id": "workout_0256",
       "name": "Unknown",
       "description": "This workout will see you complete 14 efforts in total. Half of which are short (30 seconds) and other half a little longer (45 seconds).\n\nThere is a 4 minute recovery period between each block providing you with a chance to sit up, hydrate and let your heart rate drop.",
       "author": "D.Rowe (Rowe&King)",
@@ -3503,7 +3587,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0251",
+      "id": "workout_0257",
       "name": "Unknown",
       "description": "This ride follows a routine, a pattern, a plan! Sometimes, it's just what we need. The session includes 4 sets of a ramp style build consisting of a stair step of 2mins, 1 min and :30 seconds ranging from 75-100% of a riders FTP (Tempo to Threshold).",
       "author": "Kristin Armstrong",
@@ -3517,7 +3601,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0252",
+      "id": "workout_0258",
       "name": "Unknown",
       "description": "This session is like walking with a 2 year old - constantly stopping and starting. You will complete 2 blocks of 5 x 45 second efforts with a good rest of 60 seconds between each effort. \n\nWhile your heart rate and perceived effort will surge during the 45 seconds of effort, there is ample opportunity to recover well between each effort so a suitable workout for during pregnancy or starting slowly to gain fitness.",
       "author": "D.Rowe (Rowe&King)",
@@ -3531,7 +3615,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0253",
+      "id": "workout_0259",
       "name": "Unknown",
       "description": "This workout is focused on gaining strength through pedaling at a lower RPM's 60-70 (cadence) for 3-minutes at a time. At the end of each set there will be a :30 second rev up where you will try and increase power by increasing your RPM's.\n\nLet's think of each set as \"stuck in the mud\" and rev'ing up your cadence to get out each time.\n\nWe will go through each set 4 times.",
       "author": "Kristin Armstrong",
@@ -3545,7 +3629,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0254",
+      "id": "workout_0260",
       "name": "Unknown",
       "description": "This workout will ebb + flow from Endurance to Tempo 1-minute at a time working from 75-90% of your FTP. You will repeat this 6-minute set 4 times throughout the 40-minute ride. This is a great way to keep your aerobic system going while maintaining a moderate heart rate.",
       "author": "Kristin Armstrong",
@@ -3559,7 +3643,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0255",
+      "id": "workout_0261",
       "name": "Unknown",
       "description": "This session is a progression from the 30 minute Start-Stop workout where you will tackle 3 blocks of 4 efforts, with each block's effort increasing in intensity but decreasing in duration.\n\nEach block roughly equates to the same training stress, but just varying type of stress and effort.",
       "author": "D.Rowe (Rowe&King)",
@@ -3573,7 +3657,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0256",
+      "id": "workout_0262",
       "name": "Unknown",
       "description": "This workout consists of 27 microbursts with plenty of breaks in between each. There are 5 sets in total beginning with :40 seconds in duration and decreasing to :15 seconds as we enter in to the last set. Each set will decease in duration; however, increase in power. This is a great workout and easy on the mind. There are a number of different ways to keep a baseline fitness level.\n\nThis is the session that just keeps on giving!",
       "author": "Kristin Armstrong",
@@ -3587,7 +3671,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0257",
+      "id": "workout_0263",
       "name": "Unknown",
       "description": "This workout starts and finishes with a pyramid style structure however this time completing 2 x 4 minute blocks of zone 3 in between to give a nice mix of aerobic and anaerobic effort.",
       "author": "D.Rowe (Rowe&King)",
@@ -3601,7 +3685,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0258",
+      "id": "workout_0264",
       "name": "Unknown",
       "description": "This ride is a hybrid style combining Strength Endurance (lower cadence) with Tempo. Todays session consists of 3 sets of 8 minutes. Each of the 8-minute sets will be broken in to 8 1-minute increments. The even minutes will be strength endurance efforts keeping RPM's between 60-70 and the odd minutes will be tempo efforts back to a cadence of 80-90RPM. After each set there will be 2:30 minutes of recovery.\n\nIt will feel like a roller coaster of a ride!",
       "author": "Kristin Armstrong",
@@ -3615,7 +3699,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0259",
+      "id": "workout_0265",
       "name": "Unknown",
       "description": "The Wriggler is a little bit random - think of it as a Fartlek style workout, where you make efforts at a range of intensities and lengths.\n\nNo specific cadence to target today, and similarly feel free to ride out of the saddle. Go with the flow and get stuck into this rollercoaster of a session - it's one to keep you occupied, just like a wriggling toddler!",
       "author": "D.Rowe (Rowe&King)",
@@ -3629,7 +3713,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0260",
+      "id": "workout_0266",
       "name": "Unknown",
       "description": "Georgia Simmerling won the bronze medal in the team pursuit in 2016 and is the first Canadian to compete in 3 different sports in 3 Olympic games (cycling, alpine skiing, and skicross). The team pursuit is a short and VERY intense event on the track which requires enormous wattage to be successful. This workout will take you through what it feels like to push yourself during a team pursuit event.",
       "author": "Shayne Gaffney",
@@ -3643,7 +3727,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0261",
+      "id": "workout_0267",
       "name": "Unknown",
       "description": "Dame Sarah Storey, DBE, with a total of fourteen Paralympic gold medals, makes her the most successful female British Paralympian of all time! This workout will take you through what it feels like to tackle the individual pursuit on the track, which Dame Storey is known for. Be ready for a hard start and an even harder finish!",
       "author": "Shayne Gaffney",
@@ -3657,7 +3741,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0262",
+      "id": "workout_0268",
       "name": "Unknown",
       "description": "Nino Schurter is arguably the greatest male cross-country mountain bike rider of all time. He completed the 2017 World Cup season with 6 consecutive wins, something no one else has ever achieved before, won the gold medal in mountain biking at the 2016 Olympics, the silver medal at the 2012 Olympics, and the bronze medal at the 2008 Olympics. Surging over threshold and returning to it repeatedly is a crucial skill for any great mountain biker. This workout will help develop that ability.",
       "author": "Shayne Gaffney",
@@ -3671,7 +3755,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0263",
+      "id": "workout_0269",
       "name": "Unknown",
       "description": "Sir Chris Hoy, MBE, with 7 Olympic medals, 6 gold 1 silver, multiple world championships, and national championships, is a force to be reckoned with on the track! This workout will take you through a Keirin race, one of the more exciting events to watch on the track, and which Sir Hoy won in 2012 and 2008.",
       "author": "Shayne Gaffney",
@@ -3685,7 +3769,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0264",
+      "id": "workout_0270",
       "name": "Unknown",
       "description": "With the nickname 'Queen of BMX', you know Mariana Paj\u00f3n, ODB, is the real deal, and her 2 Olympic gold medals in BMX, multiple World Championships, and Pan American Games victories just back it up! An essential skill for BMX athletes is to generate massive force and torque to the pedals, especially when the gate drops. This workout features low cadence intervals, and pedal stroke work, which help develop pedaling force.",
       "author": "Shayne Gaffney",
@@ -3699,7 +3783,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0265",
+      "id": "workout_0271",
       "name": "Unknown",
       "description": "Anna van der Breggen, who took home the gold medal at the 2016 Summer Olympics in the women\u2019s road race, can put in a massive attack to create a break, but somehow still have plenty left in the tank to sprint ahead for the win. Similar to how she won the Gold in 2016. This workout will challenge your ability to recover after putting in a couple of hard efforts, and test your mettle as you sprint for the line on tired legs.",
       "author": "Shayne Gaffney",
@@ -3713,7 +3797,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0266",
+      "id": "workout_0272",
       "name": "Unknown",
       "description": "Nelson Vails is the first, and only, African American Cyclist to win an Olympic medal. He took home the Silver medal in the sprint in the 1984 Olympics. Nicknamed \u201cThe Cheetah\u201d, he is known for going from zero to 40+ MPH in the blink of an eye. The track sprint is an equal mental and physical challenge with competitors playing tricks and mind-games on one another before uncorking their sprint\u2026 Be prepared to launch yours when the time is right!",
       "author": "Shayne Gaffney",
@@ -3727,7 +3811,7 @@
       "avg_power": 0
     },
     {
-      "id": "workout_0267",
+      "id": "workout_0273",
       "name": "Unknown",
       "description": "Anna Meares, OAM, is the most decorated female track cyclist of all time, including 6 Olympic medals. The team sprint is one of the most intense things you can do on a bicycle, and this workout will take you through what it feels like to participate in one!",
       "author": "Shayne Gaffney",
