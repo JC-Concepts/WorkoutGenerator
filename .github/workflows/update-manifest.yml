@@ -17,24 +17,36 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Create workouts directory if not exists
+      - name: Debug - list files
         run: |
-          if [ ! -d "workouts" ]; then
-            if [ -d "WOdb/zwift_workouts_all_collections_ordered_Nov20" ]; then
-              cp -r WOdb/zwift_workouts_all_collections_ordered_Nov20 workouts
-            fi
+          ls -la
+          echo "---"
+          ls -la WOdb/ 2>/dev/null || echo "WOdb not found"
+
+      - name: Create workouts directory and copy files
+        run: |
+          mkdir -p workouts
+          if [ -d "WOdb/zwift_workouts_all_collections_ordered_Nov20" ]; then
+            cp -r WOdb/zwift_workouts_all_collections_ordered_Nov20/* workouts/
+          elif [ -d "WOdb" ]; then
+            cp -r WOdb/* workouts/
           fi
+          echo "Workouts directory:"
+          ls workouts/ | head -5
 
       - name: Generate manifest
         run: python scripts/generate_manifest.py
+
+      - name: Debug output
+        run: |
+          echo "Generated workouts.json:"
+          head -30 workouts.json
 
       - name: Commit manifest
         uses: stefanzweifel/git-auto-commit-action@v5
