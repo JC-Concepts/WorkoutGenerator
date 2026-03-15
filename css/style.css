@@ -735,5 +735,6 @@ body {
     background: var(--bg-tertiary);
     border-radius: 8px;
     height: 250px;
+    min-height: 200px;
 }
 }

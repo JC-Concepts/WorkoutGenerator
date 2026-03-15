@@ -161,7 +161,7 @@ class UIManager {
      */
     renderWorkoutIntensity(workoutData) {
         console.log('Rendering workout intensity for:', workoutData.name);
-        console.log('Segments:', workoutData.segments?.length || 0);
+        console.log('Segments:', workoutData.segments?.length || 0, workoutData.segments);
         
         const container = document.getElementById('intensityContainer');
         if (!container) {
@@ -171,7 +171,7 @@ class UIManager {
         
         const segments = workoutData.segments || [];
         
-        if (segments.length === 0) {
+        if (!segments || segments.length === 0) {
             container.innerHTML = '<p class="intensity-note">No segment data available. Download the file to view workout details.</p>';
             return;
         }
@@ -187,7 +187,7 @@ class UIManager {
             data.push(seg.power || 0);
         });
         
-        console.log('Chart data:', { labels, data });
+        console.log('Chart data - labels:', labels.length, 'data:', data);
         
         // Create canvas for chart
         container.innerHTML = `
@@ -235,7 +235,9 @@ class UIManager {
                         data: data,
                         backgroundColor: backgroundColors,
                         borderColor: backgroundColors,
-                        borderWidth: 1
+                        borderWidth: 0,
+                        barPercentage: 1.0,
+                        categoryPercentage: 1.0
                     }]
                 },
                 options: {
