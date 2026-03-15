@@ -34,6 +34,27 @@ class UIManager {
     }
 
     /**
+     * Show initial state - before any search
+     */
+    showInitialState() {
+        const container = document.getElementById('workoutCards');
+        const emptyState = document.getElementById('emptyState');
+        
+        if (!container) return;
+        
+        container.innerHTML = '';
+        if (emptyState) {
+            emptyState.innerHTML = '<p>Use the filters above or click "Surprise Me" to find a workout!</p>';
+            emptyState.style.display = 'block';
+        }
+        
+        const countEl = document.getElementById('resultCount');
+        if (countEl) {
+            countEl.textContent = 'Ready to find your workout';
+        }
+    }
+
+    /**
      * Show toast notification
      */
     showToast(message, type = 'info') {
@@ -186,7 +207,7 @@ class UIManager {
         // Calculate SVG dimensions
         const width = 600;
         const height = 200;
-        const padding = { top: 20, right: 20, bottom: 30, left: 40 };
+        const padding = { top: 25, right: 30, bottom: 35, left: 55 };
         const chartWidth = width - padding.left - padding.right;
         const chartHeight = height - padding.top - padding.bottom;
         
@@ -196,14 +217,14 @@ class UIManager {
         const yScale = (power) => chartHeight - (power / maxPower) * chartHeight;
         
         // Build SVG paths
-        let currentX = 0;
+        let currentX = padding.left;
         let bars = '';
         
         segments.forEach((seg, i) => {
             const barWidth = (seg.duration / totalDuration) * chartWidth;
             const power = seg.power || 0;
             const barHeight = (power / maxPower) * chartHeight;
-            const y = chartHeight - barHeight;
+            const y = padding.top + chartHeight - barHeight;
             const color = getZoneColor(power);
             
             bars += `<rect x="${currentX}" y="${y}" width="${barWidth}" height="${barHeight}" fill="${color}" />`;
@@ -229,8 +250,15 @@ class UIManager {
         // Grid lines
         let gridLines = '';
         for (let p = 25; p < maxPower; p += 25) {
-            const y = yScale(p) + padding.top;
+            const y = padding.top + (chartHeight - (p / maxPower) * chartHeight);
             gridLines += `<line x1="${padding.left}" y1="${y}" x2="${width - padding.right}" y2="${y}" stroke="#334155" stroke-width="1" />`;
+        }
+        
+        // Y-axis labels
+        let yLabels = '';
+        for (let p = 0; p <= maxPower; p += 25) {
+            const y = padding.top + (chartHeight - (p / maxPower) * chartHeight);
+            yLabels += `<text x="${padding.left - 8}" y="${y + 3}" text-anchor="end" fill="#94a3b8" font-size="10">${p}%</text>`;
         }
         
         container.innerHTML = `

@@ -66,20 +66,20 @@ class WorkoutApp {
             
             if (remoteManifest.version !== cachedVersion) {
                 console.log(`New version available: ${remoteManifest.version} (cached: ${cachedVersion})`);
-                this.workouts = remoteManifest.workouts || [];
-                this.storage.cacheManifest(remoteManifest);
-                this.ui.showUpdateBanner(this.workouts.length);
-            } else if (cachedManifest) {
-                console.log('Using cached manifest');
-                this.workouts = cachedManifest.workouts || [];
-            } else {
-                this.workouts = remoteManifest.workouts || [];
-                this.storage.cacheManifest(remoteManifest);
-            }
-            
-            this.filteredWorkouts = [...this.workouts];
-            this.ui.populateZoneFilter(this.workouts);
-            this.ui.renderWorkouts(this.filteredWorkouts);
+            this.workouts = remoteManifest.workouts || [];
+            this.storage.cacheManifest(remoteManifest);
+            this.ui.showUpdateBanner(this.workouts.length);
+        } else if (cachedManifest) {
+            console.log('Using cached manifest');
+            this.workouts = cachedManifest.workouts || [];
+        } else {
+            this.workouts = remoteManifest.workouts || [];
+            this.storage.cacheManifest(remoteManifest);
+        }
+        
+        this.filteredWorkouts = [];
+        this.ui.populateZoneFilter(this.workouts);
+        this.ui.showInitialState();
             
         } catch (error) {
             console.error('Error loading workouts:', error);
@@ -87,9 +87,9 @@ class WorkoutApp {
             if (cachedManifest) {
                 console.log('Falling back to cached data');
                 this.workouts = cachedManifest.workouts || [];
-                this.filteredWorkouts = [...this.workouts];
+                this.filteredWorkouts = [];
                 this.ui.populateZoneFilter(this.workouts);
-                this.ui.renderWorkouts(this.filteredWorkouts);
+                this.ui.showInitialState();
                 this.ui.showToast('Using cached data. Could not check for updates.', 'info');
             } else {
                 this.ui.showToast('No workout data available. Please check your connection.', 'error');
@@ -109,6 +109,16 @@ class WorkoutApp {
         const zone = document.getElementById('zone')?.value || '';
         const tssMin = parseInt(document.getElementById('tssMin')?.value || '0');
         const tssMax = parseInt(document.getElementById('tssMax')?.value || '500');
+
+        // Check if any filters are applied
+        const hasFilters = duration || zone || tssMin > 0 || tssMax < 500;
+        
+        if (!hasFilters) {
+            // No filters - show initial state
+            this.filteredWorkouts = [];
+            this.ui.showInitialState();
+            return;
+        }
 
         this.filteredWorkouts = this.workouts.filter(workout => {
             if (duration) {
@@ -147,17 +157,22 @@ class WorkoutApp {
         document.getElementById('tssMax').value = 500;
         this.ui.updateTSSLabel();
         
-        this.filteredWorkouts = [...this.workouts];
-        this.ui.renderWorkouts(this.filteredWorkouts);
+        this.filteredWorkouts = [];
+        this.ui.showInitialState();
     }
 
     /**
      * Surprise me - random workout
      */
     surpriseMe() {
-        if (this.filteredWorkouts.length === 0) {
+        if (this.workouts.length === 0) {
             this.ui.showToast('No workouts available', 'info');
             return;
+        }
+        
+        // If no filters applied, use all workouts
+        if (this.filteredWorkouts.length === 0) {
+            this.filteredWorkouts = [...this.workouts];
         }
         
         const randomIndex = Math.floor(Math.random() * this.filteredWorkouts.length);
