@@ -8,8 +8,23 @@ class StorageManager {
             CACHED_MANIFEST: 'cached_manifest',
             INTERVALS_API_KEY: 'intervals_api_key',
             INTERVALS_ATHLETE_ID: 'intervals_athlete_id',
-            SETTINGS: 'app_settings'
+            SETTINGS: 'app_settings',
+            FIRST_LAUNCH: 'first_launch'
         };
+    }
+
+    /**
+     * Check if this is the first launch
+     */
+    isFirstLaunch() {
+        return localStorage.getItem(this.keys.FIRST_LAUNCH) === null;
+    }
+
+    /**
+     * Mark that user has launched the app
+     */
+    setLaunched() {
+        localStorage.setItem(this.keys.FIRST_LAUNCH, 'false');
     }
 
     /**

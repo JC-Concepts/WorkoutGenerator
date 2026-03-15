@@ -772,4 +772,80 @@ body {
     height: auto;
     display: block;
 }
+
+/* PWA Install Modal */
+.pwa-install-content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.pwa-install-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.pwa-install-content > p {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.pwa-instructions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.pwa-instruction {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--bg-tertiary);
+    border-radius: 8px;
+}
+
+.pwa-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.pwa-icon svg {
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+
+.android-icon {
+    background-color: #3DDC84;
+}
+
+.apple-icon {
+    background-color: #333;
+}
+
+.desktop-icon {
+    background-color: #4285F4;
+}
+
+.pwa-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.pwa-text strong {
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+
+.pwa-text span {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
 }

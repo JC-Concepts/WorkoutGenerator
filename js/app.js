@@ -32,6 +32,26 @@ class WorkoutApp {
         this.ui.hideLoading();
         
         this.setupEventListeners();
+        this.checkFirstLaunch();
+    }
+
+    /**
+     * Check if first launch and show PWA install instructions
+     */
+    checkFirstLaunch() {
+        if (this.storage.isFirstLaunch()) {
+            setTimeout(() => {
+                document.getElementById('pwaInstallModal').style.display = 'flex';
+            }, 500);
+        }
+    }
+
+    /**
+     * Dismiss PWA install modal
+     */
+    dismissPwaModal() {
+        document.getElementById('pwaInstallModal').style.display = 'none';
+        this.storage.setLaunched();
     }
 
     /**
@@ -47,6 +67,10 @@ class WorkoutApp {
         
         document.getElementById('settingsModal')?.addEventListener('click', (e) => {
             if (e.target.id === 'settingsModal') this.closeSettings();
+        });
+        
+        document.getElementById('pwaInstallModal')?.addEventListener('click', (e) => {
+            if (e.target.id === 'pwaInstallModal') this.dismissPwaModal();
         });
     }
 
