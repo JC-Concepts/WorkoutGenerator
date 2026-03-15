@@ -39,11 +39,22 @@ class WorkoutApp {
      * Check if first launch and show PWA install instructions
      */
     checkFirstLaunch() {
+        const installBtn = document.getElementById('installBtn');
+        
         if (this.storage.isFirstLaunch()) {
             setTimeout(() => {
                 document.getElementById('pwaInstallModal').style.display = 'flex';
             }, 500);
+        } else {
+            installBtn.style.display = 'flex';
         }
+    }
+
+    /**
+     * Show PWA install modal
+     */
+    showPwaInstallModal() {
+        document.getElementById('pwaInstallModal').style.display = 'flex';
     }
 
     /**
@@ -52,6 +63,11 @@ class WorkoutApp {
     dismissPwaModal() {
         document.getElementById('pwaInstallModal').style.display = 'none';
         this.storage.setLaunched();
+        
+        const installBtn = document.getElementById('installBtn');
+        if (installBtn) {
+            installBtn.style.display = 'flex';
+        }
     }
 
     /**

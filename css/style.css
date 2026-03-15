@@ -8,6 +8,7 @@
     --primary: #0EA5E9;
     --primary-dark: #0284C7;
     --secondary: #22C55E;
+    --secondary-dark: #16A34A;
     --text-primary: #F8FAFC;
     --text-secondary: #CBD5E1;
     --border: #475569;
@@ -98,6 +99,30 @@ body {
 }
 
 .donate-btn-header svg {
+    width: 18px;
+    height: 18px;
+}
+
+.install-btn-header {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--secondary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.install-btn-header:hover {
+    background-color: var(--secondary-dark);
+}
+
+.install-btn-header svg {
     width: 18px;
     height: 18px;
 }
