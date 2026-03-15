@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+"""
+Generate manifest.json from workout files
+Parses .zwo and .xml files to extract workout metadata
+"""
+import os
+import json
+import xml.etree.ElementTree as ET
+from datetime import datetime
+
+WORKOUTS_DIR = 'workouts'
+OUTPUT_FILE = 'manifest.json'
+
+ZONES = {
+    1: (0, 0.55),
+    2: (0.55, 0.75),
+    3: (0.75, 0.90),
+    4: (0.90, 1.05),
+    5: (1.05, float('inf'))
+}
+
+def categorize_duration(seconds):
+    """Categorize workout duration"""
+    minutes = seconds / 60
+    if minutes < 30:
+        return 'less_30'
+    elif minutes <= 45:
+        return '30_45'
+    elif minutes <= 60:
+        return '45_60'
+    elif minutes <= 90:
+        return '60_90'
+    else:
+        return 'greater_90'
+
+def get_primary_zone(power_values):
+    """Determine primary zone based on power values"""
+    if not power_values:
+        return 3
+    
+    avg_power = sum(power_values) / len(power_values)
+    
+    for zone, (low, high) in ZONES.items():
+        if low <= avg_power < high:
+            return zone
+    return 4
+
+def parse_zwo_file(file_path):
+    """Parse .zwo file"""
+    try:
+        tree = ET.parse(file_path)
+        root = tree.getroot()
+        
+        name = root.get('name', 'Unknown')
+        description = root.findtext('description', '')
+        author = root.findtext('author', 'Unknown')
+        
+        workout = root.find('workout')
+        if workout is None:
+            return None
+        
+        total_duration = 0
+        power_values = []
+        
+        for elem in workout:
+            duration = int(elem.get('duration', 0))
+            total_duration += duration
+            
+            power_low = elem.get('powerLow', 0)
+            power_high = elem.get('powerHigh', 0)
+            
+            if power_low and power_high:
+                power_values.append((int(power_low) + int(power_high)) / 200)
+        
+        primary_zone = get_primary_zone(power_values)
+        
+        avg_power = sum(power_values) / len(power_values) * 100 if power_values else 0
+        tss = int(total_duration / 36 * avg_power / 100)
+        
+        return {
+            'name': name,
+            'description': description,
+            'author': author,
+            'duration_seconds': total_duration,
+            'duration_category': categorize_duration(total_duration),
+            'tss': tss,
+            'primary_zone': primary_zone,
+            'avg_power': round(avg_power)
+        }
+    except Exception as e:
+        print(f"Error parsing {file_path}: {e}")
+        return None
+
+def parse_xml_file(file_path):
+    """Parse .xml file (Zwift format)"""
+    return parse_zwo_file(file_path)
+
+def get_category_from_path(file_path):
+    """Extract category from file path"""
+    parts = file_path.split(os.sep)
+    if len(parts) >= 2:
+        return parts[0]
+    return 'Unknown'
+
+def generate_manifest():
+    """Generate manifest.json from workout files"""
+    workouts = []
+    workout_id = 1
+    
+    print(f"Scanning {WORKOUTS_DIR} directory...")
+    
+    for root, dirs, files in os.walk(WORKOUTS_DIR):
+        for file in files:
+            if file.endswith('.zwo') or file.endswith('.xml'):
+                file_path = os.path.join(root, file)
+                rel_path = os.path.relpath(file_path, WORKOUTS_DIR)
+                
+                if file.endswith('.zwo'):
+                    workout_data = parse_zwo_file(file_path)
+                else:
+                    workout_data = parse_xml_file(file_path)
+                
+                if workout_data:
+                    category = get_category_from_path(rel_path)
+                    
+                    workout = {
+                        'id': f'workout_{workout_id:04d}',
+                        'name': workout_data['name'],
+                        'description': workout_data.get('description', ''),
+                        'author': workout_data.get('author', 'Unknown'),
+                        'category': category,
+                        'subcategory': '',
+                        'file': rel_path.replace(os.sep, '/'),
+                        'duration_seconds': workout_data['duration_seconds'],
+                        'duration_category': workout_data['duration_category'],
+                        'tss': workout_data['tss'],
+                        'primary_zone': workout_data['primary_zone'],
+                        'avg_power': workout_data['avg_power']
+                    }
+                    
+                    workouts.append(workout)
+                    workout_id += 1
+                    
+                    if (workout_id - 1) % 100 == 0:
+                        print(f"Processed {workout_id - 1} workouts...")
+    
+    manifest = {
+        'version': datetime.now().strftime('%Y.%m.%d'),
+        'lastUpdated': datetime.now().isoformat(),
+        'workouts': workouts
+    }
+    
+    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+        json.dump(manifest, f, indent=2)
+    
+    print(f"\nManifest generated successfully!")
+    print(f"Total workouts: {len(workouts)}")
+    print(f"Output file: {OUTPUT_FILE}")
+
+if __name__ == '__main__':
+    if not os.path.exists(WORKOUTS_DIR):
+        print(f"Error: {WORKOUTS_DIR} directory not found!")
+        print("Please create a 'workouts' directory with your .zwo files.")
+        exit(1)
+    
+    generate_manifest()

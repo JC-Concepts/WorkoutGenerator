@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0F172A">
+    <meta name="description" content="Cycling Workout Generator - Find and upload workouts to Intervals.icu">
+    <title>Cycling Workout Generator</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="assets/icons/icon-192.png">
+    <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="https://webstockreview.net/images/biking-clipart-symbol-13.png" alt="Bicycle" class="logo-img">
+                    <h1>Cycling Workout Generator</h1>
+                </div>
+                <div class="header-actions">
+                    <button class="donate-btn-header" onclick="document.getElementById('donateModal').style.display='flex'">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                        </svg>
+                        Donate
+                    </button>
+                    <button class="settings-btn" onclick="app.showSettings()">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Update Notification -->
+        <div id="updateBanner" class="update-banner" style="display: none;">
+            <span id="updateMessage">New workouts available!</span>
+            <button onclick="app.refreshData()">Refresh</button>
+        </div>
+
+        <!-- Search Section -->
+        <section class="search-section">
+            <div class="search-container">
+                <div class="filters-grid">
+                    <!-- Duration Filter -->
+                    <div class="filter-group">
+                        <label for="duration">Workout Duration</label>
+                        <select id="duration" class="select-input" onchange="app.filterWorkouts()">
+                            <option value="">All Durations</option>
+                            <option value="less_30">Less than 30 min</option>
+                            <option value="30_45">30-45 minutes</option>
+                            <option value="45_60">45-60 minutes</option>
+                            <option value="60_90">60-90 minutes</option>
+                            <option value="greater_90">Greater than 90 min</option>
+                        </select>
+                    </div>
+
+                    <!-- Workout Type Filter -->
+                    <div class="filter-group">
+                        <label for="zone">Workout Type (Zone)</label>
+                        <select id="zone" class="select-input" onchange="app.filterWorkouts()">
+                            <option value="">All Types</option>
+                        </select>
+                    </div>
+
+                    <!-- TSS Filter -->
+                    <div class="filter-group">
+                        <label>Stress Level (TSS)</label>
+                        <div class="tss-range">
+                            <input type="range" id="tssMin" class="range-input" min="0" max="500" value="0" onchange="app.filterWorkouts()">
+                            <input type="range" id="tssMax" class="range-input" min="0" max="500" value="500" onchange="app.filterWorkouts()">
+                            <span id="tssLabel">TSS: 0 - 500</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="button-group">
+                    <button class="btn btn-primary" onclick="app.filterWorkouts()">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        Search
+                    </button>
+                    <button class="btn btn-secondary" onclick="app.surpriseMe()">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2C9.24 2 7 4.24 7 7c0 2.85 2.92 5.21 5 7.88 2.08-2.67 5-5.03 5-7.88 0-2.76-2.24-5-5-5z"></path>
+                        </svg>
+                        Surprise Me
+                    </button>
+                    <button class="btn btn-secondary" onclick="app.resetFilters()">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 5"></path>
+                            <path d="M3 3v6h6"></path>
+                        </svg>
+                        Reset
+                    </button>
+                </div>
+
+                <!-- Stats Display -->
+                <div id="statsDisplay" class="stats-display">
+                    <p id="resultCount">Loading workouts...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="results-section">
+            <div id="workoutCards" class="workouts-grid"></div>
+        </section>
+
+        <!-- Empty State -->
+        <section id="emptyState" class="empty-state" style="display: none;">
+            <div class="empty-state-content">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <h3>No Workouts Found</h3>
+                <p>Try adjusting your search criteria.</p>
+            </div>
+        </section>
+
+        <!-- Loading State -->
+        <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+            <div class="spinner"></div>
+            <p>Loading workouts...</p>
+        </div>
+    </div>
+
+    <!-- Workout Detail Modal -->
+    <div id="workoutModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <button class="modal-close" onclick="app.closeModal()">&times;</button>
+            <div class="workout-detail">
+                <div class="detail-header">
+                    <div class="detail-info">
+                        <h2 id="detailName"></h2>
+                        <p id="detailDescription" class="detail-description"></p>
+                        <div class="detail-meta">
+                            <span class="meta-item">
+                                <strong>Author:</strong> <span id="detailAuthor"></span>
+                            </span>
+                            <span class="meta-item">
+                                <strong>Category:</strong> <span id="detailCategory"></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="detail-stats">
+                        <div class="stat-box">
+                            <div class="stat-value"><span id="detailDuration"></span> min</div>
+                            <div class="stat-label">Duration</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value"><span id="detailZone"></span></div>
+                            <div class="stat-label">Primary Zone</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value"><span id="detailTSS"></span></div>
+                            <div class="stat-label">Stress Score</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value"><span id="detailAvgPower"></span>%</div>
+                            <div class="stat-label">Avg Power</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-actions">
+                    <button class="action-btn action-download" onclick="app.downloadWorkout()">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        Download .ZWO
+                    </button>
+                    <button class="action-btn action-upload" onclick="app.uploadToIntervals()">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="17 8 12 3 7 8"></polyline>
+                            <line x1="12" y1="3" x2="12" y2="15"></line>
+                        </svg>
+                        Upload to Intervals.icu
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="settingsModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <button class="modal-close" onclick="app.closeSettings()">&times;</button>
+            <div class="settings-content">
+                <h2>Settings</h2>
+                
+                <div class="settings-section">
+                    <h3>Intervals.icu Configuration</h3>
+                    <div class="form-group">
+                        <label for="apiKey">API Key</label>
+                        <input type="password" id="apiKey" placeholder="Your Intervals.icu API key">
+                        <small>Find this in Intervals.icu Settings → API</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="athleteId">Athlete ID</label>
+                        <input type="text" id="athleteId" placeholder="Your Intervals.icu Athlete ID">
+                        <small>Found in your profile URL: intervals.icu/athlete/[ID]</small>
+                    </div>
+                    <button class="btn btn-primary" onclick="app.saveSettings()">Save Settings</button>
+                </div>
+
+                <div class="settings-section">
+                    <h3>Data Management</h3>
+                    <button class="btn btn-secondary" onclick="app.clearCache()">Clear Cached Data</button>
+                    <button class="btn btn-secondary" onclick="app.refreshData()">Refresh Workouts</button>
+                </div>
+
+                <div class="settings-section">
+                    <h3>About</h3>
+                    <p class="version-info">Version 1.0.0</p>
+                </div>
+
+                <div class="settings-section donation-section">
+                    <h3>Support This Project</h3>
+                    <p>Like this app? You can buy me a gel, coffee, or inner tube!</p>
+                    <form action="https://www.paypal.com/donate" method="post" target="_top">
+                        <input type="hidden" name="hosted_button_id" value="RE2GQDK8CD2WW" />
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                        <img alt="" border="0" src="https://www.paypal.com/en_CA/i/scr/pixel.gif" width="1" height="1" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Donate Modal -->
+    <div id="donateModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <button class="modal-close" onclick="document.getElementById('donateModal').style.display='none'">&times;</button>
+            <div class="donate-modal-content">
+                <h2>Support This Project</h2>
+                <p>Like this app? You can buy me a gel, coffee, or inner tube!</p>
+                <form action="https://www.paypal.com/donate" method="post" target="_top">
+                    <input type="hidden" name="hosted_button_id" value="RE2GQDK8CD2WW" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" style="max-width: 100%;" />
+                    <img alt="" border="0" src="https://www.paypal.com/en_CA/i/scr/pixel.gif" width="1" height="1" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast" style="display: none;"></div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        const app = new WorkoutApp();
+        document.addEventListener('DOMContentLoaded', () => app.init());
+    </script>
+</body>
+</html>
