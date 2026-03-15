@@ -50,7 +50,7 @@
                     <!-- Duration Filter -->
                     <div class="filter-group">
                         <label for="duration">Workout Duration</label>
-                        <select id="duration" class="select-input" onchange="app.filterWorkouts()">
+                        <select id="duration" class="select-input">
                             <option value="">All Durations</option>
                             <option value="less_30">Less than 30 min</option>
                             <option value="30_45">30-45 minutes</option>
@@ -63,7 +63,7 @@
                     <!-- Workout Type Filter -->
                     <div class="filter-group">
                         <label for="zone">Workout Type (Zone)</label>
-                        <select id="zone" class="select-input" onchange="app.filterWorkouts()">
+                        <select id="zone" class="select-input">
                             <option value="">All Types</option>
                         </select>
                     </div>
@@ -72,8 +72,8 @@
                     <div class="filter-group">
                         <label>Stress Level (TSS)</label>
                         <div class="tss-range">
-                            <input type="range" id="tssMin" class="range-input" min="0" max="500" value="0" onchange="app.filterWorkouts()">
-                            <input type="range" id="tssMax" class="range-input" min="0" max="500" value="500" onchange="app.filterWorkouts()">
+                            <input type="range" id="tssMin" class="range-input" min="0" max="500" value="0">
+                            <input type="range" id="tssMax" class="range-input" min="0" max="500" value="500">
                             <span id="tssLabel">TSS: 0 - 500</span>
                         </div>
                     </div>
