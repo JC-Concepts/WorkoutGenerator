@@ -59,7 +59,9 @@ class WorkoutApp {
         
         try {
             this.ui.showLoading('Checking for updates...');
+            console.log('Fetching manifest from:', this.api.GITHUB_BASE + '/manifest.json');
             const remoteManifest = await this.api.fetchManifest();
+            console.log('Manifest received:', remoteManifest);
             
             if (remoteManifest.version !== cachedVersion) {
                 console.log(`New version available: ${remoteManifest.version} (cached: ${cachedVersion})`);
@@ -91,6 +93,8 @@ class WorkoutApp {
             } else {
                 this.ui.showToast('No workout data available. Please check your connection.', 'error');
             }
+        } finally {
+            this.ui.hideLoading();
         }
         
         window.currentWorkouts = this.workouts;

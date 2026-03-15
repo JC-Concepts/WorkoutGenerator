@@ -19,7 +19,7 @@ class ApiManager {
      */
     async fetchManifest() {
         try {
-            const response = await fetch(`${this.GITHUB_BASE}/manifest.json`);
+            const response = await fetch(`${this.GITHUB_BASE}/workouts.json`);
             if (!response.ok) {
                 throw new Error('Failed to fetch manifest');
             }
