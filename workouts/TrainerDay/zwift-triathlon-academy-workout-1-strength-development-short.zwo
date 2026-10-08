@@ -1,0 +1,61 @@
+<workout_file>
+	<author>TrainerDay - pascalkolkman</author>
+	<name>Strength Development SHORT tri WKO 1 v2019</name>
+	<description>4x [5x2min=8min] ramp up blocks where the cadence is kept low (60-75 rpm), 
+with relative easy intensity (78-84% of FTP) Zone 3 in stead of 5 blocks. Total 01h:04min.
+Followed by 2 min recovery at higher 95 RPM at 50 to 55 % ftp.
+Great training to Start a taper progressive training kind of series with or to do with kind of tired legs or for beginners.
+To decrease training  time 10 min from 75 min to 65 min you could do 4 low rpm blocks in stead of 5.</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="30" Power="0.51" Cadence="80"/>
+		<SteadyState Duration="30" Power="0.52" Cadence="80"/>
+		<SteadyState Duration="30" Power="0.53" Cadence="80"/>
+		<SteadyState Duration="30" Power="0.55" Cadence="80"/>
+		<SteadyState Duration="30" Power="0.56" Cadence="80"/>
+		<SteadyState Duration="30" Power="0.57" Cadence="80"/>
+		<SteadyState Duration="30" Power="0.58" Cadence="80"/>
+		<SteadyState Duration="30" Power="0.6" Cadence="80"/>
+		<SteadyState Duration="30" Power="0.61" Cadence="80"/>
+		<SteadyState Duration="30" Power="0.61" Cadence="80"/>
+		<SteadyState Duration="30" Power="0.62" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.64" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.65" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.66" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.67" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.69" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.7" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.71" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.72" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.75" Cadence="85"/>
+		<SteadyState Duration="120" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="120" Power="0.65" Cadence="85"/>
+		<SteadyState Duration="120" Power="0.75" Cadence="80"/>
+		<SteadyState Duration="60" Power="0.95" Cadence="80"/>
+		<SteadyState Duration="120" Power="0.55" Cadence="75"/>
+		<SteadyState Duration="120" Power="0.78" Cadence="60"/>
+		<SteadyState Duration="120" Power="0.8" Cadence="65"/>
+		<SteadyState Duration="120" Power="0.82" Cadence="70"/>
+		<SteadyState Duration="120" Power="0.84" Cadence="75"/>
+		<SteadyState Duration="120" Power="0.5" Cadence="95"/>
+		<SteadyState Duration="120" Power="0.78" Cadence="60"/>
+		<SteadyState Duration="120" Power="0.8" Cadence="65"/>
+		<SteadyState Duration="120" Power="0.82" Cadence="70"/>
+		<SteadyState Duration="120" Power="0.84" Cadence="75"/>
+		<SteadyState Duration="120" Power="0.5" Cadence="95"/>
+		<SteadyState Duration="120" Power="0.78" Cadence="60"/>
+		<SteadyState Duration="120" Power="0.8" Cadence="65"/>
+		<SteadyState Duration="120" Power="0.82" Cadence="70"/>
+		<SteadyState Duration="120" Power="0.84" Cadence="75"/>
+		<SteadyState Duration="120" Power="0.5" Cadence="95"/>
+		<SteadyState Duration="120" Power="0.78" Cadence="60"/>
+		<SteadyState Duration="120" Power="0.8" Cadence="65"/>
+		<SteadyState Duration="120" Power="0.82" Cadence="70"/>
+		<SteadyState Duration="120" Power="0.84" Cadence="75"/>
+		<SteadyState Duration="150" Power="0.5" Cadence="80"/>
+		<SteadyState Duration="150" Power="0.45" Cadence="75"/>
+	</workout>
+</workout_file>

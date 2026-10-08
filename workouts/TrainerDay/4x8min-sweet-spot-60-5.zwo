@@ -1,0 +1,16 @@
+<workout_file>
+	<author>TrainerDay - domel198882</author>
+	<name>4x8min Sweet Spot 60</name>
+	<description>4x8mins @ 90% FTP with 4mins recovery.
+</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="300" Power="0.4"/>
+		<SteadyState Duration="300" Power="0.5"/>
+		<IntervalsT Repeat="4" OnDuration="480" OnPower="0.9" OffDuration="240" OffPower="0.5"/>
+		<SteadyState Duration="120" Power="0.4"/>
+	</workout>
+</workout_file>

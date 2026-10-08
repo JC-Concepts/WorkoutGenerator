@@ -1,0 +1,27 @@
+<workout_file>
+	<author>TrainerDay - IndoorSpecialist</author>
+	<name>Ultimate 30 Minute Race Warmup</name>
+	<description>Ready your legs for peak performance in races with a fast start (Zwift races especially!).
+</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="150" Power="0.5"/>
+		<SteadyState Duration="180" Power="0.6"/>
+		<SteadyState Duration="90" Power="0.75"/>
+		<SteadyState Duration="60" Power="0.8"/>
+		<SteadyState Duration="60" Power="0.9"/>
+		<SteadyState Duration="120" Power="0.4"/>
+		<SteadyState Duration="90" Power="0.8"/>
+		<SteadyState Duration="60" Power="0.4"/>
+		<SteadyState Duration="90" Power="0.9"/>
+		<SteadyState Duration="60" Power="0.4"/>
+		<SteadyState Duration="90" Power="1"/>
+		<SteadyState Duration="60" Power="0.4"/>
+		<SteadyState Duration="90" Power="1.05"/>
+		<IntervalsT Repeat="2" OnDuration="60" OnPower="0.4" OffDuration="90" OffPower="1.1"/>
+		<SteadyState Duration="300" Power="0.4"/>
+	</workout>
+</workout_file>

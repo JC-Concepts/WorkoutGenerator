@@ -1,0 +1,42 @@
+<workout_file>
+	<author>TrainerDay - Fipsy</author>
+	<name>Endurance 60</name>
+	<description>A rolling endurance session mostly in the 55-65%FTP range with some variations to mix it up. The 100% FTP intervals at 20,35 &amp; 50 minute marks are ideal for some stand-up, low cadence work to give your butt a break.</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<Ramp Duration="240" PowerLow="0.45" PowerHigh="0.55"/>
+		<SteadyState Duration="180" Power="0.6"/>
+		<SteadyState Duration="120" Power="0.65"/>
+		<SteadyState Duration="60" Power="0.75"/>
+		<SteadyState Duration="120" Power="0.55"/>
+		<SteadyState Duration="60" Power="0.7"/>
+		<SteadyState Duration="180" Power="0.6"/>
+		<SteadyState Duration="120" Power="0.85"/>
+		<SteadyState Duration="60" Power="0.55"/>
+		<SteadyState Duration="60" Power="1"/>
+		<SteadyState Duration="180" Power="0.6"/>
+		<SteadyState Duration="60" Power="0.75"/>
+		<SteadyState Duration="120" Power="0.55"/>
+		<SteadyState Duration="60" Power="0.8"/>
+		<SteadyState Duration="180" Power="0.65"/>
+		<SteadyState Duration="120" Power="0.6"/>
+		<SteadyState Duration="120" Power="0.55"/>
+		<SteadyState Duration="60" Power="1"/>
+		<SteadyState Duration="120" Power="0.75"/>
+		<SteadyState Duration="180" Power="0.6"/>
+		<SteadyState Duration="120" Power="0.7"/>
+		<SteadyState Duration="60" Power="0.8"/>
+		<SteadyState Duration="120" Power="0.7"/>
+		<SteadyState Duration="180" Power="0.65"/>
+		<SteadyState Duration="60" Power="0.85"/>
+		<SteadyState Duration="60" Power="1"/>
+		<SteadyState Duration="120" Power="0.65"/>
+		<SteadyState Duration="60" Power="0.6"/>
+		<SteadyState Duration="180" Power="0.7"/>
+		<SteadyState Duration="60" Power="0.9"/>
+		<Ramp Duration="240" PowerLow="0.8" PowerHigh="0.4"/>
+	</workout>
+</workout_file>

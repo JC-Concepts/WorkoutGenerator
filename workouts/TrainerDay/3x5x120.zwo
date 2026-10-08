@@ -1,0 +1,26 @@
+<workout_file>
+	<author>TrainerDay - Maciek Pawlowski</author>
+	<name>3x5x60sec120%</name>
+	<description>Workout created by TrainerDay</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="60" Power="0.5"/>
+		<SteadyState Duration="60" Power="0.6"/>
+		<SteadyState Duration="60" Power="0.7"/>
+		<SteadyState Duration="60" Power="0.8"/>
+		<SteadyState Duration="60" Power="0.9"/>
+		<SteadyState Duration="180" Power="0.5"/>
+		<IntervalsT Repeat="4" OnDuration="60" OnPower="1.2" OffDuration="120" OffPower="0.6"/>
+		<SteadyState Duration="60" Power="1.2"/>
+		<SteadyState Duration="300" Power="0.5"/>
+		<IntervalsT Repeat="4" OnDuration="60" OnPower="1.2" OffDuration="120" OffPower="0.6"/>
+		<SteadyState Duration="60" Power="1.2"/>
+		<SteadyState Duration="300" Power="0.5"/>
+		<IntervalsT Repeat="4" OnDuration="60" OnPower="1.2" OffDuration="120" OffPower="0.6"/>
+		<SteadyState Duration="60" Power="1.2"/>
+		<SteadyState Duration="180" Power="0.5"/>
+	</workout>
+</workout_file>

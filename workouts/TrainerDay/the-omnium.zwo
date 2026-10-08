@@ -1,0 +1,90 @@
+<workout_file>
+	<author>TrainerDay - mansi</author>
+	<name>The Omnium</name>
+	<description>You know what we love about you? Your versatility. You can Suffer anywhere, anytime and in any way. That&apos;s why Grunter von Agony, Sufferlandrian Team Director, is sending you to compete in The Omnium at the UCI World Track Championships. Over the course of 50 minutes, you&apos;ll do battle in the six different races.
+
+
+No two intervals in this workout are the same, with each one working slightly different variations of NM, AC and MAP. No need for FTP here, my friends! It&apos;s the perfect session to improve top-end power without having to do a lot of repetitive efforts.
+
+
+The scratch race and flying lap have an “easy” enough lead in that you get to put your max sprint to the full test. Add in the standing starts for the Individual Pursuit and Kilo and you give your NM a real run through. The repeated surges of the elimination race, the all out nature of the kilo, and the massive efforts you have to make in the points race really test your powers of recovery while working your AC all the way to the max.
+
+
+Since the efforts come in quick succession, and with most being over four minutes in length, your cardiovascular system never catches a real break, ensuring your MAP doesn’t get left out of the equation.</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="41" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="62" Power="0.55" Cadence="90"/>
+		<SteadyState Duration="103" Power="0.8" Cadence="95"/>
+		<SteadyState Duration="76" Power="0.85" Cadence="100"/>
+		<SteadyState Duration="32" Power="0.95" Cadence="100"/>
+		<SteadyState Duration="28" Power="1.09" Cadence="105"/>
+		<SteadyState Duration="15" Power="1.16" Cadence="110"/>
+		<SteadyState Duration="105" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="30" Power="0.7" Cadence="80"/>
+		<SteadyState Duration="31" Power="0.8" Cadence="90"/>
+		<SteadyState Duration="40" Power="0.85" Cadence="95"/>
+		<SteadyState Duration="30" Power="1.09" Cadence="105"/>
+		<SteadyState Duration="36" Power="0.95" Cadence="100"/>
+		<SteadyState Duration="24" Power="1.07" Cadence="105"/>
+		<SteadyState Duration="20" Power="1.16" Cadence="110"/>
+		<SteadyState Duration="15" Power="1.62" Cadence="120"/>
+		<SteadyState Duration="120" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="20" Power="1.27" Cadence="90"/>
+		<SteadyState Duration="40" Power="1.03" Cadence="100"/>
+		<SteadyState Duration="70" Power="1.09" Cadence="100"/>
+		<SteadyState Duration="60" Power="1.12" Cadence="105"/>
+		<SteadyState Duration="65" Power="1.16" Cadence="110"/>
+		<SteadyState Duration="120" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="10" Power="0.95" Cadence="80"/>
+		<SteadyState Duration="15" Power="1" Cadence="85"/>
+		<SteadyState Duration="15" Power="1.09" Cadence="100"/>
+		<SteadyState Duration="15" Power="1.12" Cadence="105"/>
+		<SteadyState Duration="15" Power="0.8" Cadence="90"/>
+		<SteadyState Duration="15" Power="1.09" Cadence="100"/>
+		<SteadyState Duration="17" Power="0.8" Cadence="90"/>
+		<SteadyState Duration="13" Power="1.11" Cadence="100"/>
+		<SteadyState Duration="20" Power="0.8" Cadence="90"/>
+		<SteadyState Duration="13" Power="0.9" Cadence="90"/>
+		<SteadyState Duration="21" Power="1.09" Cadence="100"/>
+		<SteadyState Duration="16" Power="0.8" Cadence="90"/>
+		<SteadyState Duration="16" Power="1.11" Cadence="100"/>
+		<SteadyState Duration="15" Power="0.8" Cadence="90"/>
+		<SteadyState Duration="15" Power="1.22" Cadence="105"/>
+		<SteadyState Duration="15" Power="0.75" Cadence="90"/>
+		<SteadyState Duration="15" Power="1.18" Cadence="110"/>
+		<SteadyState Duration="15" Power="1" Cadence="100"/>
+		<SteadyState Duration="15" Power="1.62" Cadence="110"/>
+		<SteadyState Duration="120" Power="0.4" Cadence="80"/>
+		<SteadyState Duration="53" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="37" Power="0.6" Cadence="90"/>
+		<SteadyState Duration="12" Power="0.75" Cadence="90"/>
+		<SteadyState Duration="16" Power="0.8" Cadence="90"/>
+		<SteadyState Duration="19" Power="0.9" Cadence="100"/>
+		<SteadyState Duration="15" Power="1.05" Cadence="105"/>
+		<SteadyState Duration="10" Power="1.09" Cadence="110"/>
+		<SteadyState Duration="13" Power="1.95" Cadence="120"/>
+		<SteadyState Duration="150" Power="0.4" Cadence="80"/>
+		<SteadyState Duration="33" Power="1.54" Cadence="120"/>
+		<SteadyState Duration="28" Power="1.65" Cadence="130"/>
+		<SteadyState Duration="240" Power="0.4" Cadence="80"/>
+		<SteadyState Duration="20" Power="0.7" Cadence="90"/>
+		<SteadyState Duration="60" Power="0.8" Cadence="100"/>
+		<SteadyState Duration="15" Power="1.08" Cadence="105"/>
+		<SteadyState Duration="15" Power="1.19" Cadence="110"/>
+		<SteadyState Duration="40" Power="0.7" Cadence="90"/>
+		<SteadyState Duration="60" Power="0.85" Cadence="95"/>
+		<SteadyState Duration="20" Power="1.05" Cadence="105"/>
+		<SteadyState Duration="15" Power="1.46" Cadence="115"/>
+		<SteadyState Duration="40" Power="0.7" Cadence="90"/>
+		<SteadyState Duration="20" Power="1.46" Cadence="110"/>
+		<SteadyState Duration="10" Power="0.9" Cadence="100"/>
+		<SteadyState Duration="60" Power="1" Cadence="105"/>
+		<SteadyState Duration="20" Power="1.22" Cadence="110"/>
+		<SteadyState Duration="20" Power="2.1" Cadence="120"/>
+		<SteadyState Duration="185" Power="0.5" Cadence="80"/>
+	</workout>
+</workout_file>

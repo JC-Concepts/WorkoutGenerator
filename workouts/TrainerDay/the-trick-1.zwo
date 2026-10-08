@@ -1,0 +1,59 @@
+<workout_file>
+	<author>TrainerDay - mansi</author>
+	<name>The Trick</name>
+	<description>Four Dimensional Power Focus:
+NM: ✭✩✩✩✩
+AC: ✭✭✭✭✭
+MAP: ✭✩✩✩✩
+FTP: ✭✭✭✩✩
+
+
+The Trick is designed to hit a riders Anaerobic Capacity, and ability to sustain power after repeated all out efforts.. Through repeated maximal 60 second efforts you will be fully depleting, and then fully refilling your anaerobic fuel tank. To burn through your entire fuel tank, it needs to be full, which is why this session has long recovery periods between the maximal 60 second efforts. So while the recovery time might seem a bit much, we are just making sure your body is primed and ready for another truly maximal effort. During these max efforts you will alternate between standing and sitting multiple times, which accomplished two things. One, it ensures you are utilizing all muscle groups in your legs. Two, it helps teach you how to maintain power output when transitioning into and out of the saddle, a vital skill when going on the attack! Once we fully fry your AC, your reward is a nice steady tempo effort. While you will have some fight left in your legs, the goal is not to go into red during tempo effort, atleast not until the final sprint!
+</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="324" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="54" Power="0.7" Cadence="90"/>
+		<SteadyState Duration="80" Power="0.8" Cadence="75"/>
+		<SteadyState Duration="60" Power="0.55" Cadence="90"/>
+		<SteadyState Duration="60" Power="1" Cadence="95"/>
+		<SteadyState Duration="60" Power="0.5" Cadence="85"/>
+		<SteadyState Duration="30" Power="1" Cadence="100"/>
+		<SteadyState Duration="20" Power="1.2" Cadence="105"/>
+		<SteadyState Duration="10" Power="1.6" Cadence="110"/>
+		<SteadyState Duration="120" Power="0.4" Cadence="85"/>
+		<SteadyState Duration="20" Power="1.85" Cadence="100"/>
+		<SteadyState Duration="20" Power="1.5" Cadence="90"/>
+		<SteadyState Duration="20" Power="1.75" Cadence="100"/>
+		<SteadyState Duration="208" Power="0.4" Cadence="85"/>
+		<SteadyState Duration="151" Power="0.5" Cadence="85"/>
+		<SteadyState Duration="20" Power="1.9" Cadence="100"/>
+		<SteadyState Duration="20" Power="1.45" Cadence="90"/>
+		<SteadyState Duration="20" Power="1.75" Cadence="100"/>
+		<SteadyState Duration="141" Power="0.4" Cadence="85"/>
+		<SteadyState Duration="105" Power="0.5" Cadence="85"/>
+		<SteadyState Duration="43" Power="0.4" Cadence="80"/>
+		<SteadyState Duration="71" Power="0.5" Cadence="85"/>
+		<SteadyState Duration="20" Power="1.95" Cadence="100"/>
+		<SteadyState Duration="20" Power="1.43" Cadence="90"/>
+		<SteadyState Duration="20" Power="1.72" Cadence="100"/>
+		<SteadyState Duration="196" Power="0.4" Cadence="85"/>
+		<SteadyState Duration="163" Power="0.5" Cadence="85"/>
+		<SteadyState Duration="20" Power="1.86" Cadence="100"/>
+		<SteadyState Duration="20" Power="1.38" Cadence="90"/>
+		<SteadyState Duration="20" Power="1.81" Cadence="100"/>
+		<SteadyState Duration="300" Power="0.4" Cadence="80"/>
+		<SteadyState Duration="210" Power="0.8" Cadence="95"/>
+		<SteadyState Duration="180" Power="0.85" Cadence="90"/>
+		<SteadyState Duration="125" Power="0.9" Cadence="95"/>
+		<SteadyState Duration="73" Power="0.85" Cadence="90"/>
+		<SteadyState Duration="132" Power="0.88" Cadence="90"/>
+		<SteadyState Duration="132" Power="0.8" Cadence="90"/>
+		<SteadyState Duration="60" Power="0.88" Cadence="90"/>
+		<SteadyState Duration="18" Power="1.78" Cadence="100"/>
+		<SteadyState Duration="180" Power="0.5" Cadence="85"/>
+	</workout>
+</workout_file>

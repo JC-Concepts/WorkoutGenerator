@@ -1,0 +1,49 @@
+<workout_file>
+	<author>TrainerDay - mansi</author>
+	<name>Defender</name>
+	<description>You&apos;ve got the leader&apos;s jersey, but then disaster strikes: A crash, an injury and you&apos;re forced to defend your position until the end of the race. Can you hang on under a barrage of attacks? Based on four, ten-minute efforts around threshold, Defender is designed to give you the most bang for your aerobic buck, or in this case, the most Watts at FTP for your Suffering.
+
+
+There are both psychological as well as physiological benefits to this tremendous workout. Mentally, Defender will improve your sense of pacing for longer efforts near FTP.  That is because each effort starts out above FTP, and since you&apos;re fresh you&apos;ll feel as though you can hold that pace all day. Every two minutes, the pace gradually declines so you are finishing just below FTP.  As the time ticks away, the power targets will drop little by little, but your discomfort will remain about the same. By the fourth effort, you&apos;ll be find the same efforts far more difficult than in the first. By staying tuned-in to what your body is telling you, you&apos;ll learn more about how to manage your efforts around threshold and why it&apos;s so important to manage your efforts well at this intensity.
+
+
+The physiological benefits follow the same lines as those found in Who Dares, or Fight Club.  Overloading your legs and lungs with efforts above FTP before settling into efforts right at or right below FTP forces your body to clear out as many metabolites as possible and process as much oxygen as it can.  What sets Defender apart is how that overload is delivered.  While Who Dares achieves this with short sprints, Defender forces you to spend minutes above FTP before simmering back down.  This allows your heart rate and breathing rate to get much closer to what they are during a long steady state threshold effort.  This ensures that “overload” comes in as a steady drip, rather than the sudden burst like that in Who Dares.  The lower intensity of this overload also changes the types of metabolites produced and the ratios 
+</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="120" Power="0.55" Cadence="80"/>
+		<SteadyState Duration="90" Power="0.65" Cadence="85"/>
+		<SteadyState Duration="60" Power="0.75" Cadence="90"/>
+		<SteadyState Duration="60" Power="0.85" Cadence="95"/>
+		<SteadyState Duration="60" Power="0.95" Cadence="100"/>
+		<SteadyState Duration="30" Power="1.1" Cadence="105"/>
+		<SteadyState Duration="60" Power="0.5" Cadence="80"/>
+		<SteadyState Duration="120" Power="1.15" Cadence="90"/>
+		<SteadyState Duration="120" Power="1" Cadence="80"/>
+		<SteadyState Duration="120" Power="0.97" Cadence="80"/>
+		<SteadyState Duration="120" Power="0.95" Cadence="80"/>
+		<SteadyState Duration="120" Power="0.93" Cadence="80"/>
+		<SteadyState Duration="180" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="120" Power="1.15" Cadence="90"/>
+		<SteadyState Duration="120" Power="1" Cadence="80"/>
+		<SteadyState Duration="120" Power="0.97" Cadence="80"/>
+		<SteadyState Duration="120" Power="0.95" Cadence="80"/>
+		<SteadyState Duration="120" Power="0.93" Cadence="80"/>
+		<SteadyState Duration="180" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="120" Power="1.15" Cadence="100"/>
+		<SteadyState Duration="120" Power="1" Cadence="100"/>
+		<SteadyState Duration="120" Power="0.97" Cadence="100"/>
+		<SteadyState Duration="120" Power="0.95" Cadence="100"/>
+		<SteadyState Duration="120" Power="0.93" Cadence="100"/>
+		<SteadyState Duration="180" Power="0.5" Cadence="80"/>
+		<SteadyState Duration="120" Power="1.15" Cadence="90"/>
+		<SteadyState Duration="120" Power="1" Cadence="80"/>
+		<SteadyState Duration="120" Power="0.97" Cadence="80"/>
+		<SteadyState Duration="120" Power="0.95" Cadence="80"/>
+		<SteadyState Duration="120" Power="0.93" Cadence="80"/>
+		<SteadyState Duration="120" Power="0.5" Cadence="80"/>
+	</workout>
+</workout_file>

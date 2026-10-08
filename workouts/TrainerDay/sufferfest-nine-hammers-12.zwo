@@ -1,0 +1,70 @@
+<workout_file>
+	<author>TrainerDay - RossiRides</author>
+	<name>Sufferfest  Nine Hammers</name>
+	<description>Is this our hardest workout? Featuring nine Vo2 and threshold intervals, this session will take you to the edge, push you over it and send a flaming river of lava down on top of you. You’ll love it.
+
+https://app.trainerday.com/workouts/sufferfest-nine-hammers-4</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="162" Power="0.5"/>
+		<SteadyState Duration="60" Power="0.61"/>
+		<SteadyState Duration="18" Power="1.07"/>
+		<SteadyState Duration="31" Power="0.72"/>
+		<SteadyState Duration="15" Power="0.83"/>
+		<SteadyState Duration="21" Power="0.72"/>
+		<SteadyState Duration="10" Power="1.21"/>
+		<SteadyState Duration="60" Power="0.83"/>
+		<SteadyState Duration="30" Power="0.39"/>
+		<SteadyState Duration="9" Power="1.28"/>
+		<SteadyState Duration="60" Power="1"/>
+		<SteadyState Duration="90" Power="0.5"/>
+		<SteadyState Duration="60" Power="1.07"/>
+		<SteadyState Duration="120" Power="1"/>
+		<SteadyState Duration="30" Power="1.21"/>
+		<SteadyState Duration="34" Power="0.94"/>
+		<SteadyState Duration="24" Power="1"/>
+		<SteadyState Duration="120" Power="0.5"/>
+		<SteadyState Duration="20" Power="1.21"/>
+		<SteadyState Duration="3" Power="1.07"/>
+		<SteadyState Duration="4" Power="1.35"/>
+		<SteadyState Duration="6" Power="1.07"/>
+		<SteadyState Duration="4" Power="1.35"/>
+		<SteadyState Duration="18" Power="1.21"/>
+		<SteadyState Duration="60" Power="1.07"/>
+		<SteadyState Duration="45" Power="1.21"/>
+		<SteadyState Duration="15" Power="1.35"/>
+		<SteadyState Duration="120" Power="0.5"/>
+		<SteadyState Duration="59" Power="0.94"/>
+		<SteadyState Duration="15" Power="1.35"/>
+		<SteadyState Duration="30" Power="0.94"/>
+		<SteadyState Duration="105" Power="1.21"/>
+		<SteadyState Duration="150" Power="0.5"/>
+		<SteadyState Duration="88" Power="0.94"/>
+		<SteadyState Duration="90" Power="1"/>
+		<SteadyState Duration="90" Power="1.07"/>
+		<SteadyState Duration="120" Power="0.5"/>
+		<SteadyState Duration="165" Power="1.21"/>
+		<SteadyState Duration="15" Power="1.35"/>
+		<SteadyState Duration="90" Power="0.5"/>
+		<SteadyState Duration="60" Power="1.21"/>
+		<SteadyState Duration="28" Power="1.07"/>
+		<SteadyState Duration="60" Power="1.21"/>
+		<SteadyState Duration="30" Power="1.07"/>
+		<SteadyState Duration="180" Power="0.5"/>
+		<SteadyState Duration="180" Power="1"/>
+		<SteadyState Duration="119" Power="0.5"/>
+		<SteadyState Duration="30" Power="1.35"/>
+		<SteadyState Duration="6" Power="1.07"/>
+		<SteadyState Duration="9" Power="1.35"/>
+		<SteadyState Duration="73" Power="1.07"/>
+		<SteadyState Duration="60" Power="1.21"/>
+		<SteadyState Duration="90" Power="0.72"/>
+		<SteadyState Duration="60" Power="1.07"/>
+		<SteadyState Duration="60" Power="1.21"/>
+		<SteadyState Duration="60" Power="1.35"/>
+		<SteadyState Duration="201" Power="0.5"/>
+	</workout>
+</workout_file>

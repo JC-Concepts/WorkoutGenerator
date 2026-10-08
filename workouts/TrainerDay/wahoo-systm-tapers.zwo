@@ -1,0 +1,27 @@
+<workout_file>
+	<author>TrainerDay - amg1961</author>
+	<name>Wahoo Systm Tapers</name>
+	<description>Workout created by TrainerDay</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="240" Power="0.51" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.6" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.65" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.7" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.75" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.8" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.85" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.45" Cadence="85"/>
+		<SteadyState Duration="30" Power="1.4" Cadence="98"/>
+		<SteadyState Duration="240" Power="0.45" Cadence="85"/>
+		<IntervalsT Repeat="6" OnDuration="40" OnPower="1.15" OffDuration="20" OffPower="0.45" Cadence="100"/>
+		<SteadyState Duration="360" Power="0.55" Cadence="85"/>
+		<IntervalsT Repeat="5" OnDuration="30" OnPower="1.4" OffDuration="30" OffPower="0.45" Cadence="100"/>
+		<SteadyState Duration="480" Power="0.55" Cadence="85"/>
+		<IntervalsT Repeat="4" OnDuration="20" OnPower="1.65" OffDuration="40" OffPower="0.45" Cadence="100"/>
+		<SteadyState Duration="360" Power="0.45" Cadence="90"/>
+	</workout>
+</workout_file>

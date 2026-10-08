@@ -1,0 +1,21 @@
+<workout_file>
+	<author>TrainerDay - Bristow</author>
+	<name>Power Builder 60</name>
+	<description>3 sets of over/under intervals. 105% FTP for two minutes followed by one minute at 85% FTP. 4 minute warmup and cooldown.</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="240" Power="0.5"/>
+		<IntervalsT Repeat="4" OnDuration="120" OnPower="1.05" OffDuration="60" OffPower="0.85"/>
+		<SteadyState Duration="120" Power="1.05"/>
+		<SteadyState Duration="300" Power="0.5"/>
+		<IntervalsT Repeat="4" OnDuration="120" OnPower="1.05" OffDuration="60" OffPower="0.85"/>
+		<SteadyState Duration="120" Power="1.05"/>
+		<SteadyState Duration="300" Power="0.5"/>
+		<IntervalsT Repeat="4" OnDuration="120" OnPower="1.05" OffDuration="60" OffPower="0.85"/>
+		<SteadyState Duration="120" Power="1.05"/>
+		<SteadyState Duration="240" Power="0.5"/>
+	</workout>
+</workout_file>

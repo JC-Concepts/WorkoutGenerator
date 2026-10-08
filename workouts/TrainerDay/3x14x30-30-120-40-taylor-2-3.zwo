@@ -1,0 +1,22 @@
+<workout_file>
+	<author>TrainerDay - D Nell</author>
+	<name>3x14x3030  120%40% Taylor2</name>
+	<description>Workout created by TrainerDay</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="90" Power="0.6"/>
+		<SteadyState Duration="90" Power="0.8"/>
+		<IntervalsT Repeat="3" OnDuration="30" OnPower="1.2" OffDuration="30" OffPower="0.4"/>
+		<SteadyState Duration="90" Power="0.4"/>
+		<IntervalsT Repeat="14" OnDuration="30" OnPower="1.2" OffDuration="30" OffPower="0.4"/>
+		<SteadyState Duration="270" Power="0.4"/>
+		<IntervalsT Repeat="14" OnDuration="30" OnPower="1.2" OffDuration="30" OffPower="0.4"/>
+		<SteadyState Duration="270" Power="0.4"/>
+		<IntervalsT Repeat="13" OnDuration="30" OnPower="1.2" OffDuration="30" OffPower="0.4"/>
+		<SteadyState Duration="30" Power="1.2"/>
+		<SteadyState Duration="120" Power="0.4"/>
+	</workout>
+</workout_file>

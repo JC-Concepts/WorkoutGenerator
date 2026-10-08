@@ -1,0 +1,22 @@
+<workout_file>
+	<author>TrainerDay - gzexpat</author>
+	<name>Threshold Pulls 1 5x8min105%</name>
+	<description>Warm Up, 5x8min at 105% of FTP, 4 minute rest periods, Cool Down.</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="60" Power="0.4"/>
+		<SteadyState Duration="60" Power="0.5"/>
+		<SteadyState Duration="60" Power="0.6"/>
+		<SteadyState Duration="60" Power="0.7"/>
+		<SteadyState Duration="60" Power="0.8"/>
+		<SteadyState Duration="60" Power="0.9"/>
+		<SteadyState Duration="60" Power="1"/>
+		<SteadyState Duration="60" Power="0.4"/>
+		<SteadyState Duration="30" Power="1.1"/>
+		<SteadyState Duration="150" Power="0.6"/>
+		<IntervalsT Repeat="5" OnDuration="480" OnPower="1.05" OffDuration="240" OffPower="0.4"/>
+	</workout>
+</workout_file>

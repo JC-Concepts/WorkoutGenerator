@@ -1,0 +1,75 @@
+<workout_file>
+	<author>TrainerDay - mansi</author>
+	<name>There is no try</name>
+	<description>The ability to hit a given power target right on the nose is one of the hallmarks of a great rider, and that is exactly what you are being forced to do with this session.  Each interval has 4 distinct stair steps, increasing slightly with each step. This requires you to finesse your output multiple times for each effort, to really feel the difference 10 watts makes.
+
+
+The stair step approach also forces your body into a constant state of “catching up.” Just as your aerobic system settles into the oxygen demands of each effort, you are forced to go harder, which makes you dip back into anaerobic energy systems while your aerobic system catches up. This process constantly forces your anaerobic and aerobic systems to make adjustments. If you&apos;re trying to get over a plateau or feel like you&apos;re not getting faster this can be exactly what you need.
+
+
+Unlike other sessions, three of the four sprint efforts come in the first half. This means your legs will be fresh enough so you can go full gas and hit your NM system hard. Not bad for a session that is predominantly focused on building your AC and MAP.
+</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="131" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="90" Power="0.65" Cadence="90"/>
+		<SteadyState Duration="57" Power="0.82" Cadence="90"/>
+		<SteadyState Duration="20" Power="1" Cadence="90"/>
+		<SteadyState Duration="27" Power="0.7" Cadence="90"/>
+		<SteadyState Duration="33" Power="1.1" Cadence="100"/>
+		<SteadyState Duration="26" Power="0.7" Cadence="85"/>
+		<SteadyState Duration="46" Power="0.9" Cadence="95"/>
+		<SteadyState Duration="51" Power="0.95" Cadence="100"/>
+		<SteadyState Duration="44" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="15" Power="1" Cadence="100"/>
+		<SteadyState Duration="14" Power="1.06" Cadence="100"/>
+		<SteadyState Duration="16" Power="1.12" Cadence="100"/>
+		<SteadyState Duration="14" Power="1.55" Cadence="110"/>
+		<SteadyState Duration="60" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="29" Power="1" Cadence="100"/>
+		<SteadyState Duration="31" Power="1.06" Cadence="100"/>
+		<SteadyState Duration="29" Power="1.12" Cadence="100"/>
+		<SteadyState Duration="18" Power="1.19" Cadence="100"/>
+		<SteadyState Duration="13" Power="1.55" Cadence="110"/>
+		<SteadyState Duration="60" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="45" Power="0.95" Cadence="80"/>
+		<SteadyState Duration="40" Power="1" Cadence="80"/>
+		<SteadyState Duration="35" Power="1.1" Cadence="80"/>
+		<SteadyState Duration="30" Power="1.16" Cadence="80"/>
+		<SteadyState Duration="15" Power="1.55" Cadence="100"/>
+		<SteadyState Duration="60" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="60" Power="0.95" Cadence="70"/>
+		<SteadyState Duration="60" Power="1" Cadence="70"/>
+		<SteadyState Duration="60" Power="1.1" Cadence="70"/>
+		<SteadyState Duration="60" Power="1.16" Cadence="70"/>
+		<SteadyState Duration="91" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="120" Power="0.92" Cadence="90"/>
+		<SteadyState Duration="120" Power="0.94" Cadence="90"/>
+		<SteadyState Duration="120" Power="0.97" Cadence="90"/>
+		<SteadyState Duration="120" Power="1" Cadence="90"/>
+		<SteadyState Duration="120" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="61" Power="0.95" Cadence="70"/>
+		<SteadyState Duration="60" Power="1" Cadence="70"/>
+		<SteadyState Duration="60" Power="1.1" Cadence="70"/>
+		<SteadyState Duration="60" Power="1.16" Cadence="70"/>
+		<SteadyState Duration="89" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="46" Power="0.95" Cadence="75"/>
+		<SteadyState Duration="45" Power="1" Cadence="75"/>
+		<SteadyState Duration="45" Power="1.1" Cadence="100"/>
+		<SteadyState Duration="45" Power="1.16" Cadence="100"/>
+		<SteadyState Duration="60" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="30" Power="1" Cadence="100"/>
+		<SteadyState Duration="30" Power="1.07" Cadence="100"/>
+		<SteadyState Duration="30" Power="1.13" Cadence="100"/>
+		<SteadyState Duration="30" Power="1.19" Cadence="100"/>
+		<SteadyState Duration="60" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="15" Power="1.03" Cadence="100"/>
+		<SteadyState Duration="15" Power="1.09" Cadence="100"/>
+		<SteadyState Duration="15" Power="1.16" Cadence="100"/>
+		<SteadyState Duration="15" Power="1.62" Cadence="110"/>
+		<SteadyState Duration="180" Power="0.5" Cadence="90"/>
+	</workout>
+</workout_file>

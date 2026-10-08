@@ -1,0 +1,36 @@
+<workout_file>
+	<author>TrainerDay - Soonami</author>
+	<name>Soonami Recovery</name>
+	<description>60min Z1/Z2 Recovery Session
+</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="120" Power="0.3"/>
+		<SteadyState Duration="120" Power="0.4"/>
+		<SteadyState Duration="240" Power="0.5"/>
+		<SteadyState Duration="120" Power="0.6"/>
+		<SteadyState Duration="120" Power="0.3"/>
+		<SteadyState Duration="120" Power="0.4"/>
+		<SteadyState Duration="240" Power="0.5"/>
+		<SteadyState Duration="120" Power="0.6"/>
+		<SteadyState Duration="120" Power="0.3"/>
+		<SteadyState Duration="120" Power="0.4"/>
+		<SteadyState Duration="240" Power="0.5"/>
+		<SteadyState Duration="120" Power="0.6"/>
+		<SteadyState Duration="120" Power="0.3"/>
+		<SteadyState Duration="120" Power="0.4"/>
+		<SteadyState Duration="240" Power="0.5"/>
+		<SteadyState Duration="120" Power="0.6"/>
+		<SteadyState Duration="120" Power="0.3"/>
+		<SteadyState Duration="120" Power="0.4"/>
+		<SteadyState Duration="240" Power="0.5"/>
+		<SteadyState Duration="120" Power="0.6"/>
+		<SteadyState Duration="120" Power="0.3"/>
+		<SteadyState Duration="120" Power="0.4"/>
+		<SteadyState Duration="240" Power="0.5"/>
+		<SteadyState Duration="120" Power="0.6"/>
+	</workout>
+</workout_file>

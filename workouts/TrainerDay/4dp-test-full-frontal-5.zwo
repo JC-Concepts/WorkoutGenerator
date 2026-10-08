@@ -1,0 +1,30 @@
+<workout_file>
+	<author>TrainerDay - Generatorwrecks</author>
+	<name>4DP Test Full Frontal</name>
+	<description>Full Frontal, the 4DP fitness test by Sufferfest.</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="420" Power="0.47"/>
+		<SteadyState Duration="60" Power="0.8"/>
+		<SteadyState Duration="60" Power="0.5"/>
+		<SteadyState Duration="30" Power="0.95"/>
+		<SteadyState Duration="30" Power="0.5"/>
+		<SteadyState Duration="30" Power="1.1"/>
+		<SteadyState Duration="60" Power="0.5"/>
+		<SteadyState Duration="30" Power="1"/>
+		<SteadyState Duration="150" Power="0.55"/>
+		<SteadyState Duration="7" Power="4.48"/>
+		<SteadyState Duration="240" Power="0.4"/>
+		<SteadyState Duration="7" Power="4.48"/>
+		<SteadyState Duration="180" Power="0.4"/>
+		<SteadyState Duration="300" Power="1.2"/>
+		<SteadyState Duration="300" Power="0.5"/>
+		<SteadyState Duration="1200" Power="1.04"/>
+		<SteadyState Duration="270" Power="0.4"/>
+		<SteadyState Duration="60" Power="2.34"/>
+		<SteadyState Duration="180" Power="0.4"/>
+	</workout>
+</workout_file>

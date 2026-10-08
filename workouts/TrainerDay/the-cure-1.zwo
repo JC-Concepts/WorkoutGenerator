@@ -1,0 +1,49 @@
+<workout_file>
+	<author>TrainerDay - mansi</author>
+	<name>The Cure </name>
+	<description>Do you have Couchlandrian Tendencies? This short, but powerful, workout will cure you of that affliction and reassert the Sufferlandrian within. The session is based on a combination of specific micro-intervals (made famous by Japanese coach and physiologist Izumi Tabata) that we have combined with classic tempo efforts. This gives you a superb mix of AC, MAP and FTP training stresses in one short workout to help you go faster and stay stronger for longer.
+
+
+Now, for the sports science purists among you, the &apos;Tabata&apos; intervals should actually be named &apos;Koichi&apos; intervals, since it was Japanese speedskating coach Irisawa Koichi who first employed the use of the 20s on/10s off intervals that Dr. Izumi then confirmed via physiology lab studies to yield the best mix of maximal aerobic and anaerobic stress among the different on/off protocols that he tested. For this workout, we have toned down the original intensity of the Tabata intervals to target Max Aerobic Power rather than Anaerobic Capacity in order to be able to complete the 20/10 micro intervals and then follow the short efforts immediately with sustained 80-100% of FTP intervals to replicate the kind of attack and then settle efforts that are common in cycling races.
+
+
+From a physiological perspective, you’ll produce lots of lactate during the micro intervals, and then the goal of the tempo to FTP efforts is to stress your body’s capacity to clear that lactate as quickly as possible. Effectively, we’re trying to maximize lactate &apos;flux.&apos; For each successive round of the efforts, you’ll do one less micro interval and the Tempo efforts will get shorter. But because you’re a Sufferlandrian they won’t get easier, and the rest between sets will get shorter. The intensity for the Tempo efforts will ramp up with each repeat. Fortunately for you, though, there are only 3 sets of efforts and you’ll be done in just 30-minutes.</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="88" Power="0.5" Cadence="80"/>
+		<SteadyState Duration="76" Power="0.55" Cadence="85"/>
+		<SteadyState Duration="60" Power="0.65" Cadence="90"/>
+		<SteadyState Duration="30" Power="0.5" Cadence="80"/>
+		<SteadyState Duration="30" Power="0.75" Cadence="90"/>
+		<SteadyState Duration="30" Power="0.6" Cadence="85"/>
+		<SteadyState Duration="30" Power="0.9" Cadence="95"/>
+		<SteadyState Duration="30" Power="0.7" Cadence="85"/>
+		<SteadyState Duration="45" Power="1" Cadence="100"/>
+		<SteadyState Duration="30" Power="0.5" Cadence="80"/>
+		<SteadyState Duration="20" Power="1.21" Cadence="90"/>
+		<SteadyState Duration="45" Power="0.5" Cadence="85"/>
+		<SteadyState Duration="15" Power="1.46" Cadence="100"/>
+		<SteadyState Duration="90" Power="0.5" Cadence="80"/>
+		<IntervalsT Repeat="8" OnDuration="20" OnPower="1.33" OffDuration="10" OffPower="0.45" Cadence="90"/>
+		<SteadyState Duration="10" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="40" Power="0.8" Cadence="90"/>
+		<SteadyState Duration="30" Power="0.83" Cadence="90"/>
+		<SteadyState Duration="20" Power="0.85" Cadence="90"/>
+		<SteadyState Duration="60" Power="0.4" Cadence="80"/>
+		<SteadyState Duration="60" Power="0.5" Cadence="85"/>
+		<IntervalsT Repeat="7" OnDuration="20" OnPower="1.27" OffDuration="10" OffPower="0.45" Cadence="95"/>
+		<SteadyState Duration="30" Power="0.85" Cadence="90"/>
+		<SteadyState Duration="40" Power="0.88" Cadence="95"/>
+		<SteadyState Duration="20" Power="0.9" Cadence="100"/>
+		<SteadyState Duration="45" Power="0.4" Cadence="80"/>
+		<SteadyState Duration="45" Power="0.5" Cadence="85"/>
+		<IntervalsT Repeat="6" OnDuration="20" OnPower="1.22" OffDuration="10" OffPower="0.45" Cadence="100" CadenceResting="90"/>
+		<SteadyState Duration="30" Power="0.9" Cadence="95"/>
+		<SteadyState Duration="20" Power="0.95" Cadence="100"/>
+		<SteadyState Duration="10" Power="1" Cadence="105"/>
+		<SteadyState Duration="110" Power="0.45" Cadence="80"/>
+	</workout>
+</workout_file>

@@ -1,0 +1,115 @@
+<workout_file>
+	<author>TrainerDay - mansi</author>
+	<name>The Shovel</name>
+	<description>Time to dig deep into the COURAGE mines. Real deep. No other workout runs the full range of 4DP like this one. The consistent inverse relationship between interval length and intensity pushes your AC to the very limit, ensuring that after each micro-interval your body recovers just enough to hit and hold your power target for the next interval...even if you don&apos;t think you can.
+
+
+The 5-10 second efforts hit your NM system hard. No holding back for these short efforts. All out means all out. The 15-60 second efforts all require significant anaerobic energy, but with so little rest your cardiovascular system never really gets a break. This not only stresses your AC as you try to recover,  but it also pushes your MAP to it&apos;s limit as your body tries to generate as much aerobic power as possible.
+
+
+Even though there is not a single interval in this workout that is longer than 60 seconds, each full set lasts more than 20 minutes so the unrelenting aerobic stress turns this session into a surprisingly good FTP builder.</description>
+	<sportType>bike</sportType>
+	<tags>
+		<tag name="trainerDay"/>
+	</tags>
+	<workout>
+		<SteadyState Duration="342" Power="0.55" Cadence="80"/>
+		<SteadyState Duration="241" Power="0.7" Cadence="85"/>
+		<SteadyState Duration="180" Power="0.8" Cadence="90"/>
+		<SteadyState Duration="121" Power="0.9" Cadence="95"/>
+		<SteadyState Duration="59" Power="1" Cadence="100"/>
+		<SteadyState Duration="15" Power="1.54" Cadence="110"/>
+		<SteadyState Duration="75" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="10" Power="1.46" Cadence="110"/>
+		<SteadyState Duration="80" Power="0.5" Cadence="90"/>
+		<SteadyState Duration="55" Power="1.05" Cadence="95"/>
+		<SteadyState Duration="6" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="50" Power="1.1" Cadence="95"/>
+		<SteadyState Duration="10" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="45" Power="1.09" Cadence="95"/>
+		<SteadyState Duration="15" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="40" Power="1.15" Cadence="90"/>
+		<SteadyState Duration="20" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="35" Power="1.22" Cadence="100"/>
+		<SteadyState Duration="25" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="30" Power="1.33" Cadence="100"/>
+		<SteadyState Duration="30" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="25" Power="1.46" Cadence="100"/>
+		<SteadyState Duration="35" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="20" Power="1.62" Cadence="100"/>
+		<SteadyState Duration="40" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="15" Power="1.86" Cadence="105"/>
+		<SteadyState Duration="45" Power="0.4" Cadence="85"/>
+		<SteadyState Duration="10" Power="2.38" Cadence="110"/>
+		<SteadyState Duration="50" Power="0.4" Cadence="85"/>
+		<IntervalsT Repeat="2" OnDuration="5" OnPower="2.67" OffDuration="55" OffPower="0.4" Cadence="120" CadenceResting="80"/>
+		<SteadyState Duration="10" Power="2.38" Cadence="110"/>
+		<SteadyState Duration="50" Power="0.4" Cadence="85"/>
+		<SteadyState Duration="15" Power="1.86" Cadence="110"/>
+		<SteadyState Duration="45" Power="0.4" Cadence="85"/>
+		<SteadyState Duration="20" Power="1.62" Cadence="100"/>
+		<SteadyState Duration="40" Power="0.4" Cadence="95"/>
+		<SteadyState Duration="25" Power="1.46" Cadence="100"/>
+		<SteadyState Duration="35" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="30" Power="1.33" Cadence="100"/>
+		<SteadyState Duration="30" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="35" Power="1.22" Cadence="95"/>
+		<SteadyState Duration="25" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="40" Power="1.15" Cadence="90"/>
+		<SteadyState Duration="20" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="45" Power="1.09" Cadence="95"/>
+		<SteadyState Duration="15" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="50" Power="1.1" Cadence="80"/>
+		<SteadyState Duration="10" Power="0.4" Cadence="85"/>
+		<SteadyState Duration="55" Power="1" Cadence="75"/>
+		<SteadyState Duration="4" Power="0.4" Cadence="80"/>
+		<SteadyState Duration="60" Power="1" Cadence="60"/>
+		<SteadyState Duration="303" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="5" Power="2.67" Cadence="120"/>
+		<SteadyState Duration="55" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="10" Power="2.33" Cadence="110"/>
+		<SteadyState Duration="50" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="15" Power="1.86" Cadence="105"/>
+		<SteadyState Duration="45" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="20" Power="1.62" Cadence="100"/>
+		<SteadyState Duration="40" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="25" Power="1.46" Cadence="100"/>
+		<SteadyState Duration="35" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="30" Power="1.32" Cadence="95"/>
+		<SteadyState Duration="30" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="35" Power="1.22" Cadence="95"/>
+		<SteadyState Duration="26" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="40" Power="1.15" Cadence="95"/>
+		<SteadyState Duration="20" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="45" Power="1.09" Cadence="85"/>
+		<SteadyState Duration="15" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="50" Power="1.1" Cadence="75"/>
+		<SteadyState Duration="10" Power="0.4" Cadence="80"/>
+		<SteadyState Duration="50" Power="1.05" Cadence="70"/>
+		<SteadyState Duration="5" Power="0.4" Cadence="80"/>
+		<SteadyState Duration="61" Power="1" Cadence="60"/>
+		<SteadyState Duration="60" Power="0.4" Cadence="80"/>
+		<SteadyState Duration="55" Power="1.05" Cadence="90"/>
+		<SteadyState Duration="6" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="50" Power="1.1" Cadence="90"/>
+		<SteadyState Duration="10" Power="0.4" Cadence="85"/>
+		<SteadyState Duration="46" Power="1.09" Cadence="75"/>
+		<SteadyState Duration="15" Power="0.4" Cadence="85"/>
+		<SteadyState Duration="40" Power="1.15" Cadence="90"/>
+		<SteadyState Duration="20" Power="0.4" Cadence="85"/>
+		<SteadyState Duration="35" Power="1.22" Cadence="95"/>
+		<SteadyState Duration="25" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="30" Power="1.33" Cadence="100"/>
+		<SteadyState Duration="31" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="25" Power="1.46" Cadence="90"/>
+		<SteadyState Duration="35" Power="0.4" Cadence="85"/>
+		<SteadyState Duration="20" Power="1.62" Cadence="75"/>
+		<SteadyState Duration="40" Power="0.4" Cadence="80"/>
+		<SteadyState Duration="15" Power="1.86" Cadence="90"/>
+		<SteadyState Duration="45" Power="0.4" Cadence="85"/>
+		<SteadyState Duration="10" Power="2.38" Cadence="100"/>
+		<SteadyState Duration="50" Power="0.4" Cadence="90"/>
+		<SteadyState Duration="5" Power="2.67" Cadence="120"/>
+		<SteadyState Duration="247" Power="0.4" Cadence="90"/>
+	</workout>
+</workout_file>
