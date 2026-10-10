@@ -1,0 +1,73 @@
+<workout_file>
+	<author>Jarvis Chau (via TrainingPeaks)</author>
+	<name>Sweet Spot (30 mins)</name>
+	<description>One of TrainingPeaks Virtual&apos;s classic workouts:
+Sweet Spot Training.
+
+Perfect if you&apos;re short on time; warm-up, 20 minutes at just enough below your FTP to get a really good workout, but without becoming over-tired, and then you&apos;re done. Simple, but effective.</description>
+	<sportType>bike</sportType>
+	<tags/>
+	<workout>
+		<Warmup Duration="300" PowerHigh="0.73" PowerLow="0.53">
+			<textevent timeoffset="0" message="!TextEvents:{
+10:Welcome to Sweet Spot;
+20:This classic workout is perfect for improving your FTP.;
+30:Just 20 minutes of work - 5 minutes on, 5 minutes off, twice, with a short rest inbetween.;
+60:For now, focus on warming up, and getting your legs spinning.;
+150:Half way through the warmup.;
+240:1 minute to go.;
+}"/>
+		</Warmup>
+		<SteadyState Duration="300" Power="0.96">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Bring the power up to just below your FTP now.;
+60:First minute done.
+Good job.;
+240:1 minute to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.85">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Just ease off the power slightly.;
+10:Keep the legs spinning.
+Focus on recovery at pace.;
+240:1 minute to go until we take a short rest.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.55">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Focus on recovering as much as you can.;
+10:Keep the legs spinning.
+Grab a drink.;
+30:30 seconds to go until we take it back up again.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.96">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Second set.
+Back to just below your FTP now.;
+60:First minute done.
+Good job.;
+240:1 minute to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.85">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Just ease off the power slightly.;
+10:Keep the legs spinning.
+Focus on recovery at pace.;
+240:1 minute to go until we&apos;re done for the day.;
+}"/>
+		</SteadyState>
+		<Cooldown Duration="240" PowerHigh="0.53" PowerLow="0.73">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:...and relax.;
+30:Take on some fluids and start to wind it down.;
+60:There&amp;apos;s 3 minutes left until the end.;
+70:The power will ramp down slowly while you recover.;
+180:Great job today.;
+190:Looking forward to working out with you again soon.;
+}"/>
+		</Cooldown>
+	</workout>
+</workout_file>

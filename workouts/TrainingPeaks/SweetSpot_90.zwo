@@ -1,0 +1,149 @@
+<workout_file>
+	<author>Jarvis Chau (via TrainingPeaks)</author>
+	<name>Sweet Spot (90 mins)</name>
+	<description>One of TrainingPeaks Virtual&apos;s classic workouts:
+Sweet Spot Training.
+
+The perfect endurance workout; warm-up, 60 minutes just enough below your FTP to get a really good workout, but without becoming over-tired, and then you&apos;re done. Simple, but effective.</description>
+	<sportType>bike</sportType>
+	<tags/>
+	<workout>
+		<Warmup Duration="600" PowerHigh="0.73" PowerLow="0.53">
+			<textevent timeoffset="0" message="!TextEvents:{
+10:Welcome to Sweet Spot;
+20:This classic workout is perfect for improving your FTP.;
+30:Just 60 minutes of work - 5 minutes on, 5 minutes off, six times.;
+60:For now, focus on warming up, and getting your legs spinning.;
+300:Half way through the warmup.;
+540:1 minute to go.;
+}"/>
+		</Warmup>
+		<SteadyState Duration="300" Power="0.94">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Bring the power up to just below your FTP now.;
+60:First minute done.
+Good job.;
+240:1 minute to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.85">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Just ease off the power slightly.;
+10:Keep the legs spinning.
+Focus on recovery at pace.;
+240:1 minute to go until we take it back up again.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.94">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Second set.
+Back to just below your FTP now.;
+60:First minute done.
+Good job.;
+240:1 minute to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.85">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Just ease off the power slightly.;
+10:Keep the legs spinning.
+Focus on recovery at pace.;
+240:1 minute to go until we take a short rest.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.55">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Focus on recovering as much as you can.;
+10:Keep the legs spinning.
+Grab a drink.;
+240:1 minute to go until we take it back up again.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.94">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Third set.
+Back to just below your FTP now.;
+60:First minute done.
+Good job.;
+240:1 minute to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.85">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Just ease off the power slightly.;
+10:Keep the legs spinning.
+Focus on recovery at pace.;
+240:1 minute to go until we take it back up again.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.94">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Fourth set.
+Back to just below your FTP now.;
+60:First minute done.
+Good job.;
+240:1 minute to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.85">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Just ease off the power slightly.;
+10:Keep the legs spinning.
+Focus on recovery at pace.;
+240:1 minute to go until we take a short rest.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.55">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Focus on recovering as much as you can.;
+10:Keep the legs spinning.
+Grab a drink.;
+240:1 minute to go until we take it back up again.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.94">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Fifth set.
+Back to just below your FTP now.;
+60:First minute done.
+Good job.;
+240:1 minute to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.85">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Just ease off the power slightly.;
+10:Keep the legs spinning.
+Focus on recovery at pace.;
+240:1 minute to go until we take it back up again.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.94">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Sixth and final set.
+Back to just below your FTP now.;
+60:First minute done.
+Good job.;
+240:1 minute to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.85">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Just ease off the power slightly.;
+10:Keep the legs spinning.
+Focus on recovery at pace.;
+240:1 minute to go until we&apos;re done for the day.;
+}"/>
+		</SteadyState>
+		<Cooldown Duration="600" PowerHigh="0.53" PowerLow="0.73">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:...and relax.;
+30:Take on some fluids and start to wind it down.;
+60:There&amp;apos;s 9 minutes left until the end.;
+70:The power will ramp down slowly while you recover.;
+540:Great job today.;
+550:Looking forward to working out with you again soon.;
+}"/>
+		</Cooldown>
+	</workout>
+</workout_file>

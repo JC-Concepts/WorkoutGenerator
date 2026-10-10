@@ -1,0 +1,16 @@
+<workout_file>
+	<author>Jarvis Chau (via TrainingPeaks)</author>
+	<name>Criss Cross</name>
+	<description></description>
+	<sportType>bike</sportType>
+	<tags/>
+	<workout>
+		<Warmup Duration="600" PowerHigh="0.55" PowerLow="0.35">
+			<textevent timeoffset="0" message="Include 3 x 1mins fast pedaling drills."/>
+		</Warmup>
+		<IntervalsT Repeat="10" OnDuration="120" OnPower="1.1" OffDuration="120" OffPower="0.9">
+		</IntervalsT>
+		<Cooldown Duration="600" PowerHigh="0.3" PowerLow="0.5">
+		</Cooldown>
+	</workout>
+</workout_file>

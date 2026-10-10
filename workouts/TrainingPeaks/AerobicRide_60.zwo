@@ -1,0 +1,123 @@
+<workout_file>
+	<author>Jarvis Chau (via TrainingPeaks)</author>
+	<name>Aerobic Ride (60 mins)</name>
+	<description>One of TrainingPeaks Virtual&apos;s classic workouts:
+Aerobic Ride.
+
+Perfect to recruit slow-twitch endurance muscle fibres. Alternating 5 minute blocks of Zone 2 and Zone 3 throughout - no fuss, no drama - just a solid workout. Simple, but effective.</description>
+	<sportType>bike</sportType>
+	<tags/>
+	<workout>
+		<Warmup Duration="300" PowerHigh="0.7" PowerLow="0.5">
+			<textevent timeoffset="0" message="!TextEvents:{
+10:Welcome to Aerobic Ride;
+20:This classic workout is perfect to recruit slow-twitch endurance muscle fibres.;
+30:Alternating 5 minute blocks of
+Zone 2 and Zone 3 throughout.;
+60:For now, focus on warming up, and getting your legs spinning.;
+150:Half way through the warmup.;
+240:1 minute to go.;
+}"/>
+		</Warmup>
+		<SteadyState Duration="300" Power="0.7">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:5 minutes nice and steady.;
+30:Focus on spinning the legs.;
+60:First minute done.
+Good job.;
+90:You should feel settled into this pace now.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.85">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:5 minutes slightly harder.;
+30:Focus on spinning the legs.;
+60:First minute done.
+Good job.;
+90:You should feel settled into this pace now.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.7">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:5 minutes nice and steady.;
+30:Focus on spinning the legs.;
+60:First minute done.
+Good job.;
+90:You should feel settled into this pace now.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.85">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:5 minutes slightly harder.;
+30:Focus on spinning the legs.;
+60:First minute done.
+Good job.;
+90:You should feel settled into this pace now.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.7">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:5 minutes nice and steady.;
+30:Focus on spinning the legs.;
+60:First minute done.
+Good job.;
+90:You should feel settled into this pace now.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.85">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:5 minutes slightly harder.;
+30:Focus on spinning the legs.;
+60:First minute done.
+Good job.;
+90:You should feel settled into this pace now.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.7">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:5 minutes nice and steady.;
+30:Focus on spinning the legs.;
+60:First minute done.
+Good job.;
+90:You should feel settled into this pace now.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.85">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:5 minutes slightly harder.;
+30:Focus on spinning the legs.;
+60:First minute done.
+Good job.;
+90:You should feel settled into this pace now.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.7">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:5 minutes nice and steady.;
+30:Focus on spinning the legs.;
+60:First minute done.
+Good job.;
+90:You should feel settled into this pace now.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.85">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:5 minutes slightly harder.;
+30:Focus on spinning the legs.;
+60:First minute done.
+Good job.;
+90:You should feel settled into this pace now.;
+}"/>
+		</SteadyState>
+		<Cooldown Duration="300" PowerHigh="0.5" PowerLow="0.7">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:...and relax.;
+30:Take on some fluids and start to wind it down.;
+60:There&amp;apos;s 4 minutes left until the end.;
+70:The power will ramp down slowly while you recover.;
+240:Great job today.;
+250:Looking forward to working out with you again soon.;
+}"/>
+		</Cooldown>
+	</workout>
+</workout_file>

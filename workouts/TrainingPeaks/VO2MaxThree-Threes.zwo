@@ -1,0 +1,86 @@
+<workout_file>
+	<author>Jarvis Chau (via TrainingPeaks)</author>
+	<name>VO2Max Three Threes</name>
+	<description>One of TrainingPeaks Virtual&apos;s classic workouts:
+Three Threes.
+
+A solid warm-up, followed by 3x 3 minute efforts at VO2max. Simple, but effective.</description>
+	<sportType>bike</sportType>
+	<tags/>
+	<workout>
+		<Warmup Duration="360" PowerHigh="0.7" PowerLow="0.5" Cadence="90">
+			<textevent timeoffset="0" message="!TextEvents:{
+10:Welcome to VO2Max Three Threes;
+20:This classic workout is perfect for improving your VO2Max.;
+30:We&amp;apos;ll do three blocks of 3 minutes well above your FTP, but with plenty of rest inbetween.;
+60:For now, focus on warming up, and getting your legs spinning.;
+180:Half way through the warmup.;
+300:1 minute to go.;
+}"/>
+		</Warmup>
+		<SteadyState Duration="180" Power="1.15">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Bring the power right up now.;
+30:Keep focusing on spinning the legs.;
+60:First minute done.
+Good job.;
+90:Now the work really starts.  Settle in and focus on smooth pedalling.;
+120:1 minute to go.;
+150:30 seconds to go.;
+170:10 seconds to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.55">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:...and relax.;
+30:Take on some fluids and take your time to recover.;
+240:There&apos;s just 1 minute left until the next effort.;
+270:30 seconds to go.;
+290:10 seconds to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="180" Power="1.15">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Bring the power right up now.;
+30:Keep focusing on spinning the legs.;
+60:First minute done.
+Good job.;
+90:Now the work really starts.  Settle in and focus on smooth pedalling.;
+120:1 minute to go.;
+150:30 seconds to go.;
+170:10 seconds to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.55">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:...and relax.;
+30:Take on some fluids and take your time to recover.;
+240:There&apos;s just 1 minute left until the next effort.;
+270:30 seconds to go.;
+290:10 seconds to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="180" Power="1.15">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Bring the power right up now.;
+30:Keep focusing on spinning the legs.;
+60:First minute done.
+Good job.;
+90:Now the work really starts.  Settle in and focus on smooth pedalling.;
+120:1 minute to go.;
+150:30 seconds to go.;
+170:10 seconds to go.;
+}"/>
+		</SteadyState>
+		<Cooldown Duration="300" PowerHigh="0.55" PowerLow="0.75">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:...and relax.;
+30:Take on some fluids and start to wind it down.;
+60:There&amp;apos;s 4 minutes left until the end.;
+70:The power will ramp down slowly while you recover.;
+240:Great job today.;
+250:Looking forward to working out with you again soon.;
+}"/>
+		</Cooldown>
+	</workout>
+</workout_file>

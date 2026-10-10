@@ -1,0 +1,51 @@
+<workout_file>
+	<author>Jarvis Chau (via TrainingPeaks)</author>
+	<name>Pyramid of Pain (Power)</name>
+	<description></description>
+	<sportType>bike</sportType>
+	<tags/>
+	<workout>
+		<Warmup Duration="600" PowerHigh="0.55" PowerLow="0.35">
+		</Warmup>
+		<IntervalsT Repeat="3" OnDuration="30" OnPower="1.05" OffDuration="30" OffPower="0.55">
+		</IntervalsT>
+		<SteadyState Duration="300" Power="0.55">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.6">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.7">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.8">
+		</SteadyState>
+		<SteadyState Duration="90" Power="0.9">
+		</SteadyState>
+		<SteadyState Duration="90" Power="0.9">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.8">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.7">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.6">
+		</SteadyState>
+		<SteadyState Duration="600" Power="0.55">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.6">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.7">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.8">
+		</SteadyState>
+		<SteadyState Duration="90" Power="0.9">
+		</SteadyState>
+		<SteadyState Duration="90" Power="0.9">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.8">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.7">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.6">
+		</SteadyState>
+		<Cooldown Duration="600" PowerHigh="0.35" PowerLow="0.55">
+		</Cooldown>
+	</workout>
+</workout_file>

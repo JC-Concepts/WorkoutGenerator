@@ -1,0 +1,33 @@
+<workout_file>
+	<author>Jarvis Chau (via TrainingPeaks)</author>
+	<name>One Minute Bursts</name>
+	<description></description>
+	<sportType>bike</sportType>
+	<tags/>
+	<workout>
+		<Warmup Duration="600" PowerHigh="0.55" PowerLow="0.35">
+			<textevent timeoffset="0" message="Including 3 x 1mins fast pedaling drills."/>
+		</Warmup>
+		<SteadyState Duration="300" Power="0.95">
+			<textevent timeoffset="0" message="Big gear effort, just like weight lifting. 50-60rpms."/>
+		</SteadyState>
+		<SteadyState Duration="300" Power="0.55">
+		</SteadyState>
+		<IntervalsT Repeat="4" OnDuration="240" OnPower="0.9" OffDuration="60" OffPower="1.1">
+			<textevent timeoffset="240" message="Stand up into this effort. Make it hard."/>
+			<textevent timeoffset="540" message="Stand up into this effort. Make it hard."/>
+			<textevent timeoffset="840" message="Stand up into this effort. Make it hard."/>
+			<textevent timeoffset="1140" message="Stand up into this effort. Make it hard."/>
+		</IntervalsT>
+		<SteadyState Duration="300" Power="0.55">
+		</SteadyState>
+		<IntervalsT Repeat="4" OnDuration="240" OnPower="0.9" OffDuration="60" OffPower="1.1">
+			<textevent timeoffset="240" message="Stand up into this effort. Make it hard."/>
+			<textevent timeoffset="540" message="Stand up into this effort. Make it hard."/>
+			<textevent timeoffset="840" message="Stand up into this effort. Make it hard."/>
+			<textevent timeoffset="1140" message="Stand up into this effort. Make it hard."/>
+		</IntervalsT>
+		<Cooldown Duration="600" PowerHigh="0.3" PowerLow="0.5">
+		</Cooldown>
+	</workout>
+</workout_file>

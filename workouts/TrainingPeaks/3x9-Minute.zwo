@@ -1,0 +1,85 @@
+<workout_file>
+	<author>Jarvis Chau (via TrainingPeaks)</author>
+	<name>3 x 9-Minute Over Under Intervals</name>
+	<description>3 minutes easy pedaling
+1 minute fast pedal (low resistance, fast as you can pedal without bouncing in the saddle)
+1 minute easy pedaling
+1 minute max effort (100+rpm)
+1 minute easy pedaling
+1 minute max effort (100+rpm)
+2 minutes easy pedaling
+
+3 sets:
+
+2 minutes Steady State intensity (perceived exertion 8/10)
+1 Minute Climbing Repeat intensity (perceived exertion 9/10)
+2 minutes Steady State intensity (perceived exertion 8/10)
+1 Minute Climbing Repeat intensity (perceived exertion 9/10)
+2 minutes Steady State intensity (perceived exertion 8/10)
+1 Minute Climbing Repeat intensity (perceived exertion 9/10)
+4 minute recovery
+
+10-15 minutes to cool down.</description>
+	<sportType>bike</sportType>
+	<tags/>
+	<workout>
+		<SteadyState Duration="180" Power="0.53">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.58" Cadence="105">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.48">
+		</SteadyState>
+		<SteadyState Duration="60" Power="1.35" Cadence="105">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.48">
+		</SteadyState>
+		<SteadyState Duration="60" Power="1.35" Cadence="105">
+		</SteadyState>
+		<SteadyState Duration="120" Power="0.48">
+		</SteadyState>
+		<SteadyState Duration="120" Power="0.9">
+		</SteadyState>
+		<SteadyState Duration="60" Power="1.13">
+		</SteadyState>
+		<SteadyState Duration="120" Power="0.9">
+		</SteadyState>
+		<SteadyState Duration="60" Power="1.13">
+		</SteadyState>
+		<SteadyState Duration="120" Power="0.9">
+		</SteadyState>
+		<SteadyState Duration="60" Power="1.13">
+		</SteadyState>
+		<SteadyState Duration="240" Power="0.48">
+		</SteadyState>
+		<SteadyState Duration="120" Power="0.9">
+		</SteadyState>
+		<SteadyState Duration="60" Power="1.13">
+		</SteadyState>
+		<SteadyState Duration="120" Power="0.9">
+		</SteadyState>
+		<SteadyState Duration="60" Power="1.13">
+		</SteadyState>
+		<SteadyState Duration="120" Power="0.9">
+		</SteadyState>
+		<SteadyState Duration="60" Power="1.13">
+		</SteadyState>
+		<SteadyState Duration="240" Power="0.48">
+		</SteadyState>
+		<SteadyState Duration="120" Power="0.9">
+		</SteadyState>
+		<SteadyState Duration="60" Power="1.13">
+		</SteadyState>
+		<SteadyState Duration="120" Power="0.9">
+		</SteadyState>
+		<SteadyState Duration="60" Power="1.13">
+		</SteadyState>
+		<SteadyState Duration="120" Power="0.9">
+		</SteadyState>
+		<SteadyState Duration="60" Power="1.13">
+		</SteadyState>
+		<SteadyState Duration="240" Power="0.48">
+		</SteadyState>
+		<Cooldown Duration="600" PowerHigh="0.35" PowerLow="0.55">
+		</Cooldown>
+	</workout>
+</workout_file>

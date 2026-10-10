@@ -1,0 +1,45 @@
+<workout_file>
+	<author>Jarvis Chau (via TrainingPeaks)</author>
+	<name>3 sets of 8 x 30-Second Speed Intervals</name>
+	<description>3 minutes easy pedaling
+1 minute fast pedal (low resistance, fast as you can pedal without bouncing in the saddle)
+1 minute easy pedaling
+1 minute max effort (100+rpm)
+1 minute easy pedaling
+1 minute max effort (100+rpm)
+2 minutes easy pedaling
+
+3 sets of 8 x 30 seconds sprint/30 seconds recovery
+
+10 minute cool down</description>
+	<sportType>bike</sportType>
+	<tags/>
+	<workout>
+		<SteadyState Duration="180" Power="0.53">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.58" Cadence="105">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.48">
+		</SteadyState>
+		<SteadyState Duration="60" Power="1.35" Cadence="105">
+		</SteadyState>
+		<SteadyState Duration="60" Power="0.48">
+		</SteadyState>
+		<SteadyState Duration="60" Power="1.35" Cadence="105">
+		</SteadyState>
+		<SteadyState Duration="120" Power="0.48">
+		</SteadyState>
+		<IntervalsT Repeat="8" OnDuration="30" OnPower="1.3" OffDuration="30" OffPower="0.55">
+		</IntervalsT>
+		<SteadyState Duration="120" Power="0.55">
+		</SteadyState>
+		<IntervalsT Repeat="8" OnDuration="30" OnPower="1.3" OffDuration="30" OffPower="0.55">
+		</IntervalsT>
+		<SteadyState Duration="120" Power="0.55">
+		</SteadyState>
+		<IntervalsT Repeat="8" OnDuration="30" OnPower="1.3" OffDuration="30" OffPower="0.55">
+		</IntervalsT>
+		<Cooldown Duration="600" PowerHigh="0.35" PowerLow="0.55">
+		</Cooldown>
+	</workout>
+</workout_file>

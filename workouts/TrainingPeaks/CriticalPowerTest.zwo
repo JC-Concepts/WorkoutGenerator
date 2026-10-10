@@ -1,0 +1,109 @@
+<workout_file>
+	<author>Jarvis Chau (via TrainingPeaks)</author>
+	<name>Critical Power Test (Full)</name>
+	<description>A structured test designed to help measure your complete CP curve in a single workout.
+
+Ideal for very experienced riders who have a good idea of approximately what their capabilities are over multiple different durations. Consists of five self-paced maximum efforts.</description>
+	<sportType>bike</sportType>
+	<tags/>
+	<workout>
+		<Warmup Duration="600" PowerHigh="0.68" PowerLow="0.48" Cadence="90">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Welcome to the Critical Power Test. A few instructions while you warm-up:;
+30:The test includes 5 efforts. 2min, 4min, 12min and two 15sec sprints. Do not use ERG mode during the test.;
+60:Each effort needs to be your best effort. You can sit or stand during the efforts. The main part is to perform your best. ;
+90:Let&amp;apos;s warm up a bit more and more instructions will follow.;
+240:You have made it half way through the warm-up. You can increase the intensity.  ;
+270:The first effort is 2min long. ;
+300:Start with a strong sprint and hold the power as long as you can. You should expect for the power to drop if you start the 2min correctly.;
+540:60sec to go until the 2min effort.;
+}"/>
+		</Warmup>
+		<SteadyState Duration="120" Power="0" Cadence="90">
+			<textevent timeoffset="0" message="!FlatRoad:{False}
+
+!TextEvents:{
+0:GO GO GO;
+60:60sec to go. Finish Strong.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="240" Power="0" Cadence="90">
+			<textevent timeoffset="0" message="!FlatRoad:{False}
+
+!TextEvents:{
+2:Relax and spin very easy for 4min.;
+120:Get ready for the 4min effort. Again, start with a strong acceleration and push to the end. ;
+180:60sec to go until the 4min effort.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="240" Power="0" Cadence="90">
+			<textevent timeoffset="0" message="!FlatRoad:{False}
+
+!TextEvents:{
+0:GO GO GO;
+60:Keep pushing - finish all the way to the end.;
+120:You are almost there. Keep it up. ;
+180:Last 60sec. Finish strong. ;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="480" Power="0" Cadence="90">
+			<textevent timeoffset="0" message="!FlatRoad:{False}
+
+!TextEvents:{
+2:Relax and spin very easy for 8min;
+60:The next effort is 12min long. Perform your best over 12min. Start and finish strong with your best power over 12min.  ;
+120:The goal is to start and finish with your best possible effort over 12min.;
+420:Get ready - 60sec to go until the start of the 12min effort.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="720" Power="0" Cadence="90">
+			<textevent timeoffset="0" message="!FlatRoad:{False}
+
+!TextEvents:{
+0:GO GO GO;
+90:Stay relaxed and focused.;
+360:Half way point. Focus and push until the end.;
+660:Last 60sec. Finish strong. ;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="240" Power="0" Cadence="90">
+			<textevent timeoffset="0" message="!FlatRoad:{False}
+
+!TextEvents:{
+2:Relax and spin very easy for 4min.;
+60:The next efforts are two back to back 15sec sprints;
+120:Use you regular sprinting technique in game;
+180:Get ready - 60sec to go. Treat each sprint like a sprint to win a race.  ;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="15" Power="0" Cadence="100">
+			<textevent timeoffset="0" message="!FlatRoad:{False}
+
+!TextEvents:{
+0:GO GO GO;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="240" Power="0" Cadence="90">
+			<textevent timeoffset="0" message="!FlatRoad:{False}
+
+!TextEvents:{
+2:Relax and spin very easy for 4min.;
+180:Get ready for the second 15sec sprint. ;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="15" Power="0" Cadence="100">
+			<textevent timeoffset="0" message="!FlatRoad:{False}
+
+!TextEvents:{
+0:GO GO GO;
+}"/>
+		</SteadyState>
+		<Cooldown Duration="300" PowerHigh="0.19" PowerLow="0.39" Cadence="70">
+			<textevent timeoffset="0" message="!TextEvents:{
+2:Relax and cool down. ;
+90:Save the files and recordings as instructed and upload the data. ;
+270:Thank you. You have completed the test once the cool down has finished.;
+}"/>
+		</Cooldown>
+	</workout>
+</workout_file>

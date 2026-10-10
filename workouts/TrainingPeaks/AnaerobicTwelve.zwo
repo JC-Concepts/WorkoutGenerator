@@ -1,0 +1,283 @@
+<workout_file>
+	<author>Jarvis Chau (via TrainingPeaks)</author>
+	<name>Anaerobic Twelve</name>
+	<description>One of TrainingPeaks Virtual&apos;s classic workouts:
+Anaerobic Twelve.
+
+Perfect to recruit fast-twitch sprinting muscle fibres. After a solid warm-up, 12x 25 second explosive bursts, in two blocks of six. Simple, but effective.</description>
+	<sportType>bike</sportType>
+	<tags/>
+	<workout>
+		<Warmup Duration="600" PowerHigh="0.85" PowerLow="0.65">
+			<textevent timeoffset="0" message="!TextEvents:{
+10:Welcome to Anaerobic Twelve;
+20:This classic workout is perfect to recruit fast-twitch sprinting muscle fibres.;
+30:Twelve explosive bursts, in two blocks of six, with a focus on quality, not quantity.;
+60:For now, focus on warming up, and getting your legs spinning.;
+300:Half way through the warmup.;
+540:1 minute to go.;
+}"/>
+		</Warmup>
+		<IntervalsT Repeat="6" OnDuration="95" OnPower="0.5" OffDuration="25" OffPower="2">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:First, a short rest before we start the first interval;
+80:Get ready, here we go!;
+95:Go Go Go;
+120:One done.
+Now focus on recovery;
+215:Go Go Go;
+240:Two done.
+Now focus on recovery;
+335:Go Go Go;
+360:Three done.
+Now focus on recovery;
+455:Go Go Go;
+480:Four done.
+Now focus on recovery;
+575:Go Go Go;
+600:Five done.
+Now focus on recovery;
+695:Go Go Go;
+}"/>
+			<textevent timeoffset="120" message="!TextEvents:{
+0:First, a short rest before we start the first interval;
+80:Get ready, here we go!;
+95:Go Go Go;
+120:One done.
+Now focus on recovery;
+215:Go Go Go;
+240:Two done.
+Now focus on recovery;
+335:Go Go Go;
+360:Three done.
+Now focus on recovery;
+455:Go Go Go;
+480:Four done.
+Now focus on recovery;
+575:Go Go Go;
+600:Five done.
+Now focus on recovery;
+695:Go Go Go;
+}"/>
+			<textevent timeoffset="240" message="!TextEvents:{
+0:First, a short rest before we start the first interval;
+80:Get ready, here we go!;
+95:Go Go Go;
+120:One done.
+Now focus on recovery;
+215:Go Go Go;
+240:Two done.
+Now focus on recovery;
+335:Go Go Go;
+360:Three done.
+Now focus on recovery;
+455:Go Go Go;
+480:Four done.
+Now focus on recovery;
+575:Go Go Go;
+600:Five done.
+Now focus on recovery;
+695:Go Go Go;
+}"/>
+			<textevent timeoffset="360" message="!TextEvents:{
+0:First, a short rest before we start the first interval;
+80:Get ready, here we go!;
+95:Go Go Go;
+120:One done.
+Now focus on recovery;
+215:Go Go Go;
+240:Two done.
+Now focus on recovery;
+335:Go Go Go;
+360:Three done.
+Now focus on recovery;
+455:Go Go Go;
+480:Four done.
+Now focus on recovery;
+575:Go Go Go;
+600:Five done.
+Now focus on recovery;
+695:Go Go Go;
+}"/>
+			<textevent timeoffset="480" message="!TextEvents:{
+0:First, a short rest before we start the first interval;
+80:Get ready, here we go!;
+95:Go Go Go;
+120:One done.
+Now focus on recovery;
+215:Go Go Go;
+240:Two done.
+Now focus on recovery;
+335:Go Go Go;
+360:Three done.
+Now focus on recovery;
+455:Go Go Go;
+480:Four done.
+Now focus on recovery;
+575:Go Go Go;
+600:Five done.
+Now focus on recovery;
+695:Go Go Go;
+}"/>
+			<textevent timeoffset="600" message="!TextEvents:{
+0:First, a short rest before we start the first interval;
+80:Get ready, here we go!;
+95:Go Go Go;
+120:One done.
+Now focus on recovery;
+215:Go Go Go;
+240:Two done.
+Now focus on recovery;
+335:Go Go Go;
+360:Three done.
+Now focus on recovery;
+455:Go Go Go;
+480:Four done.
+Now focus on recovery;
+575:Go Go Go;
+600:Five done.
+Now focus on recovery;
+695:Go Go Go;
+}"/>
+		</IntervalsT>
+		<SteadyState Duration="360" Power="0.5">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:...and relax.
+First set now done.;
+300:1 minute to go.;
+}"/>
+		</SteadyState>
+		<IntervalsT Repeat="6" OnDuration="95" OnPower="0.5" OffDuration="25" OffPower="2">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:First, a short rest before we start the first interval;
+80:Get ready, here we go!;
+95:Go Go Go;
+120:One done.
+Now focus on recovery;
+215:Go Go Go;
+240:Two done.
+Now focus on recovery;
+335:Go Go Go;
+360:Three done.
+Now focus on recovery;
+455:Go Go Go;
+480:Four done.
+Now focus on recovery;
+575:Go Go Go;
+600:Five done.
+Now focus on recovery;
+695:Go Go Go;
+}"/>
+			<textevent timeoffset="120" message="!TextEvents:{
+0:First, a short rest before we start the first interval;
+80:Get ready, here we go!;
+95:Go Go Go;
+120:One done.
+Now focus on recovery;
+215:Go Go Go;
+240:Two done.
+Now focus on recovery;
+335:Go Go Go;
+360:Three done.
+Now focus on recovery;
+455:Go Go Go;
+480:Four done.
+Now focus on recovery;
+575:Go Go Go;
+600:Five done.
+Now focus on recovery;
+695:Go Go Go;
+}"/>
+			<textevent timeoffset="240" message="!TextEvents:{
+0:First, a short rest before we start the first interval;
+80:Get ready, here we go!;
+95:Go Go Go;
+120:One done.
+Now focus on recovery;
+215:Go Go Go;
+240:Two done.
+Now focus on recovery;
+335:Go Go Go;
+360:Three done.
+Now focus on recovery;
+455:Go Go Go;
+480:Four done.
+Now focus on recovery;
+575:Go Go Go;
+600:Five done.
+Now focus on recovery;
+695:Go Go Go;
+}"/>
+			<textevent timeoffset="360" message="!TextEvents:{
+0:First, a short rest before we start the first interval;
+80:Get ready, here we go!;
+95:Go Go Go;
+120:One done.
+Now focus on recovery;
+215:Go Go Go;
+240:Two done.
+Now focus on recovery;
+335:Go Go Go;
+360:Three done.
+Now focus on recovery;
+455:Go Go Go;
+480:Four done.
+Now focus on recovery;
+575:Go Go Go;
+600:Five done.
+Now focus on recovery;
+695:Go Go Go;
+}"/>
+			<textevent timeoffset="480" message="!TextEvents:{
+0:First, a short rest before we start the first interval;
+80:Get ready, here we go!;
+95:Go Go Go;
+120:One done.
+Now focus on recovery;
+215:Go Go Go;
+240:Two done.
+Now focus on recovery;
+335:Go Go Go;
+360:Three done.
+Now focus on recovery;
+455:Go Go Go;
+480:Four done.
+Now focus on recovery;
+575:Go Go Go;
+600:Five done.
+Now focus on recovery;
+695:Go Go Go;
+}"/>
+			<textevent timeoffset="600" message="!TextEvents:{
+0:First, a short rest before we start the first interval;
+80:Get ready, here we go!;
+95:Go Go Go;
+120:One done.
+Now focus on recovery;
+215:Go Go Go;
+240:Two done.
+Now focus on recovery;
+335:Go Go Go;
+360:Three done.
+Now focus on recovery;
+455:Go Go Go;
+480:Four done.
+Now focus on recovery;
+575:Go Go Go;
+600:Five done.
+Now focus on recovery;
+695:Go Go Go;
+}"/>
+		</IntervalsT>
+		<Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.55">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:...and relax.;
+30:Take on some fluids and start to wind it down.;
+60:There&amp;apos;s 4 minutes left until the end.;
+70:The power will ramp down slowly while you recover.;
+240:Great job today.;
+250:Looking forward to working out with you again soon.;
+}"/>
+		</Cooldown>
+	</workout>
+</workout_file>

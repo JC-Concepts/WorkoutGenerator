@@ -1,0 +1,105 @@
+<workout_file>
+	<author>Jarvis Chau (via TrainingPeaks)</author>
+	<name>Over/Under Tens</name>
+	<description>One of TrainingPeaks Virtual&apos;s classic workouts:
+Over/Under Tens.
+
+A quick warm-up, followed by 2x 10 minute efforts during which we&apos;ll switch between over and under your FTP, to help train your body to recover at high intensity. Simple, but effective.</description>
+	<sportType>bike</sportType>
+	<tags/>
+	<workout>
+		<Warmup Duration="240" PowerHigh="0.7" PowerLow="0.5" Cadence="90">
+			<textevent timeoffset="0" message="!TextEvents:{
+10:Welcome to Over/Under Tens;
+20:This classic workout is perfect for improving your ability to recover after a sprint in the middle of a race.;
+30:We&amp;apos;ll do two blocks of 10 minutes just above your FTP, with minimal rest inbetween.;
+60:For now, focus on warming up, and getting your legs spinning.;
+120:Half way through the warmup.;
+180:1 minute to go.;
+}"/>
+		</Warmup>
+		<SteadyState Duration="120" Power="1.07">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Bring the power up to just over your FTP now.;
+60:First minute done.
+Good job.;
+90:30 seconds to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="180" Power="0.97">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Ease the power down slightly, but we&apos;re still working hard.;
+30:Settle in and focus on smooth pedalling.;
+60:Feel your body starting to recover.;
+120:1 minute to go, and then we&apos;re going back up again.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="120" Power="1.07">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Bring the power up to just over your FTP now.;
+60:First minute done.
+Good job.;
+90:30 seconds to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="180" Power="0.97">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Ease the power down slightly, but we&apos;re still working hard.;
+30:Settle in and focus on smooth pedalling.;
+60:Feel your body starting to recover.;
+120:1 minute to go, and then we&apos;ll have a short break.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="120" Power="0.55">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:...and relax.;
+30:Take on some fluids and take your time to recover.;
+60:There&apos;s just 1 minute left until the next effort.;
+90:30 seconds to go.;
+110:10 seconds to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="120" Power="1.07">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Bring the power up to just over your FTP now.;
+60:First minute done.
+Good job.;
+90:30 seconds to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="180" Power="0.97">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Ease the power down slightly, but we&apos;re still working hard.;
+30:Settle in and focus on smooth pedalling.;
+60:Feel your body starting to recover.;
+120:1 minute to go, and then we&apos;re going back up again.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="120" Power="1.07">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Bring the power up to just over your FTP now.;
+60:First minute done.
+Good job.;
+90:30 seconds to go.;
+}"/>
+		</SteadyState>
+		<SteadyState Duration="180" Power="0.97">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:Ease the power down slightly, but we&apos;re still working hard.;
+30:Settle in and focus on smooth pedalling.;
+60:Feel your body starting to recover.;
+120:1 minute to go, and then we&apos;re done.;
+}"/>
+		</SteadyState>
+		<Cooldown Duration="240" PowerHigh="0.55" PowerLow="0.75">
+			<textevent timeoffset="0" message="!TextEvents:{
+0:...and relax.;
+30:Take on some fluids and start to wind it down.;
+60:There&amp;apos;s 3 minutes left until the end.;
+70:The power will ramp down slowly while you recover.;
+180:Great job today.;
+190:Looking forward to working out with you again soon.;
+}"/>
+		</Cooldown>
+	</workout>
+</workout_file>
